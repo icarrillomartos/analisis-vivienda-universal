@@ -1,0 +1,8 @@
+Anyo referencia: 2026
+Poblacion 15 anios: 527855.0
+Poblacion 16: 538482.0
+Poblacion 17: 555188.0
+Poblacion 18: 562932.0
+Poblacion 19: 562149.0
+Poblacion 15-19 total: 2746606.0
+Fraccion de (18+19) dentro del grupo quinquenal 15-19: 0.40962591649475755

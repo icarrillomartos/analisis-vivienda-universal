@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-1fed0024b7e84a2f96eff386f7c8f381",
+  "operation_id": "op-089e11780bef42c484a36f5c8be4e2f7",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:18:03.524806+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-7552a45882a8470db5a4ae24802bcb17",
+  "state_revision": 682,
+  "data": {
+    "id": "obs-648cc8c6a9294df687b9a3b1220eaea3",
+    "tool": "Write",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/singapur/ficha.md",
+        "status": "observed_file",
+        "sha256": "ec141a1463a771e61e6a0408652e0278b383ce6b9f06eb4ec8e33797289fd61f",
+        "bytes": 35520
+      }
+    ],
+    "at": "2026-09-28T20:18:03.524786+00:00",
+    "scope": "process",
+    "turn_id": "observed-7552a45882a8470db5a4ae24802bcb17",
+    "turn_sha256": "c125094842e812d1734e7dd99e56770179df450843e57b29cd6e0ff8fbdb3d38"
+  }
+}

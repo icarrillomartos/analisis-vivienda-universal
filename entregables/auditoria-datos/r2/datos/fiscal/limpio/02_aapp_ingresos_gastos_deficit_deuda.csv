@@ -1,0 +1,6 @@
+anio,gasto_total_mill_eur,gasto_total_pct_pib,ingreso_total_mill_eur,ingreso_total_pct_pib,deficit_mill_eur,deficit_pct_pib,deuda_mill_eur,deuda_pct_pib,fuente
+2023,680225.0,45.4,630198.0,42.1,-50027.0,-3.3,1575376.7,105.2,Eurostat gov_10a_main + gov_10dd_edpt1 (sector S13 España)
+2024,725001.0,45.5,673734.0,42.3,-51267.0,-3.2,1620573.4,101.6,Eurostat gov_10a_main + gov_10dd_edpt1 (sector S13 España)
+2025,764884.0,45.3,724554.0,42.9,-40330.0,-2.4,1698224.6,100.7,Eurostat gov_10a_main + gov_10dd_edpt1 (sector S13 España)
+2026 (proyeccion BdE),,,,,,-2.4,,98.9,Banco de España Informe Trimestral T2 2026 (Cuadro 2) - solo deficit/deuda %PIB proyectados
+2027 (proyeccion BdE),,,,,,-2.3,,97.9,Banco de España Informe Trimestral T2 2026 (Cuadro 2) - solo deficit/deuda %PIB proyectados

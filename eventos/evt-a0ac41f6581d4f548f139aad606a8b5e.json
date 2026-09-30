@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-a0ac41f6581d4f548f139aad606a8b5e",
+  "operation_id": "op-d12572f7119840f9b9d0e68834c995b7",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:17:08.510817+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-7552a45882a8470db5a4ae24802bcb17",
+  "state_revision": 663,
+  "data": {
+    "id": "obs-1cab623a9eaa40d596ddcaf9fafa97ea",
+    "tool": "Write",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/parque/scripts/procesar_censo.py",
+        "status": "observed_file",
+        "sha256": "e772980638ffa3a6283a68bb432bf315382f863329d4b84e2db22f0a9197502d",
+        "bytes": 2938
+      }
+    ],
+    "at": "2026-09-28T20:17:08.510797+00:00",
+    "scope": "process",
+    "turn_id": "observed-7552a45882a8470db5a4ae24802bcb17",
+    "turn_sha256": "c125094842e812d1734e7dd99e56770179df450843e57b29cd6e0ff8fbdb3d38"
+  }
+}

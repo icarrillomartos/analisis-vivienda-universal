@@ -1,0 +1,22 @@
+{
+  "schema": 2,
+  "process": "P12",
+  "plan_digest": "e39db97f825068401b8a402d0a309e1e4148a9095519b54ff3e498db4f89f2fe",
+  "outcome": "verified",
+  "criterion": "Actualizar el índice de memoria con las notas de la r2",
+  "decision": "complete",
+  "limits": [],
+  "files": [
+    {
+      "path": "memoria/indice.md",
+      "sha256": "c8cbfc5afc8396964be909ac53e6c9c865884c511c265639d8cb0e87057f99a1",
+      "bytes": 3612
+    }
+  ],
+  "notes": [
+    "Añadida la entrada src-vu-r2; las 26 entradas apuntan a rutas existentes",
+    "Las fichas ine, eurostat, hdb, estudios, bde, los artifacts y la nota de conocimiento mantienen ID y ruta; solo cambian de revisión"
+  ],
+  "quality_decision": null,
+  "exceptions": []
+}

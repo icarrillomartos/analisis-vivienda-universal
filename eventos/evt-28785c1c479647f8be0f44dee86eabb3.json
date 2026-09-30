@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-28785c1c479647f8be0f44dee86eabb3",
+  "operation_id": "op-1e73dd65bf3e45c2adda136734f67fa2",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:13:48.833713+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-6eda0bd8c9c6463789b552c134a3d5ae",
+  "state_revision": 587,
+  "data": {
+    "id": "obs-5ddf31c9c960436db283221ea4139a85",
+    "tool": "Edit",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/parque/scripts/procesar_mivau.py",
+        "status": "observed_file",
+        "sha256": "eeaf9ab0cc4d36ec18fbc09be57e440e9bfb1be2b697e1b778e9ce7f157de4de",
+        "bytes": 1974
+      }
+    ],
+    "at": "2026-09-28T20:13:48.833683+00:00",
+    "scope": "process",
+    "turn_id": "observed-6eda0bd8c9c6463789b552c134a3d5ae",
+    "turn_sha256": "edfc036d77393a5dcafd07a46dccf2bc96cfa13286ed8903a657c092c7ad5e40"
+  }
+}

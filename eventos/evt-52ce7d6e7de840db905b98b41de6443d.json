@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "event_id": "evt-52ce7d6e7de840db905b98b41de6443d",
+  "operation_id": "op-7927d68a8b1b409b908099257066375c",
+  "type": "action_finish",
+  "at": "2026-09-28T20:51:55.707777+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-a34b6d5bb2d740a69e841109e5e42cd4",
+  "state_revision": 887,
+  "data": {
+    "action": "finish",
+    "result": {
+      "decision": "verified",
+      "process": "P14",
+      "evidence": {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/evidencias/P14.json",
+        "sha256": "2e790fe5b7555539dde7f9d396c8c4f2de9d6ce00bbde912499940e725ef2768",
+        "plan_digest": "e39db97f825068401b8a402d0a309e1e4148a9095519b54ff3e498db4f89f2fe",
+        "finished_at": "2026-09-28T20:51:55.707606+00:00",
+        "control_snapshots": [],
+        "spec": {
+          "path": "sistema/procesos/14-mantener-proyectos-y-continuidad.md",
+          "sha256": "dd506223f201d56103046247ea3163f1ddb711a0fb584c088c93a0a9b66b6fd0"
+        }
+      },
+      "certified": true
+    }
+  }
+}

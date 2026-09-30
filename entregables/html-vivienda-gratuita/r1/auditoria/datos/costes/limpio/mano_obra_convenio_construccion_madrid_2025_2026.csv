@@ -1,0 +1,17 @@
+categoria,nivel_convenio,anio,salario_base_dia_eur,plus_actividad_dia_eur,plus_extrasalarial_dia_eur,total_dia_eur,total_anual_eur,fuente
+Encargado,VI,2025,34.61,23.81,9.55,67.97,25401.94,BOCM 31/12/2025 Anexo VI
+Encargado,VI,2026,35.65,24.52,9.84,70.01,26164.38,BOCM 31/12/2025 Anexo VIII
+Capataz,VII,2025,34.02,23.32,9.55,66.89,24816.32,BOCM 31/12/2025 Anexo VI
+Capataz,VII,2026,35.04,24.02,9.84,68.90,25561.46,BOCM 31/12/2025 Anexo VIII
+Oficial 1a de oficio,VIII,2025,33.03,22.82,9.55,65.40,24372.60,BOCM 31/12/2025 Anexo VI
+Oficial 1a de oficio,VIII,2026,34.02,23.50,9.84,67.36,25103.23,BOCM 31/12/2025 Anexo VIII
+Oficial 2a de oficio,IX,2025,31.45,21.29,9.55,62.29,23137.22,BOCM 31/12/2025 Anexo VI
+Oficial 2a de oficio,IX,2026,32.39,21.93,9.84,64.16,23831.20,BOCM 31/12/2025 Anexo VIII
+Ayudante de oficio / Listero,X,2025,30.59,21.24,9.55,61.38,22664.57,BOCM 31/12/2025 Anexo VI
+Ayudante de oficio / Listero,X,2026,31.51,21.88,9.84,63.23,23346.63,BOCM 31/12/2025 Anexo VIII
+Especialista de 2a / Peon especializado,XI,2025,30.25,21.03,9.55,60.83,22405.53,BOCM 31/12/2025 Anexo VI
+Especialista de 2a / Peon especializado,XI,2026,31.16,21.66,9.84,62.66,23079.10,BOCM 31/12/2025 Anexo VIII
+Peon suelto,XII,2025,30.25,20.98,9.55,60.78,22378.81,BOCM 31/12/2025 Anexo VI
+Peon suelto,XII,2026,31.16,21.61,9.84,62.61,23051.90,BOCM 31/12/2025 Anexo VIII
+Pinches,XIII,2025,28.39,12.21,9.55,50.15,18648.66,BOCM 31/12/2025 Anexo VI
+Pinches,XIII,2026,29.24,12.58,9.84,51.66,19209.11,BOCM 31/12/2025 Anexo VIII

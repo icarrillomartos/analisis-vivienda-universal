@@ -1,0 +1,1 @@
+Ficha de evidencia causal recibida y revisada (6/7 frentes pendientes). Se espera al resto de subagentes antes de construir el modelo.

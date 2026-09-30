@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "event_id": "evt-59b641ebaa5d434b8a21f3f57f2ed27a",
+  "operation_id": "op-f995313f839c4a3ab3a5db9e290bbd2b",
+  "type": "session_SessionStart",
+  "at": "2026-09-29T13:45:33.682408+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-ed886727e6ea488fb5dd3136f9738091",
+  "state_revision": 1070,
+  "data": {
+    "turn_id": null
+  }
+}

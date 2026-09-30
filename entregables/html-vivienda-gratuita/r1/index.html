@@ -1,0 +1,879 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>¿Vivienda gratis para todos?</title>
+<meta name="description" content="Cálculo paso a paso, con datos oficiales, de si es viable en España la vivienda universal gratuita y comparación con el modelo de Singapur.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=IBM+Plex+Mono:wght@400;600&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<style>
+:root{
+  --papel:#EDEFEA; --papel-2:#E3E6DF; --rejilla:rgba(31,42,54,.07); --tinta:#1F2A36; --tinta-2:#4A5663; --tinta-3:#6C7783;
+  --cota:#C8392B; --obra:#E9A800; --obra-fondo:#FFF4D1; --linea:#C9CEC6; --tarjeta:#F7F8F5;
+  --dato:#1F5FA8; --evid:#2E7D4F; --debate:#A86A00; --opin:#7A5C99; --hipo:#8A5A2B;
+  --ok:#2E7D4F; --mal:#C8392B;
+  --f-disp:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --f-cuerpo:"Public Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --escala:1;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --papel:#12171C; --papel-2:#192027; --rejilla:rgba(230,233,228,.05); --tinta:#E6E9E4; --tinta-2:#B4BCC4; --tinta-3:#8B959F;
+  --cota:#FF6B57; --obra:#F5C542; --obra-fondo:#2B2512; --linea:#2C353E; --tarjeta:#171E24;
+  --dato:#6FA8F0; --evid:#62C08A; --debate:#E0A640; --opin:#B79BDA; --hipo:#D39A62; --ok:#62C08A; --mal:#FF6B57;
+  color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --papel:#12171C; --papel-2:#192027; --rejilla:rgba(230,233,228,.05); --tinta:#E6E9E4; --tinta-2:#B4BCC4; --tinta-3:#8B959F;
+  --cota:#FF6B57; --obra:#F5C542; --obra-fondo:#2B2512; --linea:#2C353E; --tarjeta:#171E24;
+  --dato:#6FA8F0; --evid:#62C08A; --debate:#E0A640; --opin:#B79BDA; --hipo:#D39A62; --ok:#62C08A; --mal:#FF6B57;
+  color-scheme:dark;}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{margin:0;background:var(--papel);color:var(--tinta);font-family:var(--f-cuerpo);font-size:calc(17px*var(--escala));line-height:1.6;
+  background-image:linear-gradient(var(--rejilla) 1px,transparent 1px),linear-gradient(90deg,var(--rejilla) 1px,transparent 1px);background-size:24px 24px;}
+body.directo{--escala:1.22}
+a{color:var(--dato)}
+:focus-visible{outline:3px solid var(--obra);outline-offset:2px}
+.envoltorio{max-width:1080px;margin:0 auto;padding-inline:16px;padding-block:0 64px}
+.barra{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--papel);border-bottom:1px solid var(--linea);}
+.barra-in{max-width:1080px;margin:0 auto;padding:8px 16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.barra .marca{font-family:var(--f-disp);font-weight:800;letter-spacing:.04em;text-transform:uppercase;font-size:18px}
+.barra .progreso{flex:1;min-width:120px;height:4px;background:var(--linea);border-radius:2px;overflow:hidden}
+.barra .progreso i{display:block;height:100%;width:0;background:var(--cota)}
+.barra button,.btn{font:600 13px/1 var(--f-cuerpo);border:1px solid var(--tinta);background:transparent;color:var(--tinta);padding:8px 12px;border-radius:3px;cursor:pointer}
+.barra button:hover,.btn:hover{background:var(--tinta);color:var(--papel)}
+.barra .lam{font-family:var(--f-mono);font-size:12px;color:var(--tinta-2)}
+
+/* láminas */
+.lamina{position:relative;background:var(--tarjeta);border:1.5px solid var(--tinta);margin-top:40px;padding:36px clamp(16px,4vw,48px) 72px;scroll-margin-top:64px}
+.lamina::before{content:"";position:absolute;inset:6px;border:1px solid var(--linea);pointer-events:none}
+.cajetin{position:absolute;right:-1.5px;bottom:-1.5px;display:grid;grid-template-columns:auto auto;border:1.5px solid var(--tinta);background:var(--tarjeta);font-family:var(--f-mono);font-size:11px;max-width:100%}
+.cajetin span{padding:4px 10px;border-left:1px solid var(--tinta)}
+.cajetin span:first-child{border-left:0;font-weight:600;background:var(--tinta);color:var(--tarjeta)}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--cota);margin:0 0 6px}
+h1,h2,h3{font-family:var(--f-disp);text-wrap:balance;line-height:1.02;margin:0 0 .4em}
+h1{font-size:clamp(46px,9vw,104px);font-weight:900;text-transform:uppercase;letter-spacing:.01em}
+h2{font-size:clamp(34px,5.6vw,60px);font-weight:800;text-transform:uppercase;letter-spacing:.01em}
+h3{font-size:clamp(22px,3vw,28px);font-weight:800;text-transform:uppercase;letter-spacing:.02em;margin-top:1.2em}
+p{max-width:68ch;margin:0 0 1em}
+.lead{font-size:1.18em;color:var(--tinta-2)}
+.mono{font-family:var(--f-mono)}
+.n{text-align:right;font-variant-numeric:tabular-nums;font-family:var(--f-mono);white-space:nowrap}
+.neg{color:var(--cota)}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:24px;align-items:start}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:16px}
+
+/* etiquetas */
+.tag{display:inline-block;font:600 11px/1 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;padding:4px 6px;border-radius:2px;border:1px solid currentColor;vertical-align:.12em;margin-right:6px;white-space:nowrap}
+.t-dato{color:var(--dato)} .t-evidencia{color:var(--evid)} .t-debate{color:var(--debate)} .t-opinion{color:var(--opin)} .t-hipotesis{color:var(--hipo)} .t-derivado{color:var(--tinta-2)}
+
+/* cifra grande */
+.cifra{border-top:3px solid var(--tinta);padding-top:10px}
+.cifra b{display:block;font-family:var(--f-disp);font-weight:900;font-size:clamp(40px,6vw,64px);line-height:1;letter-spacing:.01em}
+.cifra small{display:block;color:var(--tinta-2);font-size:.9em;line-height:1.4;margin-top:6px}
+.cifra.roja b{color:var(--cota)}
+
+/* operación en cuaderno */
+.operacion{font-family:var(--f-mono);font-size:.95em;background:var(--papel);border:1px dashed var(--tinta-3);padding:14px 16px;margin:16px 0;overflow-x:auto}
+.operacion div{white-space:nowrap}
+.operacion .res{border-top:1px solid var(--tinta);margin-top:6px;padding-top:6px;font-weight:600;color:var(--cota)}
+
+/* pausa para pensar */
+.pausa{margin:24px 0;border:2px solid var(--obra);background:var(--obra-fondo);padding:16px 18px}
+.pausa > .q{font-family:var(--f-disp);font-weight:800;text-transform:uppercase;font-size:clamp(20px,2.6vw,26px);line-height:1.1;margin:0 0 8px}
+.pausa > .q::before{content:"Pausa para pensar · ";color:var(--debate)}
+.pausa details summary{cursor:pointer;font-weight:700;color:var(--tinta);list-style:none;display:inline-block;border-bottom:2px solid var(--obra)}
+.pausa details summary::-webkit-details-marker{display:none}
+.pausa details[open] summary{margin-bottom:10px}
+.pausa details > div{max-width:70ch}
+
+/* mito o dato */
+.mito{border:1.5px solid var(--tinta);padding:16px;background:var(--tarjeta);display:flex;flex-direction:column;gap:8px}
+.mito .frase{font-family:var(--f-disp);font-weight:800;font-size:22px;line-height:1.1;text-transform:uppercase}
+.mito .veredicto{font:600 12px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;padding:6px 8px;align-self:flex-start;color:var(--tarjeta)}
+.v-falso{background:var(--mal)} .v-matiz{background:var(--debate)} .v-cierto{background:var(--ok)}
+.mito p{margin:0;font-size:.95em}
+
+/* tablas */
+.tabla{overflow-x:auto;margin:16px 0}
+table{border-collapse:collapse;width:100%;font-size:.92em}
+th,td{padding:8px 10px;border-bottom:1px solid var(--linea);text-align:left;vertical-align:top}
+th{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--tinta-2);border-bottom:1.5px solid var(--tinta)}
+td.si{color:var(--ok);font-weight:700} td.no{color:var(--mal);font-weight:700} td.med{color:var(--debate);font-weight:700}
+
+/* árbol de preguntas */
+.pasos{counter-reset:paso;display:grid;gap:10px;padding:0;margin:20px 0;list-style:none}
+.pasos li{counter-increment:paso;display:grid;grid-template-columns:48px 1fr;gap:12px;align-items:start;border-bottom:1px solid var(--linea);padding-bottom:10px}
+.pasos li::before{content:counter(paso,decimal-leading-zero);font-family:var(--f-disp);font-weight:900;font-size:34px;line-height:1;color:var(--cota)}
+.pasos b{display:block}
+
+/* gráficos */
+.grafico{width:100%;overflow-x:auto;margin:12px 0}
+.grafico svg{display:block;width:100%;height:auto;min-width:520px}
+.grafico text{fill:var(--tinta-2);font-family:var(--f-mono);font-size:11px}
+.leyenda{font-size:.85em;color:var(--tinta-2);display:flex;gap:16px;flex-wrap:wrap;margin-top:4px}
+.leyenda i{display:inline-block;width:12px;height:12px;vertical-align:-1px;margin-right:6px}
+.fuente{font-size:.8em;color:var(--tinta-3);margin-top:6px}
+
+/* plano */
+.plano svg{width:100%;max-width:440px;height:auto;display:block}
+.plano text{font-family:var(--f-mono);font-size:10px;fill:var(--tinta)}
+
+/* portada */
+.pancarta{display:inline-block;background:var(--tarjeta);border:3px solid var(--tinta);padding:18px 22px;transform:rotate(-1.5deg);box-shadow:6px 6px 0 var(--cota);margin:8px 0 28px}
+.pancarta span{font-family:var(--f-disp);font-weight:900;font-size:clamp(34px,7vw,76px);line-height:.95;text-transform:uppercase;display:block;color:var(--cota)}
+.pancarta small{display:block;font-family:var(--f-mono);font-size:12px;color:var(--tinta-2);margin-top:8px}
+
+/* veredicto */
+.sello{display:inline-block;border:3px solid var(--mal);color:var(--mal);font-family:var(--f-disp);font-weight:900;font-size:clamp(26px,4vw,40px);text-transform:uppercase;padding:6px 16px;transform:rotate(-3deg);letter-spacing:.04em}
+.sello.ok{border-color:var(--ok);color:var(--ok)}
+
+/* laboratorio */
+.lab{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:28px}
+.control{margin-bottom:18px}
+.control label{display:flex;justify-content:space-between;gap:8px;font-weight:600;font-size:.95em}
+.control label output{font-family:var(--f-mono);color:var(--cota)}
+.control input[type=range]{width:100%;accent-color:var(--cota)}
+.control .ayuda{font-size:.8em;color:var(--tinta-3);margin:2px 0 0}
+.botones{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+.resultado{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));gap:12px}
+.resultado div{border-top:2px solid var(--tinta);padding-top:6px}
+.resultado b{display:block;font-family:var(--f-disp);font-size:32px;font-weight:900;line-height:1.05}
+.resultado small{color:var(--tinta-2);font-size:.82em;line-height:1.3;display:block}
+
+.nota{font-size:.88em;color:var(--tinta-2)}
+.columnas-cons{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:16px}
+.columnas-cons > div{border:1.5px solid var(--tinta);padding:14px}
+.columnas-cons h4{font-family:var(--f-mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;margin:0 0 8px}
+.columnas-cons ul{margin:0;padding-left:18px}
+.columnas-cons li{margin-bottom:6px}
+.rol{border-left:4px solid var(--tinta);padding-left:14px;margin:18px 0}
+.rol h4{font-family:var(--f-disp);font-weight:800;font-size:22px;text-transform:uppercase;margin:0 0 6px}
+footer{margin-top:40px;font-size:.85em;color:var(--tinta-3)}
+@media (max-width:560px){.cajetin{grid-template-columns:auto;left:-1.5px}.cajetin span{border-left:0;border-top:1px solid var(--tinta)}.lamina{padding-bottom:110px}}
+</style>
+</head>
+<body>
+<div class="barra"><div class="barra-in">
+  <span class="marca">Vivienda gratis · el cálculo</span>
+  <span class="progreso" aria-hidden="true"><i id="progreso"></i></span>
+  <span class="lam" id="lam-actual">Lámina 00</span>
+  <button type="button" id="btn-directo" aria-pressed="false">Modo directo</button>
+  <button type="button" id="btn-lab">Laboratorio</button>
+</div></div>
+
+<main class="envoltorio">
+
+<!-- 00 PORTADA -->
+<section class="lamina" id="l00" data-titulo="Portada">
+  <p class="eyebrow">Acampada de Sol, Madrid · Un domingo de septiembre de 2026</p>
+  <div class="pancarta"><span>Vivienda universal gratuita ya</span><small>Texto de la pancarta</small></div>
+  <h1>¿Es posible?</h1>
+  <p class="lead">Vamos a comprobarlo con datos oficiales, de junior a junior y con las cuentas a la vista. El objetivo no es darle la razón a nadie: es ver qué dicen los números. Si no estás de acuerdo con una hipótesis, puedes cambiarla en el laboratorio y ver cómo se mueve el resultado.</p>
+  <div class="grid3">
+    <div class="cifra"><b>42,0 millones</b><small>de adultos residentes en España (INE, 1-7-2026)</small></div>
+    <div class="cifra"><b>27,1 millones</b><small>de viviendas en España (MIVAU, 2025)</small></div>
+    <div class="cifra roja"><b>?</b><small>¿cuánto costaría darle una vivienda digna gratuita a cada adulto?</small></div>
+  </div>
+  <div class="cajetin"><span>L00</span><span>Portada · 28-09-2026</span></div>
+</section>
+
+<!-- 01 REGLAS -->
+<section class="lamina" id="l01" data-titulo="Reglas del juego">
+  <p class="eyebrow">Antes de empezar</p>
+  <h2>Las reglas del juego</h2>
+  <div class="grid2">
+    <div>
+      <p><b>1. Solo fuentes oficiales.</b> INE, Ministerio de Vivienda, Catastro, Agencia Tributaria, IGAE, Banco de España, BOE, Eurostat y, para Singapur, sus organismos públicos (HDB, SingStat, CPF). Cuando un dato no existe en una fuente oficial, no lo invento: lo marco como <b>hipótesis</b> y doy un rango.</p>
+      <p><b>2. Cada frase lleva etiqueta.</b> Así se distingue lo que se sabe de lo que se opina:</p>
+      <p><span class="tag t-dato">Dato</span> cifra oficial con fuente.<br>
+         <span class="tag t-evidencia">Evidencia</span> resultado de un estudio serio, con su método.<br>
+         <span class="tag t-debate">Debate</span> la evidencia es mixta o depende de valores.<br>
+         <span class="tag t-opinion">Opinión</span> juicio de valor. Es legítimo, pero no se demuestra con datos.<br>
+         <span class="tag t-hipotesis">Hipótesis</span> supuesto necesario para poder calcular.<br>
+         <span class="tag t-derivado">Cálculo propio</span> operación hecha aquí con datos oficiales.</p>
+    </div>
+    <div>
+      <p><b>3. Hipótesis a la vista.</b> Para calcular hay que simplificar. Por ejemplo, suponer que todas las viviendas de una provincia valen lo mismo por metro cuadrado. Cada simplificación está en la tabla del final y la mayoría se puede mover en el laboratorio.</p>
+      <p><b>4. Primero se calcula y después se opina.</b> El planteamiento puede parecer un disparate a primera vista. Eso no prueba nada: la conclusión tiene que salir de los números.</p>
+      <p><b>5. Unidades.</b> En español, <b>un billón</b> son un millón de millones (1.000.000.000.000). Los m² de las viviendas son <b>útiles</b> (lo que pisas) o <b>construidos</b> (con muros y zonas comunes). Los precios oficiales van en euros por m² construido.</p>
+    </div>
+  </div>
+  <div class="cajetin"><span>L01</span><span>Método</span></div>
+</section>
+
+<!-- 02 TESIS -->
+<section class="lamina" id="l02" data-titulo="La tesis">
+  <p class="eyebrow">Qué hay que demostrar</p>
+  <h2>La tesis, escrita con precisión</h2>
+  <p class="lead">«Todo residente en España, al cumplir 18 años, tiene derecho a una vivienda <b>digna</b> para él solo, <b>gratuita de por vida</b> y pagada con impuestos, como la sanidad pública. A quien ya tiene una vivienda en propiedad se le <b>compensa</b>, para que el trato sea igualitario».</p>
+  <p>Una frase de pancarta no se puede comprobar tal cual. Hay que descomponerla en preguntas que tengan respuesta con números. Este es el recorrido:</p>
+  <ol class="pasos">
+    <li><div><b>¿Qué es una vivienda «digna»?</b>Sin definirla no hay nada que contar ni que presupuestar.</div></li>
+    <li><div><b>¿Cuántas personas tienen derecho y dónde viven?</b>Adultos por provincia, hogares y cuánta gente viviría sola si pudiera.</div></li>
+    <li><div><b>¿Cuántas viviendas hay y cuántas faltan?</b>El parque actual, las viviendas vacías y la diferencia.</div></li>
+    <li><div><b>¿Cuánto cuesta una vivienda?</b>De abajo arriba: albañiles, materiales, arquitecto, licencia, suelo e impuestos.</div></li>
+    <li><div><b>¿Cuánto cuesta en total?</b>La factura inicial y la de cada año.</div></li>
+    <li><div><b>¿Se puede construir y dónde?</b>El ritmo máximo de la historia, el suelo disponible y el caso de Madrid.</div></li>
+    <li><div><b>¿Quién lo paga?</b>Impuestos por tramo de renta, IVA o deuda, y las reglas europeas.</div></li>
+  </ol>
+  <p>Después miraremos lo que la hoja de cálculo no ve, lo contrastaremos con el modelo de <b>Singapur</b> y terminaremos con la pregunta de fondo: <b>¿cuál es el problema real de la vivienda en España?</b></p>
+  <div class="cajetin"><span>L02</span><span>Tesis y plan de demostración</span></div>
+</section>
+
+<!-- 03 DIGNA -->
+<section class="lamina" id="l03" data-titulo="¿Qué es digna?">
+  <p class="eyebrow">Pregunta 1 de 7</p>
+  <h2>¿Qué es una vivienda digna?</h2>
+  <p><span class="tag t-dato">Dato</span>La Constitución dice en su artículo 47: «Todos los españoles tienen derecho a disfrutar de una vivienda digna y adecuada». No da ninguna cifra. La Ley 12/2023 la define por su «tamaño, ubicación y condiciones de habitabilidad», y los metros concretos los fija cada comunidad o ayuntamiento.</p>
+  <div class="grid2">
+    <div>
+      <div class="tabla"><table>
+        <thead><tr><th>Norma oficial</th><th class="n">Mínimo útil</th></tr></thead>
+        <tbody>
+          <tr><td>Madrid · Normas del Plan General, art. 7.3.4</td><td class="n">38 m²</td></tr>
+          <tr><td>Cataluña · Decreto 141/2012 (obra nueva)</td><td class="n">36 m²</td></tr>
+          <tr><td>C. Valenciana · Decreto 80/2023</td><td class="n">35 m²</td></tr>
+          <tr><td>País Vasco · Decreto 80/2022</td><td class="n">35 m²</td></tr>
+          <tr><td>Vivienda protegida (VPO) estatal · máximo</td><td class="n">90 m²</td></tr>
+        </tbody></table></div>
+      <p><span class="tag t-derivado">Cálculo propio</span>Tomamos el mínimo más exigente (38 m², Madrid) y le sumamos un 10 % para que el dormitorio, la cocina y el baño sean piezas separadas y haya algo de almacenaje:</p>
+      <div class="operacion"><div>38 m² × 1,10 ≈ <b>42 m² útiles</b></div><div>42 m² útiles ÷ 0,80 (hipótesis útil/construida) = <b>52,5 m² construidos</b></div><div class="res">Módulo digno para 1 persona: 42 m² útiles · 52,5 m² construidos</div></div>
+      <p class="nota">Para hogares más grandes: 2 personas 50 m² útiles, 3 personas 60 y 4 o más 70 <span class="tag t-hipotesis">Hipótesis</span>. Se escalan con la tabla por ocupantes del decreto valenciano y quedan por debajo del máximo VPO.</p>
+    </div>
+    <figure class="plano" style="margin:0">
+      <svg viewBox="0 0 360 330" role="img" aria-label="Plano del módulo de 42 metros cuadrados útiles">
+        <g transform="translate(40,40)" stroke="var(--tinta)" fill="none">
+          <rect x="0" y="0" width="280" height="240" stroke-width="4"/>
+          <line x1="0" y1="120" x2="280" y2="120" stroke-width="2"/>
+          <line x1="186.7" y1="0" x2="186.7" y2="120" stroke-width="2"/>
+          <line x1="140" y1="120" x2="140" y2="240" stroke-width="2"/>
+          <line x1="220" y1="120" x2="220" y2="240" stroke-width="2"/>
+          <line x1="140" y1="200" x2="220" y2="200" stroke-width="2"/>
+          <path d="M150 120 a26 26 0 0 1 26 26" stroke-width="1"/>
+          <path d="M230 240 a24 24 0 0 1 24 -24" stroke-width="1"/>
+        </g>
+        <g transform="translate(40,40)">
+          <text x="93" y="56" text-anchor="middle" font-weight="600">SALÓN-COMEDOR</text><text x="93" y="72" text-anchor="middle">14,0 m²</text>
+          <text x="233" y="56" text-anchor="middle" font-weight="600">COCINA</text><text x="233" y="72" text-anchor="middle">7,0 m²</text>
+          <text x="70" y="176" text-anchor="middle" font-weight="600">DORMITORIO</text><text x="70" y="192" text-anchor="middle">10,5 m²</text>
+          <text x="180" y="158" text-anchor="middle" font-weight="600">BAÑO</text><text x="180" y="172" text-anchor="middle">4,0 m²</text>
+          <text x="180" y="224" text-anchor="middle">ALMACÉN 2,0</text>
+          <text x="250" y="170" text-anchor="middle" font-weight="600">PASO</text><text x="250" y="184" text-anchor="middle">4,5 m²</text>
+        </g>
+        <g stroke="var(--cota)" fill="var(--cota)">
+          <line x1="40" y1="20" x2="320" y2="20"/><line x1="40" y1="14" x2="40" y2="26"/><line x1="320" y1="14" x2="320" y2="26"/>
+          <line x1="340" y1="40" x2="340" y2="280"/><line x1="334" y1="40" x2="346" y2="40"/><line x1="334" y1="280" x2="346" y2="280"/>
+        </g>
+        <text x="180" y="15" text-anchor="middle" style="fill:var(--cota)">7,00 m</text>
+        <text x="352" y="164" text-anchor="middle" style="fill:var(--cota)" transform="rotate(90 352 164)">6,00 m</text>
+        <text x="40" y="310">Total 42,0 m² útiles · esquema orientativo</text>
+      </svg>
+    </figure>
+  </div>
+  <div class="pausa"><p class="q">¿Es digno un estudio de 25 m²?</p>
+    <details><summary>Ver qué dicen los datos</summary><div>
+      <p><span class="tag t-dato">Dato</span>Madrid y el País Vasco lo permiten de forma excepcional: 25 m² con la cocina y la cama en la misma pieza. Cataluña admite 20 m² en viviendas antiguas.</p>
+      <p><span class="tag t-debate">Debate</span>Qué es «digno» es en parte una decisión política. Cuanto más alto se ponga el listón, más cuesta la promesa. En el laboratorio puedes bajar el módulo a 35 m² o subirlo a 60 m² y ver el efecto.</p>
+    </div></details></div>
+  <div class="cajetin"><span>L03</span><span>Fuentes: CE art. 47 · Ley 12/2023 · decretos autonómicos</span></div>
+</section>
+
+<!-- 04 CUÁNTOS -->
+<section class="lamina" id="l04" data-titulo="¿Cuántos somos?">
+  <p class="eyebrow">Pregunta 2 de 7</p>
+  <h2>¿Cuántas personas tienen derecho?</h2>
+  <div class="grid3">
+    <div class="cifra"><b>42,0 millones</b><small><span class="tag t-dato">Dato</span>residentes de 18 años o más (INE, 1-7-2026). Solo con nacionalidad española: 35,7 millones.</small></div>
+    <div class="cifra"><b>19,87 millones</b><small><span class="tag t-dato">Dato</span>hogares. Media de 2,49 personas por hogar; 5,68 millones viven solas.</small></div>
+    <div class="cifra"><b>68,7 %</b><small><span class="tag t-dato">Dato</span>de los jóvenes de 18 a 34 años viven con sus padres. Es el máximo de la serie (Eurostat, 2025).</small></div>
+  </div>
+  <p>El derecho es <b>individual</b>, porque el Estado no puede obligar a nadie a casarse o a compartir piso. Pero no todo el mundo querría vivir solo. Por eso calculamos dos escenarios:</p>
+  <div class="grid2">
+    <div><h3>Teórico puro</h3><p>Cada uno de los 42,0 millones de adultos vive en su propia vivienda. Es el techo de la promesa, lo que costaría si todo el mundo ejerciera su derecho.</p></div>
+    <div><h3>Plausible</h3><p>La gente sigue viviendo como hoy (parejas, familias), pero los 6,7 millones de jóvenes que viven con sus padres se independizan. Salen unos 26,5 millones de hogares, cada uno con una vivienda a su medida.</p></div>
+  </div>
+  <div class="grafico" id="g-prov" aria-label="Adultos frente a viviendas principales por provincia"></div>
+  <div class="leyenda"><span><i style="background:var(--linea)"></i>Adultos (derecho teórico)</span><span><i style="background:var(--tinta)"></i>Viviendas principales que ya existen</span><span><i style="background:var(--cota)"></i>Faltan</span></div>
+  <p class="fuente">INE, Estadística Continua de Población (1-7-2026). MIVAU, Estimación del parque de viviendas 2025. Las 12 provincias con más adultos.</p>
+  <div class="cajetin"><span>L04</span><span>Fuentes: INE ECP · Eurostat ilc_lvps08</span></div>
+</section>
+
+<!-- 05 CUÁNTAS -->
+<section class="lamina" id="l05" data-titulo="¿Cuántas casas hay?">
+  <p class="eyebrow">Pregunta 3 de 7</p>
+  <h2>¿Cuántas viviendas hay y cuántas faltan?</h2>
+  <div class="grid3">
+    <div class="cifra"><b>19,57 millones</b><small><span class="tag t-dato">Dato</span>viviendas principales, donde vive alguien de forma habitual (MIVAU, 2025).</small></div>
+    <div class="cifra"><b>7,53 millones</b><small><span class="tag t-dato">Dato</span>no principales: segundas residencias y vacías.</small></div>
+    <div class="cifra"><b>3,84 millones</b><small><span class="tag t-dato">Dato</span>vacías según el Censo 2021 (INE), medidas por su bajo consumo eléctrico.</small></div>
+  </div>
+  <div class="operacion">
+    <div>Teórico: 42,0 millones de adultos</div><div>  − 19,57 millones de viviendas principales</div><div>  − 20 % de las 7,53 millones no principales</div><div>  + 628.950 en mal estado que se sustituyen</div>
+    <div class="res">Hay que construir o conseguir ≈ 21,6 millones de viviendas</div>
+    <div style="margin-top:10px">Plausible: 26,5 millones de hogares</div><div>  − 19,57 millones − 20 % de no principales + 628.950</div>
+    <div class="res">Hay que construir o conseguir ≈ 6,1 millones de viviendas</div>
+  </div>
+  <p class="nota"><span class="tag t-hipotesis">Hipótesis</span>Solo un 20 % de las no principales sería aprovechable, porque la mayoría son segundas residencias o están donde no vive la gente. <span class="tag t-dato">Dato</span>Las 628.950 viviendas en edificios en estado «malo» (Censo 2021) se sustituyen.</p>
+  <div class="pausa"><p class="q">«Hay 3,8 millones de pisos vacíos. Con eso basta.»</p>
+    <details><summary>Ver qué dicen los datos</summary><div>
+      <p><span class="tag t-dato">Dato</span>La OCDE cruzó el censo del INE con dónde vive la gente. El 33 % de las vacías está en municipios de menos de 1.000 habitantes. Solo el 18 % está en ciudades medianas o grandes, que es donde vive el 53 % de la población (OCDE, <i>Economic Survey Spain</i> 2025, p. 41).</p>
+      <p><span class="tag t-dato">Dato</span>En Ourense, el 43,7 % del parque está vacío; en la ciudad de Madrid, un 10 % (153.101 de 1,53 millones).</p>
+      <p><span class="tag t-evidencia">Evidencia</span>INE, Banco de España y OCDE coinciden: las viviendas vacías ayudan, pero no están donde está la demanda. <b>Aunque se usaran todas, faltarían millones.</b></p>
+    </div></details></div>
+  <div class="cajetin"><span>L05</span><span>Fuentes: MIVAU parque 2025 · INE Censo 2021 · OCDE</span></div>
+</section>
+
+<!-- 06 COSTE -->
+<section class="lamina" id="l06" data-titulo="¿Cuánto cuesta una vivienda?">
+  <p class="eyebrow">Pregunta 4 de 7</p>
+  <h2>¿Cuánto cuesta una vivienda, de abajo arriba?</h2>
+  <p>Todo lo que se construye lo paga alguien: el albañil, el cemento, el arquitecto, la licencia del ayuntamiento… Sumamos partida a partida lo que cuesta <b>un metro cuadrado construido</b> de vivienda protegida de calidad media:</p>
+  <div class="grafico" id="g-cascada" aria-label="Desglose del coste de un metro cuadrado construido"></div>
+  <p class="fuente">Coste de obra de la vivienda protegida (PEM): IVE, Generalitat Valenciana, 2024 (888 €/m²), actualizado un 7 % a 2026 <span class="tag t-hipotesis">Hipótesis</span>. Gastos generales y beneficio: RD 1098/2001. ICIO: TRLRHL art. 102. IVA: Ley 37/1992. Suelo: precio medio del suelo urbano MIVAU 2T 2026 (207,76 €/m²) con edificabilidad 2 <span class="tag t-hipotesis">Hipótesis</span>. Honorarios, seguridad y salud, calidad y seguro decenal: sin tarifa oficial, rango en la tabla de hipótesis.</p>
+  <div class="grid2">
+    <div class="operacion">
+      <div>Coste de obra (PEM) 2026 ........ 950 €/m²</div>
+      <div>+ resto sin suelo ni IVA ........ 1.390 €/m²</div>
+      <div>+ suelo (media nacional) ....... 104 €/m²</div>
+      <div>+ IVA 10 % ...................... = 1.644 €/m²</div>
+      <div class="res">Módulo de 52,5 m² × 1.644 € ≈ 86.000 €</div>
+    </div>
+    <div>
+      <p><span class="tag t-derivado">Cálculo propio</span>La mano de obra es unos 380 €/m². Una hora de oficial de 1.ª cuesta 23,17 € con las cargas incluidas (BCCA, Junta de Andalucía). Eso da unas <b>16,4 horas por m²</b>: el módulo necesita unas <b>860 horas</b> de albañiles, oficiales y peones.</p>
+      <p><span class="tag t-dato">Dato</span>Un oficial de 1.ª en Madrid cobra 25.103 € brutos al año (convenio, BOCM 31-12-2025). A la empresa le cuesta un 37 % más por las cotizaciones a la Seguridad Social (Orden PJC/178/2025).</p>
+    </div>
+  </div>
+  <div class="pausa"><p class="q">Si construir cuesta unos 1.700 €/m² en todas partes, ¿por qué en la ciudad de Madrid se tasa a 5.418 €/m²?</p>
+    <details><summary>Ver qué dicen los datos</summary><div>
+      <p><span class="tag t-dato">Dato</span>Valor tasado de la vivienda libre en el 2.º trimestre de 2026 (MIVAU): 2.355 €/m² de media en España, 4.090 €/m² en la provincia de Madrid y 5.418 €/m² en la capital.</p>
+      <p><span class="tag t-derivado">Cálculo propio</span>En la ciudad de Madrid, unos <b>3.658 €/m²</b> no son ladrillo ni mano de obra: son el valor de la <b>ubicación</b>, es decir, del suelo.</p>
+      <p><span class="tag t-evidencia">Evidencia</span>La literatura económica (Glaeser y Gyourko, 2018; Gyourko y Molloy, 2015) muestra que cuando el precio supera mucho el coste de construir, la diferencia se explica sobre todo por la escasez de suelo edificable y las restricciones urbanísticas.</p>
+      <p><b>Consecuencia para la tesis:</b> el Estado también tendría que pagar ese suelo. La Constitución (art. 33) solo permite expropiar con indemnización. Por eso usamos el <b>precio de mercado</b> de cada provincia, o el coste de construir cuando es mayor: no se puede construir por debajo del coste.</p>
+    </div></details></div>
+  <div class="cajetin"><span>L06</span><span>Fuentes: IVE · BCCA · BOCM · BOE · MIVAU</span></div>
+</section>
+
+<!-- 07 FACTURA -->
+<section class="lamina" id="l07" data-titulo="La factura total">
+  <p class="eyebrow">Pregunta 5 de 7</p>
+  <h2>La factura total</h2>
+  <p>Aquí aparece la idea clave del cálculo. Si cada adulto tiene derecho a un módulo digno, <b>da igual si el Estado se lo construye, se lo compra o le compensa porque ya tiene uno</b>: cada derecho vale lo mismo, un módulo al precio de su provincia.</p>
+  <div class="operacion">
+    <div>Σ por provincia: adultos × 52,5 m² × precio del m² en esa provincia</div>
+    <div>≈ 42,0 millones × 52,5 m² × 2.479 €/m² (media ponderada)</div>
+    <div class="res">= 5,47 billones de € · el 324 % del PIB de un año</div>
+  </div>
+  <div class="grafico" id="g-escala" aria-label="Comparación de tamaños: coste frente a PIB y sanidad"></div>
+  <p class="fuente">PIB 2025: INE (1,69 billones de €). Gasto sanitario público 2024: Ministerio de Sanidad (101.739 millones de €). Área de cada cuadrado proporcional al importe.</p>
+  <div class="tabla"><table>
+    <thead><tr><th>Escenario</th><th class="n">Viviendas a construir</th><th class="n">Coste inicial</th><th class="n">% del PIB</th><th class="n">Años de sanidad</th></tr></thead>
+    <tbody>
+      <tr><td><b>Teórico puro</b> · cada adulto, su vivienda</td><td class="n">21,6 millones</td><td class="n">5,47 billones de €</td><td class="n">324 %</td><td class="n">54</td></tr>
+      <tr><td><b>Plausible</b> · convivencia real más emancipación</td><td class="n">6,1 millones</td><td class="n">4,21 billones de €</td><td class="n">249 %</td><td class="n">41</td></tr>
+      <tr><td><b>Mínimo legal gratis</b> · 35 m² útiles y el resto se paga</td><td class="n">6,1 millones</td><td class="n">2,88 billones de €</td><td class="n">170 %</td><td class="n">28</td></tr>
+      <tr><td><i>Referencia: sin compensar a los propietarios</i></td><td class="n">6,1 millones</td><td class="n">1,77 billones de €</td><td class="n">105 %</td><td class="n">17</td></tr>
+    </tbody></table></div>
+  <p class="nota">Solo con nacionalidad española, el escenario teórico bajaría a 4,60 billones de €. En el escenario de referencia, los propietarios (el 73,3 % de los hogares) no reciben nada: es más barato, pero trata distinto a quien ya pagó su casa.</p>
+  <div class="pausa"><p class="q">Si no compensamos a los propietarios, ¿sería justo?</p>
+    <details><summary>Ver qué dicen los datos y qué es opinión</summary><div>
+      <p><span class="tag t-derivado">Cálculo propio</span>Sin compensar, la factura baja a 1,77 billones de €. Sigue siendo más que el PIB de un año entero.</p>
+      <p><span class="tag t-opinion">Opinión</span>Si es justo que quien pagó su hipoteca durante 30 años no reciba nada mientras otro recibe la casa gratis, es una cuestión de valores. Los datos solo dicen cuánto cuesta cada opción.</p>
+    </div></details></div>
+  <div class="cajetin"><span>L07</span><span>Cálculo propio con INE · MIVAU · Min. Sanidad</span></div>
+</section>
+
+<!-- 08 CONSTRUIR -->
+<section class="lamina" id="l08" data-titulo="¿Se puede construir?">
+  <p class="eyebrow">Pregunta 6 de 7</p>
+  <h2>¿Se puede construir? ¿Y dónde?</h2>
+  <p>Aunque sobrara el dinero, las casas hay que levantarlas. España ha vivido una burbuja inmobiliaria, así que sabemos cuál es el máximo que su sector de la construcción ha conseguido en un año:</p>
+  <div class="grafico" id="g-ritmo" aria-label="Viviendas libres terminadas al año en España, 1991-2025"></div>
+  <p class="fuente">MIVAU, Boletín estadístico: viviendas libres terminadas, 1991-2025, y calificaciones provisionales de vivienda protegida.</p>
+  <div class="grid3">
+    <div class="cifra roja"><b>36 años</b><small><span class="tag t-derivado">Cálculo propio</span>para construir 21,6 millones viviendas al ritmo récord de 2006 (597.632 al año), sin parar ni un año.</small></div>
+    <div class="cifra roja"><b>267 años</b><small>al ritmo de 2025 (80.792 terminadas).</small></div>
+    <div class="cifra"><b>2,16 millones</b><small>viviendas al año harían falta para hacerlo en 10 años: más de 3,5 veces el récord de la burbuja.</small></div>
+  </div>
+  <h3>El suelo: ¿cabe?</h3>
+  <p><span class="tag t-dato">Dato</span>Los planes urbanísticos tienen previstas <b>7,09 millones</b> de viviendas aún sin construir (Sistema de Información Urbana, MIVAU, 2026). <span class="tag t-derivado">Cálculo propio</span>Si comparamos, provincia a provincia, lo que falta en el escenario teórico con ese suelo previsto, <b>14,1 millones de personas</b> no cabrían en su propia provincia. En el escenario plausible serían 1,6 millones.</p>
+  <div class="operacion">
+    <div>Provincia de Madrid: 6,05 millones adultos − 2,70 millones viviendas principales</div>
+    <div>Faltan 3,28 millones · suelo previsto: 441.720 viviendas</div>
+    <div class="res">El suelo planificado cubre el 13 % de lo que falta en Madrid</div>
+  </div>
+  <div class="pausa"><p class="q">¿Qué pasa cuando haya que llevar a una persona a otra zona?</p>
+    <details><summary>Pensarlo con datos</summary><div>
+      <p>Si en Madrid no hay suelo para todos, hay tres salidas: <b>densificar</b> (edificar más alto, lo que exige cambiar el planeamiento y lleva años), <b>asignar por turnos</b> (listas o sorteo) o <b>ofrecer la vivienda en otra provincia</b>.</p>
+      <p><span class="tag t-evidencia">Evidencia</span>La OCDE documenta un efecto de «encierro»: quien tiene una vivienda social se muda menos para aceptar un trabajo en otra ciudad, porque perdería su casa subvencionada. Una vivienda gratuita atada a un lugar tendría ese efecto multiplicado.</p>
+      <p><span class="tag t-opinion">Opinión</span>¿Es aceptable decirle a alguien de Vallecas que su vivienda gratuita está en Teruel? La respuesta depende de valores, pero hay que hacerse la pregunta.</p>
+    </div></details></div>
+  <div class="pausa"><p class="q">¿Es realmente justo un sorteo?</p>
+    <details><summary>Pensarlo con datos</summary><div>
+      <p>Un sorteo trata igual a todos, pero no distingue necesidad: puede tocarle un piso en el centro a quien no trabaja allí y no tocarle a quien sí. Las alternativas también tienen problemas: la <b>lista por antigüedad</b> premia a quien esperó más, no a quien más lo necesita, y la asignación por <b>necesidad</b> exige que un funcionario decida.</p>
+      <p><span class="tag t-evidencia">Evidencia</span>La revisión de Kholodilin (2024) encontró problemas de asignación en los 14 estudios que midieron este efecto en sistemas sin precios. Glaeser y Luttmer (2003) estimaron que el control de rentas de Nueva York dejaba muchos pisos en manos de hogares que no eran los que más los valoraban.</p>
+    </div></details></div>
+  <div class="pausa"><p class="q">¿Cómo resuelve este problema el mercado?</p>
+    <details><summary>Pensarlo con datos</summary><div>
+      <p><span class="tag t-evidencia">Evidencia</span>En un mercado, el <b>precio</b> hace dos cosas: reparte lo escaso (el piso del centro se lo queda quien más paga por él) y avisa de dónde hace falta construir (si los precios suben, compensa construir más). Por eso el mercado no necesita sorteos.</p>
+      <p><span class="tag t-evidencia">Evidencia</span>Pero tiene fallos conocidos: el suelo no se puede fabricar, construir tarda años, quien no puede pagar se queda fuera y, si el planeamiento no deja construir, los precios suben sin que aumente la oferta. Es lo que el Banco de España y la OCDE describen para España.</p>
+      <p><span class="tag t-debate">Debate</span>Ningún sistema elimina la escasez: el mercado la reparte con precios, el Estado con colas o sorteos. La sanidad pública, al ser gratuita, la reparte con listas de espera.</p>
+    </div></details></div>
+  <div class="cajetin"><span>L08</span><span>Fuentes: MIVAU series y SIU · OCDE · literatura revisada</span></div>
+</section>
+
+<!-- 09 QUIÉN PAGA -->
+<section class="lamina" id="l09" data-titulo="¿Quién paga?">
+  <p class="eyebrow">Pregunta 7 de 7</p>
+  <h2>¿Quién lo paga?</h2>
+  <p>Igual que una hipoteca, repartimos el coste inicial en <b>30 años</b> <span class="tag t-hipotesis">Hipótesis</span>. A eso se suman dos gastos que se repiten cada año: mantener el parque público y dar vivienda a quien cumple 18 años o llega al país.</p>
+  <div class="operacion">
+    <div>Teórico puro, cada año:</div>
+    <div>  coste inicial ÷ 30 .................... 182.269 millones de €</div>
+    <div>+ mantenimiento y reposición (2,25 %) .... 45.071 millones de €</div>
+    <div>+ 543.000 adultos más al año ........... 70.660 millones de €</div>
+    <div class="res">= 298.000 millones de € al año · 17,6 % del PIB · 2,9 veces la sanidad pública</div>
+  </div>
+  <div class="grid3">
+    <div class="cifra roja"><b>+209 %</b><small>de IRPF si se paga solo con él: cada contribuyente pagaría 3,1 veces lo que paga hoy.</small></div>
+    <div class="cifra roja"><b>+85 puntos</b><small>de IVA si se pagara con IVA. Hoy el tipo general es del 21 % (1 punto ≈ 3.500 millones de €) <span class="tag t-derivado">Cálculo propio</span>.</small></div>
+    <div class="cifra roja"><b>424 %</b><small>de deuda sobre el PIB si se pagara con deuda (hoy el 100,7 %). Solo en intereses: 199.038 millones de € al año.</small></div>
+  </div>
+  <h3>¿Cuánto más pagaría cada tramo de renta?</h3>
+  <p>Si todo se pagara subiendo el IRPF en la misma proporción para todos los tramos, esto es lo que <b>cada declarante</b> pagaría de más al año:</p>
+  <div class="tabla"><table>
+    <thead><tr><th>Rendimientos declarados</th><th class="n">Declarantes</th><th class="n">Cuota media actual</th><th class="n">Extra · teórico</th><th class="n">Extra · plausible</th></tr></thead>
+    <tbody><tr><td>1.500–6.000 €</td><td class="n">3.127.766</td><td class="n">2</td><td class="n neg">+4</td><td class="n neg">+3</td></tr>
+<tr><td>6.000–12.000 €</td><td class="n">2.688.297</td><td class="n">339</td><td class="n neg">+710</td><td class="n neg">+487</td></tr>
+<tr><td>12.000–21.000 €</td><td class="n">4.302.709</td><td class="n">2.044</td><td class="n neg">+4.276</td><td class="n neg">+2.932</td></tr>
+<tr><td>21.000–30.000 €</td><td class="n">4.277.053</td><td class="n">4.495</td><td class="n neg">+9.403</td><td class="n neg">+6.448</td></tr>
+<tr><td>30.000–60.000 €</td><td class="n">5.282.994</td><td class="n">10.122</td><td class="n neg">+21.173</td><td class="n neg">+14.519</td></tr>
+<tr><td>60.000–150.000 €</td><td class="n">1.170.735</td><td class="n">29.434</td><td class="n neg">+61.567</td><td class="n neg">+42.220</td></tr>
+<tr><td>150.000–601.000 €</td><td class="n">160.927</td><td class="n">98.765</td><td class="n neg">+206.589</td><td class="n neg">+141.670</td></tr>
+<tr><td>Mayor de 601.000 €</td><td class="n">14.738</td><td class="n">657.885</td><td class="n neg">+1.376.115</td><td class="n neg">+943.678</td></tr></tbody></table></div>
+  <p class="fuente">AEAT, Estadística de los declarantes del IRPF 2023 (cuota resultante por tramo), escalada a la recaudación de 2025 (142.466 millones de €). Cálculo propio. El tramo de rentas negativas o nulas no se muestra.</p>
+  <div class="pausa"><p class="q">¿Y si pagan solo los ricos?</p>
+    <details><summary>Ver el cálculo</summary><div>
+      <p><span class="tag t-dato">Dato</span>Los declarantes con más de 150.000 € de rendimientos son unos 176.000 y pagaron unos 21.100 millones de IRPF en 2023. <span class="tag t-derivado">Cálculo propio</span>Aunque se les quitara el 100 % de todo lo que ganan (unos 40.000 millones de base imponible general), no llegaría ni a una sexta parte de los 298.000 millones de € anuales.</p>
+      <p><span class="tag t-evidencia">Evidencia</span>Además, los impuestos muy altos cambian el comportamiento: las rentas altas se desplazan o se declaran de otra forma. La recaudación real sería menor que la estática.</p>
+    </div></details></div>
+  <p><span class="tag t-dato">Dato</span>Las reglas fiscales de la UE (Reglamento 2024/1263) fijan un déficit máximo del 3 % y una deuda de referencia del 60 % del PIB. España se ha comprometido a que su gasto neto crezca un 3,4 % al año en 2025-2028. Un gasto extra del 17,6 % del PIB está muy fuera de ese marco.</p>
+  <div class="cajetin"><span>L09</span><span>Fuentes: AEAT · Eurostat · BdE · Tesoro · Reglamento UE 2024/1263</span></div>
+</section>
+
+<!-- 10 LABORATORIO -->
+<section class="lamina" id="l10" data-titulo="Laboratorio de hipótesis">
+  <p class="eyebrow">Tu turno</p>
+  <h2>Laboratorio de hipótesis</h2>
+  <p>¿No te convence alguna hipótesis? Muévela. El cálculo es el mismo de las láminas anteriores, simplificado a escala nacional. Los valores por defecto son los del escenario teórico puro.</p>
+  <div class="lab">
+    <div>
+      <div class="control"><label for="h-m2">Metros útiles por persona <output id="o-m2"></output></label><input type="range" id="h-m2" min="25" max="70" step="1" value="42"><p class="ayuda">35 = mínimo legal · 42 = nuestro módulo · 90 = máximo VPO</p></div>
+      <div class="control"><label for="h-solo">Adultos que viven solos <output id="o-solo"></output></label><input type="range" id="h-solo" min="0" max="100" step="5" value="100"><p class="ayuda">0 % = escenario plausible (convivencia actual más emancipación) · 100 % = teórico</p></div>
+      <div class="control"><label for="h-precio">Precio del m² construido <output id="o-precio"></output></label><input type="range" id="h-precio" min="900" max="5500" step="1" value="2479">
+        <div class="botones"><button type="button" class="btn" data-precio="2479">Mercado (media ponderada)</button><button type="button" class="btn" data-precio="1644">Coste de construir (media)</button><button type="button" class="btn" data-precio="1390">Sin suelo ni IVA</button></div></div>
+      <div class="control"><label for="h-anios">Años para pagarlo <output id="o-anios"></output></label><input type="range" id="h-anios" min="10" max="60" step="1" value="30"></div>
+      <div class="control"><label for="h-ritmo">Viviendas construidas al año <output id="o-ritmo"></output></label><input type="range" id="h-ritmo" min="80000" max="1000000" step="10000" value="600000"><p class="ayuda">2025: 80.792 · récord de 2006: 597.632</p></div>
+      <div class="control"><label for="h-mant">Mantenimiento y reposición anual <output id="o-mant"></output></label><input type="range" id="h-mant" min="0.5" max="4" step="0.25" value="2.25"></div>
+    </div>
+    <div>
+      <div class="resultado">
+        <div><b id="r-viv"></b><small>viviendas a construir o conseguir</small></div>
+        <div><b id="r-anios"></b><small>de obra al ritmo elegido</small></div>
+        <div><b id="r-cap"></b><small id="r-cap-s"></small></div>
+        <div><b id="r-anual"></b><small id="r-anual-s"></small></div>
+        <div><b id="r-irpf"></b><small>de subida del IRPF si se paga solo con él</small></div>
+        <div><b id="r-iva"></b><small>puntos de IVA si se paga solo con él</small></div>
+        <div><b id="r-decl"></b><small>de más al año por declarante de IRPF, de media</small></div>
+        <div><b id="r-deuda"></b><small>de deuda sobre el PIB si se paga con deuda</small></div>
+      </div>
+      <p class="nota" style="margin-top:18px">Aproximación nacional: puede diferir en un 5-10 % del cálculo por provincias de las láminas anteriores. Para pagarlo, la subida del IRPF se aplica en la misma proporción a todos los tramos.</p>
+      <div class="botones"><button type="button" class="btn" id="btn-reset">Volver a los valores del teórico</button><button type="button" class="btn" id="btn-plaus">Cargar el plausible</button><button type="button" class="btn" id="btn-min">Mínimo legal (35 m²)</button></div>
+    </div>
+  </div>
+  <div class="cajetin"><span>L10</span><span>Modelo nacional simplificado</span></div>
+</section>
+
+<!-- 11 LO QUE NO VE -->
+<section class="lamina" id="l11" data-titulo="Lo que la hoja no ve">
+  <p class="eyebrow">Más allá de la calculadora</p>
+  <h2>Lo que la hoja de cálculo no ve</h2>
+  <p>Aunque el dinero apareciera, poner en marcha algo así cambiaría el comportamiento de millones de personas y empresas. Estas son las preguntas que haría un equipo de economía, sociología, psicología e historia:</p>
+  <div class="grid2">
+    <div class="rol"><h4>Precios de la obra</h4><p><span class="tag t-evidencia">Evidencia</span>Si el Estado pidiera construir de golpe varias veces el récord de 2006, la demanda de albañiles, cemento y grúas dispararía sus precios. En 2007 trabajaban en la construcción 2,72 millones de personas (EPA); en 2023, 1,41 millones. <span class="tag t-debate">Debate</span>Cuánto subirían es incierto, pero la dirección es clara: la misma factura saldría más cara.</p></div>
+    <div class="rol"><h4>El resto de la economía</h4><p><span class="tag t-evidencia">Evidencia</span>Cada trabajador que construye viviendas deja de hacer otra cosa, y cada euro de impuestos que se destina a esto sale de otro uso: sanidad, pensiones o el bolsillo de los contribuyentes. Los economistas lo llaman <b>coste de oportunidad</b>.</p></div>
+    <div class="rol"><h4>Incentivos y mantenimiento</h4><p><span class="tag t-debate">Debate</span>Lo que no es de uno y no cuesta nada se tiende a cuidar menos. Por eso el modelo incluye un 2,25 % anual de mantenimiento y reposición <span class="tag t-hipotesis">Hipótesis</span>. Si fuera mayor, el coste anual subiría.</p></div>
+    <div class="rol"><h4>Movilidad</h4><p><span class="tag t-evidencia">Evidencia</span>Una vivienda gratuita atada a un lugar desanima a mudarse por trabajo, como ocurre con la vivienda social (OCDE) y con el control de rentas: en San Francisco, la movilidad de los inquilinos cayó casi un 20 % (Diamond, McQuade y Qian, <i>AER</i> 2019).</p></div>
+    <div class="rol"><h4>El mercado que queda</h4><p><span class="tag t-debate">Debate</span>Si todos los adultos tienen casa gratis, la demanda de alquiler libre caería mucho: bajarían los alquileres, pero también la inversión privada en vivienda. El Estado pasaría a ser el gran casero del país.</p></div>
+    <div class="rol"><h4>Historia</h4><p><span class="tag t-dato">Dato</span>España ya ha visto lo que pasa cuando la construcción se dispara: en 2006 se iniciaron 664.923 viviendas libres y siete años después, 29.232 (MIVAU). Del boom quedan ~450.000 viviendas sin vender, en su mayoría mal ubicadas (Banco de España, DO 24/33).</p></div>
+  </div>
+  <div class="cajetin"><span>L11</span><span>Fuentes: EPA · OCDE · AER 2019 · MIVAU · BdE</span></div>
+</section>
+
+<!-- 12 VEREDICTO A -->
+<section class="lamina" id="l12" data-titulo="Veredicto modelo A">
+  <p class="eyebrow">Veredicto del modelo A</p>
+  <h2>¿Es viable la vivienda gratuita universal?</h2>
+  <p><span class="sello">No, tal como está formulada</span></p>
+  <div class="tabla"><table>
+    <thead><tr><th>Dimensión</th><th>Resultado</th><th>Por qué</th></tr></thead>
+    <tbody>
+      <tr><td>Dinero</td><td class="no">No</td><td>Coste inicial de 5,47 billones de € (324 % del PIB). Cada año, 17,6 % del PIB: 2,9 veces la sanidad pública. Habría que multiplicar el IRPF por 3,1.</td></tr>
+      <tr><td>Construcción</td><td class="no">No</td><td>36 años al ritmo récord de la historia de España, sin un solo año de parón.</td></tr>
+      <tr><td>Suelo</td><td class="no">No en las ciudades</td><td>14,1 millones de personas no cabrían en su provincia con el suelo previsto. En Madrid, el suelo planificado cubre el 13 % de lo que falta.</td></tr>
+      <tr><td>Ley</td><td class="med">Posible, pero caro</td><td>La Constitución permite expropiar, pero siempre con indemnización (art. 33). Por eso compensar a los propietarios no es opcional.</td></tr>
+      <tr><td>Reparto</td><td class="med">Problemático</td><td>Sorteos o colas, traslados y pérdida de movilidad.</td></tr>
+    </tbody></table></div>
+  <p>Ni la versión más barata (el mínimo legal gratis, 8,1 % del PIB cada año, casi duplicar el IRPF) ni la que no compensa a nadie (7,3 %) caben en las cuentas públicas de España sin recortar varias partidas del tamaño de la sanidad.</p>
+  <p><span class="tag t-opinion">Opinión</span>La conclusión no depende de si uno es de izquierdas o de derechas: sale de la aritmética. Lo que sí depende de valores es qué hacer con el problema, que es real. Para eso, el contraste.</p>
+  <div class="cajetin"><span>L12</span><span>Síntesis del modelo A</span></div>
+</section>
+
+<!-- 13 SINGAPUR -->
+<section class="lamina" id="l13" data-titulo="Modelo B: Singapur">
+  <p class="eyebrow">Modelo B · el contraste</p>
+  <h2>Vivienda a precio fijo: cómo lo hace Singapur</h2>
+  <div class="grid3">
+    <div class="cifra"><b>77 %</b><small><span class="tag t-dato">Dato</span>de los hogares vive en pisos públicos de la HDB: 1,15 millones de pisos (HDB, 2025).</small></div>
+    <div class="cifra"><b>0,83 %</b><small><span class="tag t-dato">Dato</span>del PIB: la pérdida anual de la HDB (6.339 millones de dólares de Singapur en el ejercicio 2024/25), que cubre el Estado. <span class="tag t-derivado">Cálculo propio</span> sobre el PIB de SingStat.</small></div>
+    <div class="cifra"><b>37 %</b><small><span class="tag t-dato">Dato</span>del salario va a un ahorro obligatorio, el CPF (20 % lo pone el trabajador y 17 % la empresa), que se puede usar para comprar la casa.</small></div>
+  </div>
+  <h3>Cómo funciona, en cuatro piezas</h3>
+  <ol class="pasos">
+    <li><div><b>El Estado controla el suelo.</b>Desde la Land Acquisition Act de 1966 puede expropiar para «desarrollo nacional». El famoso «90 % del suelo es público» circula mucho, pero no lo hemos podido confirmar en fuente oficial.</div></li>
+    <li><div><b>Construye y vende el uso por 99 años.</b>No se vende la propiedad del suelo sino un arrendamiento de 99 años, a un precio fijado por la HDB muy por debajo del de mercado.</div></li>
+    <li><div><b>Ahorro obligatorio más ayudas.</b>El CPF paga la entrada y la cuota. Las ayudas llegan a 120.000 dólares de Singapur por familia (60.000 para solteros).</div></li>
+    <li><div><b>Reglas contra la especulación.</b>Hay que vivir en el piso entre 5 y 10 años antes de revenderlo, y existen cuotas étnicas por bloque desde 1989.</div></li>
+  </ol>
+  <div class="pausa"><p class="q">¿Tiene letra pequeña?</p>
+    <details><summary>Ver</summary><div>
+      <p><span class="tag t-dato">Dato</span>La espera estándar es de 4-5 años desde la solicitud hasta las llaves. En junio de 2024 hubo 3,8 solicitudes por cada piso ofrecido (HDB).</p>
+      <p><span class="tag t-debate">Debate</span>Singapur es una ciudad-estado que expropió el suelo cuando era barato, con un ahorro forzoso muy alto y 60 años de continuidad política. Copiarlo tal cual en España no es realista; tomar sus piezas sí se puede discutir.</p>
+    </div></details></div>
+  <div class="cajetin"><span>L13</span><span>Fuentes: HDB Key Statistics y estados financieros 2025 · CPF · SingStat</span></div>
+</section>
+
+<!-- 14 B EN ESPAÑA -->
+<section class="lamina" id="l14" data-titulo="Modelo B en España">
+  <p class="eyebrow">Modelo B adaptado</p>
+  <h2>¿Y si España hiciera algo parecido?</h2>
+  <p>Un programa de contraste: el Estado construye <b>100.000 viviendas al año</b> de unos 70 m² construidos <span class="tag t-hipotesis">Hipótesis</span> y las vende a precio de coste, sin cobrar el valor del suelo y con IVA del 4 %.</p>
+  <div class="operacion">
+    <div>Precio de venta: 1.446 €/m² × 70 m² ....... ≈ 101.000 €</div>
+    <div>Precio de mercado equivalente .......... ≈ 174.000 €</div>
+    <div>Subvención implícita por vivienda ....... ≈ 72.000 €</div>
+    <div class="res">100.000 viviendas × 72.000 € = 7.233 millones de € al año · 0,43 % del PIB</div>
+  </div>
+  <div class="grid2">
+    <div>
+      <p><span class="tag t-derivado">Cálculo propio</span>Cuesta en proporción la mitad que el sistema de Singapur (0,83 % de su PIB). Con 100.000 viviendas al año, en unos <b>7 años</b> se cubriría el déficit que estima el Banco de España (600.000-755.000 viviendas).</p>
+      <p>Físicamente es posible: sumado a lo que ya construye el mercado, serían unas 180.792 viviendas al año, menos de un tercio del récord de 2006. Y hay 7,09 millones de viviendas previstas en el planeamiento.</p>
+    </div>
+    <div>
+      <p><span class="tag t-debate">Debate</span>El gran coste es el <b>suelo</b>. Si ya es público, el gasto de caja casi desaparece (584 millones de €, lo que se deja de cobrar de IVA), pero el Estado renuncia a venderlo a precio de mercado. En Singapur se contabiliza así: la HDB «paga» el suelo al Estado a valor de mercado y esa es la mayor parte de su pérdida.</p>
+      <p><span class="tag t-debate">Debate</span>Quedan problemas: quién puede comprar (límites de renta), cómo evitar que el comprador lo revenda con beneficio (plazos mínimos de 5-10 años) y, otra vez, sorteos o listas.</p>
+    </div>
+  </div>
+  <div class="cajetin"><span>L14</span><span>Cálculo propio con MIVAU · IVE · HDB</span></div>
+</section>
+
+<!-- 15 CONTRASTE -->
+<section class="lamina" id="l15" data-titulo="A frente a B">
+  <p class="eyebrow">El contraste</p>
+  <h2>Gratis para todos frente a precio fijo</h2>
+  <div class="grafico" id="g-ab" aria-label="Coste anual en porcentaje del PIB"></div>
+  <p class="fuente">Coste anual en % del PIB. Modelos A y B: cálculo propio. Singapur: estados financieros de la HDB 2024/25 y PIB de SingStat.</p>
+  <div class="tabla"><table>
+    <thead><tr><th></th><th>A · Gratis para todos (teórico)</th><th>B · Precio fijo tipo Singapur</th></tr></thead>
+    <tbody>
+      <tr><td>Coste anual</td><td class="no">298.000 millones de € (17,6 % del PIB)</td><td class="si">7.233 millones de € (0,43 % del PIB)</td></tr>
+      <tr><td>Veces más caro</td><td colspan="2">A cuesta cada año unas <b>41 veces</b> lo que B (28 veces en el escenario plausible).</td></tr>
+      <tr><td>Viviendas nuevas</td><td class="no">21,6 millones</td><td class="si">100.000 al año, a demanda</td></tr>
+      <tr><td>Plazo</td><td class="no">36 años al ritmo récord</td><td class="si">~7 años para cubrir el déficit</td></tr>
+      <tr><td>Quién paga</td><td>Todos los contribuyentes: IRPF × 3,1</td><td>El comprador paga la construcción; el Estado pone el suelo</td></tr>
+      <tr><td>Riesgos principales</td><td>Quiebra fiscal, sorteos y traslados, pérdida de movilidad</td><td>Escasez de suelo público, colas, reventa especulativa si no se regula</td></tr>
+    </tbody></table></div>
+  <div class="cajetin"><span>L15</span><span>Síntesis A frente a B</span></div>
+</section>
+
+<!-- 16 MITOS -->
+<section class="lamina" id="l16" data-titulo="Mito o dato">
+  <p class="eyebrow">Para el chat</p>
+  <h2>¿Mito o dato?</h2>
+  <p>Frases que se oyen en cualquier discusión sobre vivienda, de uno y otro lado, comparadas con la evidencia.</p>
+  <div class="grid2">
+    <div class="mito"><span class="frase">«Con los pisos vacíos se acaba el problema»</span><span class="veredicto v-falso">Mayormente falso</span><p>3,84 millones de vacías, pero solo el 18 % está en ciudades medianas o grandes, donde vive el 53 % de la población (INE, OCDE).</p></div>
+    <div class="mito"><span class="frase">«Construir más no baja los precios»</span><span class="veredicto v-falso">Contradice la evidencia</span><p>Consenso académico e institucional: donde el suelo y el planeamiento limitan la oferta, los precios suben por encima del coste. Cuánto baja el alquiler del barrio por cada edificio nuevo sigue en debate.</p></div>
+    <div class="mito"><span class="frase">«Topar los alquileres los abarata»</span><span class="veredicto v-matiz">Cierto a corto plazo, con coste</span><p>En Cataluña (2020) los alquileres bajaron un ~5 % y la oferta en alquiler cayó un 10-14 % (Jofre-Monseny et al., 2023). La mayoría de los estudios encuentra menos oferta, menos movilidad y peor mantenimiento.</p></div>
+    <div class="mito"><span class="frase">«España gasta en vivienda como Europa»</span><span class="veredicto v-falso">Falso</span><p>Gasto público en vivienda: ~0,2 % del PIB en España frente a ~1,1 % de media en la UE (Eurostat, COFOG 2023). El parque social ronda el 2-3 %, frente al 8 % de media europea (OCDE).</p></div>
+    <div class="mito"><span class="frase">«Comprar una casa está más caro que nunca»</span><span class="veredicto v-matiz">Matiz</span><p>Precio frente a renta del hogar: 7,6 años en 2024, frente a 9,3 en 2007 (BdE/MIVAU). Donde sí se bate el récord es en emancipación: el 68,7 % de los jóvenes de 18 a 34 años vive con sus padres.</p></div>
+    <div class="mito"><span class="frase">«Los pisos turísticos tienen toda la culpa»</span><span class="veredicto v-matiz">Contribuyen, no lo explican todo</span><p>En Barcelona, Airbnb subió el alquiler del barrio medio un 1,9 % y hasta un 7 % en los barrios con más actividad (García-López et al., <i>JUE</i> 2020). Es un efecto real y concentrado en ciertas zonas.</p></div>
+    <div class="mito"><span class="frase">«La demanda ha crecido por la inmigración»</span><span class="veredicto v-cierto">Dato</span><p>Saldo migratorio de unos 1,5 millones de personas en 2022-2023. Es el principal motor de la formación de hogares reciente (BdE). Que sea «bueno» o «malo» ya es opinión.</p></div>
+    <div class="mito"><span class="frase">«La vivienda preocupa más que nunca»</span><span class="veredicto v-cierto">Dato</span><p>Es el primer problema del país en el barómetro del CIS sin interrupción desde diciembre de 2024, con un máximo del 48,8 % en mayo de 2026.</p></div>
+  </div>
+  <div class="cajetin"><span>L16</span><span>Fuentes: INE · OCDE · Eurostat · BdE · CIS · literatura revisada</span></div>
+</section>
+
+<!-- 17 PROBLEMA REAL -->
+<section class="lamina" id="l17" data-titulo="El problema real">
+  <p class="eyebrow">La pregunta de fondo</p>
+  <h2>¿Cuál es el problema real de la vivienda en España?</h2>
+  <div class="grid2">
+    <div class="rol"><h4>La economista</h4><p><span class="tag t-dato">Dato</span>Faltan viviendas: el Banco de España estima un déficit de unas 600.000 en 2022-2025, y otras de sus estimaciones más recientes llegan a unas 750.000. Entre 2022 y 2024 se concedieron 345.000 licencias, frente a 604.000 hogares nuevos (OCDE). <span class="tag t-evidencia">Evidencia</span>Las causas: suelo lento de urbanizar, productividad baja, falta de mano de obra y poca rentabilidad de la vivienda asequible.</p></div>
+    <div class="rol"><h4>El estadístico</h4><p><span class="tag t-dato">Dato</span>La media engaña: el 7,8 % de los españoles dedica más del 40 % de su renta a la vivienda, menos que en la UE (8,2 %). Pero esa media mezcla a propietarios sin hipoteca con inquilinos a precio de mercado, que son quienes soportan la tensión. Y las vacías están donde no hay demanda.</p></div>
+    <div class="rol"><h4>La socióloga</h4><p><span class="tag t-dato">Dato</span>Edad media de emancipación: 30,2 años en España frente a 26,3 en la UE (Eurostat, 2025). Los hogares de una persona pasarán de 5,6 a 6,6 millones en 2039 (INE). La demanda se concentra en Madrid, Barcelona, Valencia, Alicante, Baleares y Canarias.</p></div>
+    <div class="rol"><h4>El psicólogo</h4><p><span class="tag t-dato">Dato</span>El 73,3 % de los hogares vive en una vivienda propia (INE, ECV 2025) y la vivienda es la primera preocupación del CIS. <span class="tag t-evidencia">Evidencia</span>La aversión a la pérdida hace que los propietarios valoren más su casa de lo que pagarían por ella, lo que frena ventas y mudanzas. Es un marco general; no hay un estudio específico para España.</p></div>
+    <div class="rol"><h4>La historiadora</h4><p><span class="tag t-dato">Dato</span>Pasamos de 664.923 viviendas libres iniciadas en 2006 a 29.232 en 2013, y en 2025 íbamos por 121.827. La vivienda protegida cayó de 97.617 calificaciones en 2006 a 15.503 en 2025. Tras la crisis de 2008, el país dejó de construir justo cuando empezó a crecer la población.</p></div>
+    <div class="rol"><h4>El contable público</h4><p><span class="tag t-dato">Dato</span>España dedica a vivienda unos 3.588 millones de € de gasto público al año (COFOG 2023), el 0,2 % del PIB. Llegar a la media europea supondría unos 15.000 millones más al año. Es mucho, pero es unas 20 veces menos que la vivienda gratuita universal.</p></div>
+  </div>
+  <h3>Qué sabemos y qué no</h3>
+  <div class="columnas-cons">
+    <div><h4 class="t-evidencia">Consenso por la evidencia</h4><ul>
+      <li>Faltan viviendas donde está la demanda.</li>
+      <li>Las vacías no lo resuelven por sí solas.</li>
+      <li>Las restricciones de suelo y planeamiento encarecen la vivienda.</li>
+      <li>Topar alquileres baja la renta de los pisos regulados y reduce la oferta.</li>
+      <li>España tiene muy poca vivienda social comparada con Europa.</li></ul></div>
+    <div><h4 class="t-debate">Debate legítimo</h4><ul>
+      <li>Cuánto baja el alquiler del barrio cada edificio nuevo.</li>
+      <li>Qué mezcla de mercado, vivienda pública y ayudas es mejor.</li>
+      <li>Cómo repartir la vivienda pública: renta, lista o sorteo.</li>
+      <li>Cuánto pesa la vivienda turística fuera de los barrios más afectados.</li></ul></div>
+    <div><h4 class="t-opinion">Opinión, es decir, valores</h4><ul>
+      <li>Si la vivienda debe ser un derecho gratuito o un bien que se paga.</li>
+      <li>Cuánta desigualdad entre propietarios e inquilinos es aceptable.</li>
+      <li>Cuántos impuestos estamos dispuestos a pagar y para qué.</li></ul></div>
+  </div>
+  <div class="pausa"><p class="q">Entonces, ¿hay que intervenir o dejar que el mercado construya?</p>
+    <details><summary>Lo que dice la evidencia</summary><div>
+      <p><span class="tag t-evidencia">Evidencia</span>La evidencia no dice «nada de Estado» ni «todo Estado». Dice que el problema de fondo es de <b>oferta donde hay demanda</b>. Las medidas que la aumentan (más suelo urbanizable, licencias más rápidas, construcción industrializada, vivienda pública o asequible a escala) atacan la causa. Las que reparten lo que ya hay sin aumentarlo (topes de alquiler, ayudas a la demanda cuando la oferta no responde) alivian a unos a costa de otros o suben los precios.</p>
+      <p><span class="tag t-opinion">Opinión</span>Quién debe construir (mercado, Estado o ambos) y con qué reglas es una decisión política. Los datos solo dicen que, sin construir más, ninguna fórmula funciona.</p>
+    </div></details></div>
+  <div class="cajetin"><span>L17</span><span>Fuentes: BdE · OCDE · Eurostat · INE · MIVAU · CIS</span></div>
+</section>
+
+<!-- 18 PREGUNTAS -->
+<section class="lamina" id="l18" data-titulo="Preguntas para el directo">
+  <p class="eyebrow">Para el chat</p>
+  <h2>Preguntas para seguir pensando</h2>
+  <ol class="pasos">
+    <li><div><b>¿Dónde pondrías el listón de lo «digno»?</b>¿35, 42 o 60 m²? Cada 10 m² por persona son más de un billón de euros en el escenario teórico.</div></li>
+    <li><div><b>¿Compensarías a quien ya es propietario?</b>Sin compensar es más barato, pero ¿es igualitario?</div></li>
+    <li><div><b>¿Aceptarías una vivienda gratuita en otra provincia?</b>¿Y si tu trabajo está en Madrid?</div></li>
+    <li><div><b>¿Sorteo, lista o necesidad?</b>¿Qué sistema elegirías y a quién dejaría fuera?</div></li>
+    <li><div><b>¿Pagarías el doble de IRPF por esto?</b>¿Qué partida recortarías en su lugar?</div></li>
+    <li><div><b>¿Te parece mejor el modelo de Singapur?</b>¿Aceptarías comprar el uso por 99 años en lugar de la propiedad?</div></li>
+  </ol>
+  <div class="cajetin"><span>L18</span><span>Cierre</span></div>
+</section>
+
+<!-- 19 FUENTES -->
+<section class="lamina" id="l19" data-titulo="Hipótesis y fuentes">
+  <p class="eyebrow">Para auditar</p>
+  <h2>Hipótesis, fuentes y método</h2>
+  <p>Todos los datasets originales, los scripts de limpieza y el modelo de cálculo están en la carpeta de auditoría que acompaña a este documento (<span class="mono">auditoria/</span>). Cualquiera puede repetir las cuentas.</p>
+  <h3>Hipótesis del modelo</h3>
+  <div class="tabla"><table>
+    <thead><tr><th>Tipo</th><th>Parámetro</th><th class="n">Valor</th><th class="n">Rango</th><th>Fuente o razón</th></tr></thead>
+    <tbody><tr><td><span class="tag t-derivado">Cálculo propio</span></td><td>modulo 1p util m2</td><td class="n">42</td><td class="n">35,00 – 50,00</td><td>Máximo de los mínimos de habitabilidad: PGOUM Madrid 38 m² útiles, art. 7.3.4, más un 10 % para compartimentar y almacenar (ficha digna §6)</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>ratio util construida</td><td class="n">80,0 %</td><td class="n">75,0 % – 85,0 %</td><td>Práctica habitual de tasación; ninguna norma estatal fija el coeficiente</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>modulo util por tamano hogar</td><td class="n">1: 42 · 2: 50 · 3: 60 · 4+: 70</td><td class="n"></td><td>1 y 2 personas según ficha digna §6; 3 y 4 o más, escalando con los incrementos por ocupante de la tabla 7 del Decreto 80/2023 (C. Valenciana) y por debajo del máximo VPO de 90 m² útiles</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>modulo minimo legal util m2</td><td class="n">35</td><td class="n"></td><td>Mínimo absoluto: Decreto 80/2023 C. Valenciana y Decreto 80/2022 País Vasco (35 m² útiles)</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>pem eur m2c 2024</td><td class="n">888</td><td class="n"></td><td>IVE (Generalitat Valenciana), informe de costes de construcción y VPO, jun-2024, p. 5</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>actualizacion pem 2024 2026</td><td class="n">7,0 %</td><td class="n">3,0 % – 12,0 %</td><td>Convenio de la construcción: +3,5 % en 2025 y +3,0 % en 2026 (BOE-A-2025-25234), aplicado al conjunto del PEM por falta de un índice oficial de materiales descargado</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>peso mano obra pem</td><td class="n">40,0 %</td><td class="n">35,0 % – 45,0 %</td><td>IVE cita una participación de la mano de obra del 35-42 % en la revisión de precios (RD 1359/2011)</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>coste hora oficial eur</td><td class="n">23,17</td><td class="n"></td><td>BCCA Junta de Andalucía, jul-2023, código TO00100 (coste por hora con cargas incluidas)</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>gastos generales pct pem</td><td class="n">13,0 %</td><td class="n"></td><td>RD 1098/2001, art. 131</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>beneficio industrial pct pem</td><td class="n">6,0 %</td><td class="n"></td><td>RD 1098/2001, art. 131</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>honorarios tecnicos pct pem</td><td class="n">9,0 %</td><td class="n">6,0 % – 12,0 %</td><td>No hay baremo oficial (STC 116/1997). Referencia: licitación Casa47 en Sevilla, 737.660 € solo por el proyecto de 146 viviendas, ≈7 % del PEM estimado; se añade la dirección de obra</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>seguridad salud pct pem</td><td class="n">1,5 %</td><td class="n">1,0 % – 2,0 %</td><td>RD 1627/1997 obliga a presupuestarlo, pero no fija la cuantía</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>control calidad pct pem</td><td class="n">1,0 %</td><td class="n">0,5 % – 1,5 %</td><td>Sin porcentaje legal</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>seguro decenal pct pem</td><td class="n">1,0 %</td><td class="n">0,5 % – 1,5 %</td><td>LOE art. 19: obligatorio, prima de mercado</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>icio pct pem</td><td class="n">4,0 %</td><td class="n"></td><td>TRLRHL art. 102.3, tipo máximo (Madrid capital 3,75 %)</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>tasas licencia pct pem</td><td class="n">0,5 %</td><td class="n">0,2 % – 1,0 %</td><td>Ordenanzas municipales, variables</td></tr>
+<tr><td><span class="tag t-derivado">Cálculo propio</span></td><td>financiacion obra pct</td><td class="n">3,6 %</td><td class="n"></td><td>2 años de obra con la mitad del coste dispuesto al 3,64 % (bono a 10 años, BdE, ago-2026)</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>gestion promocion pct</td><td class="n">3,0 %</td><td class="n">2,0 % – 5,0 %</td><td>Gestión de un promotor público sin beneficio</td></tr>
+<tr><td><span class="tag t-derivado">Cálculo propio</span></td><td>notaria registro ajd pct</td><td class="n">1,0 %</td><td class="n"></td><td>AJD del 0,75-1,5 % según CCAA más aranceles (RD 1426 y 1427/1989)</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>iva vivienda pct</td><td class="n">10,0 %</td><td class="n"></td><td>Ley 37/1992, art. 91 (4 % en VPO de régimen especial)</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>edificabilidad m2t m2s</td><td class="n">2,00</td><td class="n">1,20 – 3,00</td><td>Para pasar el precio del suelo urbano (€/m² de suelo, MIVAU) a repercusión por m² construido</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>reuso no principales pct</td><td class="n">20,0 %</td><td class="n">0,00 – 50,0 %</td><td>Solo el 18 % de las vacías está en ciudades medianas o grandes (OCDE 2025, p. 41); el resto de no principales son segundas residencias</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>sustituir viviendas estado malo</td><td class="n">628.950</td><td class="n"></td><td>Censo 2021, tpx=56894: viviendas principales en edificios en estado «Malo»</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>mantenimiento pct anual</td><td class="n">1,0 %</td><td class="n">0,5 % – 1,5 %</td><td>Conservación anual sobre el coste de construcción</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>vida util anios</td><td class="n">80</td><td class="n">60,00 – 100</td><td>Reposición del parque público</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>tipo interes deuda</td><td class="n">3,6 %</td><td class="n"></td><td>BdE, Boletín Estadístico 22.7, bono a 10 años, ago-2026</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>ritmo max viviendas anio</td><td class="n">597.632</td><td class="n"></td><td>MIVAU, viviendas libres terminadas en 2006 (máximo histórico)</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>ritmo actual viviendas anio</td><td class="n">80.792</td><td class="n"></td><td>MIVAU, viviendas libres terminadas en 2025</td></tr>
+<tr><td><span class="tag t-derivado">Cálculo propio</span></td><td>iva recaudacion por punto eur</td><td class="n">3.500.000.000</td><td class="n">3.000.000.000 – 4.200.000.000</td><td>Estimación propia: IVA 2025 (AEAT) menos lo recaudado a tipos reducidos (bases de la Memoria de Beneficios Fiscales 2023 actualizadas un 12 %), dividido entre 21</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>hdb es viviendas anio</td><td class="n">100.000</td><td class="n">50.000 – 200.000</td><td>Programa de contraste: cierra el déficit del BdE (~600.000-755.000) en unos 7 años más la formación de hogares</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>hdb es m2c</td><td class="n">70</td><td class="n"></td><td>Vivienda media de 2 dormitorios (≈56 m² útiles)</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>horizonte financiacion anios</td><td class="n">30</td><td class="n">10,00 – 50,00</td><td>Plazo en el que se reparte el coste inicial entre los contribuyentes, parecido al de una hipoteca; no es el plazo físico de construcción</td></tr></tbody></table></div>
+  <h3>Fuentes principales</h3>
+  <div class="grid2">
+    <ul>
+      <li>INE: Estadística Continua de Población (1-7-2026), ECP-Hogares, Proyecciones de Población y de Hogares, ECV 2025, Censo 2021, EPA, CNTR.</li>
+      <li>MIVAU: valor tasado de la vivienda (2T 2026), parque de viviendas 2025, viviendas iniciadas y terminadas 1991-2025, precio del suelo urbano, Sistema de Información Urbana 2026.</li>
+      <li>BOE y boletines autonómicos: Constitución, Ley 12/2023, RD 1098/2001, TRLRHL, Ley 37/1992, Orden PJC/178/2025, convenio de la construcción, decretos de habitabilidad.</li>
+      <li>IVE (Generalitat Valenciana): costes de construcción y VPO 2024. BCCA (Junta de Andalucía) 2023.</li>
+    </ul>
+    <ul>
+      <li>AEAT: Informe anual de recaudación 2025 y Estadística de declarantes del IRPF 2023.</li>
+      <li>Eurostat: gov_10a_main, gov_10dd_edpt1, gov_10a_exp (COFOG), ilc_lvps08, yth_demo_030. Ministerio de Sanidad: gasto sanitario 2024.</li>
+      <li>Banco de España: Documento Ocasional 24/33, Informe Anual 2024, Boletín Estadístico. OCDE: <i>Economic Survey Spain</i> 2025 y Affordable Housing Database. CIS.</li>
+      <li>Singapur: HDB Key Statistics 2024/25 y estados financieros FY2024-2025, SingStat, CPF Board.</li>
+      <li>Literatura revisada: Glaeser y Gyourko (2018), Gyourko y Molloy (2015), Hilber y Vermeulen (2016), Jofre-Monseny et al. (2023), Diamond et al. (2019), Kholodilin (2024), García-López et al. (2020), Glaeser y Luttmer (2003).</li>
+    </ul>
+  </div>
+  <h3>Límites conocidos</h3>
+  <p class="nota">Estas limitaciones están documentadas en las fichas de datos de la carpeta de auditoría:</p>
+  <ul class="nota">
+    <li>No hay dato oficial de honorarios técnicos, urbanización ni de la ratio útil/construida.</li>
+    <li>El coste de obra procede del IVE valenciano y se aplica a toda España.</li>
+    <li>El INE no publica viviendas por tramos finos de superficie, así que no se descuentan las que miden menos de 42 m².</li>
+    <li>Los adultos de las grandes ciudades son una estimación.</li>
+    <li>La norma de Madrid se consultó en una copia de 2009.</li>
+    <li>El valor de un punto de IVA es una estimación propia.</li>
+    <li>Los efectos de segunda ronda (subida de costes, cambios de comportamiento) no se simulan.</li>
+  </ul>
+  <footer>Elaborado el 28 de septiembre de 2026 con datos oficiales descargados ese día. Cálculo reproducible: <span class="mono">modelo.py</span> y <span class="mono">hipotesis.json</span>.</footer>
+  <div class="cajetin"><span>L19</span><span>Anexo de método</span></div>
+</section>
+
+</main>
+
+<script>
+window.R = {"A": 42009991, "H": 26532836.686000004, "PR": 19571428.0, "NP": 7528128.0, "SUST": 628950, "PIB": 1690012000000.0, "SAN": 101739000000.0, "IRPF": 142466000000.0, "DEUDA": 1698224600000.0, "DECL": 23987211, "IVAP": 3500000000.0, "PRECIO": 2479.25999628285, "CONSTR": 1643.7367513600002, "SINSUELO": 1390.4261376000002, "M2PLAUS": 63.9304908702064, "OWN": 14568272.379999999, "CRECA": 542862.9221500009, "CRECH": 221932.0, "RATIO": 0.8, "INT": 0.0364, "series": {"terminadas": {"1991": 227970.0, "1992": 178501.0, "1993": 170403.0, "1994": 174793.0, "1995": 155902.0, "1996": 194871.0, "1997": 224332.0, "1998": 226631.0, "1999": 296250.0, "2000": 362940.0, "2001": 452252.0, "2002": 480729.0, "2003": 462730.0, "2004": 509293.0, "2005": 528754.0, "2006": 597632.0, "2007": 579665.0, "2008": 563631.0, "2009": 356555.0, "2010": 218572.0, "2011": 121043.0, "2012": 80083.0, "2013": 43230.0, "2014": 35382.0, "2015": 41541.0, "2016": 37512.0, "2017": 49336.0, "2018": 58853.0, "2019": 71562.0, "2020": 77531.0, "2021": 84091.0, "2022": 79935.0, "2023": 80473.0, "2024": 86609.0, "2025": 80792.0}, "iniciadas": {"1991": 161066.0, "1992": 160958.0, "1993": 143158.0, "1994": 179572.0, "1995": 234583.0, "1996": 224252.0, "1997": 258337.0, "1998": 351377.0, "1999": 453114.0, "2000": 487810.0, "2001": 475059.0, "2002": 499046.0, "2003": 550465.0, "2004": 621257.0, "2005": 635608.0, "2006": 664923.0, "2007": 532117.0, "2008": 237959.0, "2009": 80230.0, "2010": 63090.0, "2011": 51956.0, "2012": 34580.0, "2013": 29232.0, "2014": 32120.0, "2015": 44679.0, "2016": 59168.0, "2017": 74201.0, "2018": 91477.0, "2019": 96245.0, "2020": 75930.0, "2021": 100504.0, "2022": 96996.0, "2023": 98040.0, "2024": 112220.0, "2025": 121827.0}, "vpo": {"1991": 57640.0, "1992": 90640.0, "1993": 83438.0, "1994": 81794.0, "1995": 122403.0, "1996": 71319.0, "1997": 85667.0, "1998": 56417.0, "1999": 66325.0, "2000": 47180.0, "2001": 59750.0, "2002": 47277.0, "2003": 72168.0, "2004": 72450.0, "2005": 81855.0, "2006": 97617.0, "2007": 85233.0, "2008": 90531.0, "2009": 79056.0, "2010": 60526.0, "2011": 34282.0, "2012": 17155.0, "2013": 6489.0, "2014": 5898.0, "2015": 5306.0, "2016": 6787.0, "2017": 7271.0, "2018": 11903.0, "2019": 12323.0, "2020": 11977.0, "2021": 13789.0, "2022": 13022.0, "2023": 12304.0, "2024": 23967.0, "2025": 15503.0}, "valor_tasado": {"1995": 683.0, "1996": 692.3, "1997": 711.7, "1998": 753.0, "1999": 810.7, "2000": 880.2, "2001": 967.0, "2002": 1119.1, "2003": 1316.3, "2004": 1546.0, "2005": 1761.0, "2006": 1944.3, "2007": 2056.3, "2008": 2071.1, "2009": 1917.0, "2010": 1843.0, "2011": 1740.2, "2012": 1588.1, "2013": 1495.3, "2014": 1459.4, "2015": 1475.2, "2016": 1502.6, "2017": 1538.6, "2018": 1590.7, "2019": 1641.2, "2020": 1623.1, "2021": 1657.6, "2022": 1741.0, "2023": 1809.1, "2024": 1913.6, "2025": 2127.6, "2026": 1171.2}, "emancipacion": {"2000": 28.6, "2001": 28.5, "2002": 28.5, "2003": 28.3, "2004": 28.1, "2005": 27.7, "2006": 27.8, "2007": 27.7, "2008": 27.5, "2009": 27.4, "2010": 27.5, "2011": 27.4, "2012": 27.7, "2013": 27.9, "2014": 28.2, "2015": 28.0, "2016": 28.3, "2017": 28.3, "2018": 28.6, "2019": 28.7, "2020": 28.8, "2021": 29.3, "2022": 29.8, "2023": 29.4, "2024": 29.4, "2025": 29.6}, "jovenes_con_padres": {"2004": 51.4, "2005": 55.8, "2006": 55.1, "2007": 55.2, "2008": 53.0, "2009": 51.6, "2010": 51.5, "2011": 53.3, "2012": 54.1, "2013": 55.1, "2014": 57.1, "2015": 58.0, "2016": 58.9, "2017": 61.2, "2018": 62.8, "2019": 64.5, "2020": 65.5, "2021": 64.5, "2022": 65.9, "2023": 65.6, "2024": 67.2, "2025": 68.7}}, "partidas": [{"nombre": "Mano de obra (oficiales y peones)", "eur_m2": 380.0640000000001}, {"nombre": "Materiales, maquinaria y medios", "eur_m2": 570.096}, {"nombre": "Gastos generales (13 %)", "eur_m2": 123.52080000000001}, {"nombre": "Beneficio industrial (6 %)", "eur_m2": 57.009600000000006}, {"nombre": "Arquitecto y aparejador", "eur_m2": 85.51440000000001}, {"nombre": "Seguridad, calidad, seguro decenal", "eur_m2": 33.25560000000001}, {"nombre": "Licencia e ICIO", "eur_m2": 42.757200000000005}, {"nombre": "Financiación y gestión", "eur_m2": 85.28636160000002}, {"nombre": "Notaría, registro y AJD", "eur_m2": 12.922176000000002}], "sueloNac": 103.88, "iva": 0.1, "prov": [{"n": "Madrid", "a": 6051137.0, "pr": 2699021.0, "nec": 3280967.8, "siu": 441720, "pm": 4089.6}, {"n": "Barcelona", "a": 5079276.0, "pr": 2290722.0, "nec": 2717202.8, "siu": 197959, "pm": 3204.2}, {"n": "Valencia/València", "a": 2380046.0, "pr": 1126835.0, "nec": 1176860.2, "siu": 310145, "pm": 1980.1}, {"n": "Alicante/Alacant", "a": 1761259.0, "pr": 820330.0, "nec": 830204.4, "siu": 327345, "pm": 2020.7}, {"n": "Sevilla", "a": 1662951.0, "pr": 753149.0, "nec": 873069.4, "siu": 212963, "pm": 1889.8}, {"n": "Málaga", "a": 1520933.0, "pr": 695314.0, "nec": 759546.6, "siu": 259553, "pm": 3083.5}, {"n": "Murcia", "a": 1317182.0, "pr": 586254.0, "nec": 676909.2, "siu": 667303, "pm": 1640.43675136}, {"n": "Balears, Illes", "a": 1065100.0, "pr": 451020.0, "nec": 570796.2, "siu": 78593, "pm": 3980.8}, {"n": "Cádiz", "a": 1062483.0, "pr": 508862.0, "nec": 523538.8, "siu": 144451, "pm": 2043.0}, {"n": "Palmas, Las", "a": 1019790.0, "pr": 447514.0, "nec": 550024.2, "siu": 144779, "pm": 2263.0}, {"n": "Bizkaia", "a": 1009405.0, "pr": 516342.0, "nec": 482767.8, "siu": 44188, "pm": 3024.7}, {"n": "Coruña, A", "a": 993579.0, "pr": 476820.0, "nec": 473403.4, "siu": 143263, "pm": 1749.5}, {"n": "Santa Cruz de Tenerife", "a": 947165.0, "pr": 394683.0, "nec": 522733.6, "siu": 124173, "pm": 2296.6}, {"n": "Asturias", "a": 901846.0, "pr": 453709.0, "nec": 401700.4, "siu": 115282, "pm": 1798.5}, {"n": "Zaragoza", "a": 859554.0, "pr": 414543.0, "nec": 417348.0, "siu": 118262, "pm": 1944.3}, {"n": "Pontevedra", "a": 823064.0, "pr": 381181.0, "nec": 411259.6, "siu": 62842, "pm": 1825.8}, {"n": "Granada", "a": 803562.0, "pr": 386193.0, "nec": 378318.0, "siu": 190871, "pm": 1673.3}, {"n": "Tarragona", "a": 746966.0, "pr": 359150.0, "nec": 347581.4, "siu": 134655, "pm": 1817.9}, {"n": "Girona", "a": 696689.0, "pr": 306805.0, "nec": 348151.6, "siu": 81553, "pm": 2162.8}, {"n": "Córdoba", "a": 650470.0, "pr": 308697.0, "nec": 319519.2, "siu": 111259, "pm": 1627.80325136}, {"n": "Almería", "a": 641682.0, "pr": 291074.0, "nec": 320942.2, "siu": 276232, "pm": 1647.76825136}, {"n": "Toledo", "a": 639152.0, "pr": 300562.0, "nec": 309561.4, "siu": 420922, "pm": 1599.16475136}, {"n": "Gipuzkoa", "a": 624937.0, "pr": 318323.0, "nec": 298638.4, "siu": 32280, "pm": 3514.6}, {"n": "Navarra", "a": 575731.0, "pr": 270339.0, "nec": 290937.6, "siu": 85480, "pm": 1936.4}, {"n": "Badajoz", "a": 562786.0, "pr": 275448.0, "nec": 262028.4, "siu": 165190, "pm": 1591.22275136}, {"n": "Castellón/Castelló", "a": 541871.0, "pr": 263766.0, "nec": 240827.0, "siu": 201712, "pm": 1633.24275136}, {"n": "Jaén", "a": 524390.0, "pr": 250706.0, "nec": 248425.0, "siu": 90251, "pm": 1611.91375136}, {"n": "Cantabria", "a": 515723.0, "pr": 247275.0, "nec": 239929.6, "siu": 79390, "pm": 2122.0}, {"n": "Valladolid", "a": 459204.0, "pr": 229122.0, "nec": 215246.2, "siu": 121974, "pm": 1658.4}, {"n": "Huelva", "a": 454025.0, "pr": 221349.0, "nec": 212131.4, "siu": 76863, "pm": 1594.28625136}, {"n": "Ciudad Real", "a": 422177.0, "pr": 205879.0, "nec": 194159.6, "siu": 149317, "pm": 1588.36275136}, {"n": "León", "a": 396898.0, "pr": 201301.0, "nec": 164570.2, "siu": 150527, "pm": 1565.02625136}, {"n": "Lleida", "a": 390449.0, "pr": 178081.0, "nec": 196299.2, "siu": 118571, "pm": 1622.50125136}, {"n": "Cáceres", "a": 335131.0, "pr": 174957.0, "nec": 134150.8, "siu": 133453, "pm": 1602.76725136}, {"n": "Albacete", "a": 332982.0, "pr": 158766.0, "nec": 157057.0, "siu": 65368, "pm": 1602.70675136}, {"n": "Burgos", "a": 315025.0, "pr": 159271.0, "nec": 131662.8, "siu": 118779, "pm": 1560.46125136}, {"n": "Araba/Álava", "a": 291219.0, "pr": 151136.0, "nec": 135906.8, "siu": 29012, "pm": 2531.3}, {"n": "Salamanca", "a": 289145.0, "pr": 154264.0, "nec": 116107.8, "siu": 124300, "pm": 1584.53475136}, {"n": "Lugo", "a": 288621.0, "pr": 133819.0, "nec": 127514.8, "siu": 39907, "pm": 1582.69775136}, {"n": "Rioja, La", "a": 278399.0, "pr": 141007.0, "nec": 122515.6, "siu": 77105, "pm": 1620.00975136}, {"n": "Ourense", "a": 271742.0, "pr": 137142.0, "nec": 107192.2, "siu": 44894, "pm": 1584.32025136}, {"n": "Guadalajara", "a": 242936.0, "pr": 111471.0, "nec": 115123.6, "siu": 153009, "pm": 1755.3}, {"n": "Huesca", "a": 198314.0, "pr": 95357.0, "nec": 87205.4, "siu": 48135, "pm": 1594.23125136}, {"n": "Cuenca", "a": 171884.0, "pr": 85587.0, "nec": 70113.2, "siu": 56318, "pm": 1582.81875136}, {"n": "Zamora", "a": 147324.0, "pr": 74745.0, "nec": 56288.4, "siu": 65234, "pm": 1559.64725136}, {"n": "Ávila", "a": 139990.0, "pr": 74545.0, "nec": 45713.2, "siu": 63645, "pm": 1572.43475136}, {"n": "Palencia", "a": 139585.0, "pr": 73230.0, "nec": 57501.0, "siu": 44770, "pm": 1564.97675136}, {"n": "Segovia", "a": 137686.0, "pr": 67730.0, "nec": 57575.6, "siu": 82580, "pm": 1578.08875136}, {"n": "Teruel", "a": 116691.0, "pr": 57147.0, "nec": 45595.6, "siu": 15352, "pm": 1583.79225136}, {"n": "Soria", "a": 77683.0, "pr": 41229.0, "nec": 27417.6, "siu": 40389, "pm": 1563.95925136}, {"n": "Ceuta", "a": 67479.0, "pr": 24977.1693601288, "nec": 41597.0269455543, "siu": 6320, "pm": 2214.9}, {"n": "Melilla", "a": 66673.0, "pr": 24678.8306398712, "nec": 41100.1730544457, "siu": 2068, "pm": 2164.5}], "esc": {"teorico": {"cap": 5468068731851.384, "anual": 298000020204.6784, "pib": 0.17633012085398117}, "plausible": {"cap": 4206461667902.442, "anual": 204354907121.80383, "pib": 0.12091920478777893}, "minimo": {"cap": 2876748836861.7974, "anual": 136339972700.98398, "pib": 0.08067396722685045}, "brecha": {"cap": 1771198071922.1619, "anual": 123179453922.46118, "pib": 0.07288673330275831}}, "B": {"coste_pib": 0.004279565880154666, "sg": 0.008280904901714245}};
+(function(){
+const R = window.R;
+const fmt = (x,d=0)=>x.toLocaleString('es-ES',{minimumFractionDigits:d,maximumFractionDigits:d});
+const css = v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const NS='http://www.w3.org/2000/svg';
+function el(tag,attrs,parent,text){const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);if(text!==undefined)e.textContent=text;if(parent)parent.appendChild(e);return e;}
+
+/* --- navegación por láminas --- */
+const laminas=[...document.querySelectorAll('.lamina')];
+const lam=document.getElementById('lam-actual'), prog=document.getElementById('progreso');
+function actual(){let i=0;laminas.forEach((l,j)=>{if(l.getBoundingClientRect().top<window.innerHeight*0.35)i=j;});return i;}
+function pinta(){const i=actual();lam.textContent='Lámina '+String(i).padStart(2,'0')+' · '+laminas[i].dataset.titulo;prog.style.width=(100*i/(laminas.length-1))+'%';}
+addEventListener('scroll',pinta,{passive:true});pinta();
+addEventListener('keydown',e=>{if(/INPUT|TEXTAREA|SELECT/.test(e.target.tagName))return;
+  if(e.key==='ArrowRight'||e.key==='PageDown'){e.preventDefault();const i=Math.min(laminas.length-1,actual()+1);laminas[i].scrollIntoView();}
+  if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();const i=Math.max(0,actual()-1);laminas[i].scrollIntoView();}});
+const bd=document.getElementById('btn-directo');
+bd.addEventListener('click',()=>{const on=document.body.classList.toggle('directo');bd.setAttribute('aria-pressed',on);try{localStorage.setItem('directo',on?'1':'0')}catch(e){};dibuja();});
+try{if(localStorage.getItem('directo')==='1'){document.body.classList.add('directo');bd.setAttribute('aria-pressed','true');}}catch(e){}
+document.getElementById('btn-lab').addEventListener('click',()=>document.getElementById('l10').scrollIntoView());
+
+/* --- gráficos --- */
+function gProv(){
+  const box=document.getElementById('g-prov');box.innerHTML='';
+  const d=R.prov.slice(0,12), W=760, rh=26, H=d.length*rh+30, L=150, max=Math.max(...d.map(p=>p.a));
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img'},box);
+  const x=v=>L+(W-L-70)*v/max;
+  [0,2e6,4e6,6e6].forEach(t=>{el('line',{x1:x(t),x2:x(t),y1:0,y2:H-22,stroke:css('--linea')},s);el('text',{x:x(t),y:H-6,'text-anchor':'middle'},s,fmt(t/1e6)+' M');});
+  d.forEach((p,i)=>{const y=i*rh+4;
+    el('text',{x:L-8,y:y+15,'text-anchor':'end'},s,p.n.replace('Balears, Illes','Baleares').replace('Valencia/València','Valencia').replace('Alicante/Alacant','Alicante'));
+    el('rect',{x:L,y,width:x(p.a)-L,height:rh-8,fill:css('--linea')},s);
+    el('rect',{x:L,y,width:x(p.pr)-L,height:rh-8,fill:css('--tinta')},s);
+    el('rect',{x:x(p.pr),y:y+(rh-8)/2-2,width:Math.max(0,x(p.a)-x(p.pr)),height:4,fill:css('--cota')},s);
+    el('text',{x:x(p.a)+6,y:y+14},s,'faltan '+fmt(p.nec/1e6,2)+' M');});
+}
+function gCascada(){
+  const box=document.getElementById('g-cascada');box.innerHTML='';
+  const items=R.partidas.map(p=>({n:p.nombre,v:p.eur_m2}));
+  items.push({n:'Suelo (media nacional)',v:R.sueloNac});
+  const base=items.reduce((a,b)=>a+b.v,0); items.push({n:'IVA 10 %',v:base*R.iva});
+  const total=base*(1+R.iva);
+  const W=760,rh=30,H=(items.length+3)*rh+30,L=330,max=5600;
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img'},box);
+  const x=v=>L+(W-L-20)*v/max;
+  [0,1000,2000,3000,4000,5000].forEach(t=>{el('line',{x1:x(t),x2:x(t),y1:0,y2:H-22,stroke:css('--linea')},s);el('text',{x:x(t),y:H-6,'text-anchor':'middle'},s,fmt(t)+' €');});
+  let acc=0;items.forEach((it,i)=>{const y=i*rh+4;
+    el('text',{x:L-8,y:y+16,'text-anchor':'end'},s,it.n.length>44?it.n.slice(0,43)+'…':it.n);
+    el('rect',{x:x(acc),y,width:Math.max(1,x(acc+it.v)-x(acc)),height:rh-10,fill:i<2?css('--tinta'):css('--tinta-3')},s);
+    el('text',{x:x(acc+it.v)+5,y:y+15},s,fmt(it.v));acc+=it.v;});
+  let y=items.length*rh+4;
+  el('text',{x:L-8,y:y+16,'text-anchor':'end','font-weight':'600'},s,'TOTAL: coste de construir 1 m²');
+  el('rect',{x:L,y,width:x(total)-L,height:rh-10,fill:css('--cota')},s);el('text',{x:x(total)+5,y:y+15,'font-weight':'600'},s,fmt(total)+' €/m²');
+  y+=rh;el('text',{x:L-8,y:y+16,'text-anchor':'end'},s,'Valor tasado medio de España (MIVAU)');
+  el('rect',{x:L,y,width:x(2355)-L,height:rh-10,fill:'none',stroke:css('--tinta'),'stroke-dasharray':'4 3'},s);el('text',{x:x(2355)+5,y:y+15},s,'2.355 €/m²');
+  y+=rh;el('text',{x:L-8,y:y+16,'text-anchor':'end'},s,'Valor tasado ciudad de Madrid (MIVAU)');
+  el('rect',{x:L,y,width:x(5418)-L,height:rh-10,fill:'none',stroke:css('--cota'),'stroke-dasharray':'4 3'},s);el('text',{x:x(5418)-5,y:y+15,'text-anchor':'end'},s,'5.418 €/m²');
+}
+function gEscala(){
+  const box=document.getElementById('g-escala');box.innerHTML='';
+  const it=[{n:'Sanidad pública, 1 año',v:R.SAN,c:css('--dato')},{n:'PIB de España, 1 año',v:R.PIB,c:css('--tinta-3')},{n:'Vivienda gratis · plausible',v:R.esc.plausible.cap,c:css('--debate')},{n:'Vivienda gratis · teórico',v:R.esc.teorico.cap,c:css('--cota')}];
+  const W=760,H=300,maxv=Math.max(...it.map(i=>i.v)),maxs=220;
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img'},box);
+  let xx=10;it.forEach(i=>{const side=maxs*Math.sqrt(i.v/maxv);
+    el('rect',{x:xx,y:250-side,width:side,height:side,fill:i.c,'fill-opacity':.85},s);
+    el('text',{x:xx,y:268},s,i.n);el('text',{x:xx,y:284,'font-weight':'600'},s,fmt(i.v/1e12,2)+' billones €');
+    xx+=Math.max(side,150)+26;});
+}
+function gRitmo(){
+  const box=document.getElementById('g-ritmo');box.innerHTML='';
+  const t=R.series.terminadas, v=R.series.vpo, años=Object.keys(t).map(Number).filter(a=>t[a]!=null);
+  const W=760,H=320,L=60,B=30,T=44,max=700000;
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img'},box);
+  const bw=(W-L-10)/años.length, y=val=>H-B-(H-B-T)*val/max;
+  [0,200000,400000,600000].forEach(k=>{el('line',{x1:L,x2:W-10,y1:y(k),y2:y(k),stroke:css('--linea')},s);el('text',{x:L-6,y:y(k)+4,'text-anchor':'end'},s,fmt(k/1000)+' mil');});
+  años.forEach((a,i)=>{el('rect',{x:L+i*bw+1,y:y(t[a]),width:bw-2,height:H-B-y(t[a]),fill:a===2006?css('--cota'):css('--tinta')},s);
+    if(a%5===0||a===2025)el('text',{x:L+i*bw+bw/2,y:H-10,'text-anchor':'middle'},s,a);});
+  const pts=años.filter(a=>v[a]!=null).map((a,i)=>`${L+años.indexOf(a)*bw+bw/2},${y(v[a])}`).join(' ');
+  el('polyline',{points:pts,fill:'none',stroke:css('--obra'),'stroke-width':2.5},s);
+  const i06=años.indexOf(2006);el('text',{x:L+i06*bw+bw+6,y:y(t[2006])+14,'font-weight':'600'},s,'2006: 597.632 (récord)');
+  el('line',{x1:L,x2:W-10,y1:y(597632),y2:y(597632),stroke:css('--cota'),'stroke-dasharray':'5 4'},s);
+  el('text',{x:W-12,y:14,'text-anchor':'end'},s,'Para hacerlo en 10 años harían falta 2,16 millones al año (fuera de escala)');
+  const leg=el('g',{},s);el('rect',{x:L+10,y:T+18,width:12,height:12,fill:css('--tinta')},leg);el('text',{x:L+28,y:T+28},leg,'Viviendas libres terminadas');
+  el('line',{x1:L+10,x2:L+22,y1:T+44,y2:T+44,stroke:css('--obra'),'stroke-width':2.5},leg);el('text',{x:L+28,y:T+48},leg,'Vivienda protegida (calificaciones)');
+}
+function gAB(){
+  const box=document.getElementById('g-ab');box.innerHTML='';
+  const it=[{n:'A · Teórico puro',v:R.esc.teorico.pib,c:css('--cota')},{n:'A · Plausible',v:R.esc.plausible.pib,c:css('--cota')},{n:'A · Mínimo legal gratis',v:R.esc.minimo.pib,c:css('--debate')},{n:'A · Sin compensar',v:R.esc.brecha.pib,c:css('--debate')},{n:'Singapur (HDB real)',v:R.B.sg,c:css('--dato')},{n:'B · Precio fijo en España',v:R.B.coste_pib,c:css('--ok')}];
+  const W=760,rh=36,H=it.length*rh+30,L=200,max=0.2;
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img'},box);
+  const x=v=>L+(W-L-80)*v/max;
+  [0,0.05,0.1,0.15,0.2].forEach(t=>{el('line',{x1:x(t),x2:x(t),y1:0,y2:H-22,stroke:css('--linea')},s);el('text',{x:x(t),y:H-6,'text-anchor':'middle'},s,fmt(t*100)+' %');});
+  it.forEach((i,k)=>{const y=k*rh+6;el('text',{x:L-8,y:y+17,'text-anchor':'end'},s,i.n);
+    el('rect',{x:L,y,width:Math.max(2,x(i.v)-L),height:rh-14,fill:i.c},s);el('text',{x:x(i.v)+6,y:y+16,'font-weight':'600'},s,fmt(i.v*100,2)+' % del PIB');});
+}
+function dibuja(){gProv();gCascada();gEscala();gRitmo();gAB();}
+dibuja();
+matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change',dibuja);
+
+/* --- laboratorio --- */
+const $=id=>document.getElementById(id);
+const inp={m2:$('h-m2'),solo:$('h-solo'),precio:$('h-precio'),anios:$('h-anios'),ritmo:$('h-ritmo'),mant:$('h-mant')};
+function calc(){
+  const m2u=+inp.m2.value, s=+inp.solo.value/100, precio=+inp.precio.value, anios=+inp.anios.value, ritmo=+inp.ritmo.value, mant=+inp.mant.value/100;
+  $('o-m2').textContent=m2u+' m²';$('o-solo').textContent=Math.round(s*100)+' %';$('o-precio').textContent=fmt(precio)+' €';
+  $('o-anios').textContent=anios+' años';$('o-ritmo').textContent=fmt(ritmo);$('o-mant').textContent=fmt(mant*100,2)+' %';
+  const m2c=m2u/R.RATIO, m2plaus=R.M2PLAUS*(m2u/42);
+  const uds=R.H+s*(R.A-R.H), m2ud=s*m2c+(1-s)*m2plaus;
+  const cap=uds*m2ud*precio;
+  const constr=Math.max(0,uds-R.PR-0.2*R.NP)+R.SUST;
+  const publico=Math.max(0,uds-R.OWN);
+  const anual=cap/anios+publico*m2ud*R.SINSUELO*mant+(s*R.CRECA+(1-s)*R.CRECH)*m2ud*precio;
+  $('r-viv').textContent=fmt(constr/1e6,1)+' M';
+  $('r-anios').textContent=fmt(constr/ritmo,0)+' años';
+  $('r-cap').textContent=fmt(cap/1e12,2)+' bill. €';$('r-cap-s').textContent='coste inicial · '+fmt(100*cap/R.PIB,0)+' % del PIB · '+fmt(cap/R.SAN,0)+' años de sanidad';
+  $('r-anual').textContent=fmt(anual/1e9,0)+' mil M€';$('r-anual-s').textContent='al año · '+fmt(100*anual/R.PIB,1)+' % del PIB · '+fmt(anual/R.SAN,1)+' × sanidad';
+  $('r-irpf').textContent='+'+fmt(100*anual/R.IRPF,0)+' %';
+  $('r-iva').textContent='+'+fmt(anual/R.IVAP,0);
+  $('r-decl').textContent=fmt(anual/R.DECL,0)+' €';
+  $('r-deuda').textContent=fmt(100*(R.DEUDA+cap)/R.PIB,0)+' %';
+}
+Object.values(inp).forEach(i=>i.addEventListener('input',calc));
+document.querySelectorAll('[data-precio]').forEach(b=>b.addEventListener('click',()=>{inp.precio.value=b.dataset.precio;calc();}));
+function set(v){for(const k in v)inp[k].value=v[k];calc();}
+$('btn-reset').addEventListener('click',()=>set({m2:42,solo:100,precio:2479,anios:30,ritmo:600000,mant:2.25}));
+$('btn-plaus').addEventListener('click',()=>set({m2:42,solo:0,precio:2479,anios:30,ritmo:600000,mant:2.25}));
+$('btn-min').addEventListener('click',()=>set({m2:35,solo:0,precio:2479,anios:30,ritmo:600000,mant:2.25}));
+calc();
+})();
+</script>
+</body>
+</html>

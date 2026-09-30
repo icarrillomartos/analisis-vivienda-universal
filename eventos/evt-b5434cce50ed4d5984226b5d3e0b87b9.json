@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "event_id": "evt-b5434cce50ed4d5984226b5d3e0b87b9",
+  "operation_id": "op-4c25b1ebd8324f11b8b4b4a30ca95988",
+  "type": "response_stopped",
+  "at": "2026-09-28T19:52:38.943609+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-45c100e47d3d43b4b2d98c5fb194eb63",
+  "state_revision": 45,
+  "data": {
+    "kind": "plan",
+    "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/respuestas/plan-vivienda-gratuita-v3.md",
+    "sha256": "dfeefe0b3b1c678fd8b22802f890846f3458fa45290daca9183624c0d4433c7f"
+  }
+}

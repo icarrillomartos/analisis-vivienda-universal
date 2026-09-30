@@ -1,0 +1,160 @@
+[{"COD":"ECP355534", "Nombre":"Total Nacional. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.49, "Secreto":false}
+]
+}
+,{"COD":"ECP355960", "Nombre":"Albacete. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.46, "Secreto":false}
+]
+}
+,{"COD":"ECP355959", "Nombre":"Alicante/Alacant. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.47, "Secreto":false}
+]
+}
+,{"COD":"ECP355958", "Nombre":"Almería. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.59, "Secreto":false}
+]
+}
+,{"COD":"ECP355957", "Nombre":"Araba/Álava. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.29, "Secreto":false}
+]
+}
+,{"COD":"ECP355956", "Nombre":"Asturias. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.2, "Secreto":false}
+]
+}
+,{"COD":"ECP355955", "Nombre":"Ávila. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.21, "Secreto":false}
+]
+}
+,{"COD":"ECP355954", "Nombre":"Badajoz. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.39, "Secreto":false}
+]
+}
+,{"COD":"ECP355953", "Nombre":"Balears, Illes. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.65, "Secreto":false}
+]
+}
+,{"COD":"ECP355952", "Nombre":"Barcelona. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.54, "Secreto":false}
+]
+}
+,{"COD":"ECP355951", "Nombre":"Bizkaia. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.31, "Secreto":false}
+]
+}
+,{"COD":"ECP355950", "Nombre":"Burgos. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.24, "Secreto":false}
+]
+}
+,{"COD":"ECP355949", "Nombre":"Cáceres. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.22, "Secreto":false}
+]
+}
+,{"COD":"ECP355948", "Nombre":"Cádiz. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.53, "Secreto":false}
+]
+}
+,{"COD":"ECP355947", "Nombre":"Cantabria. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.36, "Secreto":false}
+]
+}
+,{"COD":"ECP355946", "Nombre":"Castellón/Castelló. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.43, "Secreto":false}
+]
+}
+,{"COD":"ECP355945", "Nombre":"Ciudad Real. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.44, "Secreto":false}
+]
+}
+,{"COD":"ECP355944", "Nombre":"Córdoba. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.45, "Secreto":false}
+]
+}
+,{"COD":"ECP355943", "Nombre":"Coruña, A. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.39, "Secreto":false}
+]
+}
+,{"COD":"ECP355942", "Nombre":"Cuenca. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.36, "Secreto":false}
+]
+}
+,{"COD":"ECP355941", "Nombre":"Gipuzkoa. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.35, "Secreto":false}
+]
+}
+,{"COD":"ECP355940", "Nombre":"Girona. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.57, "Secreto":false}
+]
+}
+,{"COD":"ECP355939", "Nombre":"Granada. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.4, "Secreto":false}
+]
+}
+,{"COD":"ECP355938", "Nombre":"Guadalajara. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.52, "Secreto":false}
+]
+}
+,{"COD":"ECP355937", "Nombre":"Huelva. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.53, "Secreto":false}
+]
+}
+,{"COD":"ECP355936", "Nombre":"Huesca. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.42, "Secreto":false}
+]
+}
+,{"COD":"ECP355935", "Nombre":"Jaén. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.42, "Secreto":false}
+]
+}
+,{"COD":"ECP355934", "Nombre":"León. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.18, "Secreto":false}
+]
+}
+,{"COD":"ECP355933", "Nombre":"Lleida. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.55, "Secreto":false}
+]
+}
+,{"COD":"ECP355932", "Nombre":"Lugo. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.27, "Secreto":false}
+]
+}
+,{"COD":"ECP355931", "Nombre":"Madrid. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.58, "Secreto":false}
+]
+}
+,{"COD":"ECP355930", "Nombre":"Málaga. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.52, "Secreto":false}
+]
+}
+,{"COD":"ECP355929", "Nombre":"Murcia. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.7, "Secreto":false}
+]
+}
+,{"COD":"ECP355928", "Nombre":"Navarra. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.5, "Secreto":false}
+]
+}
+,{"COD":"ECP355927", "Nombre":"Ourense. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.19, "Secreto":false}
+]
+}
+,{"COD":"ECP355926", "Nombre":"Palencia. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.24, "Secreto":false}
+]
+}
+,{"COD":"ECP355925", "Nombre":"Palmas, Las. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.6, "Secreto":false}
+]
+}
+,{"COD":"ECP355924", "Nombre":"Pontevedra. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.48, "Secreto":false}
+]
+}
+,{"COD":"ECP355923", "Nombre":"Rioja, La. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.33, "Secreto":false}
+]
+}
+,{"COD":"ECP355922", "Nombre":"Salamanca. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.18, "Secreto":false}
+]
+}
+,{"COD":"ECP355921", "Nombre":"Santa Cruz de Tenerife. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.59, "Secreto":false}
+]
+}
+,{"COD":"ECP355920", "Nombre":"Segovia. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.35, "Secreto":false}
+]
+}
+,{"COD":"ECP355919", "Nombre":"Sevilla. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.59, "Secreto":false}
+]
+}
+,{"COD":"ECP355918", "Nombre":"Soria. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.26, "Secreto":false}
+]
+}
+,{"COD":"ECP355917", "Nombre":"Tarragona. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.48, "Secreto":false}
+]
+}
+,{"COD":"ECP355916", "Nombre":"Teruel. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.38, "Secreto":false}
+]
+}
+,{"COD":"ECP355915", "Nombre":"Toledo. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.6, "Secreto":false}
+]
+}
+,{"COD":"ECP355914", "Nombre":"Valencia/València. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.49, "Secreto":false}
+]
+}
+,{"COD":"ECP355913", "Nombre":"Valladolid. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.31, "Secreto":false}
+]
+}
+,{"COD":"ECP355912", "Nombre":"Zamora. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.11, "Secreto":false}
+]
+}
+,{"COD":"ECP355911", "Nombre":"Zaragoza. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2.36, "Secreto":false}
+]
+}
+,{"COD":"ECP355910", "Nombre":"Ceuta. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":3.07, "Secreto":false}
+]
+}
+,{"COD":"ECP355909", "Nombre":"Melilla. Tamaño medio del hogar. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":3.13, "Secreto":false}
+]
+}
+]

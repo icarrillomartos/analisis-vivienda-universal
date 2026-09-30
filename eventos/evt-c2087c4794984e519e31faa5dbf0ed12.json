@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "event_id": "evt-c2087c4794984e519e31faa5dbf0ed12",
+  "operation_id": "op-ba255c1a1736409ab6d112462f619e2a",
+  "type": "action_transition",
+  "at": "2026-09-28T19:55:52.374906+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-3cebe266853449a1bbfb4c54354cecde",
+  "state_revision": 52,
+  "data": {
+    "action": "transition",
+    "result": {
+      "decision": "transitioned",
+      "event": "agreement_confirmed",
+      "from": "F03",
+      "to": "F04"
+    }
+  }
+}

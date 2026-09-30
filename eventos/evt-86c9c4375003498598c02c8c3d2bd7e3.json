@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-86c9c4375003498598c02c8c3d2bd7e3",
+  "operation_id": "op-9ce9d4ca3c1243ffa1f5cce6c004eff3",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:20:40.121522+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-dcb881b028ab484180580d1e8ff531bf",
+  "state_revision": 727,
+  "data": {
+    "id": "obs-5cad2a731fda4556ad40b85c98137d74",
+    "tool": "Write",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/costes/limpio/cotizaciones_seguridad_social_2025.csv",
+        "status": "observed_file",
+        "sha256": "89d966b3140b327559d6a6eff87d49df4042859bc50665f0668ec648d5027d3e",
+        "bytes": 670
+      }
+    ],
+    "at": "2026-09-28T20:20:40.121504+00:00",
+    "scope": "process",
+    "turn_id": "observed-dcb881b028ab484180580d1e8ff531bf",
+    "turn_sha256": "4f4c6191d2841d5710d300c5117968b97b84943b70fe24d78a1ddb74cb716671"
+  }
+}

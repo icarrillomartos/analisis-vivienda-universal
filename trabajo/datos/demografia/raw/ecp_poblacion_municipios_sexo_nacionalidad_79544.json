@@ -1,0 +1,2242 @@
+[{"COD":"ECP358201", "Nombre":"Vitoria-Gasteiz. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":262522.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358200", "Nombre":"Vitoria-Gasteiz. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":228752.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358199", "Nombre":"Vitoria-Gasteiz. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":33770.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358198", "Nombre":"Vitoria-Gasteiz. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":127869.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358197", "Nombre":"Vitoria-Gasteiz. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":110272.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358196", "Nombre":"Vitoria-Gasteiz. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":17597.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358195", "Nombre":"Vitoria-Gasteiz. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":134653.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358194", "Nombre":"Vitoria-Gasteiz. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":118480.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358193", "Nombre":"Vitoria-Gasteiz. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":16173.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358192", "Nombre":"Albacete. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":174900.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358191", "Nombre":"Albacete. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":160661.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358190", "Nombre":"Albacete. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":14239.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358189", "Nombre":"Albacete. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":85763.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358188", "Nombre":"Albacete. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":77533.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358187", "Nombre":"Albacete. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":8230.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358186", "Nombre":"Albacete. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":89137.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358185", "Nombre":"Albacete. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":83128.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358184", "Nombre":"Albacete. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":6009.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358183", "Nombre":"Alacant/Alicante. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":371591.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358182", "Nombre":"Alacant/Alicante. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":288845.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358181", "Nombre":"Alacant/Alicante. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":82746.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358180", "Nombre":"Alacant/Alicante. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":179940.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358179", "Nombre":"Alacant/Alicante. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":138138.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358178", "Nombre":"Alacant/Alicante. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":41802.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358177", "Nombre":"Alacant/Alicante. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":191651.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358176", "Nombre":"Alacant/Alicante. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":150707.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358175", "Nombre":"Alacant/Alicante. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":40944.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358174", "Nombre":"Elx/Elche. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":250937.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358173", "Nombre":"Elx/Elche. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":211594.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358172", "Nombre":"Elx/Elche. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":39343.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358171", "Nombre":"Elx/Elche. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":124293.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358170", "Nombre":"Elx/Elche. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":103788.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358169", "Nombre":"Elx/Elche. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":20505.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358168", "Nombre":"Elx/Elche. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":126644.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358167", "Nombre":"Elx/Elche. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":107806.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358166", "Nombre":"Elx/Elche. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":18838.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358165", "Nombre":"Torrevieja. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":105139.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358164", "Nombre":"Torrevieja. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":51176.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358163", "Nombre":"Torrevieja. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":53963.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358162", "Nombre":"Torrevieja. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":51772.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358161", "Nombre":"Torrevieja. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":25082.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358160", "Nombre":"Torrevieja. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":26690.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358159", "Nombre":"Torrevieja. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":53367.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358158", "Nombre":"Torrevieja. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":26094.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358157", "Nombre":"Torrevieja. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":27273.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358156", "Nombre":"Almería. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":206811.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358155", "Nombre":"Almería. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":180259.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358154", "Nombre":"Almería. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":26552.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358153", "Nombre":"Almería. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":100510.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358152", "Nombre":"Almería. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":86416.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358151", "Nombre":"Almería. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":14094.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358150", "Nombre":"Almería. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":106301.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358149", "Nombre":"Almería. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":93843.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358148", "Nombre":"Almería. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":12458.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358147", "Nombre":"Roquetas de Mar. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":112949.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358146", "Nombre":"Roquetas de Mar. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":77122.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358145", "Nombre":"Roquetas de Mar. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":35827.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358144", "Nombre":"Roquetas de Mar. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":58998.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358143", "Nombre":"Roquetas de Mar. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":38039.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358142", "Nombre":"Roquetas de Mar. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":20959.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358141", "Nombre":"Roquetas de Mar. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":53951.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358140", "Nombre":"Roquetas de Mar. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":39083.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358139", "Nombre":"Roquetas de Mar. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":14868.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358138", "Nombre":"Ávila. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":60656.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358137", "Nombre":"Ávila. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":53292.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358136", "Nombre":"Ávila. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":7364.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358135", "Nombre":"Ávila. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":28977.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358134", "Nombre":"Ávila. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":25386.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358133", "Nombre":"Ávila. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":3591.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358132", "Nombre":"Ávila. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":31679.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358131", "Nombre":"Ávila. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":27906.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358130", "Nombre":"Ávila. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":3773.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358129", "Nombre":"Badajoz. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":151658.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358128", "Nombre":"Badajoz. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":144100.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358127", "Nombre":"Badajoz. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":7558.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358126", "Nombre":"Badajoz. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":73341.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358125", "Nombre":"Badajoz. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":69599.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358124", "Nombre":"Badajoz. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":3742.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358123", "Nombre":"Badajoz. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":78317.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358122", "Nombre":"Badajoz. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":74501.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358121", "Nombre":"Badajoz. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":3816.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358120", "Nombre":"Palma. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":443833.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358119", "Nombre":"Palma. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":351856.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358118", "Nombre":"Palma. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":91977.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358117", "Nombre":"Palma. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":217150.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358116", "Nombre":"Palma. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":169790.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358115", "Nombre":"Palma. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":47360.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358114", "Nombre":"Palma. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":226683.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358113", "Nombre":"Palma. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":182066.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358112", "Nombre":"Palma. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":44617.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358111", "Nombre":"Badalona. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":233286.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358110", "Nombre":"Badalona. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":189160.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358109", "Nombre":"Badalona. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":44126.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358108", "Nombre":"Badalona. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":115272.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358107", "Nombre":"Badalona. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":91740.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358106", "Nombre":"Badalona. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":23532.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358105", "Nombre":"Badalona. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":118014.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358104", "Nombre":"Badalona. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":97420.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358103", "Nombre":"Badalona. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":20594.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358102", "Nombre":"Barcelona. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":1713694.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358101", "Nombre":"Barcelona. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":1269571.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358100", "Nombre":"Barcelona. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":444123.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358099", "Nombre":"Barcelona. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":823152.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358098", "Nombre":"Barcelona. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":591742.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358097", "Nombre":"Barcelona. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":231410.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358096", "Nombre":"Barcelona. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":890542.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358095", "Nombre":"Barcelona. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":677829.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358094", "Nombre":"Barcelona. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":212713.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358093", "Nombre":"Hospitalet de Llobregat, L'. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":300672.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358092", "Nombre":"Hospitalet de Llobregat, L'. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":214867.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358091", "Nombre":"Hospitalet de Llobregat, L'. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":85805.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358090", "Nombre":"Hospitalet de Llobregat, L'. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":148705.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358089", "Nombre":"Hospitalet de Llobregat, L'. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":101909.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358088", "Nombre":"Hospitalet de Llobregat, L'. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":46796.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358087", "Nombre":"Hospitalet de Llobregat, L'. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":151967.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358086", "Nombre":"Hospitalet de Llobregat, L'. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":112958.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358085", "Nombre":"Hospitalet de Llobregat, L'. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":39009.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358084", "Nombre":"Mataró. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":132453.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358083", "Nombre":"Mataró. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":108679.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358082", "Nombre":"Mataró. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":23774.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358081", "Nombre":"Mataró. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":65707.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358080", "Nombre":"Mataró. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":52609.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358079", "Nombre":"Mataró. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":13098.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358078", "Nombre":"Mataró. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":66746.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358077", "Nombre":"Mataró. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":56070.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358076", "Nombre":"Mataró. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":10676.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358075", "Nombre":"Sabadell. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":227896.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358074", "Nombre":"Sabadell. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":192536.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358073", "Nombre":"Sabadell. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":35360.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358072", "Nombre":"Sabadell. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":111223.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358071", "Nombre":"Sabadell. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":92973.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358070", "Nombre":"Sabadell. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":18250.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358069", "Nombre":"Sabadell. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":116673.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358068", "Nombre":"Sabadell. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":99563.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358067", "Nombre":"Sabadell. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":17110.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358066", "Nombre":"Santa Coloma de Gramenet. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":122876.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358065", "Nombre":"Santa Coloma de Gramenet. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":92991.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358064", "Nombre":"Santa Coloma de Gramenet. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":29885.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358063", "Nombre":"Santa Coloma de Gramenet. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":61037.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358062", "Nombre":"Santa Coloma de Gramenet. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":44818.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358061", "Nombre":"Santa Coloma de Gramenet. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":16219.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358060", "Nombre":"Santa Coloma de Gramenet. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":61839.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358059", "Nombre":"Santa Coloma de Gramenet. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":48173.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358058", "Nombre":"Santa Coloma de Gramenet. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":13666.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358057", "Nombre":"Terrassa. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":235403.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358056", "Nombre":"Terrassa. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":199162.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358055", "Nombre":"Terrassa. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":36241.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358054", "Nombre":"Terrassa. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":115675.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358053", "Nombre":"Terrassa. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":96894.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358052", "Nombre":"Terrassa. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":18781.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358051", "Nombre":"Terrassa. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":119728.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358050", "Nombre":"Terrassa. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":102268.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358049", "Nombre":"Terrassa. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":17460.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358048", "Nombre":"Burgos. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":180427.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358047", "Nombre":"Burgos. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":159441.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358046", "Nombre":"Burgos. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":20986.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358045", "Nombre":"Burgos. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":86264.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358044", "Nombre":"Burgos. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":75315.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358043", "Nombre":"Burgos. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":10949.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358042", "Nombre":"Burgos. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":94163.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358041", "Nombre":"Burgos. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":84126.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358040", "Nombre":"Burgos. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":10037.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358039", "Nombre":"Cáceres. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":97631.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358038", "Nombre":"Cáceres. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":93075.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358037", "Nombre":"Cáceres. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":4556.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358036", "Nombre":"Cáceres. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":46710.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358035", "Nombre":"Cáceres. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":44581.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358034", "Nombre":"Cáceres. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":2129.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358033", "Nombre":"Cáceres. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":50921.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358032", "Nombre":"Cáceres. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":48494.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358031", "Nombre":"Cáceres. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":2427.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358030", "Nombre":"Algeciras. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":128082.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358029", "Nombre":"Algeciras. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":113649.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358028", "Nombre":"Algeciras. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":14433.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358027", "Nombre":"Algeciras. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":63476.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358026", "Nombre":"Algeciras. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":55647.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358025", "Nombre":"Algeciras. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":7829.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358024", "Nombre":"Algeciras. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":64606.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358023", "Nombre":"Algeciras. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":58002.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358022", "Nombre":"Algeciras. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":6604.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358021", "Nombre":"Cádiz. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":109467.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358020", "Nombre":"Cádiz. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":105698.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358019", "Nombre":"Cádiz. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":3769.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358018", "Nombre":"Cádiz. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":51690.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358017", "Nombre":"Cádiz. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":49825.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358016", "Nombre":"Cádiz. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":1865.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358015", "Nombre":"Cádiz. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":57777.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358014", "Nombre":"Cádiz. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":55873.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358013", "Nombre":"Cádiz. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":1904.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358012", "Nombre":"Jerez de la Frontera. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":215898.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358011", "Nombre":"Jerez de la Frontera. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":205693.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358010", "Nombre":"Jerez de la Frontera. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":10205.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358009", "Nombre":"Jerez de la Frontera. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":105377.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358008", "Nombre":"Jerez de la Frontera. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":100016.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358007", "Nombre":"Jerez de la Frontera. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":5361.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358006", "Nombre":"Jerez de la Frontera. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":110521.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358005", "Nombre":"Jerez de la Frontera. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":105677.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358004", "Nombre":"Jerez de la Frontera. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":4844.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358003", "Nombre":"Castelló de la Plana/Castellón de la Plana. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":187625.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358002", "Nombre":"Castelló de la Plana/Castellón de la Plana. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":145674.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358001", "Nombre":"Castelló de la Plana/Castellón de la Plana. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":41951.0, "Secreto":false}
+]
+}
+,{"COD":"ECP358000", "Nombre":"Castelló de la Plana/Castellón de la Plana. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":90866.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357999", "Nombre":"Castelló de la Plana/Castellón de la Plana. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":70215.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357998", "Nombre":"Castelló de la Plana/Castellón de la Plana. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":20651.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357997", "Nombre":"Castelló de la Plana/Castellón de la Plana. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":96759.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357996", "Nombre":"Castelló de la Plana/Castellón de la Plana. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":75459.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357995", "Nombre":"Castelló de la Plana/Castellón de la Plana. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":21300.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357994", "Nombre":"Ciudad Real. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":76185.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357993", "Nombre":"Ciudad Real. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":70067.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357992", "Nombre":"Ciudad Real. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":6118.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357991", "Nombre":"Ciudad Real. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":36186.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357990", "Nombre":"Ciudad Real. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":33143.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357989", "Nombre":"Ciudad Real. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":3043.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357988", "Nombre":"Ciudad Real. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":39999.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357987", "Nombre":"Ciudad Real. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":36924.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357986", "Nombre":"Ciudad Real. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":3075.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357985", "Nombre":"Córdoba. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":323017.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357984", "Nombre":"Córdoba. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":309910.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357983", "Nombre":"Córdoba. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":13107.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357982", "Nombre":"Córdoba. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":154741.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357981", "Nombre":"Córdoba. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":148872.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357980", "Nombre":"Córdoba. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":5869.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357979", "Nombre":"Córdoba. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":168276.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357978", "Nombre":"Córdoba. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":161038.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357977", "Nombre":"Córdoba. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":7238.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357976", "Nombre":"Coruña, A. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":253556.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357975", "Nombre":"Coruña, A. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":228223.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357974", "Nombre":"Coruña, A. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":25333.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357973", "Nombre":"Coruña, A. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":117735.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357972", "Nombre":"Coruña, A. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":105292.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357971", "Nombre":"Coruña, A. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":12443.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357970", "Nombre":"Coruña, A. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":135821.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357969", "Nombre":"Coruña, A. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":122931.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357968", "Nombre":"Coruña, A. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":12890.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357967", "Nombre":"Santiago de Compostela. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":101558.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357966", "Nombre":"Santiago de Compostela. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":92378.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357965", "Nombre":"Santiago de Compostela. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":9180.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357964", "Nombre":"Santiago de Compostela. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":47419.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357963", "Nombre":"Santiago de Compostela. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":42892.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357962", "Nombre":"Santiago de Compostela. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":4527.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357961", "Nombre":"Santiago de Compostela. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":54139.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357960", "Nombre":"Santiago de Compostela. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":49486.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357959", "Nombre":"Santiago de Compostela. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":4653.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357958", "Nombre":"Cuenca. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":53898.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357957", "Nombre":"Cuenca. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":47018.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357956", "Nombre":"Cuenca. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":6880.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357955", "Nombre":"Cuenca. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":25544.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357954", "Nombre":"Cuenca. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":22097.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357953", "Nombre":"Cuenca. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":3447.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357952", "Nombre":"Cuenca. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":28354.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357951", "Nombre":"Cuenca. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":24921.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357950", "Nombre":"Cuenca. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":3433.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357949", "Nombre":"Girona. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":108233.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357948", "Nombre":"Girona. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":85213.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357947", "Nombre":"Girona. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":23020.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357946", "Nombre":"Girona. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":52452.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357945", "Nombre":"Girona. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":40116.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357944", "Nombre":"Girona. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":12336.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357943", "Nombre":"Girona. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":55781.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357942", "Nombre":"Girona. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":45097.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357941", "Nombre":"Girona. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":10684.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357940", "Nombre":"Granada. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":240026.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357939", "Nombre":"Granada. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":213569.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357938", "Nombre":"Granada. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":26457.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357937", "Nombre":"Granada. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":111760.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357936", "Nombre":"Granada. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":98460.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357935", "Nombre":"Granada. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":13300.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357934", "Nombre":"Granada. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":128266.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357933", "Nombre":"Granada. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":115109.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357932", "Nombre":"Granada. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":13157.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357931", "Nombre":"Guadalajara. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":93701.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357930", "Nombre":"Guadalajara. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":76464.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357929", "Nombre":"Guadalajara. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":17237.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357928", "Nombre":"Guadalajara. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":45217.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357927", "Nombre":"Guadalajara. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":36462.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357926", "Nombre":"Guadalajara. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":8755.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357925", "Nombre":"Guadalajara. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":48484.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357924", "Nombre":"Guadalajara. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":40002.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357923", "Nombre":"Guadalajara. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":8482.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357922", "Nombre":"Donostia/San Sebastián. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":189668.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357921", "Nombre":"Donostia/San Sebastián. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":169352.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357920", "Nombre":"Donostia/San Sebastián. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":20316.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357919", "Nombre":"Donostia/San Sebastián. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":90245.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357918", "Nombre":"Donostia/San Sebastián. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":79634.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357917", "Nombre":"Donostia/San Sebastián. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":10611.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357916", "Nombre":"Donostia/San Sebastián. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":99423.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357915", "Nombre":"Donostia/San Sebastián. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":89718.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357914", "Nombre":"Donostia/San Sebastián. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":9705.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357913", "Nombre":"Huelva. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":145155.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357912", "Nombre":"Huelva. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":132993.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357911", "Nombre":"Huelva. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":12162.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357910", "Nombre":"Huelva. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":69598.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357909", "Nombre":"Huelva. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":63529.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357908", "Nombre":"Huelva. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":6069.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357907", "Nombre":"Huelva. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":75557.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357906", "Nombre":"Huelva. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":69464.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357905", "Nombre":"Huelva. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":6093.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357904", "Nombre":"Huesca. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":55856.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357903", "Nombre":"Huesca. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":47813.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357902", "Nombre":"Huesca. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":8043.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357901", "Nombre":"Huesca. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":26996.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357900", "Nombre":"Huesca. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":22802.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357899", "Nombre":"Huesca. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":4194.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357898", "Nombre":"Huesca. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":28860.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357897", "Nombre":"Huesca. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":25011.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357896", "Nombre":"Huesca. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":3849.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357895", "Nombre":"Jaén. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":112276.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357894", "Nombre":"Jaén. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":106075.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357893", "Nombre":"Jaén. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":6201.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357892", "Nombre":"Jaén. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":54029.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357891", "Nombre":"Jaén. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":50782.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357890", "Nombre":"Jaén. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":3247.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357889", "Nombre":"Jaén. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":58247.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357888", "Nombre":"Jaén. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":55293.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357887", "Nombre":"Jaén. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":2954.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357886", "Nombre":"León. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":125186.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357885", "Nombre":"León. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":112445.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357884", "Nombre":"León. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":12741.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357883", "Nombre":"León. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":57114.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357882", "Nombre":"León. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":50580.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357881", "Nombre":"León. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":6534.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357880", "Nombre":"León. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":68072.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357879", "Nombre":"León. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":61865.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357878", "Nombre":"León. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":6207.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357877", "Nombre":"Lleida. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":149770.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357876", "Nombre":"Lleida. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":113675.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357875", "Nombre":"Lleida. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":36095.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357874", "Nombre":"Lleida. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":75759.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357873", "Nombre":"Lleida. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":54756.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357872", "Nombre":"Lleida. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":21003.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357871", "Nombre":"Lleida. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":74011.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357870", "Nombre":"Lleida. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":58919.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357869", "Nombre":"Lleida. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":15092.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357868", "Nombre":"Logroño. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":152113.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357867", "Nombre":"Logroño. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":132072.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357866", "Nombre":"Logroño. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":20041.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357865", "Nombre":"Logroño. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":71794.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357864", "Nombre":"Logroño. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":62249.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357863", "Nombre":"Logroño. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":9545.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357862", "Nombre":"Logroño. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":80319.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357861", "Nombre":"Logroño. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":69823.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357860", "Nombre":"Logroño. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":10496.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357859", "Nombre":"Lugo. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":101321.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357858", "Nombre":"Lugo. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":90744.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357857", "Nombre":"Lugo. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":10577.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357856", "Nombre":"Lugo. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":46774.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357855", "Nombre":"Lugo. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":41709.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357854", "Nombre":"Lugo. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":5065.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357853", "Nombre":"Lugo. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":54547.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357852", "Nombre":"Lugo. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":49035.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357851", "Nombre":"Lugo. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":5512.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357850", "Nombre":"Alcalá de Henares. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":206273.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357849", "Nombre":"Alcalá de Henares. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":168140.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357848", "Nombre":"Alcalá de Henares. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":38133.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357847", "Nombre":"Alcalá de Henares. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":99443.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357846", "Nombre":"Alcalá de Henares. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":81045.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357845", "Nombre":"Alcalá de Henares. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":18398.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357844", "Nombre":"Alcalá de Henares. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":106830.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357843", "Nombre":"Alcalá de Henares. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":87095.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357842", "Nombre":"Alcalá de Henares. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":19735.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357841", "Nombre":"Alcobendas. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":124559.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357840", "Nombre":"Alcobendas. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":102547.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357839", "Nombre":"Alcobendas. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":22012.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357838", "Nombre":"Alcobendas. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":59376.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357837", "Nombre":"Alcobendas. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":49007.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357836", "Nombre":"Alcobendas. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":10369.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357835", "Nombre":"Alcobendas. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":65183.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357834", "Nombre":"Alcobendas. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":53540.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357833", "Nombre":"Alcobendas. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":11643.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357832", "Nombre":"Alcorcón. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":178536.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357831", "Nombre":"Alcorcón. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":154143.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357830", "Nombre":"Alcorcón. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":24393.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357829", "Nombre":"Alcorcón. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":85513.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357828", "Nombre":"Alcorcón. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":73611.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357827", "Nombre":"Alcorcón. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":11902.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357826", "Nombre":"Alcorcón. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":93023.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357825", "Nombre":"Alcorcón. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":80532.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357824", "Nombre":"Alcorcón. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":12491.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357823", "Nombre":"Fuenlabrada. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":190573.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357822", "Nombre":"Fuenlabrada. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":167948.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357821", "Nombre":"Fuenlabrada. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":22625.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357820", "Nombre":"Fuenlabrada. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":92923.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357819", "Nombre":"Fuenlabrada. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":81603.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357818", "Nombre":"Fuenlabrada. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":11320.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357817", "Nombre":"Fuenlabrada. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":97650.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357816", "Nombre":"Fuenlabrada. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":86345.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357815", "Nombre":"Fuenlabrada. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":11305.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357814", "Nombre":"Getafe. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":198706.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357813", "Nombre":"Getafe. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":168349.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357812", "Nombre":"Getafe. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":30357.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357811", "Nombre":"Getafe. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":96751.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357810", "Nombre":"Getafe. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":81896.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357809", "Nombre":"Getafe. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":14855.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357808", "Nombre":"Getafe. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":101955.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357807", "Nombre":"Getafe. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":86453.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357806", "Nombre":"Getafe. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":15502.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357805", "Nombre":"Leganés. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":197221.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357804", "Nombre":"Leganés. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":168011.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357803", "Nombre":"Leganés. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":29210.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357802", "Nombre":"Leganés. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":94913.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357801", "Nombre":"Leganés. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":80483.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357800", "Nombre":"Leganés. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":14430.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357799", "Nombre":"Leganés. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":102308.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357798", "Nombre":"Leganés. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":87528.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357797", "Nombre":"Leganés. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":14780.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357796", "Nombre":"Madrid. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":3481962.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357795", "Nombre":"Madrid. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":2818968.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357794", "Nombre":"Madrid. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":662994.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357793", "Nombre":"Madrid. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":1634425.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357792", "Nombre":"Madrid. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":1315265.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357791", "Nombre":"Madrid. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":319160.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357790", "Nombre":"Madrid. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":1847537.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357789", "Nombre":"Madrid. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":1503703.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357788", "Nombre":"Madrid. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":343834.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357787", "Nombre":"Móstoles. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":215536.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357786", "Nombre":"Móstoles. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":185472.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357785", "Nombre":"Móstoles. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":30064.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357784", "Nombre":"Móstoles. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":103946.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357783", "Nombre":"Móstoles. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":89342.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357782", "Nombre":"Móstoles. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":14604.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357781", "Nombre":"Móstoles. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":111590.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357780", "Nombre":"Móstoles. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":96130.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357779", "Nombre":"Móstoles. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":15460.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357778", "Nombre":"Parla. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":140564.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357777", "Nombre":"Parla. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":105937.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357776", "Nombre":"Parla. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":34627.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357775", "Nombre":"Parla. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":69562.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357774", "Nombre":"Parla. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":51694.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357773", "Nombre":"Parla. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":17868.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357772", "Nombre":"Parla. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":71002.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357771", "Nombre":"Parla. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":54243.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357770", "Nombre":"Parla. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":16759.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357769", "Nombre":"Rivas-Vaciamadrid. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":104798.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357768", "Nombre":"Rivas-Vaciamadrid. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":94663.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357767", "Nombre":"Rivas-Vaciamadrid. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":10135.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357766", "Nombre":"Rivas-Vaciamadrid. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":51665.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357765", "Nombre":"Rivas-Vaciamadrid. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":46875.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357764", "Nombre":"Rivas-Vaciamadrid. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":4790.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357763", "Nombre":"Rivas-Vaciamadrid. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":53133.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357762", "Nombre":"Rivas-Vaciamadrid. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":47788.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357761", "Nombre":"Rivas-Vaciamadrid. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":5345.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357760", "Nombre":"Torrejón de Ardoz. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":146643.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357759", "Nombre":"Torrejón de Ardoz. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":119643.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357758", "Nombre":"Torrejón de Ardoz. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":27000.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357757", "Nombre":"Torrejón de Ardoz. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":71710.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357756", "Nombre":"Torrejón de Ardoz. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":58386.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357755", "Nombre":"Torrejón de Ardoz. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":13324.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357754", "Nombre":"Torrejón de Ardoz. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":74933.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357753", "Nombre":"Torrejón de Ardoz. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":61257.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357752", "Nombre":"Torrejón de Ardoz. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":13676.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357751", "Nombre":"Málaga. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":603144.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357750", "Nombre":"Málaga. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":527668.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357749", "Nombre":"Málaga. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":75476.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357748", "Nombre":"Málaga. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":290227.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357747", "Nombre":"Málaga. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":252533.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357746", "Nombre":"Málaga. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":37694.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357745", "Nombre":"Málaga. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":312917.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357744", "Nombre":"Málaga. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":275135.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357743", "Nombre":"Málaga. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":37782.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357742", "Nombre":"Marbella. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":162155.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357741", "Nombre":"Marbella. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":110766.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357740", "Nombre":"Marbella. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":51389.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357739", "Nombre":"Marbella. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":77673.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357738", "Nombre":"Marbella. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":52966.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357737", "Nombre":"Marbella. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":24707.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357736", "Nombre":"Marbella. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":84482.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357735", "Nombre":"Marbella. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":57800.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357734", "Nombre":"Marbella. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":26682.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357733", "Nombre":"Cartagena. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":220999.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357732", "Nombre":"Cartagena. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":193632.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357731", "Nombre":"Cartagena. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":27367.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357730", "Nombre":"Cartagena. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":109473.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357729", "Nombre":"Cartagena. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":95379.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357728", "Nombre":"Cartagena. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":14094.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357727", "Nombre":"Cartagena. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":111526.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357726", "Nombre":"Cartagena. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":98253.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357725", "Nombre":"Cartagena. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":13273.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357724", "Nombre":"Murcia. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":484630.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357723", "Nombre":"Murcia. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":417566.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357722", "Nombre":"Murcia. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":67064.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357721", "Nombre":"Murcia. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":238484.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357720", "Nombre":"Murcia. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":202522.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357719", "Nombre":"Murcia. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":35962.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357718", "Nombre":"Murcia. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":246146.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357717", "Nombre":"Murcia. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":215044.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357716", "Nombre":"Murcia. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":31102.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357715", "Nombre":"Pamplona/Iruña. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":211720.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357714", "Nombre":"Pamplona/Iruña. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":180852.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357713", "Nombre":"Pamplona/Iruña. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":30868.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357712", "Nombre":"Pamplona/Iruña. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":100489.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357711", "Nombre":"Pamplona/Iruña. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":84802.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357710", "Nombre":"Pamplona/Iruña. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":15687.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357709", "Nombre":"Pamplona/Iruña. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":111231.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357708", "Nombre":"Pamplona/Iruña. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":96050.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357707", "Nombre":"Pamplona/Iruña. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":15181.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357706", "Nombre":"Ourense. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":106513.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357705", "Nombre":"Ourense. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":95637.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357704", "Nombre":"Ourense. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":10876.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357703", "Nombre":"Ourense. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":48337.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357702", "Nombre":"Ourense. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":43197.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357701", "Nombre":"Ourense. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":5140.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357700", "Nombre":"Ourense. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":58176.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357699", "Nombre":"Ourense. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":52440.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357698", "Nombre":"Ourense. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":5736.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357697", "Nombre":"Gijón. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":272647.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357696", "Nombre":"Gijón. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":249760.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357695", "Nombre":"Gijón. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":22887.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357694", "Nombre":"Gijón. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":128395.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357693", "Nombre":"Gijón. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":117154.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357692", "Nombre":"Gijón. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":11241.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357691", "Nombre":"Gijón. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":144252.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357690", "Nombre":"Gijón. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":132606.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357689", "Nombre":"Gijón. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":11646.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357688", "Nombre":"Oviedo. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":223820.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357687", "Nombre":"Oviedo. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":200054.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357686", "Nombre":"Oviedo. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":23766.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357685", "Nombre":"Oviedo. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":103789.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357684", "Nombre":"Oviedo. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":92457.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357683", "Nombre":"Oviedo. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":11332.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357682", "Nombre":"Oviedo. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":120031.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357681", "Nombre":"Oviedo. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":107597.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357680", "Nombre":"Oviedo. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":12434.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357679", "Nombre":"Palencia. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":78251.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357678", "Nombre":"Palencia. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":71065.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357677", "Nombre":"Palencia. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":7186.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357676", "Nombre":"Palencia. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":37052.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357675", "Nombre":"Palencia. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":33331.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357674", "Nombre":"Palencia. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":3721.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357673", "Nombre":"Palencia. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":41199.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357672", "Nombre":"Palencia. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":37734.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357671", "Nombre":"Palencia. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":3465.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357670", "Nombre":"Palmas de Gran Canaria, Las. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":386153.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357669", "Nombre":"Palmas de Gran Canaria, Las. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":348518.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357668", "Nombre":"Palmas de Gran Canaria, Las. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":37635.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357667", "Nombre":"Palmas de Gran Canaria, Las. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":185945.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357666", "Nombre":"Palmas de Gran Canaria, Las. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":167586.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357665", "Nombre":"Palmas de Gran Canaria, Las. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":18359.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357664", "Nombre":"Palmas de Gran Canaria, Las. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":200208.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357663", "Nombre":"Palmas de Gran Canaria, Las. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":180932.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357662", "Nombre":"Palmas de Gran Canaria, Las. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":19276.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357661", "Nombre":"Telde. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":105682.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357660", "Nombre":"Telde. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":100522.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357659", "Nombre":"Telde. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":5160.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357658", "Nombre":"Telde. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":51675.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357657", "Nombre":"Telde. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":49151.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357656", "Nombre":"Telde. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":2524.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357655", "Nombre":"Telde. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":54007.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357654", "Nombre":"Telde. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":51371.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357653", "Nombre":"Telde. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":2636.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357652", "Nombre":"Pontevedra. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":83934.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357651", "Nombre":"Pontevedra. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":78454.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357650", "Nombre":"Pontevedra. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":5480.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357649", "Nombre":"Pontevedra. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":39647.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357648", "Nombre":"Pontevedra. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":36975.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357647", "Nombre":"Pontevedra. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":2672.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357646", "Nombre":"Pontevedra. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":44287.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357645", "Nombre":"Pontevedra. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":41479.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357644", "Nombre":"Pontevedra. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":2808.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357643", "Nombre":"Vigo. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":295657.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357642", "Nombre":"Vigo. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":271559.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357641", "Nombre":"Vigo. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":24098.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357640", "Nombre":"Vigo. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":139235.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357639", "Nombre":"Vigo. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":127649.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357638", "Nombre":"Vigo. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":11586.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357637", "Nombre":"Vigo. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":156422.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357636", "Nombre":"Vigo. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":143910.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357635", "Nombre":"Vigo. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":12512.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357634", "Nombre":"Salamanca. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":146816.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357633", "Nombre":"Salamanca. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":131135.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357632", "Nombre":"Salamanca. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":15681.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357631", "Nombre":"Salamanca. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":66204.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357630", "Nombre":"Salamanca. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":58899.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357629", "Nombre":"Salamanca. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":7305.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357628", "Nombre":"Salamanca. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":80612.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357627", "Nombre":"Salamanca. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":72236.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357626", "Nombre":"Salamanca. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":8376.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357625", "Nombre":"San Cristóbal de La Laguna. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":162713.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357624", "Nombre":"San Cristóbal de La Laguna. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":151352.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357623", "Nombre":"San Cristóbal de La Laguna. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":11361.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357622", "Nombre":"San Cristóbal de La Laguna. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":78267.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357621", "Nombre":"San Cristóbal de La Laguna. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":72700.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357620", "Nombre":"San Cristóbal de La Laguna. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":5567.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357619", "Nombre":"San Cristóbal de La Laguna. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":84446.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357618", "Nombre":"San Cristóbal de La Laguna. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":78652.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357617", "Nombre":"San Cristóbal de La Laguna. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":5794.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357616", "Nombre":"Santa Cruz de Tenerife. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":211711.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357615", "Nombre":"Santa Cruz de Tenerife. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":194398.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357614", "Nombre":"Santa Cruz de Tenerife. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":17313.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357613", "Nombre":"Santa Cruz de Tenerife. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":100718.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357612", "Nombre":"Santa Cruz de Tenerife. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":92307.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357611", "Nombre":"Santa Cruz de Tenerife. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":8411.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357610", "Nombre":"Santa Cruz de Tenerife. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":110993.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357609", "Nombre":"Santa Cruz de Tenerife. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":102091.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357608", "Nombre":"Santa Cruz de Tenerife. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":8902.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357607", "Nombre":"Santander. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":176203.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357606", "Nombre":"Santander. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":154914.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357605", "Nombre":"Santander. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":21289.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357604", "Nombre":"Santander. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":81333.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357603", "Nombre":"Santander. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":71043.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357602", "Nombre":"Santander. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":10290.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357601", "Nombre":"Santander. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":94870.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357600", "Nombre":"Santander. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":83871.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357599", "Nombre":"Santander. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":10999.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357598", "Nombre":"Segovia. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":53141.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357597", "Nombre":"Segovia. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":44344.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357596", "Nombre":"Segovia. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":8797.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357595", "Nombre":"Segovia. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":24900.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357594", "Nombre":"Segovia. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":20541.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357593", "Nombre":"Segovia. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":4359.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357592", "Nombre":"Segovia. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":28241.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357591", "Nombre":"Segovia. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":23803.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357590", "Nombre":"Segovia. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":4438.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357589", "Nombre":"Dos Hermanas. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":145306.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357588", "Nombre":"Dos Hermanas. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":139917.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357587", "Nombre":"Dos Hermanas. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":5389.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357586", "Nombre":"Dos Hermanas. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":71113.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357585", "Nombre":"Dos Hermanas. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":68589.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357584", "Nombre":"Dos Hermanas. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":2524.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357583", "Nombre":"Dos Hermanas. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":74193.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357582", "Nombre":"Dos Hermanas. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":71328.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357581", "Nombre":"Dos Hermanas. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":2865.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357580", "Nombre":"Sevilla. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":698469.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357579", "Nombre":"Sevilla. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":630119.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357578", "Nombre":"Sevilla. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":68350.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357577", "Nombre":"Sevilla. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":331837.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357576", "Nombre":"Sevilla. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":298072.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357575", "Nombre":"Sevilla. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":33765.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357574", "Nombre":"Sevilla. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":366632.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357573", "Nombre":"Sevilla. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":332047.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357572", "Nombre":"Sevilla. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":34585.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357571", "Nombre":"Soria. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":41204.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357570", "Nombre":"Soria. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":35003.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357569", "Nombre":"Soria. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":6201.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357568", "Nombre":"Soria. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":19480.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357567", "Nombre":"Soria. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":16240.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357566", "Nombre":"Soria. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":3240.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357565", "Nombre":"Soria. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":21724.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357564", "Nombre":"Soria. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":18763.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357563", "Nombre":"Soria. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":2961.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357562", "Nombre":"Reus. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":113204.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357561", "Nombre":"Reus. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":90485.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357560", "Nombre":"Reus. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":22719.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357559", "Nombre":"Reus. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":55303.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357558", "Nombre":"Reus. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":43534.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357557", "Nombre":"Reus. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":11769.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357556", "Nombre":"Reus. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":57901.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357555", "Nombre":"Reus. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":46951.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357554", "Nombre":"Reus. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":10950.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357553", "Nombre":"Tarragona. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":144715.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357552", "Nombre":"Tarragona. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":111760.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357551", "Nombre":"Tarragona. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":32955.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357550", "Nombre":"Tarragona. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":70903.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357549", "Nombre":"Tarragona. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":53397.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357548", "Nombre":"Tarragona. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":17506.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357547", "Nombre":"Tarragona. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":73812.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357546", "Nombre":"Tarragona. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":58363.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357545", "Nombre":"Tarragona. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":15449.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357544", "Nombre":"Teruel. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":37004.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357543", "Nombre":"Teruel. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":32325.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357542", "Nombre":"Teruel. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":4679.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357541", "Nombre":"Teruel. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":17754.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357540", "Nombre":"Teruel. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":15297.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357539", "Nombre":"Teruel. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":2457.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357538", "Nombre":"Teruel. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":19250.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357537", "Nombre":"Teruel. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":17028.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357536", "Nombre":"Teruel. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":2222.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357535", "Nombre":"Toledo. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":87812.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357534", "Nombre":"Toledo. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":77109.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357533", "Nombre":"Toledo. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":10703.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357532", "Nombre":"Toledo. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":42062.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357531", "Nombre":"Toledo. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":36754.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357530", "Nombre":"Toledo. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":5308.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357529", "Nombre":"Toledo. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":45750.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357528", "Nombre":"Toledo. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":40355.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357527", "Nombre":"Toledo. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":5395.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357526", "Nombre":"València. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":848662.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357525", "Nombre":"València. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":676275.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357524", "Nombre":"València. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":172387.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357523", "Nombre":"València. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":404508.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357522", "Nombre":"València. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":318054.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357521", "Nombre":"València. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":86454.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357520", "Nombre":"València. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":444154.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357519", "Nombre":"València. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":358221.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357518", "Nombre":"València. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":85933.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357517", "Nombre":"Valladolid. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":304571.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357516", "Nombre":"Valladolid. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":277192.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357515", "Nombre":"Valladolid. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":27379.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357514", "Nombre":"Valladolid. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":142712.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357513", "Nombre":"Valladolid. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":129335.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357512", "Nombre":"Valladolid. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":13377.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357511", "Nombre":"Valladolid. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":161859.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357510", "Nombre":"Valladolid. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":147857.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357509", "Nombre":"Valladolid. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":14002.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357508", "Nombre":"Barakaldo. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":103439.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357507", "Nombre":"Barakaldo. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":91676.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357506", "Nombre":"Barakaldo. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":11763.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357505", "Nombre":"Barakaldo. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":50098.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357504", "Nombre":"Barakaldo. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":44141.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357503", "Nombre":"Barakaldo. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":5957.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357502", "Nombre":"Barakaldo. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":53341.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357501", "Nombre":"Barakaldo. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":47535.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357500", "Nombre":"Barakaldo. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":5806.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357499", "Nombre":"Bilbao. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":353152.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357498", "Nombre":"Bilbao. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":307249.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357497", "Nombre":"Bilbao. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":45903.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357496", "Nombre":"Bilbao. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":168846.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357495", "Nombre":"Bilbao. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":144001.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357494", "Nombre":"Bilbao. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":24845.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357493", "Nombre":"Bilbao. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":184306.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357492", "Nombre":"Bilbao. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":163248.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357491", "Nombre":"Bilbao. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":21058.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357490", "Nombre":"Zamora. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":60251.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357489", "Nombre":"Zamora. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":56051.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357488", "Nombre":"Zamora. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":4200.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357487", "Nombre":"Zamora. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":27903.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357486", "Nombre":"Zamora. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":25853.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357485", "Nombre":"Zamora. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":2050.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357484", "Nombre":"Zamora. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":32348.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357483", "Nombre":"Zamora. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":30198.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357482", "Nombre":"Zamora. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":2150.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357481", "Nombre":"Zaragoza. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":708181.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357480", "Nombre":"Zaragoza. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":601667.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357479", "Nombre":"Zaragoza. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":106514.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357478", "Nombre":"Zaragoza. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":340900.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357477", "Nombre":"Zaragoza. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":286283.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357476", "Nombre":"Zaragoza. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":54617.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357475", "Nombre":"Zaragoza. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":367281.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357474", "Nombre":"Zaragoza. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":315384.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357473", "Nombre":"Zaragoza. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":51897.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357472", "Nombre":"Ceuta. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":84208.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357471", "Nombre":"Ceuta. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":78445.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357470", "Nombre":"Ceuta. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":5763.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357469", "Nombre":"Ceuta. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":42464.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357468", "Nombre":"Ceuta. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":39771.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357467", "Nombre":"Ceuta. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":2693.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357466", "Nombre":"Ceuta. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":41744.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357465", "Nombre":"Ceuta. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":38674.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357464", "Nombre":"Ceuta. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":3070.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357463", "Nombre":"Melilla. Total. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":86896.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357462", "Nombre":"Melilla. Total. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":75297.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357461", "Nombre":"Melilla. Total. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":11599.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357460", "Nombre":"Melilla. Hombres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":43412.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357459", "Nombre":"Melilla. Hombres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":38203.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357458", "Nombre":"Melilla. Hombres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":5209.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357457", "Nombre":"Melilla. Mujeres. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":43484.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357456", "Nombre":"Melilla. Mujeres. Española. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":37094.0, "Secreto":false}
+]
+}
+,{"COD":"ECP357455", "Nombre":"Melilla. Mujeres. Extranjera. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":2, "FK_Periodo":28, "Anyo":2026, "Valor":6390.0, "Secreto":false}
+]
+}
+]

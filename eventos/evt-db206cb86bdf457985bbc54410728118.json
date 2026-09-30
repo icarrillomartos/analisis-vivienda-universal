@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "event_id": "evt-db206cb86bdf457985bbc54410728118",
+  "operation_id": "op-04f86189d6e5447f81faf85bd06a8dfe",
+  "type": "action_respond",
+  "at": "2026-09-28T20:52:52.152252+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-c3387954d6334ab0b5129f20b0b160ba",
+  "state_revision": 894,
+  "data": {
+    "action": "respond",
+    "result": {
+      "decision": "prepared",
+      "response": {
+        "kind": "delivery",
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/respuestas/entrega-r1.md",
+        "turn_id": "observed-c3387954d6334ab0b5129f20b0b160ba",
+        "prepared_at": "2026-09-28T20:52:52.149260+00:00",
+        "delivery_id": "delivery-ae3fccfa4af32a8871736e32",
+        "artifacts": [
+          {
+            "id": "html-vivienda-gratuita",
+            "mode": "copy",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/html-vivienda-gratuita/r1/index.html",
+            "sha256": "19e602794c9229e1b10e8d0c6e01fba634866dd303d8cb3392174015c91299bb",
+            "locator": null
+          },
+          {
+            "id": "auditoria-datos",
+            "mode": "copy",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/auditoria-datos/r1/MANIFIESTO.sha256",
+            "sha256": "7744000bd212b9ca85a6776cd00e2d51a0f96744e8cd885d09ccb329166dfe6e",
+            "locator": null
+          }
+        ],
+        "sha256": "38ebf4082f42b606ffec0911ca2effaf82e05dd95984f223bd124437746889db"
+      }
+    }
+  }
+}

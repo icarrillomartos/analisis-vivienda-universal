@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "event_id": "evt-90ac2808d3bb497fb328fdfc0bd1d992",
+  "operation_id": "op-2bcfe9f01e4543c2ba9796f8d5b03276",
+  "type": "session_ControlFailure",
+  "at": "2026-09-28T21:44:38.069115+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-45a7970e5d284697965a2749d2ca0807",
+  "state_revision": 952,
+  "data": {
+    "reason": "El turno nativo debe recuperarse y resolverse mediante route"
+  }
+}

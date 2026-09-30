@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-00a4b90a75c34ccbbcab2d13271e590d",
+  "operation_id": "op-acce804db76c495d9d55779a23941f84",
+  "type": "tool_observed",
+  "at": "2026-09-28T19:29:51.374760+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-75c190e93cb347e888be569c98725ecb",
+  "state_revision": 21,
+  "data": {
+    "id": "obs-94fe364c434548358445b031d8bb77d4",
+    "tool": "Read",
+    "paths": [
+      {
+        "path": "sistema/plantillas/plan.md",
+        "status": "observed_file",
+        "sha256": "15c98288d95007682d062a5e0c3e8e81c7e66d112649788f343dda84de06274d",
+        "bytes": 820
+      }
+    ],
+    "at": "2026-09-28T19:29:51.374744+00:00",
+    "scope": "process",
+    "turn_id": "observed-75c190e93cb347e888be569c98725ecb",
+    "turn_sha256": "a05cbcf25cfd171d37610df9c575e702028679d7a6147c77b777921f3c25c531"
+  }
+}

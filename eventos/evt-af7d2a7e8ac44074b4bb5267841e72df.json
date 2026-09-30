@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "event_id": "evt-af7d2a7e8ac44074b4bb5267841e72df",
+  "operation_id": "op-ad0e584b624541f297ee8480d479f8d2",
+  "type": "turn_ingested",
+  "at": "2026-09-28T21:25:39.502843+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-ef2013634bd64ad09e7936de01bc1021",
+  "state_revision": 898,
+  "data": {
+    "origin": "user",
+    "prompt_sha256": "5df4fd0e9ac95af0de93837294ef8e776fd7d74f589a243c0ea34e5ec2901a11",
+    "retention": "full"
+  }
+}

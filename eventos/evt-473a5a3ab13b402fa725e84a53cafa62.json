@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-473a5a3ab13b402fa725e84a53cafa62",
+  "operation_id": "op-d18a9a9c7e5f4e72a6e7018ae16810b9",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:15:15.307363+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-7552a45882a8470db5a4ae24802bcb17",
+  "state_revision": 622,
+  "data": {
+    "id": "obs-31efcbad1bb9436d8b46290609d59a86",
+    "tool": "Read",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/digna/ficha.md",
+        "status": "observed_file",
+        "sha256": "4831c26a93d7d7601f6bb7814409b3232664c59029a612b4cded04b345ac6819",
+        "bytes": 20855
+      }
+    ],
+    "at": "2026-09-28T20:15:15.307343+00:00",
+    "scope": "process",
+    "turn_id": "observed-7552a45882a8470db5a4ae24802bcb17",
+    "turn_sha256": "c125094842e812d1734e7dd99e56770179df450843e57b29cd6e0ff8fbdb3d38"
+  }
+}

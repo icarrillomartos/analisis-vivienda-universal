@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-74d2f41f3b454497b94753cdd5aab99e",
+  "operation_id": "op-ae13f6fd3942405d896608414b54dc29",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:30:03.409299+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-a34b6d5bb2d740a69e841109e5e42cd4",
+  "state_revision": 791,
+  "data": {
+    "id": "obs-6be676d4ad334614925952e3c5509d56",
+    "tool": "Write",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/modelo/modelo.py",
+        "status": "observed_file",
+        "sha256": "e5f68ddb3a0c2a4349986ef58a47b5132635d0cbc7844fd6801cfc3402d6c8d5",
+        "bytes": 19199
+      }
+    ],
+    "at": "2026-09-28T20:30:03.409280+00:00",
+    "scope": "process",
+    "turn_id": "observed-a34b6d5bb2d740a69e841109e5e42cd4",
+    "turn_sha256": "ad8b22bef5182b15a282bf357e98eec37d8b13e95637aba513763890f20c8fe6"
+  }
+}

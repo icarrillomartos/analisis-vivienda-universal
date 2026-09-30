@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-3991c025cc2046c98e88fa5a02e343ed",
+  "operation_id": "op-8251b0bbb2324183b96f2545d559b5f2",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:15:32.940292+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-7552a45882a8470db5a4ae24802bcb17",
+  "state_revision": 631,
+  "data": {
+    "id": "obs-ad605e9fe4164d219d7fd1f9065b51b1",
+    "tool": "Write",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/parque/scripts/procesar_suelo.py",
+        "status": "observed_file",
+        "sha256": "650969dee8ef9b4c2f09af666ec673fcbb6f285438cbac4b2a326f4edcb37f2c",
+        "bytes": 1594
+      }
+    ],
+    "at": "2026-09-28T20:15:32.940273+00:00",
+    "scope": "process",
+    "turn_id": "observed-7552a45882a8470db5a4ae24802bcb17",
+    "turn_sha256": "c125094842e812d1734e7dd99e56770179df450843e57b29cd6e0ff8fbdb3d38"
+  }
+}

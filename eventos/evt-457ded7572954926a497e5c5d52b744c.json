@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "event_id": "evt-457ded7572954926a497e5c5d52b744c",
+  "operation_id": "op-34d4baad2c3f4aa79f1b4dc1f85f0efe",
+  "type": "action_start",
+  "at": "2026-09-28T20:50:00.477877+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-a34b6d5bb2d740a69e841109e5e42cd4",
+  "state_revision": 863,
+  "data": {
+    "action": "start",
+    "result": {
+      "decision": "recording",
+      "process": "P09",
+      "authority": "approved_plan",
+      "spec": {
+        "path": "sistema/procesos/09-evaluar-e-iterar.md",
+        "sha256": "3ed8a19c3c86501aea662b5663c058272895c60566e2948c9024cf11b641ac1d"
+      },
+      "depth": 1,
+      "tools_are": "medios previstos, no una lista de permisos"
+    }
+  }
+}

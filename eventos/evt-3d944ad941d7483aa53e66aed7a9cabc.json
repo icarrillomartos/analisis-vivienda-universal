@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-3d944ad941d7483aa53e66aed7a9cabc",
+  "operation_id": "op-060569aac490485cb6de7eef81054067",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:12:59.131752+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-6eda0bd8c9c6463789b552c134a3d5ae",
+  "state_revision": 564,
+  "data": {
+    "id": "obs-20cf88fd06ed440ca05098e41a28fbc6",
+    "tool": "Read",
+    "paths": [
+      {
+        "path": "sistema/control-ejecucion.md",
+        "status": "observed_file",
+        "sha256": "4274aed76432d66de3b26d91ed9f5f7047c850a42791a9e4fc0d2d85ad04289f",
+        "bytes": 15533
+      }
+    ],
+    "at": "2026-09-28T20:12:59.131729+00:00",
+    "scope": "process",
+    "turn_id": "observed-6eda0bd8c9c6463789b552c134a3d5ae",
+    "turn_sha256": "edfc036d77393a5dcafd07a46dccf2bc96cfa13286ed8903a657c092c7ad5e40"
+  }
+}

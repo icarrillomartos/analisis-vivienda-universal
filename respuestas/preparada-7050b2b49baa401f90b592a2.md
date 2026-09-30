@@ -1,0 +1,1 @@
+Ficha de Singapur recibida: el déficit de HDB cubierto por el Estado es de 6.339 M SGD en el ejercicio 2024/25, ≈0,83 % del PIB. Quedan demografía, parque, costes y fiscalidad.

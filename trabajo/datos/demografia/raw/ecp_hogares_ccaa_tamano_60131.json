@@ -1,0 +1,301 @@
+[{"COD":"ECP355533", "Nombre":"Total Nacional. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":1.987486E7, "Secreto":false}
+]
+}
+,{"COD":"ECP355532", "Nombre":"Total Nacional. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":5678769.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355531", "Nombre":"Total Nacional. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":5779949.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355530", "Nombre":"Total Nacional. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":3926489.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355529", "Nombre":"Total Nacional. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":4489653.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355629", "Nombre":"Andalucía. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":3468471.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355628", "Nombre":"Andalucía. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":952571.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355627", "Nombre":"Andalucía. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":991429.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355626", "Nombre":"Andalucía. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":699375.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355625", "Nombre":"Andalucía. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":825096.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355624", "Nombre":"Aragón. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":579154.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355623", "Nombre":"Aragón. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":182657.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355622", "Nombre":"Aragón. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":168209.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355621", "Nombre":"Aragón. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":110561.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355620", "Nombre":"Aragón. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":117727.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355619", "Nombre":"Asturias, Principado de. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":464062.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355618", "Nombre":"Asturias, Principado de. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":159395.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355617", "Nombre":"Asturias, Principado de. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":148661.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355616", "Nombre":"Asturias, Principado de. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":89389.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355615", "Nombre":"Asturias, Principado de. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":66617.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355614", "Nombre":"Balears, Illes. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":472869.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355613", "Nombre":"Balears, Illes. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":122148.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355612", "Nombre":"Balears, Illes. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":130062.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355611", "Nombre":"Balears, Illes. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":96269.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355610", "Nombre":"Balears, Illes. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":124390.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355609", "Nombre":"Canarias. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":872160.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355608", "Nombre":"Canarias. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":240528.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355607", "Nombre":"Canarias. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":238165.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355606", "Nombre":"Canarias. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":183443.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355605", "Nombre":"Canarias. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":210024.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355604", "Nombre":"Cantabria. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":251024.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355603", "Nombre":"Cantabria. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":78212.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355602", "Nombre":"Cantabria. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":74548.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355601", "Nombre":"Cantabria. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":49565.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355600", "Nombre":"Cantabria. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":48699.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355599", "Nombre":"Castilla y León. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":1076536.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355598", "Nombre":"Castilla y León. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":384534.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355597", "Nombre":"Castilla y León. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":317479.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355596", "Nombre":"Castilla y León. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":194487.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355595", "Nombre":"Castilla y León. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":180036.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355594", "Nombre":"Castilla - La Mancha. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":861794.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355593", "Nombre":"Castilla - La Mancha. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":249930.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355592", "Nombre":"Castilla - La Mancha. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":240783.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355591", "Nombre":"Castilla - La Mancha. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":168156.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355590", "Nombre":"Castilla - La Mancha. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":202925.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355589", "Nombre":"Cataluña. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":3207833.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355588", "Nombre":"Cataluña. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":856350.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355587", "Nombre":"Cataluña. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":963311.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355586", "Nombre":"Cataluña. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":639006.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355585", "Nombre":"Cataluña. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":749166.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355584", "Nombre":"Comunitat Valenciana. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2234502.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355583", "Nombre":"Comunitat Valenciana. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":637851.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355582", "Nombre":"Comunitat Valenciana. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":655441.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355581", "Nombre":"Comunitat Valenciana. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":443755.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355580", "Nombre":"Comunitat Valenciana. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":497455.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355579", "Nombre":"Extremadura. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":450689.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355578", "Nombre":"Extremadura. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":143368.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355577", "Nombre":"Extremadura. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":133206.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355576", "Nombre":"Extremadura. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":86716.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355575", "Nombre":"Extremadura. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":87399.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355574", "Nombre":"Galicia. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":1138580.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355573", "Nombre":"Galicia. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":354413.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355572", "Nombre":"Galicia. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":332388.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355571", "Nombre":"Galicia. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":227986.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355570", "Nombre":"Galicia. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":223793.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355569", "Nombre":"Madrid, Comunidad de. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":2769834.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355568", "Nombre":"Madrid, Comunidad de. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":726264.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355567", "Nombre":"Madrid, Comunidad de. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":797645.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355566", "Nombre":"Madrid, Comunidad de. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":556665.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355565", "Nombre":"Madrid, Comunidad de. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":689260.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355564", "Nombre":"Murcia, Región de. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":595361.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355563", "Nombre":"Murcia, Región de. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":145446.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355562", "Nombre":"Murcia, Región de. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":159120.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355561", "Nombre":"Murcia, Región de. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":119371.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355560", "Nombre":"Murcia, Región de. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":171424.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355559", "Nombre":"Navarra, Comunidad Foral de. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":274083.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355558", "Nombre":"Navarra, Comunidad Foral de. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":80354.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355557", "Nombre":"Navarra, Comunidad Foral de. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":76595.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355556", "Nombre":"Navarra, Comunidad Foral de. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":51709.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355555", "Nombre":"Navarra, Comunidad Foral de. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":65425.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355554", "Nombre":"País Vasco. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":962900.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355553", "Nombre":"País Vasco. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":307591.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355552", "Nombre":"País Vasco. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":299083.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355551", "Nombre":"País Vasco. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":173432.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355550", "Nombre":"País Vasco. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":182794.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355549", "Nombre":"Rioja, La. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":140736.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355548", "Nombre":"Rioja, La. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":45770.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355547", "Nombre":"Rioja, La. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":41664.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355546", "Nombre":"Rioja, La. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":26026.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355545", "Nombre":"Rioja, La. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":27276.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355544", "Nombre":"Ceuta. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":27018.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355543", "Nombre":"Ceuta. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":5935.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355542", "Nombre":"Ceuta. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":6057.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355541", "Nombre":"Ceuta. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":5288.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355540", "Nombre":"Ceuta. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":9738.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355539", "Nombre":"Melilla. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":27254.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355538", "Nombre":"Melilla. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":5452.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355537", "Nombre":"Melilla. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":6103.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355536", "Nombre":"Melilla. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":5290.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355535", "Nombre":"Melilla. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":10409.0, "Secreto":false}
+]
+}
+]

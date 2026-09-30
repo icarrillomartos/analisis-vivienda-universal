@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-da3994c7b88a4f97800ce5f1df7a2798",
+  "operation_id": "op-489d1badfcc5490f8e41b1386b65a37f",
+  "type": "tool_observed",
+  "at": "2026-09-28T21:33:48.677415+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-ef2013634bd64ad09e7936de01bc1021",
+  "state_revision": 929,
+  "data": {
+    "id": "obs-9b0c9db2cfee4d6e998de8b0e26b2c2b",
+    "tool": "Read",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/modelo/plantilla.html",
+        "status": "observed_file",
+        "sha256": "8b774109525e96fc9be144ba8109cbf92e4e7f850254036c3bf82c3c7d5acab4",
+        "bytes": 79648
+      }
+    ],
+    "at": "2026-09-28T21:33:48.677398+00:00",
+    "scope": "process",
+    "turn_id": "observed-ef2013634bd64ad09e7936de01bc1021",
+    "turn_sha256": "5df4fd0e9ac95af0de93837294ef8e776fd7d74f589a243c0ea34e5ec2901a11"
+  }
+}

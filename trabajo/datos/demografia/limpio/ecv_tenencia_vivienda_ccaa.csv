@@ -1,0 +1,121 @@
+geo,regimen_tenencia,porcentaje_hogares,anyo
+Total Nacional,Propiedad,73.3,2025
+Total Nacional,Propiedad sin hipoteca,48.9,2025
+Total Nacional,Propiedad con hipoteca,24.4,2025
+Total Nacional,Alquiler a precio de mercado,16.7,2025
+Total Nacional,Alquiler inferior al precio de mercado,3.5,2025
+Total Nacional,Cesión,6.5,2025
+Andalucía,Propiedad,77.5,2025
+Andalucía,Propiedad sin hipoteca,50.8,2025
+Andalucía,Propiedad con hipoteca,26.7,2025
+Andalucía,Alquiler a precio de mercado,11.9,2025
+Andalucía,Alquiler inferior al precio de mercado,2.9,2025
+Andalucía,Cesión,7.7,2025
+Aragón,Propiedad,78.3,2025
+Aragón,Propiedad sin hipoteca,54.5,2025
+Aragón,Propiedad con hipoteca,23.8,2025
+Aragón,Alquiler a precio de mercado,14.8,2025
+Aragón,Alquiler inferior al precio de mercado,1.9,2025
+Aragón,Cesión,5.0,2025
+"Asturias, Principado de",Propiedad,76.9,2025
+"Asturias, Principado de",Propiedad sin hipoteca,56.2,2025
+"Asturias, Principado de",Propiedad con hipoteca,20.6,2025
+"Asturias, Principado de",Alquiler a precio de mercado,13.1,2025
+"Asturias, Principado de",Alquiler inferior al precio de mercado,3.1,2025
+"Asturias, Principado de",Cesión,7.0,2025
+"Balears, Illes",Propiedad,67.1,2025
+"Balears, Illes",Propiedad sin hipoteca,42.1,2025
+"Balears, Illes",Propiedad con hipoteca,25.0,2025
+"Balears, Illes",Alquiler a precio de mercado,21.3,2025
+"Balears, Illes",Alquiler inferior al precio de mercado,3.4,2025
+"Balears, Illes",Cesión,8.3,2025
+Canarias,Propiedad,66.8,2025
+Canarias,Propiedad sin hipoteca,47.5,2025
+Canarias,Propiedad con hipoteca,19.3,2025
+Canarias,Alquiler a precio de mercado,16.9,2025
+Canarias,Alquiler inferior al precio de mercado,6.7,2025
+Canarias,Cesión,9.7,2025
+Cantabria,Propiedad,80.9,2025
+Cantabria,Propiedad sin hipoteca,54.4,2025
+Cantabria,Propiedad con hipoteca,26.5,2025
+Cantabria,Alquiler a precio de mercado,12.4,2025
+Cantabria,Alquiler inferior al precio de mercado,1.6,2025
+Cantabria,Cesión,5.1,2025
+Castilla y León,Propiedad,81.2,2025
+Castilla y León,Propiedad sin hipoteca,58.4,2025
+Castilla y León,Propiedad con hipoteca,22.8,2025
+Castilla y León,Alquiler a precio de mercado,11.2,2025
+Castilla y León,Alquiler inferior al precio de mercado,1.8,2025
+Castilla y León,Cesión,5.9,2025
+Castilla - La Mancha,Propiedad,73.0,2025
+Castilla - La Mancha,Propiedad sin hipoteca,50.3,2025
+Castilla - La Mancha,Propiedad con hipoteca,22.7,2025
+Castilla - La Mancha,Alquiler a precio de mercado,13.4,2025
+Castilla - La Mancha,Alquiler inferior al precio de mercado,4.2,2025
+Castilla - La Mancha,Cesión,9.4,2025
+Cataluña,Propiedad,67.1,2025
+Cataluña,Propiedad sin hipoteca,40.9,2025
+Cataluña,Propiedad con hipoteca,26.2,2025
+Cataluña,Alquiler a precio de mercado,23.2,2025
+Cataluña,Alquiler inferior al precio de mercado,4.8,2025
+Cataluña,Cesión,4.9,2025
+Comunitat Valenciana,Propiedad,73.9,2025
+Comunitat Valenciana,Propiedad sin hipoteca,49.6,2025
+Comunitat Valenciana,Propiedad con hipoteca,24.3,2025
+Comunitat Valenciana,Alquiler a precio de mercado,17.4,2025
+Comunitat Valenciana,Alquiler inferior al precio de mercado,2.4,2025
+Comunitat Valenciana,Cesión,6.4,2025
+Extremadura,Propiedad,76.2,2025
+Extremadura,Propiedad sin hipoteca,56.3,2025
+Extremadura,Propiedad con hipoteca,19.9,2025
+Extremadura,Alquiler a precio de mercado,13.5,2025
+Extremadura,Alquiler inferior al precio de mercado,2.3,2025
+Extremadura,Cesión,8.0,2025
+Galicia,Propiedad,73.2,2025
+Galicia,Propiedad sin hipoteca,55.8,2025
+Galicia,Propiedad con hipoteca,17.3,2025
+Galicia,Alquiler a precio de mercado,14.6,2025
+Galicia,Alquiler inferior al precio de mercado,2.2,2025
+Galicia,Cesión,10.0,2025
+"Madrid, Comunidad de",Propiedad,69.1,2025
+"Madrid, Comunidad de",Propiedad sin hipoteca,44.0,2025
+"Madrid, Comunidad de",Propiedad con hipoteca,25.1,2025
+"Madrid, Comunidad de",Alquiler a precio de mercado,22.6,2025
+"Madrid, Comunidad de",Alquiler inferior al precio de mercado,4.3,2025
+"Madrid, Comunidad de",Cesión,4.0,2025
+"Murcia, Región de",Propiedad,73.9,2025
+"Murcia, Región de",Propiedad sin hipoteca,48.3,2025
+"Murcia, Región de",Propiedad con hipoteca,25.6,2025
+"Murcia, Región de",Alquiler a precio de mercado,17.5,2025
+"Murcia, Región de",Alquiler inferior al precio de mercado,1.6,2025
+"Murcia, Región de",Cesión,7.0,2025
+"Navarra, Comunidad Foral de",Propiedad,80.6,2025
+"Navarra, Comunidad Foral de",Propiedad sin hipoteca,54.7,2025
+"Navarra, Comunidad Foral de",Propiedad con hipoteca,26.0,2025
+"Navarra, Comunidad Foral de",Alquiler a precio de mercado,8.8,2025
+"Navarra, Comunidad Foral de",Alquiler inferior al precio de mercado,4.6,2025
+"Navarra, Comunidad Foral de",Cesión,6.0,2025
+País Vasco,Propiedad,78.7,2025
+País Vasco,Propiedad sin hipoteca,52.2,2025
+País Vasco,Propiedad con hipoteca,26.5,2025
+País Vasco,Alquiler a precio de mercado,11.7,2025
+País Vasco,Alquiler inferior al precio de mercado,5.0,2025
+País Vasco,Cesión,4.6,2025
+"Rioja, La",Propiedad,80.7,2025
+"Rioja, La",Propiedad sin hipoteca,55.6,2025
+"Rioja, La",Propiedad con hipoteca,25.1,2025
+"Rioja, La",Alquiler a precio de mercado,12.5,2025
+"Rioja, La",Alquiler inferior al precio de mercado,1.2,2025
+"Rioja, La",Cesión,5.6,2025
+Ceuta,Propiedad,61.3,2025
+Ceuta,Propiedad sin hipoteca,38.4,2025
+Ceuta,Propiedad con hipoteca,22.8,2025
+Ceuta,Alquiler a precio de mercado,19.5,2025
+Ceuta,Alquiler inferior al precio de mercado,11.0,2025
+Ceuta,Cesión,8.2,2025
+Melilla,Propiedad,63.4,2025
+Melilla,Propiedad sin hipoteca,41.6,2025
+Melilla,Propiedad con hipoteca,21.8,2025
+Melilla,Alquiler a precio de mercado,18.4,2025
+Melilla,Alquiler inferior al precio de mercado,12.9,2025
+Melilla,Cesión,5.3,2025

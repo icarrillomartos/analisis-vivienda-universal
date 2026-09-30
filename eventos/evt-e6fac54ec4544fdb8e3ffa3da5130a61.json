@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "event_id": "evt-e6fac54ec4544fdb8e3ffa3da5130a61",
+  "operation_id": "op-9b26dc7ed1c946118da3194b1d7686ac",
+  "type": "action_context",
+  "at": "2026-09-28T19:28:40.122779+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-06f9d76564424ea7bd6bd83ce2d13295",
+  "state_revision": 11,
+  "data": {
+    "action": "context",
+    "result": {
+      "decision": "observed",
+      "scope": {
+        "queries": [
+          "vivienda",
+          "Singapur",
+          "impuestos",
+          "sanidad pública",
+          "YouTube"
+        ],
+        "paths": [
+          "memoria/indice.md",
+          "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/estado.md"
+        ]
+      },
+      "candidates": {
+        "vivienda": 0,
+        "Singapur": 0,
+        "impuestos": 0,
+        "sanidad pública": 0,
+        "YouTube": 0
+      },
+      "spec_supplied": false,
+      "files": [
+        {
+          "path": "memoria/indice.md",
+          "status": "read",
+          "sha256": "25b0f134f88f56ea3df0ce485b8677c10a67e7db71574acb07af8975d2c44757",
+          "bytes": 871,
+          "truncated": false
+        },
+        {
+          "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/estado.md",
+          "status": "read",
+          "sha256": "e330cb7930e9d84d8caa1e24749ea431ce56065e9918999e0c10331ea5789a50",
+          "bytes": 6999,
+          "truncated": false
+        }
+      ]
+    }
+  }
+}

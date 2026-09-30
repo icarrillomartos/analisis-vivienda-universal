@@ -1,0 +1,8 @@
+funcion_cofog,codigo,anio,espana_mill_eur,espana_pct_pib,eu27_mill_eur,eu27_pct_pib,fuente
+Vivienda y servicios comunitarios (total),GF06,2023,7821.0,0.5,201252.7,1.2,Eurostat gov_10a_exp (sector S13)
+Desarrollo de la vivienda (subfuncion),GF0601,2023,2961.0,0.2,120782.1,0.7,Eurostat gov_10a_exp (sector S13)
+Sanidad,GF07,2023,98630.0,6.6,1249906.1,7.2,Eurostat gov_10a_exp (sector S13)
+Proteccion social (total),GF10,2023,277327.0,18.5,3310555.1,19.1,Eurostat gov_10a_exp (sector S13)
+Vejez (pensiones),GF1002,2023,153051.0,10.2,,,Eurostat gov_10a_exp (sector S13) - EU27 no solicitado
+Vivienda dentro de proteccion social,GF1006,2023,627.0,0.0,63557.7,0.4,Eurostat gov_10a_exp (sector S13)
+Vivienda TOTAL (GF0601+GF1006),GF0601+GF1006,2023,3588.0,0.2,184339.8,1.1,Suma Eurostat gov_10a_exp

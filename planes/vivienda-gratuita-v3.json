@@ -1,0 +1,142 @@
+{
+  "schema": 3,
+  "plan_id": "vivienda-gratuita",
+  "plan_version": 3,
+  "project": "vivienda-universal",
+  "encargo": "viabilidad-vivienda-universal-gratuita",
+  "plan_path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/planes/vivienda-gratuita-v3.md",
+  "objective": "Demostrar con datos oficiales si es viable en España que todo residente mayor de 18 años tenga derecho a una vivienda digna individual gratuita de por vida financiada con impuestos, compensando a los propietarios actuales (modelo A, en detalle), y contrastarlo con la vivienda a precio fijo al estilo de Singapur (modelo B), para un directo de YouTube. Incluye preguntas de reflexión surgidas del recorrido con el contrapunto del mercado y un cierre multidisciplinar sobre el problema real de la vivienda en España.",
+  "result": {
+    "kind": "interactive_html",
+    "format": "HTML autocontenido, visual y didáctico, con panel de hipótesis interactivo y carpeta de auditoría (datasets, scripts, fuentes)",
+    "audience": "Audiencia general de un directo de YouTube del usuario, de cualquier ideología; explicación junior a junior"
+  },
+  "criteria": [
+    "Estándar de vivienda digna mínima definido a partir de normas oficiales de habitabilidad y parametrizable",
+    "Tesis descompuesta en preguntas calculables, con hipótesis y condiciones de contorno explícitas",
+    "Todos los datos proceden de fuentes oficiales citadas con fecha; lo no oficial figura como hipótesis con rango",
+    "Coste de la vivienda construido de abajo arriba (suelo, urbanización, materiales, mano de obra, honorarios, licencias, impuestos, financiación) y comparado con compra de parque existente",
+    "Coste total inicial y anual del modelo A por adulto (18+), con compensación a propietarios, en escenarios teórico puro, plausible y mínimo gratis más copago; alternativa residentes/nacionales",
+    "Traducción del coste a impuestos por contribuyente y tramo, frente a PIB, gasto público y sanidad",
+    "Capacidad física y temporal evaluada por provincia (suelo, visados, empleo del sector), con el caso de zonas tensionadas como Madrid",
+    "Modelo B Singapur documentado con fuentes primarias y adaptado a España con los mismos datos",
+    "Contraste A vs B en dimensiones fiscal, física, temporal y legal, con dilemas y objeciones de ambos lados",
+    "Cálculos reproducibles mediante scripts y datasets conservados",
+    "Preguntas de reflexión integradas donde el cálculo las provoca, con respuesta basada en evidencia y contrapunto del mecanismo de mercado y de sus fallos",
+    "Cierre multidisciplinar (economía, estadística, sociología, psicología, historia) sobre el problema real de la vivienda en España, separando consenso, debate y opinión",
+    "Cada afirmación etiquetada como dato, evidencia, debate u opinión; pantallas de mito o dato para ambas ideologías"
+  ],
+  "sources": [
+    {
+      "id": "ine",
+      "name": "Instituto Nacional de Estadística (Censo 2021, ECP, ECH, EPA, CNE, ECV)",
+      "url": "https://www.ine.es"
+    },
+    {
+      "id": "mivau",
+      "name": "Ministerio de Vivienda y Agenda Urbana (valor tasado, precio del suelo, visados, SIU)",
+      "url": "https://www.mivau.gob.es"
+    },
+    {
+      "id": "catastro",
+      "name": "Dirección General del Catastro",
+      "url": "https://www.catastro.hacienda.gob.es"
+    },
+    {
+      "id": "aeat",
+      "name": "Agencia Tributaria (estadísticas IRPF por tramos, recaudación)",
+      "url": "https://sede.agenciatributaria.gob.es"
+    },
+    {
+      "id": "igae",
+      "name": "IGAE / Ministerio de Hacienda (gasto público COFOG)",
+      "url": "https://www.igae.pap.hacienda.gob.es"
+    },
+    {
+      "id": "bde",
+      "name": "Banco de España (deuda, tipos)",
+      "url": "https://www.bde.es"
+    },
+    {
+      "id": "boe",
+      "name": "BOE (convenio colectivo de la construcción)",
+      "url": "https://www.boe.es"
+    },
+    {
+      "id": "eurostat",
+      "name": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat"
+    },
+    {
+      "id": "hdb",
+      "name": "Housing & Development Board, SingStat, CPF Board (Singapur)",
+      "url": "https://www.hdb.gov.sg"
+    },
+    {
+      "id": "estudios",
+      "name": "Estudios de instituciones oficiales (Banco de España, AIReF, Comisión Europea, OCDE, FMI) y literatura científica revisada por pares, solo para evidencia causal",
+      "url": "https://www.bde.es/wbe/es/publicaciones/"
+    }
+  ],
+  "no_sources_reason": null,
+  "artifacts": [
+    {
+      "id": "html-vivienda-gratuita",
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/vivienda-gratuita/r1/index.html",
+      "kind": "interactive_html"
+    },
+    {
+      "id": "auditoria-datos",
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/vivienda-gratuita/r1/auditoria/",
+      "kind": "dataset_and_scripts"
+    }
+  ],
+  "delegated_decisions": [
+    "Elección de indicadores oficiales concretos y tratamiento de datos",
+    "Valores centrales y rangos de hipótesis no cubiertas por fuentes oficiales, siempre declarados",
+    "Diseño visual y estructura de pantallas del HTML",
+    "Uso de subagentes para búsqueda de datos en paralelo"
+  ],
+  "review_scope": {
+    "included": [
+      "España por provincias y grandes ciudades",
+      "Estándar de vivienda digna",
+      "Modelo A gratuito individual 18+ con compensación, en detalle",
+      "Escenarios teórico, plausible y copago",
+      "Modelo B Singapur como contraste",
+      "Efectos económicos razonados con teoría y datos",
+      "Encaje constitucional básico",
+      "Preguntas de reflexión y contrapunto de mercado",
+      "Diagnóstico multidisciplinar del problema de la vivienda en España"
+    ],
+    "excluded": [
+      "Propuestas legislativas",
+      "Modelos de equilibrio general simulados",
+      "Otros países salvo mención contextual o evidencia comparada",
+      "Prensa, blogs y think tanks de parte como evidencia"
+    ]
+  },
+  "required_processes": [
+    "P03",
+    "P08",
+    "P09",
+    "P10",
+    "P12",
+    "P14",
+    "P18"
+  ],
+  "limits": {
+    "scope": [
+      "España; modelos A y B y cierre diagnóstico definidos en la propuesta v3",
+      "Unidad: cada residente de 18 años o más (alternativa nacionalidad española); compensación a propietarios actuales como escenario principal"
+    ],
+    "external_effects": [
+      "Solo lectura web y descarga de datasets públicos de organismos oficiales",
+      "Sin publicación ni envío a terceros; el HTML queda en la bóveda"
+    ],
+    "resources": [
+      "Sesión con Opus 5.5; subagentes opcionales para recogida de datos",
+      "Avisar si el volumen de datos descargados supera ~500 MB"
+    ]
+  }
+}

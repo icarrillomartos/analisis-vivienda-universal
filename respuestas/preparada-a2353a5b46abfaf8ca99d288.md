@@ -1,0 +1,1 @@
+Ficha de parque y capacidad recibida (27,1 M de viviendas en 2025; máximo de 597.632 terminadas en 2006; el SIU prevé 7,09 M de viviendas pendientes). Quedan demografía, costes y fiscalidad.

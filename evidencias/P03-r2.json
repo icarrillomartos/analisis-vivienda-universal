@@ -1,0 +1,85 @@
+{
+  "schema": 2,
+  "process": "P03",
+  "plan_digest": "e39db97f825068401b8a402d0a309e1e4148a9095519b54ff3e498db4f89f2fe",
+  "outcome": "verified",
+  "criterion": "Conservar los originales nuevos de la r2 con manifiesto y fichas source en revisión 2",
+  "decision": "complete",
+  "limits": [
+    "La nota de SingStat en PDF (pp-s32) no se descargó; los datos equivalentes se tomaron de data.gov.sg"
+  ],
+  "files": [
+    {
+      "path": "adjuntos/vivienda-universal/originales/ine/r2/MANIFIESTO.sha256",
+      "sha256": "44e54366260e61ce68eb4379f8f8535ab9a4ff5d4f16b77993a7aa5f08986ef3",
+      "bytes": 6741
+    },
+    {
+      "path": "adjuntos/vivienda-universal/originales/eurostat/r2/MANIFIESTO.sha256",
+      "sha256": "6c15f2b325c0491d97d882368302c1e000eaf421ec76b9b59a31399f1f1c32f8",
+      "bytes": 1658
+    },
+    {
+      "path": "adjuntos/vivienda-universal/originales/hdb/r2/MANIFIESTO.sha256",
+      "sha256": "b92321049dbde10da2271990bf23269f67a7262783e65e902869db0718760f6c",
+      "bytes": 1718
+    },
+    {
+      "path": "adjuntos/vivienda-universal/originales/estudios/r2/MANIFIESTO.sha256",
+      "sha256": "6c69798c21f956f38bc681ff1f604cb0881e1fd2ce7c7f3d9453e59551824132",
+      "bytes": 1448
+    },
+    {
+      "path": "adjuntos/vivienda-universal/originales/bde/r2/MANIFIESTO.sha256",
+      "sha256": "a1a7aa562198c18d72c32dd45c215a4cfe8e52eb9a5a19395ddf5403e5fa6bc6",
+      "bytes": 1107
+    },
+    {
+      "path": "memoria/fuentes/ine.md",
+      "sha256": "bd912c458a809f3f9c5ca3a3745330eb8182051c80964810cdac3dae2b1a6421",
+      "bytes": 2329
+    },
+    {
+      "path": "memoria/fuentes/eurostat.md",
+      "sha256": "880f718b22c5514bf7d88f09b11f588e06a1da3c59cf283c0917dd402425bb3a",
+      "bytes": 2305
+    },
+    {
+      "path": "memoria/fuentes/hdb.md",
+      "sha256": "b488af97ff918ddab814f5ff4b2fb13816a6d6f48f1f7aad96641cbf2bae8c48",
+      "bytes": 2181
+    },
+    {
+      "path": "memoria/fuentes/estudios.md",
+      "sha256": "a630b41b7934ba545e421f8533c8ad3ea9a945d7b1bf50e3383f0ffc42266a5d",
+      "bytes": 2326
+    },
+    {
+      "path": "memoria/fuentes/bde.md",
+      "sha256": "8e622bc2b5ce4a5de276a604b10f8a0dc1d9defd135e0daa9da759a9b491e272",
+      "bytes": 2222
+    },
+    {
+      "path": "memoria/fuentes/src-vu-r2.md",
+      "sha256": "59ea2b16ed160da38885bbb03bfef48248ccd282968ad7777af8c53f1dc1523d",
+      "bytes": 2728
+    },
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/r2/raw/MANIFIESTO.sha256",
+      "sha256": "831b7b051e12e8007d7c5c6f2d344e372d117fdffc36368758c9e744568f9d86",
+      "bytes": 1427
+    },
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/r2/ficha.md",
+      "sha256": "29eeedfa59388676c9a35916e6e5784a374eafff6a3188d8170762b114eacee0",
+      "bytes": 6575
+    }
+  ],
+  "notes": [
+    "15 originales nuevos clonados (APFS) en adjuntos/.../originales/<id>/r2/r2/ junto a la copia íntegra de la r1; manifiestos verificados con shasum -c",
+    "Fuentes sin cambios en la r2 (mivau, catastro, aeat, igae, boe) se mantienen en revisión 1",
+    "Dossier src-vu-r2 enlaza la ficha r2 con URL exacta de cada dato"
+  ],
+  "quality_decision": null,
+  "exceptions": []
+}

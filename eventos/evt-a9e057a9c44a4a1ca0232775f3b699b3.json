@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-a9e057a9c44a4a1ca0232775f3b699b3",
+  "operation_id": "op-7c2160b9ea4741c688db089cea95f5e9",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:03:20.392855+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-3cebe266853449a1bbfb4c54354cecde",
+  "state_revision": 233,
+  "data": {
+    "id": "obs-6ce6922fe8654a31a7005ed510b7a702",
+    "tool": "Write",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/costes/scripts/extraer_mivau_valor_tasado.py",
+        "status": "observed_file",
+        "sha256": "1d1ca4fd654da6a3d24eb70e4a2b8f1e23c56833069effb7c317e62d19c69d26",
+        "bytes": 4509
+      }
+    ],
+    "at": "2026-09-28T20:03:20.392840+00:00",
+    "scope": "process",
+    "turn_id": "observed-3cebe266853449a1bbfb4c54354cecde",
+    "turn_sha256": "b666d3ef2232b736cea21e8eaaf7634743bf94c23d5b70e3e4638191d0d4e5ad"
+  }
+}

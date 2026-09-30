@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "event_id": "evt-09aa5ad8ebaf4dbeb03f7cc2e686b04e",
+  "operation_id": "op-703f0ded634248e7996a62dac8298cf1",
+  "type": "action_coordinate",
+  "at": "2026-09-28T21:46:17.253334+00:00",
+  "client": "claude",
+  "session_key": "ba34b6bea32860295667668a",
+  "turn_id": "observed-59b537a7a7b745579a5915c5dd972804",
+  "state_revision": 962,
+  "data": {
+    "action": "coordinate",
+    "result": {
+      "decision": "coordinated",
+      "operation": "register",
+      "owner": "ba34b6bea32860295667668a",
+      "resources": [],
+      "released": [],
+      "registry": "entorno/control/coordinacion/registro.json",
+      "authority": "coordination_only"
+    }
+  }
+}

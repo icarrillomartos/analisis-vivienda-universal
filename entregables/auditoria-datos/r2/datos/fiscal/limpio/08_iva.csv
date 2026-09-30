@@ -1,0 +1,11 @@
+variable,valor,unidad,anio,fuente
+Recaudacion IVA total,99532,millones de euros,2025,AEAT Informe Anual de Recaudacion Tributaria 2025
+Variacion interanual recaudacion IVA,9.9,%,2025 vs 2024,AEAT Informe Anual de Recaudacion Tributaria 2025
+Crecimiento gasto final sujeto a IVA,6.1,%,2025 vs 2024,AEAT Informe Anual de Recaudacion Tributaria 2025
+Recaudacion IVA (%PIB),6.4,% PIB,2023,Eurostat gov_10a_taxag (D211, España)
+Base imponible operaciones a tipo reducido 10% (estimacion PBF),206316,millones de euros (aprox., devengo),2023,"Calculo propio a partir de Memoria Beneficios Fiscales PGE2023: beneficio fiscal 22.694,76 M€ / (21%-10%)"
+Base imponible operaciones a tipo superreducido 4% (estimacion PBF),50614,millones de euros (aprox., devengo),2023,"Calculo propio a partir de Memoria Beneficios Fiscales PGE2023: beneficio fiscal 8.604,34 M€ / (21%-4%)"
+Beneficio fiscal total por tipos reducidos de IVA,31299.10,millones de euros,2023,Memoria de Beneficios Fiscales PGE2023 (proyecto)
+Beneficio fiscal tipo 4% (superreducido),8604.34,millones de euros,2023,Memoria de Beneficios Fiscales PGE2023 (proyecto)
+Beneficio fiscal tipo 10% (reducido),22694.76,millones de euros,2023,Memoria de Beneficios Fiscales PGE2023 (proyecto)
+Beneficio fiscal por exenciones IVA,21305.90,millones de euros,2023,Memoria de Beneficios Fiscales PGE2023 (proyecto)

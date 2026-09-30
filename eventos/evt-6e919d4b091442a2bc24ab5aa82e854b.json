@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "event_id": "evt-6e919d4b091442a2bc24ab5aa82e854b",
+  "operation_id": "op-329d2dfa5aa648768521524337ddcbb1",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:07:05.760287+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-3cebe266853449a1bbfb4c54354cecde",
+  "state_revision": 384,
+  "data": {
+    "id": "obs-3b8624e8527e4466829f1a21bd9cd874",
+    "tool": "Bash",
+    "paths": [],
+    "at": "2026-09-28T20:07:05.760265+00:00",
+    "scope": "process",
+    "turn_id": "observed-3cebe266853449a1bbfb4c54354cecde",
+    "turn_sha256": "b666d3ef2232b736cea21e8eaaf7634743bf94c23d5b70e3e4638191d0d4e5ad"
+  }
+}

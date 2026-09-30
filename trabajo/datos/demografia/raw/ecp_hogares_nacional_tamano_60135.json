@@ -1,0 +1,16 @@
+[{"COD":"ECP355533", "Nombre":"Total Nacional. Total. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":1.987486E7, "Secreto":false}
+]
+}
+,{"COD":"ECP355532", "Nombre":"Total Nacional. 1. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":5678769.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355531", "Nombre":"Total Nacional. 2. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":5779949.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355530", "Nombre":"Total Nacional. 3. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":3926489.0, "Secreto":false}
+]
+}
+,{"COD":"ECP355529", "Nombre":"Total Nacional. 4 y más. Hogares en viviendas familiares. Número. ", "FK_Unidad":326, "FK_Escala":1, "Data":[{"Fecha":1782856800000, "FK_TipoDato":2, "FK_Periodo":21, "Anyo":2026, "Valor":4489653.0, "Secreto":false}
+]
+}
+]

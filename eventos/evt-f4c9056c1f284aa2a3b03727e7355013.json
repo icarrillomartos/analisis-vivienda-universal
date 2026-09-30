@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "event_id": "evt-f4c9056c1f284aa2a3b03727e7355013",
+  "operation_id": "op-b518004efe1e42e6a346f326d151919c",
+  "type": "action_checkpoint",
+  "at": "2026-09-28T21:56:19.336906+00:00",
+  "client": "claude",
+  "session_key": "ba34b6bea32860295667668a",
+  "turn_id": "observed-59b537a7a7b745579a5915c5dd972804",
+  "state_revision": 1034,
+  "data": {
+    "action": "checkpoint",
+    "result": {
+      "decision": "checkpointed",
+      "fields": [
+        "context_summary",
+        "next_action"
+      ],
+      "next_action": "Revisar calidad de la r2 (P09), cruzar puertas production_complete y quality_passed, sellar solicitud-r2 y entregar"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "event_id": "evt-15046ee0b7054461aa488dabe7db4a39",
+  "operation_id": "op-9fca6f76d3624b90b88332b62460c537",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:02:41.179667+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-3cebe266853449a1bbfb4c54354cecde",
+  "state_revision": 200,
+  "data": {
+    "id": "obs-5c12a04ce0244a5c8379714e423c39d6",
+    "tool": "WebSearch",
+    "paths": [],
+    "at": "2026-09-28T20:02:41.179651+00:00",
+    "scope": "process",
+    "turn_id": "observed-3cebe266853449a1bbfb4c54354cecde",
+    "turn_sha256": "b666d3ef2232b736cea21e8eaaf7634743bf94c23d5b70e3e4638191d0d4e5ad"
+  }
+}

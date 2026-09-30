@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-00346570f9de4d1598581ec1bcaa3be4",
+  "operation_id": "op-94b4bc625a1b4fbf9979e4a79ff230eb",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:41:40.455032+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-a34b6d5bb2d740a69e841109e5e42cd4",
+  "state_revision": 812,
+  "data": {
+    "id": "obs-1b7b005adac844c5a4969b9b893e5cc3",
+    "tool": "Read",
+    "paths": [
+      {
+        "path": "sistema/plantillas/artefacto.md",
+        "status": "observed_file",
+        "sha256": "3f43fcd1ffc3726652b5d3d0620afd8d6499f53d803106b8ce488b9115cd8d65",
+        "bytes": 746
+      }
+    ],
+    "at": "2026-09-28T20:41:40.455014+00:00",
+    "scope": "process",
+    "turn_id": "observed-a34b6d5bb2d740a69e841109e5e42cd4",
+    "turn_sha256": "ad8b22bef5182b15a282bf357e98eec37d8b13e95637aba513763890f20c8fe6"
+  }
+}

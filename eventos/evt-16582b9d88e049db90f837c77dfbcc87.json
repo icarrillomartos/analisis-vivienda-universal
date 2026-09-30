@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "event_id": "evt-16582b9d88e049db90f837c77dfbcc87",
+  "operation_id": "op-8322c47a89404950ac90bd521abd3dae",
+  "type": "action_finish",
+  "at": "2026-09-28T21:58:21.492896+00:00",
+  "client": "claude",
+  "session_key": "ba34b6bea32860295667668a",
+  "turn_id": "observed-59b537a7a7b745579a5915c5dd972804",
+  "state_revision": 1050,
+  "data": {
+    "action": "finish",
+    "result": {
+      "decision": "verified",
+      "process": "P09",
+      "evidence": {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/evidencias/P09-r2.json",
+        "sha256": "a957a8543ebde33fd4af798c555b1865a9d86a048bfcab90648223104c8fbd08",
+        "plan_digest": "e39db97f825068401b8a402d0a309e1e4148a9095519b54ff3e498db4f89f2fe",
+        "finished_at": "2026-09-28T21:58:21.492744+00:00",
+        "control_snapshots": [],
+        "spec": {
+          "path": "sistema/procesos/09-evaluar-e-iterar.md",
+          "sha256": "3ed8a19c3c86501aea662b5663c058272895c60566e2948c9024cf11b641ac1d"
+        }
+      },
+      "certified": true
+    }
+  }
+}

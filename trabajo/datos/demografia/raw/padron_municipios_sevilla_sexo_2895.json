@@ -1,0 +1,964 @@
+[{"COD":"DPOP18298", "Nombre":"Sevilla. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1976624.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18299", "Nombre":"Sevilla. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":963475.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18300", "Nombre":"Sevilla. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1013149.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18301", "Nombre":"Aguadulce. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2109.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18302", "Nombre":"Aguadulce. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1050.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18303", "Nombre":"Aguadulce. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1059.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18304", "Nombre":"Alanís. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1638.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18305", "Nombre":"Alanís. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":807.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18306", "Nombre":"Alanís. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":831.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18307", "Nombre":"Albaida del Aljarafe. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3220.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18308", "Nombre":"Albaida del Aljarafe. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1571.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18309", "Nombre":"Albaida del Aljarafe. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1649.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18310", "Nombre":"Alcalá de Guadaíra. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":77474.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18311", "Nombre":"Alcalá de Guadaíra. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":38420.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18312", "Nombre":"Alcalá de Guadaíra. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":39054.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18313", "Nombre":"Alcalá del Río. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":12335.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18314", "Nombre":"Alcalá del Río. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":6215.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18315", "Nombre":"Alcalá del Río. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":6120.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18316", "Nombre":"Alcolea del Río. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3265.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18317", "Nombre":"Alcolea del Río. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1626.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18318", "Nombre":"Alcolea del Río. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1639.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18319", "Nombre":"Algaba, La. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":16803.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18320", "Nombre":"Algaba, La. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":8282.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18321", "Nombre":"Algaba, La. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":8521.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18322", "Nombre":"Algámitas. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1258.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18323", "Nombre":"Algámitas. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":662.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18324", "Nombre":"Algámitas. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":596.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18325", "Nombre":"Almadén de la Plata. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1328.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18326", "Nombre":"Almadén de la Plata. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":687.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18327", "Nombre":"Almadén de la Plata. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":641.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18328", "Nombre":"Almensilla. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":6646.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18329", "Nombre":"Almensilla. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3312.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18330", "Nombre":"Almensilla. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3334.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18331", "Nombre":"Arahal. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":19546.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18332", "Nombre":"Arahal. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":9740.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18333", "Nombre":"Arahal. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":9806.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18334", "Nombre":"Aznalcázar. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4875.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18335", "Nombre":"Aznalcázar. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2475.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18336", "Nombre":"Aznalcázar. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2400.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18337", "Nombre":"Aznalcóllar. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":6096.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18338", "Nombre":"Aznalcóllar. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3073.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18339", "Nombre":"Aznalcóllar. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3023.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18340", "Nombre":"Badolatosa. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3058.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18341", "Nombre":"Badolatosa. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1573.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18342", "Nombre":"Badolatosa. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1485.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18343", "Nombre":"Benacazón. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":7363.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18344", "Nombre":"Benacazón. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3676.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18345", "Nombre":"Benacazón. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3687.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18346", "Nombre":"Bollullos de la Mitación. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":11431.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18347", "Nombre":"Bollullos de la Mitación. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":5718.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18348", "Nombre":"Bollullos de la Mitación. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":5713.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18349", "Nombre":"Bormujos. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":23071.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18350", "Nombre":"Bormujos. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":11382.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18351", "Nombre":"Bormujos. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":11689.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18352", "Nombre":"Brenes. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":12975.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18353", "Nombre":"Brenes. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":6455.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18354", "Nombre":"Brenes. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":6520.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18355", "Nombre":"Burguillos. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":7448.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18356", "Nombre":"Burguillos. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3777.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18357", "Nombre":"Burguillos. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3671.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18358", "Nombre":"Cabezas de San Juan, Las. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":16388.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18359", "Nombre":"Cabezas de San Juan, Las. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":8138.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18360", "Nombre":"Cabezas de San Juan, Las. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":8250.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18361", "Nombre":"Camas. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":29089.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18362", "Nombre":"Camas. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":14297.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18363", "Nombre":"Camas. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":14792.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18364", "Nombre":"Campana, La. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":5122.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18365", "Nombre":"Campana, La. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2570.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18366", "Nombre":"Campana, La. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2552.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18367", "Nombre":"Cantillana. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":10780.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18368", "Nombre":"Cantillana. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":5457.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18369", "Nombre":"Cantillana. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":5323.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18607", "Nombre":"Cañada Rosal. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3481.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18608", "Nombre":"Cañada Rosal. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1727.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18609", "Nombre":"Cañada Rosal. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1754.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18370", "Nombre":"Carmona. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":30240.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18371", "Nombre":"Carmona. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":15225.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18372", "Nombre":"Carmona. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":15015.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18373", "Nombre":"Carrión de los Céspedes. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2647.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18374", "Nombre":"Carrión de los Céspedes. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1293.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18375", "Nombre":"Carrión de los Céspedes. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1354.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18376", "Nombre":"Casariche. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":5291.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18377", "Nombre":"Casariche. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2701.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18378", "Nombre":"Casariche. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2590.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18379", "Nombre":"Castilblanco de los Arroyos. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":5145.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18380", "Nombre":"Castilblanco de los Arroyos. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2590.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18381", "Nombre":"Castilblanco de los Arroyos. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2555.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18382", "Nombre":"Castilleja de Guzmán. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2843.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18383", "Nombre":"Castilleja de Guzmán. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1457.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18384", "Nombre":"Castilleja de Guzmán. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1386.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18385", "Nombre":"Castilleja de la Cuesta. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":17074.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18386", "Nombre":"Castilleja de la Cuesta. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":8239.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18387", "Nombre":"Castilleja de la Cuesta. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":8835.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18388", "Nombre":"Castilleja del Campo. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":611.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18389", "Nombre":"Castilleja del Campo. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":304.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18390", "Nombre":"Castilleja del Campo. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":307.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18391", "Nombre":"Castillo de las Guardas, El. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1501.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18392", "Nombre":"Castillo de las Guardas, El. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":790.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18393", "Nombre":"Castillo de las Guardas, El. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":711.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18394", "Nombre":"Cazalla de la Sierra. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4626.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18395", "Nombre":"Cazalla de la Sierra. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2291.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18396", "Nombre":"Cazalla de la Sierra. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2335.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18397", "Nombre":"Constantina. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":5745.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18398", "Nombre":"Constantina. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2861.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18399", "Nombre":"Constantina. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2884.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18400", "Nombre":"Coria del Río. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":31278.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18401", "Nombre":"Coria del Río. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":15405.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18402", "Nombre":"Coria del Río. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":15873.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18403", "Nombre":"Coripe. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1218.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18404", "Nombre":"Coripe. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":601.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18405", "Nombre":"Coripe. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":617.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18406", "Nombre":"Coronil, El. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4659.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18407", "Nombre":"Coronil, El. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2352.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18408", "Nombre":"Coronil, El. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2307.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18409", "Nombre":"Corrales, Los. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4021.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18410", "Nombre":"Corrales, Los. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2030.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18411", "Nombre":"Corrales, Los. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1991.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18613", "Nombre":"Cuervo de Sevilla, El. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":8783.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18614", "Nombre":"Cuervo de Sevilla, El. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4421.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18615", "Nombre":"Cuervo de Sevilla, El. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4362.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18412", "Nombre":"Dos Hermanas. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":142519.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18413", "Nombre":"Dos Hermanas. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":69726.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18414", "Nombre":"Dos Hermanas. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":72793.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18415", "Nombre":"Écija. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":39659.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18416", "Nombre":"Écija. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":19506.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18417", "Nombre":"Écija. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":20153.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18418", "Nombre":"Espartinas. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":16479.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18419", "Nombre":"Espartinas. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":8191.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18420", "Nombre":"Espartinas. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":8288.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18421", "Nombre":"Estepa. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":12430.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18422", "Nombre":"Estepa. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":6135.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18423", "Nombre":"Estepa. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":6295.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18424", "Nombre":"Fuentes de Andalucía. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":7247.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18425", "Nombre":"Fuentes de Andalucía. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3591.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18426", "Nombre":"Fuentes de Andalucía. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3656.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18427", "Nombre":"Garrobo, El. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":800.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18428", "Nombre":"Garrobo, El. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":410.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18429", "Nombre":"Garrobo, El. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":390.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18430", "Nombre":"Gelves. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":10548.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18431", "Nombre":"Gelves. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":5239.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18432", "Nombre":"Gelves. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":5309.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18433", "Nombre":"Gerena. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":7971.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18434", "Nombre":"Gerena. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3918.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18435", "Nombre":"Gerena. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4053.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18436", "Nombre":"Gilena. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3647.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18437", "Nombre":"Gilena. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1841.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18438", "Nombre":"Gilena. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1806.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18439", "Nombre":"Gines. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":13634.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18440", "Nombre":"Gines. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":6681.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18441", "Nombre":"Gines. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":6953.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18442", "Nombre":"Guadalcanal. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2544.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18443", "Nombre":"Guadalcanal. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1264.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18444", "Nombre":"Guadalcanal. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1280.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18445", "Nombre":"Guillena. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":14260.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18446", "Nombre":"Guillena. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":7238.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18447", "Nombre":"Guillena. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":7022.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18448", "Nombre":"Herrera. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":6575.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18449", "Nombre":"Herrera. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3257.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18450", "Nombre":"Herrera. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3318.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18451", "Nombre":"Huévar del Aljarafe. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3388.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18452", "Nombre":"Huévar del Aljarafe. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1755.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18453", "Nombre":"Huévar del Aljarafe. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1633.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18610", "Nombre":"Isla Mayor. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":5748.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18611", "Nombre":"Isla Mayor. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2876.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18612", "Nombre":"Isla Mayor. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2872.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18454", "Nombre":"Lantejuela. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3857.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18455", "Nombre":"Lantejuela. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1977.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18456", "Nombre":"Lantejuela. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1880.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18457", "Nombre":"Lebrija. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":27788.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18458", "Nombre":"Lebrija. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":13809.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18459", "Nombre":"Lebrija. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":13979.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18460", "Nombre":"Lora de Estepa. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":890.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18461", "Nombre":"Lora de Estepa. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":474.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18462", "Nombre":"Lora de Estepa. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":416.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18463", "Nombre":"Lora del Río. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":18122.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18464", "Nombre":"Lora del Río. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":8885.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18465", "Nombre":"Lora del Río. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":9237.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18466", "Nombre":"Luisiana, La. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4618.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18467", "Nombre":"Luisiana, La. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2323.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18468", "Nombre":"Luisiana, La. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2295.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18469", "Nombre":"Madroño, El. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":286.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18470", "Nombre":"Madroño, El. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":144.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18471", "Nombre":"Madroño, El. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":142.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18472", "Nombre":"Mairena del Alcor. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":24339.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18473", "Nombre":"Mairena del Alcor. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":12146.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18474", "Nombre":"Mairena del Alcor. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":12193.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18475", "Nombre":"Mairena del Aljarafe. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":48017.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18476", "Nombre":"Mairena del Aljarafe. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":23286.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18477", "Nombre":"Mairena del Aljarafe. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":24731.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18478", "Nombre":"Marchena. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":19405.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18479", "Nombre":"Marchena. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":9561.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18480", "Nombre":"Marchena. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":9844.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18481", "Nombre":"Marinaleda. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2562.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18482", "Nombre":"Marinaleda. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1289.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18483", "Nombre":"Marinaleda. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1273.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18484", "Nombre":"Martín de la Jara. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2627.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18485", "Nombre":"Martín de la Jara. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1349.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18486", "Nombre":"Martín de la Jara. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1278.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18487", "Nombre":"Molares, Los. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3659.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18488", "Nombre":"Molares, Los. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1862.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18489", "Nombre":"Molares, Los. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1797.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18490", "Nombre":"Montellano. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":7032.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18491", "Nombre":"Montellano. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3514.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18492", "Nombre":"Montellano. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3518.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18493", "Nombre":"Morón de la Frontera. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":27210.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18494", "Nombre":"Morón de la Frontera. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":13379.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18495", "Nombre":"Morón de la Frontera. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":13831.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18496", "Nombre":"Navas de la Concepción, Las. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1501.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18497", "Nombre":"Navas de la Concepción, Las. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":740.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18498", "Nombre":"Navas de la Concepción, Las. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":761.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18499", "Nombre":"Olivares. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":9537.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18500", "Nombre":"Olivares. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4765.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18501", "Nombre":"Olivares. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4772.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18502", "Nombre":"Osuna. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":17396.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18503", "Nombre":"Osuna. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":8636.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18504", "Nombre":"Osuna. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":8760.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18505", "Nombre":"Palacios y Villafranca, Los. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":38761.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18506", "Nombre":"Palacios y Villafranca, Los. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":19233.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18507", "Nombre":"Palacios y Villafranca, Los. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":19528.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP61934", "Nombre":"Palmar de Troya, El. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2301.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP61933", "Nombre":"Palmar de Troya, El. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1139.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP61932", "Nombre":"Palmar de Troya, El. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1162.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18508", "Nombre":"Palomares del Río. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":9421.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18509", "Nombre":"Palomares del Río. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4716.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18510", "Nombre":"Palomares del Río. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4705.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18511", "Nombre":"Paradas. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":6762.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18512", "Nombre":"Paradas. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3372.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18513", "Nombre":"Paradas. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3390.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18514", "Nombre":"Pedrera. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":5057.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18515", "Nombre":"Pedrera. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2488.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18516", "Nombre":"Pedrera. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2569.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18517", "Nombre":"Pedroso, El. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2062.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18518", "Nombre":"Pedroso, El. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1021.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18519", "Nombre":"Pedroso, El. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1041.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18520", "Nombre":"Peñaflor. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3628.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18521", "Nombre":"Peñaflor. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1817.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18522", "Nombre":"Peñaflor. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1811.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18523", "Nombre":"Pilas. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":14222.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18524", "Nombre":"Pilas. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":7106.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18525", "Nombre":"Pilas. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":7116.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18526", "Nombre":"Pruna. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2461.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18527", "Nombre":"Pruna. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1256.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18528", "Nombre":"Pruna. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1205.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18529", "Nombre":"Puebla de Cazalla, La. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":10830.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18530", "Nombre":"Puebla de Cazalla, La. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":5392.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18531", "Nombre":"Puebla de Cazalla, La. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":5438.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18532", "Nombre":"Puebla de los Infantes, La. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2949.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18533", "Nombre":"Puebla de los Infantes, La. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1431.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18534", "Nombre":"Puebla de los Infantes, La. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1518.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18535", "Nombre":"Puebla del Río, La. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":11903.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18536", "Nombre":"Puebla del Río, La. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":5815.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18537", "Nombre":"Puebla del Río, La. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":6088.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18538", "Nombre":"Real de la Jara, El. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1517.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18539", "Nombre":"Real de la Jara, El. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":747.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18540", "Nombre":"Real de la Jara, El. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":770.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18541", "Nombre":"Rinconada, La. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":40724.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18542", "Nombre":"Rinconada, La. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":20224.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18543", "Nombre":"Rinconada, La. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":20500.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18544", "Nombre":"Roda de Andalucía, La. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4168.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18545", "Nombre":"Roda de Andalucía, La. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2065.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18546", "Nombre":"Roda de Andalucía, La. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2103.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18547", "Nombre":"Ronquillo, El. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1453.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18548", "Nombre":"Ronquillo, El. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":744.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18549", "Nombre":"Ronquillo, El. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":709.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18550", "Nombre":"Rubio, El. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3287.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18551", "Nombre":"Rubio, El. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1626.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18552", "Nombre":"Rubio, El. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":1661.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18553", "Nombre":"Salteras. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":5604.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18554", "Nombre":"Salteras. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2734.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18555", "Nombre":"Salteras. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2870.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18556", "Nombre":"San Juan de Aznalfarache. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":23408.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18557", "Nombre":"San Juan de Aznalfarache. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":11293.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18558", "Nombre":"San Juan de Aznalfarache. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":12115.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18562", "Nombre":"San Nicolás del Puerto. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":604.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18563", "Nombre":"San Nicolás del Puerto. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":315.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18564", "Nombre":"San Nicolás del Puerto. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":289.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18559", "Nombre":"Sanlúcar la Mayor. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":14648.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18560", "Nombre":"Sanlúcar la Mayor. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":7196.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18561", "Nombre":"Sanlúcar la Mayor. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":7452.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18565", "Nombre":"Santiponce. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":8634.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18566", "Nombre":"Santiponce. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4230.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18567", "Nombre":"Santiponce. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4404.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18568", "Nombre":"Saucejo, El. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4189.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18569", "Nombre":"Saucejo, El. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2080.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18570", "Nombre":"Saucejo, El. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2109.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18571", "Nombre":"Sevilla. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":689423.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18572", "Nombre":"Sevilla. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":326586.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18573", "Nombre":"Sevilla. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":362837.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18574", "Nombre":"Tocina. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":9431.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18575", "Nombre":"Tocina. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4656.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18576", "Nombre":"Tocina. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4775.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18577", "Nombre":"Tomares. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":25432.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18578", "Nombre":"Tomares. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":12486.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18579", "Nombre":"Tomares. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":12946.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18580", "Nombre":"Umbrete. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":9455.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18581", "Nombre":"Umbrete. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4695.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18582", "Nombre":"Umbrete. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4760.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18583", "Nombre":"Utrera. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":52403.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18584", "Nombre":"Utrera. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":25737.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18585", "Nombre":"Utrera. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":26666.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18586", "Nombre":"Valencina de la Concepción. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":8050.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18587", "Nombre":"Valencina de la Concepción. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3929.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18588", "Nombre":"Valencina de la Concepción. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4121.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18589", "Nombre":"Villamanrique de la Condesa. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":4694.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18590", "Nombre":"Villamanrique de la Condesa. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2292.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18591", "Nombre":"Villamanrique de la Condesa. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2402.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18598", "Nombre":"Villanueva de San Juan. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":986.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18599", "Nombre":"Villanueva de San Juan. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":498.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18600", "Nombre":"Villanueva de San Juan. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":488.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18592", "Nombre":"Villanueva del Ariscal. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":6965.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18593", "Nombre":"Villanueva del Ariscal. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3384.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18594", "Nombre":"Villanueva del Ariscal. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3581.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18595", "Nombre":"Villanueva del Río y Minas. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":5073.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18596", "Nombre":"Villanueva del Río y Minas. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2561.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18597", "Nombre":"Villanueva del Río y Minas. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":2512.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18601", "Nombre":"Villaverde del Río. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":7885.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18602", "Nombre":"Villaverde del Río. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3985.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18603", "Nombre":"Villaverde del Río. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":3900.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18604", "Nombre":"Viso del Alcor, El. Total. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":19458.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18605", "Nombre":"Viso del Alcor, El. Hombres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":9609.0, "Secreto":false}
+]
+}
+,{"COD":"DPOP18606", "Nombre":"Viso del Alcor, El. Mujeres. Total habitantes. Personas. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":9849.0, "Secreto":false}
+]
+}
+]

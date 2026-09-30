@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-5f63442a5f5b4d139f6e417ed6b9c034",
+  "operation_id": "op-472d81a2a80e4f7986f1376517d919a0",
+  "type": "tool_observed",
+  "at": "2026-09-28T21:39:29.846317+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-7307eb7d133344e9957821ebb7ef112e",
+  "state_revision": 946,
+  "data": {
+    "id": "obs-cd777514cda549a6a01eb02e734a8a7d",
+    "tool": "Read",
+    "paths": [
+      {
+        "path": "sistema/controles/guardia.py",
+        "status": "observed_file",
+        "sha256": "af8ebfb41a6319c16bbf7f81e1ed99d03e02782ded81f96638b230e90233a196",
+        "bytes": 24229
+      }
+    ],
+    "at": "2026-09-28T21:39:29.846300+00:00",
+    "scope": "orientation",
+    "turn_id": "observed-7307eb7d133344e9957821ebb7ef112e",
+    "turn_sha256": "083fa60191791fbeffd52f723ef309ca7ced9dd64dc8e9267f85c4397325f0ae"
+  }
+}

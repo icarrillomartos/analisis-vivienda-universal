@@ -1,0 +1,56 @@
+{
+  "schema": 3,
+  "plan_id": "vivienda-gratuita",
+  "plan_version": 1,
+  "project": "vivienda-universal",
+  "encargo": "viabilidad-vivienda-universal-gratuita",
+  "plan_path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/planes/vivienda-gratuita-v1.md",
+  "objective": "Demostrar con datos oficiales si es viable en España la vivienda gratuita universal de por vida financiada con impuestos (modelo A, en detalle) y contrastarla con la vivienda a precio fijo al estilo de Singapur (modelo B), para un directo de YouTube.",
+  "result": {
+    "kind": "interactive_html",
+    "format": "HTML autocontenido, visual y didáctico, con panel de hipótesis interactivo y carpeta de auditoría (datasets, scripts, fuentes)",
+    "audience": "Audiencia general de un directo de YouTube del usuario, de cualquier ideología; explicación junior a junior"
+  },
+  "criteria": [
+    "Tesis descompuesta en preguntas calculables, con hipótesis y condiciones de contorno explícitas",
+    "Todos los datos proceden de fuentes oficiales citadas con fecha; lo no oficial figura como hipótesis con rango",
+    "Coste de la vivienda construido de abajo arriba (suelo, urbanización, materiales, mano de obra, honorarios, licencias, impuestos, financiación) y comparado con compra de parque existente",
+    "Coste total inicial y anual del modelo A en escenarios (hogar/persona adulta; residentes/nacionales; A1 universal/A2 brecha) y su traducción a impuestos por contribuyente",
+    "Capacidad física y temporal evaluada (suelo, visados, empleo del sector)",
+    "Modelo B Singapur documentado con fuentes primarias y adaptado a España con los mismos datos",
+    "Contraste A vs B en dimensiones fiscal, física, temporal y legal, con objeciones de ambos lados",
+    "Cálculos reproducibles mediante scripts y datasets conservados"
+  ],
+  "sources": [
+    {"id": "ine", "name": "Instituto Nacional de Estadística (Censo 2021, ECP, ECH, EPA, CNE, ECV)", "url": "https://www.ine.es"},
+    {"id": "mivau", "name": "Ministerio de Vivienda y Agenda Urbana (valor tasado, precio del suelo, visados, SIU)", "url": "https://www.mivau.gob.es"},
+    {"id": "catastro", "name": "Dirección General del Catastro", "url": "https://www.catastro.hacienda.gob.es"},
+    {"id": "aeat", "name": "Agencia Tributaria (estadísticas IRPF por tramos, recaudación)", "url": "https://sede.agenciatributaria.gob.es"},
+    {"id": "igae", "name": "IGAE / Ministerio de Hacienda (gasto público COFOG)", "url": "https://www.igae.pap.hacienda.gob.es"},
+    {"id": "bde", "name": "Banco de España (deuda, tipos)", "url": "https://www.bde.es"},
+    {"id": "boe", "name": "BOE (convenio colectivo de la construcción)", "url": "https://www.boe.es"},
+    {"id": "eurostat", "name": "Eurostat", "url": "https://ec.europa.eu/eurostat"},
+    {"id": "hdb", "name": "Housing & Development Board, SingStat, CPF Board (Singapur)", "url": "https://www.hdb.gov.sg"}
+  ],
+  "no_sources_reason": null,
+  "artifacts": [
+    {"id": "html-vivienda-gratuita", "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/vivienda-gratuita/r1/index.html", "kind": "interactive_html"},
+    {"id": "auditoria-datos", "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/vivienda-gratuita/r1/auditoria/", "kind": "dataset_and_scripts"}
+  ],
+  "delegated_decisions": [
+    "Elección de indicadores oficiales concretos y tratamiento de datos",
+    "Valores centrales y rangos de hipótesis no cubiertas por fuentes oficiales, siempre declarados",
+    "Diseño visual y estructura de pantallas del HTML",
+    "Uso de subagentes para búsqueda de datos en paralelo"
+  ],
+  "review_scope": {
+    "included": ["España por provincias y grandes ciudades", "Modelo A gratuito en detalle", "Modelo B Singapur como contraste", "Efectos económicos razonados con teoría y datos", "Encaje constitucional básico"],
+    "excluded": ["Propuestas legislativas", "Modelos de equilibrio general simulados", "Otros países salvo mención contextual", "Fuentes no oficiales como dato"]
+  },
+  "required_processes": ["P03", "P08", "P09", "P10", "P12", "P14", "P18"],
+  "limits": {
+    "scope": ["España; modelos A y B definidos en la propuesta v1", "Escenarios por defecto: hogar (alternativo persona adulta), residentes (alternativo nacionales), A1 y A2"],
+    "external_effects": ["Solo lectura web y descarga de datasets públicos de organismos oficiales", "Sin publicación ni envío a terceros; el HTML queda en la bóveda"],
+    "resources": ["Sesión con Opus 5.5; subagentes opcionales para recogida de datos", "Avisar si el volumen de datos descargados supera ~500 MB"]
+  }
+}

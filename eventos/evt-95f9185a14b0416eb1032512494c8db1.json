@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-95f9185a14b0416eb1032512494c8db1",
+  "operation_id": "op-45a66325675b48f3994d28e603fcbcdd",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:20:28.598292+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-dcb881b028ab484180580d1e8ff531bf",
+  "state_revision": 724,
+  "data": {
+    "id": "obs-7cd888b2bf924c2ba562a0465ffcc8c9",
+    "tool": "Write",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/costes/limpio/mano_obra_convenio_construccion_madrid_2025_2026.csv",
+        "status": "observed_file",
+        "sha256": "3e286df52460d34c0bbb96b2b345138defed91acf1291e711f7a15c45f4396d8",
+        "bytes": 1502
+      }
+    ],
+    "at": "2026-09-28T20:20:28.598273+00:00",
+    "scope": "process",
+    "turn_id": "observed-dcb881b028ab484180580d1e8ff531bf",
+    "turn_sha256": "4f4c6191d2841d5710d300c5117968b97b84943b70fe24d78a1ddb74cb716671"
+  }
+}

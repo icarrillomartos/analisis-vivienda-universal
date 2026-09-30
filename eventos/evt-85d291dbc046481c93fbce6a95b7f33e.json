@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "event_id": "evt-85d291dbc046481c93fbce6a95b7f33e",
+  "operation_id": "op-3caca1ee79274b259e4239c0f905f026",
+  "type": "action_start",
+  "at": "2026-09-28T20:50:02.251466+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-a34b6d5bb2d740a69e841109e5e42cd4",
+  "state_revision": 867,
+  "data": {
+    "action": "start",
+    "result": {
+      "decision": "recording",
+      "process": "P12",
+      "authority": "approved_plan",
+      "spec": {
+        "path": "sistema/procesos/12-organizar-y-mantener-conocimiento.md",
+        "sha256": "7f52dea62191a169475562e7641fc9a52f452d22e355b37fadfefea13886b809"
+      },
+      "depth": 1,
+      "tools_are": "medios previstos, no una lista de permisos"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-34b8d190d5894012b5ef15f0c1431cc9",
+  "operation_id": "op-53e3479097b34e699cf595f5000d589b",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:11:55.093911+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-3cebe266853449a1bbfb4c54354cecde",
+  "state_revision": 532,
+  "data": {
+    "id": "obs-658c4f159446442a8b888e42ef7b5bb5",
+    "tool": "Write",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/evidencia/ficha.md",
+        "status": "observed_file",
+        "sha256": "a912c63a72e835826e107ecb334136818ac66b366cae925ee774ee4fe27e6333",
+        "bytes": 44110
+      }
+    ],
+    "at": "2026-09-28T20:11:55.093884+00:00",
+    "scope": "process",
+    "turn_id": "observed-3cebe266853449a1bbfb4c54354cecde",
+    "turn_sha256": "b666d3ef2232b736cea21e8eaaf7634743bf94c23d5b70e3e4638191d0d4e5ad"
+  }
+}

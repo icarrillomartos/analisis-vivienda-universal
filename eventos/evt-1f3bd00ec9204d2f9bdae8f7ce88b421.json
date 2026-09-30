@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-1f3bd00ec9204d2f9bdae8f7ce88b421",
+  "operation_id": "op-8f7ed84f92ce40d299cb2aa3c82d6c00",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:42:29.273434+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-a34b6d5bb2d740a69e841109e5e42cd4",
+  "state_revision": 817,
+  "data": {
+    "id": "obs-bb3dac7048f34194b5bc48867f7a397b",
+    "tool": "Write",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/vivienda-gratuita/r1/auditoria/LEEME.md",
+        "status": "observed_file",
+        "sha256": "77d8739a4d42b763f2a75868900074f768521b0aef7a7accc36d777869fe0e47",
+        "bytes": 2357
+      }
+    ],
+    "at": "2026-09-28T20:42:29.273410+00:00",
+    "scope": "process",
+    "turn_id": "observed-a34b6d5bb2d740a69e841109e5e42cd4",
+    "turn_sha256": "ad8b22bef5182b15a282bf357e98eec37d8b13e95637aba513763890f20c8fe6"
+  }
+}

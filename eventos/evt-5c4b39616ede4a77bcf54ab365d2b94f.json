@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-5c4b39616ede4a77bcf54ab365d2b94f",
+  "operation_id": "op-9eabe11d62fe48d385498f83581e5f99",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:20:50.875143+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-dcb881b028ab484180580d1e8ff531bf",
+  "state_revision": 730,
+  "data": {
+    "id": "obs-2ec251c78ac64bb6af0a0886a9b45e5f",
+    "tool": "Write",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/costes/limpio/bcca_precios_unitarios_clave_jul2023.csv",
+        "status": "observed_file",
+        "sha256": "03a2ef7f6e7d1efe24fa0833f4e7938f7feff6e04bd9a8eda130f655d22493ac",
+        "bytes": 728
+      }
+    ],
+    "at": "2026-09-28T20:20:50.875125+00:00",
+    "scope": "process",
+    "turn_id": "observed-dcb881b028ab484180580d1e8ff531bf",
+    "turn_sha256": "4f4c6191d2841d5710d300c5117968b97b84943b70fe24d78a1ddb74cb716671"
+  }
+}

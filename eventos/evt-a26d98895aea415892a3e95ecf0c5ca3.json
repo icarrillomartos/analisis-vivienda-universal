@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "event_id": "evt-a26d98895aea415892a3e95ecf0c5ca3",
+  "operation_id": "op-04c7ab6e9cf34f7daef874ffe4da5fae",
+  "type": "action_coordinate",
+  "at": "2026-09-28T21:55:50.842789+00:00",
+  "client": "claude",
+  "session_key": "ba34b6bea32860295667668a",
+  "turn_id": "observed-59b537a7a7b745579a5915c5dd972804",
+  "state_revision": 1029,
+  "data": {
+    "action": "coordinate",
+    "result": {
+      "decision": "coordinated",
+      "operation": "release",
+      "owner": "ba34b6bea32860295667668a",
+      "resources": [],
+      "released": [
+        "memoria/indice.md",
+        "memoria/fuentes/ine.md",
+        "memoria/fuentes/eurostat.md",
+        "memoria/fuentes/hdb.md",
+        "memoria/fuentes/estudios.md",
+        "memoria/fuentes/bde.md",
+        "memoria/fuentes/src-vu-r2.md",
+        "memoria/conocimientos/mem-vu-viabilidad-vivienda-gratuita.md"
+      ],
+      "registry": "entorno/control/coordinacion/registro.json",
+      "authority": "coordination_only"
+    }
+  }
+}

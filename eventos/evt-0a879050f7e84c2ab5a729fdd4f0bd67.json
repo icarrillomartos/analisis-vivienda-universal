@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-0a879050f7e84c2ab5a729fdd4f0bd67",
+  "operation_id": "op-c1455119866f4a18ba501b5660a4c510",
+  "type": "action_respond",
+  "at": "2026-09-28T19:43:20.753648+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-10bb40a77266496ab02a634a7d143a79",
+  "state_revision": 35,
+  "data": {
+    "action": "respond",
+    "result": {
+      "decision": "prepared",
+      "response": {
+        "kind": "plan",
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/respuestas/plan-vivienda-gratuita-v2.md",
+        "turn_id": "observed-10bb40a77266496ab02a634a7d143a79",
+        "prepared_at": "2026-09-28T19:43:20.753163+00:00",
+        "plan_digest": "ecfa7f7db6628a2e54310aae56c4c5d618faf20b50953142ed7a501c3cbce736",
+        "plan_path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/planes/vivienda-gratuita-v2.md",
+        "presentation_assessment": "agent: comunicar la propuesta y sus condiciones de forma fiel",
+        "sha256": "b7e6f79eafcc8646dfea4d78495033a73ebec870b4377fefc1f6456fd9a7da9b"
+      }
+    }
+  }
+}

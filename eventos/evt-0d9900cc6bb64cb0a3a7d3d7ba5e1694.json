@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "event_id": "evt-0d9900cc6bb64cb0a3a7d3d7ba5e1694",
+  "operation_id": "op-8b8bec9a30b44051a709f77ad65065d9",
+  "type": "response_stopped",
+  "at": "2026-09-28T19:10:53.874294+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-2d457d79128a4003a38ed74b8dffdddc",
+  "state_revision": 7,
+  "data": {
+    "kind": "question",
+    "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/respuestas/preparada-99d684954ca7b21ad473a4d6.md",
+    "sha256": "0d1affa929da5251bda49bbe42633e6ef684f869fed27a2bf252c3ccaeba5d39"
+  }
+}

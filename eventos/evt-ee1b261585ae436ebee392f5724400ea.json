@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "event_id": "evt-ee1b261585ae436ebee392f5724400ea",
+  "operation_id": "op-bdb7caf590c24a32b98fdcd0dda2e065",
+  "type": "response_stopped",
+  "at": "2026-09-28T20:01:51.865244+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-3cebe266853449a1bbfb4c54354cecde",
+  "state_revision": 155,
+  "data": {
+    "kind": "progress",
+    "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/respuestas/preparada-4d52487ed0aa1cdc0ee8badb.md",
+    "sha256": "4d96d0b56a5e2432e4ad62c40c82fe015009b7652dd2f2c53403b92da6e080b9"
+  }
+}

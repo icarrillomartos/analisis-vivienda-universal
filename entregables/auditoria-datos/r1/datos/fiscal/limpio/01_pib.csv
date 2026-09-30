@@ -1,0 +1,12 @@
+periodo,pib_corriente_mill_eur,variacion_anual_pct,fuente,tipo_dato
+2024T3,395130.0,,INE CNTR (API Tempus tabla 67823),dato base precios corrientes NSA
+2024T4,421586.0,,INE CNTR (API Tempus tabla 67823),dato base precios corrientes NSA
+2025T1,397762.0,4.96,INE CNTR (API Tempus tabla 67823),provisional
+2025T2,423891.0,5.21,INE CNTR (API Tempus tabla 67823),provisional
+2025T3,417091.0,5.56,INE CNTR (API Tempus tabla 67823),provisional
+2025T4,451268.0,7.04,INE CNTR (API Tempus tabla 67823),provisional
+2025 (suma trimestres),1690012.0,5.8,INE CNTR / AEAT Informe Anual Recaudacion 2025 (confirma +5.8% nominal),calculado sumando 4 trimestres 2025
+2026T1,422650.0,6.26,INE CNTR (API Tempus tabla 67823),provisional
+2026T2,447365.0,5.54,INE CNTR (API Tempus tabla 67823),provisional
+2026 (proyeccion BdE, junio 2026),1774513.0,5.0,Banco de España Informe Trimestral T2 2026 (Cuadro 2),proyeccion oficial (PIB nominal 2025 x (1+5.0%) crecimiento nominal proyectado)
+2027 (proyeccion BdE, junio 2026),1850736.0,4.3,Banco de España Informe Trimestral T2 2026 (Cuadro 2),proyeccion oficial

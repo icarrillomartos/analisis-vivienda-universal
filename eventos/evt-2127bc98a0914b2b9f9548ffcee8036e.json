@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "event_id": "evt-2127bc98a0914b2b9f9548ffcee8036e",
+  "operation_id": "op-ce88adb93ce94c84a3067da9b0ffb9e1",
+  "type": "action_seal",
+  "at": "2026-09-28T20:51:56.357238+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-a34b6d5bb2d740a69e841109e5e42cd4",
+  "state_revision": 888,
+  "data": {
+    "action": "seal",
+    "result": {
+      "decision": "sealed",
+      "delivery_id": "delivery-ae3fccfa4af32a8871736e32",
+      "operation_id": "delivery-op-ae3fccfa4af32a8871736e32",
+      "plan_digest": "e39db97f825068401b8a402d0a309e1e4148a9095519b54ff3e498db4f89f2fe",
+      "receipt_path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-ae3fccfa4af32a8871736e32/r1/recibo.json",
+      "outcome": "complete",
+      "acceptance": "pending",
+      "sealed_at": "2026-09-28T20:51:56.190683+00:00",
+      "revision": 1,
+      "receipt_sha256": "a4b89544ebbef2b6c0c5f3ad55a0d0804efac37aabc05671eee71c82ba85504a",
+      "snapshots": {
+        "state": {
+          "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-ae3fccfa4af32a8871736e32/r1/estado.md",
+          "sha256": "2606e4d87b8c6f912cd75bdc0046b5d4476fe494b4c67114c07b92ab52ada9dc"
+        },
+        "index": {
+          "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-ae3fccfa4af32a8871736e32/r1/indice.md",
+          "sha256": "20a5a3d7fdb037b69ce6891bd25c6aeeaf3728195d0aa57a0f52f5942286a7d6"
+        },
+        "notes": [
+          {
+            "id": "ine",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-ae3fccfa4af32a8871736e32/r1/fichas/ine.md",
+            "sha256": "8b54dbfcdf29412678d8af39b2da93f0a4250d4c8a99f232adf7e501382c4af2"
+          },
+          {
+            "id": "mivau",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-ae3fccfa4af32a8871736e32/r1/fichas/mivau.md",
+            "sha256": "1b833677d3ed843e015385ada6390556e15a32531e0625e4f3867dafb2d16d78"
+          },
+          {
+            "id": "catastro",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-ae3fccfa4af32a8871736e32/r1/fichas/catastro.md",
+            "sha256": "475730c90bd55d56c4450ad50b7af13fff84091b3668d34f59f288d0e7d79553"
+          },
+          {
+            "id": "aeat",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-ae3fccfa4af32a8871736e32/r1/fichas/aeat.md",
+            "sha256": "bf3030b5483ba93580ea2152063f348a4c2162bb1d12d02a234ae99c2ea785ec"
+          },
+          {
+            "id": "igae",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-ae3fccfa4af32a8871736e32/r1/fichas/igae.md",
+            "sha256": "99d22c1bbc4c908d3afb924a76f9a91df357296be4c7120e2e22fb9dabf9b4ba"
+          },
+          {
+            "id": "bde",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-ae3fccfa4af32a8871736e32/r1/fichas/bde.md",
+            "sha256": "01d48b5a94b86217b7c4b1f1611d02cfa38f8b1835c6fcd3d5f65536c7a6d8ca"
+          },
+          {
+            "id": "boe",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-ae3fccfa4af32a8871736e32/r1/fichas/boe.md",
+            "sha256": "e667a54fa25ee249ec83f2e0865b14eefecaac4b6d049d9d008fcc743a777ced"
+          },
+          {
+            "id": "eurostat",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-ae3fccfa4af32a8871736e32/r1/fichas/eurostat.md",
+            "sha256": "e1398d4c81466a9b12b7c63999c307ee9043717ec9175c7755129fa08a6e27c8"
+          },
+          {
+            "id": "hdb",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-ae3fccfa4af32a8871736e32/r1/fichas/hdb.md",
+            "sha256": "39e26378643142bc240cf429313f1e073a2c3e0f35da0f6c84e3d70ca9fe6be6"
+          },
+          {
+            "id": "estudios",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-ae3fccfa4af32a8871736e32/r1/fichas/estudios.md",
+            "sha256": "62b1df0ef0999ba50a9781a94fd4fced2ddb17701853bd99a1788d64936b0001"
+          },
+          {
+            "id": "html-vivienda-gratuita",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-ae3fccfa4af32a8871736e32/r1/fichas/html-vivienda-gratuita.md",
+            "sha256": "8c1caddf4bdec3acf5d45c13c83d25325a9cbf4666781f58f6af91c049dd83af"
+          },
+          {
+            "id": "auditoria-datos",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-ae3fccfa4af32a8871736e32/r1/fichas/auditoria-datos.md",
+            "sha256": "0d3604a22ecf24211a2b2e7459defe0d71431d90306d8fd6a12e4090e8c447dc"
+          },
+          {
+            "id": "mem-vu-viabilidad-vivienda-gratuita",
+            "source_path": "memoria/conocimientos/mem-vu-viabilidad-vivienda-gratuita.md",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-ae3fccfa4af32a8871736e32/r1/memoria/6caf481a281177137b812c858f3b80c9e249a9c20f70fbdfa1409956c6947fcc.md",
+            "sha256": "05d4a1567d459c4e9441b048cf0d3c5936e1b9c649098d2867188742ad849f39"
+          },
+          {
+            "id": "mem-vu-diagnostico-vivienda-espana",
+            "source_path": "memoria/conocimientos/mem-vu-diagnostico-vivienda-espana.md",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-ae3fccfa4af32a8871736e32/r1/memoria/663a0436e708ad057ca870b751773580def260374be5ba604b9b2b732f196d6e.md",
+            "sha256": "53509ee162a3e01101a7247a5f115884429319beca93f7f0f5dbcec73842331a"
+          },
+          {
+            "id": "mem-perfil-preferencias-analisis",
+            "source_path": "memoria/perfil/mem-perfil-preferencias-analisis.md",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-ae3fccfa4af32a8871736e32/r1/memoria/5b039435971bb731e2af31d129e6d2fdab1c114f1ff2abc53c1c821fed060732.md",
+            "sha256": "01d9b74e62cfd1181b7e98c01bce0c4640a207278c958a6c110cc0cbd8b111bf"
+          }
+        ]
+      }
+    }
+  }
+}

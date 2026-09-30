@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "event_id": "evt-7b04b594c36b413587cac468395939da",
+  "operation_id": "op-507b374c704544358908dca216d3e470",
+  "type": "action_start",
+  "at": "2026-09-28T21:50:01.594816+00:00",
+  "client": "claude",
+  "session_key": "ba34b6bea32860295667668a",
+  "turn_id": "observed-59b537a7a7b745579a5915c5dd972804",
+  "state_revision": 991,
+  "data": {
+    "action": "start",
+    "result": {
+      "decision": "recording",
+      "process": "P03",
+      "authority": "approved_plan",
+      "spec": {
+        "path": "sistema/procesos/03-incorporar-materiales.md",
+        "sha256": "f947983c2e343ba6670db6edfa89750308780703b1c5d4eda2c32b39404fca47"
+      },
+      "depth": 1,
+      "tools_are": "medios previstos, no una lista de permisos"
+    }
+  }
+}

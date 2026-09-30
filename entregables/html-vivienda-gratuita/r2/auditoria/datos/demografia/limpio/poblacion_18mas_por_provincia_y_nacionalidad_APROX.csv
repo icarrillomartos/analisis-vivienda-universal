@@ -1,0 +1,160 @@
+geo,nacionalidad,poblacion_total,poblacion_18mas_aprox,anyo
+Albacete,Total,394702.0,332994,2026
+Albacete,Española,352764.0,298276,2026
+Albacete,Extranjera,41938.0,34718,2026
+Alicante/Alacant,Total,2099866.0,1761551,2026
+Alicante/Alacant,Española,1549057.0,1294310,2026
+Alicante/Alacant,Extranjera,550809.0,467241,2026
+Almería,Total,788934.0,642062,2026
+Almería,Española,598887.0,483897,2026
+Almería,Extranjera,190047.0,158164,2026
+Araba/Álava,Total,345912.0,291503,2026
+Araba/Álava,Española,303313.0,255896,2026
+Araba/Álava,Extranjera,42599.0,35606,2026
+Asturias,Total,1026726.0,902104,2026
+Asturias,Española,942639.0,831556,2026
+Asturias,Extranjera,84087.0,70548,2026
+Badajoz,Total,667584.0,562929,2026
+Badajoz,Española,634734.0,536176,2026
+Badajoz,Extranjera,32850.0,26753,2026
+"Balears, Illes",Total,1266279.0,1064868,2026
+"Balears, Illes",Española,986864.0,823346,2026
+"Balears, Illes",Extranjera,279415.0,241522,2026
+Barcelona,Total,6028373.0,5078779,2026
+Barcelona,Española,4901514.0,4108601,2026
+Barcelona,Extranjera,1126859.0,970178,2026
+Bizkaia,Total,1174948.0,1009443,2026
+Bizkaia,Española,1051921.0,904856,2026
+Bizkaia,Extranjera,123027.0,104587,2026
+Burgos,Total,367864.0,315050,2026
+Burgos,Española,322625.0,277547,2026
+Burgos,Extranjera,45239.0,37503,2026
+Cantabria,Total,599056.0,515924,2026
+Cantabria,Española,545567.0,470837,2026
+Cantabria,Extranjera,53489.0,45087,2026
+Castellón/Castelló,Total,647819.0,541938,2026
+Castellón/Castelló,Española,514895.0,432191,2026
+Castellón/Castelló,Extranjera,132924.0,109747,2026
+Ceuta,Total,84435.0,67484,2026
+Ceuta,Española,78385.0,61883,2026
+Ceuta,Extranjera,6050.0,5601,2026
+Ciudad Real,Total,500441.0,422273,2026
+Ciudad Real,Española,453046.0,383235,2026
+Ciudad Real,Extranjera,47395.0,39038,2026
+"Coruña, A",Total,1146768.0,994150,2026
+"Coruña, A",Española,1063391.0,924183,2026
+"Coruña, A",Extranjera,83377.0,69967,2026
+Cuenca,Total,201233.0,171871,2026
+Cuenca,Española,169316.0,146157,2026
+Cuenca,Extranjera,31917.0,25715,2026
+Cáceres,Total,388265.0,335161,2026
+Cáceres,Española,367127.0,317473,2026
+Cáceres,Extranjera,21138.0,17688,2026
+Cádiz,Total,1267916.0,1061772,2026
+Cádiz,Española,1192247.0,997113,2026
+Cádiz,Extranjera,75669.0,64659,2026
+Córdoba,Total,772913.0,650321,2026
+Córdoba,Española,739073.0,622149,2026
+Córdoba,Extranjera,33840.0,28172,2026
+Gipuzkoa,Total,736532.0,625024,2026
+Gipuzkoa,Española,657934.0,559219,2026
+Gipuzkoa,Extranjera,78598.0,65805,2026
+Girona,Total,840086.0,696988,2026
+Girona,Española,656024.0,541623,2026
+Girona,Extranjera,184062.0,155365,2026
+Granada,Total,959738.0,802891,2026
+Granada,Española,863897.0,721739,2026
+Granada,Extranjera,95841.0,81152,2026
+Guadalajara,Total,293762.0,243067,2026
+Guadalajara,Española,242337.0,200916,2026
+Guadalajara,Extranjera,51425.0,42151,2026
+Huelva,Total,543302.0,454002,2026
+Huelva,Española,476235.0,396189,2026
+Huelva,Extranjera,67067.0,57813,2026
+Huesca,Total,234361.0,198343,2026
+Huesca,Española,194260.0,165184,2026
+Huesca,Extranjera,40101.0,33159,2026
+Jaén,Total,620254.0,524241,2026
+Jaén,Española,588342.0,497736,2026
+Jaén,Extranjera,31912.0,26505,2026
+León,Total,450910.0,396963,2026
+León,Española,417043.0,368548,2026
+León,Extranjera,33867.0,28416,2026
+Lleida,Total,467938.0,390502,2026
+Lleida,Española,361480.0,302201,2026
+Lleida,Extranjera,106458.0,88301,2026
+Lugo,Total,328547.0,288734,2026
+Lugo,Española,297844.0,262919,2026
+Lugo,Extranjera,30703.0,25815,2026
+Madrid,Total,7201554.0,6050661,2026
+Madrid,Española,5972068.0,5000071,2026
+Madrid,Extranjera,1229486.0,1050590,2026
+Melilla,Total,86616.0,66744,2026
+Melilla,Española,75355.0,56783,2026
+Melilla,Extranjera,11261.0,9961,2026
+Murcia,Total,1616189.0,1317436,2026
+Murcia,Española,1344809.0,1091445,2026
+Murcia,Extranjera,271380.0,225991,2026
+Málaga,Total,1820507.0,1521343,2026
+Málaga,Española,1457685.0,1209612,2026
+Málaga,Extranjera,362822.0,311731,2026
+Navarra,Total,692026.0,575945,2026
+Navarra,Española,596129.0,497381,2026
+Navarra,Extranjera,95897.0,78564,2026
+Ourense,Total,307119.0,271779,2026
+Ourense,Española,278901.0,247874,2026
+Ourense,Extranjera,28218.0,23905,2026
+Palencia,Total,160620.0,139589,2026
+Palencia,Española,146510.0,128108,2026
+Palencia,Extranjera,14110.0,11481,2026
+"Palmas, Las",Total,1182281.0,1018560,2026
+"Palmas, Las",Española,1007477.0,865813,2026
+"Palmas, Las",Extranjera,174804.0,152747,2026
+Pontevedra,Total,952060.0,823276,2026
+Pontevedra,Española,891122.0,771147,2026
+Pontevedra,Extranjera,60938.0,52130,2026
+"Rioja, La",Total,330756.0,278610,2026
+"Rioja, La",Española,279069.0,236747,2026
+"Rioja, La",Extranjera,51687.0,41863,2026
+Salamanca,Total,331264.0,288973,2026
+Salamanca,Española,304518.0,266504,2026
+Salamanca,Extranjera,26746.0,22469,2026
+Santa Cruz de Tenerife,Total,1095424.0,946440,2026
+Santa Cruz de Tenerife,Española,920538.0,794610,2026
+Santa Cruz de Tenerife,Extranjera,174886.0,151830,2026
+Segovia,Total,161261.0,137675,2026
+Segovia,Española,136044.0,116847,2026
+Segovia,Extranjera,25217.0,20828,2026
+Sevilla,Total,2004487.0,1662841,2026
+Sevilla,Española,1874763.0,1551400,2026
+Sevilla,Extranjera,129724.0,111441,2026
+Soria,Total,90559.0,77689,2026
+Soria,Española,77913.0,67547,2026
+Soria,Extranjera,12646.0,10142,2026
+Tarragona,Total,897391.0,747174,2026
+Tarragona,Española,716370.0,595578,2026
+Tarragona,Extranjera,181021.0,151596,2026
+Teruel,Total,137488.0,116741,2026
+Teruel,Española,116572.0,99759,2026
+Teruel,Extranjera,20916.0,16982,2026
+Toledo,Total,779103.0,639658,2026
+Toledo,Española,665661.0,548517,2026
+Toledo,Extranjera,113442.0,91141,2026
+Total Nacional,Total,49801559.0,42009991,2026
+Total Nacional,Española,42364016.0,35711197,2026
+Total Nacional,Extranjera,7437543.0,6298795,2026
+Valencia/València,Total,2827263.0,2379480,2026
+Valencia/València,Española,2337181.0,1970936,2026
+Valencia/València,Extranjera,490082.0,408544,2026
+Valladolid,Total,536425.0,459409,2026
+Valladolid,Española,489099.0,420597,2026
+Valladolid,Extranjera,47326.0,38811,2026
+Zamora,Total,165510.0,147337,2026
+Zamora,Española,153812.0,137641,2026
+Zamora,Extranjera,11698.0,9696,2026
+Zaragoza,Total,1017449.0,859630,2026
+Zaragoza,Española,854882.0,724505,2026
+Zaragoza,Extranjera,162567.0,135125,2026
+Ávila,Total,162743.0,140069,2026
+Ávila,Española,144777.0,125822,2026
+Ávila,Extranjera,17966.0,14247,2026

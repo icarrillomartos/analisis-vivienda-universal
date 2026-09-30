@@ -1,0 +1,236 @@
+{
+  "_nota": "Hipótesis y condiciones de contorno del modelo. 'tipo': dato (fuente oficial), derivado (cálculo propio con datos oficiales) o hipotesis (sin dato oficial; se da un rango).",
+  "modulo_1p_util_m2": {
+    "valor": 42,
+    "rango": [
+      35,
+      50
+    ],
+    "tipo": "derivado",
+    "fuente": "Máximo de los mínimos de habitabilidad: PGOUM Madrid 38 m² útiles, art. 7.3.4, más un 10 % para compartimentar y almacenar (ficha digna §6)"
+  },
+  "ratio_util_construida": {
+    "valor": 0.8,
+    "rango": [
+      0.75,
+      0.85
+    ],
+    "tipo": "hipotesis",
+    "fuente": "Práctica habitual de tasación; ninguna norma estatal fija el coeficiente"
+  },
+  "modulo_util_por_tamano_hogar": {
+    "valor": {
+      "1": 42,
+      "2": 50,
+      "3": 60,
+      "4+": 70
+    },
+    "tipo": "hipotesis",
+    "fuente": "1 y 2 personas según ficha digna §6; 3 y 4 o más, escalando con los incrementos por ocupante de la tabla 7 del Decreto 80/2023 (C. Valenciana) y por debajo del máximo VPO de 90 m² útiles"
+  },
+  "modulo_minimo_legal_util_m2": {
+    "valor": 35,
+    "tipo": "dato",
+    "fuente": "Mínimo absoluto: Decreto 80/2023 C. Valenciana y Decreto 80/2022 País Vasco (35 m² útiles)"
+  },
+  "pem_eur_m2c_2024": {
+    "valor": 888,
+    "tipo": "dato",
+    "fuente": "IVE (Generalitat Valenciana), informe de costes de construcción y VPO, jun-2024, p. 5"
+  },
+  "actualizacion_pem_2024_2026": {
+    "valor": 0.07,
+    "rango": [
+      0.03,
+      0.12
+    ],
+    "tipo": "hipotesis",
+    "fuente": "Convenio de la construcción: +3,5 % en 2025 y +3,0 % en 2026 (BOE-A-2025-25234), aplicado al conjunto del PEM por falta de un índice oficial de materiales descargado"
+  },
+  "peso_mano_obra_pem": {
+    "valor": 0.4,
+    "rango": [
+      0.35,
+      0.45
+    ],
+    "tipo": "hipotesis",
+    "fuente": "IVE cita una participación de la mano de obra del 35-42 % en la revisión de precios (RD 1359/2011)"
+  },
+  "coste_hora_oficial_eur": {
+    "valor": 23.17,
+    "tipo": "dato",
+    "fuente": "BCCA Junta de Andalucía, jul-2023, código TO00100 (coste por hora con cargas incluidas)"
+  },
+  "gastos_generales_pct_pem": {
+    "valor": 0.13,
+    "tipo": "dato",
+    "fuente": "RD 1098/2001, art. 131"
+  },
+  "beneficio_industrial_pct_pem": {
+    "valor": 0.06,
+    "tipo": "dato",
+    "fuente": "RD 1098/2001, art. 131"
+  },
+  "honorarios_tecnicos_pct_pem": {
+    "valor": 0.09,
+    "rango": [
+      0.06,
+      0.12
+    ],
+    "tipo": "hipotesis",
+    "fuente": "No hay baremo oficial (STC 116/1997). Referencia: licitación Casa47 en Sevilla, 737.660 € solo por el proyecto de 146 viviendas, ≈7 % del PEM estimado; se añade la dirección de obra"
+  },
+  "seguridad_salud_pct_pem": {
+    "valor": 0.015,
+    "rango": [
+      0.01,
+      0.02
+    ],
+    "tipo": "hipotesis",
+    "fuente": "RD 1627/1997 obliga a presupuestarlo, pero no fija la cuantía"
+  },
+  "control_calidad_pct_pem": {
+    "valor": 0.01,
+    "rango": [
+      0.005,
+      0.015
+    ],
+    "tipo": "hipotesis",
+    "fuente": "Sin porcentaje legal"
+  },
+  "seguro_decenal_pct_pem": {
+    "valor": 0.01,
+    "rango": [
+      0.005,
+      0.015
+    ],
+    "tipo": "hipotesis",
+    "fuente": "LOE art. 19: obligatorio, prima de mercado"
+  },
+  "icio_pct_pem": {
+    "valor": 0.04,
+    "tipo": "dato",
+    "fuente": "TRLRHL art. 102.3, tipo máximo (Madrid capital 3,75 %)"
+  },
+  "tasas_licencia_pct_pem": {
+    "valor": 0.005,
+    "rango": [
+      0.002,
+      0.01
+    ],
+    "tipo": "hipotesis",
+    "fuente": "Ordenanzas municipales, variables"
+  },
+  "financiacion_obra_pct": {
+    "valor": 0.036,
+    "tipo": "derivado",
+    "fuente": "2 años de obra con la mitad del coste dispuesto al 3,64 % (bono a 10 años, BdE, ago-2026)"
+  },
+  "gestion_promocion_pct": {
+    "valor": 0.03,
+    "rango": [
+      0.02,
+      0.05
+    ],
+    "tipo": "hipotesis",
+    "fuente": "Gestión de un promotor público sin beneficio"
+  },
+  "notaria_registro_ajd_pct": {
+    "valor": 0.01,
+    "tipo": "derivado",
+    "fuente": "AJD del 0,75-1,5 % según CCAA más aranceles (RD 1426 y 1427/1989)"
+  },
+  "iva_vivienda_pct": {
+    "valor": 0.1,
+    "tipo": "dato",
+    "fuente": "Ley 37/1992, art. 91 (4 % en VPO de régimen especial)"
+  },
+  "edificabilidad_m2t_m2s": {
+    "valor": 2.0,
+    "rango": [
+      1.2,
+      3.0
+    ],
+    "tipo": "hipotesis",
+    "fuente": "Para pasar el precio del suelo urbano (€/m² de suelo, MIVAU) a repercusión por m² construido"
+  },
+  "reuso_no_principales_pct": {
+    "valor": 0.2,
+    "rango": [
+      0,
+      0.5
+    ],
+    "tipo": "hipotesis",
+    "fuente": "Solo el 18 % de las vacías está en ciudades medianas o grandes (OCDE 2025, p. 41); el resto de no principales son segundas residencias"
+  },
+  "sustituir_viviendas_estado_malo": {
+    "valor": 628950,
+    "tipo": "dato",
+    "fuente": "Censo 2021, tpx=56894: viviendas principales en edificios en estado «Malo»"
+  },
+  "mantenimiento_pct_anual": {
+    "valor": 0.01,
+    "rango": [
+      0.005,
+      0.015
+    ],
+    "tipo": "hipotesis",
+    "fuente": "Conservación anual sobre el coste de construcción"
+  },
+  "vida_util_anios": {
+    "valor": 80,
+    "rango": [
+      60,
+      100
+    ],
+    "tipo": "hipotesis",
+    "fuente": "Reposición del parque público"
+  },
+  "tipo_interes_deuda": {
+    "valor": 0.0364,
+    "tipo": "dato",
+    "fuente": "BdE, Boletín Estadístico 22.7, bono a 10 años, ago-2026"
+  },
+  "ritmo_max_viviendas_anio": {
+    "valor": 597632,
+    "tipo": "dato",
+    "fuente": "MIVAU, viviendas libres terminadas en 2006 (máximo histórico)"
+  },
+  "ritmo_actual_viviendas_anio": {
+    "valor": 80792,
+    "tipo": "dato",
+    "fuente": "MIVAU, viviendas libres terminadas en 2025"
+  },
+  "iva_recaudacion_por_punto_eur": {
+    "valor": 3500000000.0,
+    "rango": [
+      3000000000.0,
+      4200000000.0
+    ],
+    "tipo": "derivado",
+    "fuente": "Estimación propia: IVA 2025 (AEAT) menos lo recaudado a tipos reducidos (bases de la Memoria de Beneficios Fiscales 2023 actualizadas un 12 %), dividido entre 21"
+  },
+  "hdb_es_viviendas_anio": {
+    "valor": 100000,
+    "rango": [
+      50000,
+      200000
+    ],
+    "tipo": "hipotesis",
+    "fuente": "Programa de contraste: cierra el déficit del BdE (~600.000-755.000) en unos 7 años más la formación de hogares"
+  },
+  "hdb_es_m2c": {
+    "valor": 70,
+    "tipo": "hipotesis",
+    "fuente": "Vivienda media de 2 dormitorios (≈56 m² útiles)"
+  },
+  "horizonte_financiacion_anios": {
+    "valor": 30,
+    "rango": [
+      10,
+      50
+    ],
+    "tipo": "hipotesis",
+    "fuente": "Plazo en el que se reparte el coste inicial entre los contribuyentes, parecido al de una hipoteca; no es el plazo físico de construcción"
+  }
+}

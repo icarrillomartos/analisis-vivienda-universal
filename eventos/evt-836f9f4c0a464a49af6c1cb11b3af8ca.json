@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-836f9f4c0a464a49af6c1cb11b3af8ca",
+  "operation_id": "op-8d48db05ce3c4af59f95fabe378d407c",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:22:51.777865+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-97352f7c3d0f4704b1b6314eb811bf8c",
+  "state_revision": 753,
+  "data": {
+    "id": "obs-e57394e0f7c043a6a11ddbd700651ff4",
+    "tool": "Write",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/fiscal/scripts/fetch_eurostat.py",
+        "status": "observed_file",
+        "sha256": "1b9a85a1675890b044eaffc990e6649fcd3ab01c3e27f43f0a2b04d1569f0d53",
+        "bytes": 4578
+      }
+    ],
+    "at": "2026-09-28T20:22:51.777846+00:00",
+    "scope": "process",
+    "turn_id": "observed-97352f7c3d0f4704b1b6314eb811bf8c",
+    "turn_sha256": "721ba173ab322e95fe5219f89b1016f80cf8faf8a39dea568e19d12b88a2ecc2"
+  }
+}

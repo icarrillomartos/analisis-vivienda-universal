@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-84c29dbb4ee34c6e84343c1d5e19e9d9",
+  "operation_id": "op-20ba3869918b4e2d98414cf900fbdf41",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:41:39.277999+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-a34b6d5bb2d740a69e841109e5e42cd4",
+  "state_revision": 811,
+  "data": {
+    "id": "obs-b4fd1937e1b34eb28fd09d3fd191d600",
+    "tool": "Read",
+    "paths": [
+      {
+        "path": "sistema/plantillas/fuente.md",
+        "status": "observed_file",
+        "sha256": "866f81c71d9683d871aae3b0d3e6638403235fa6a80f68629ae682ee4c3e9e55",
+        "bytes": 857
+      }
+    ],
+    "at": "2026-09-28T20:41:39.277979+00:00",
+    "scope": "process",
+    "turn_id": "observed-a34b6d5bb2d740a69e841109e5e42cd4",
+    "turn_sha256": "ad8b22bef5182b15a282bf357e98eec37d8b13e95637aba513763890f20c8fe6"
+  }
+}

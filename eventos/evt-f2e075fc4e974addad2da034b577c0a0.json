@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "event_id": "evt-f2e075fc4e974addad2da034b577c0a0",
+  "operation_id": "op-2efe9c9114804e96894b680f0ef4ecee",
+  "type": "action_seal",
+  "at": "2026-09-28T21:59:11.793996+00:00",
+  "client": "claude",
+  "session_key": "ba34b6bea32860295667668a",
+  "turn_id": "observed-59b537a7a7b745579a5915c5dd972804",
+  "state_revision": 1060,
+  "data": {
+    "action": "seal",
+    "result": {
+      "decision": "sealed",
+      "delivery_id": "delivery-dcd78e97a12fa4da8c107008",
+      "operation_id": "delivery-op-dcd78e97a12fa4da8c107008",
+      "plan_digest": "e39db97f825068401b8a402d0a309e1e4148a9095519b54ff3e498db4f89f2fe",
+      "receipt_path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-dcd78e97a12fa4da8c107008/r2/recibo.json",
+      "outcome": "complete",
+      "acceptance": "pending",
+      "sealed_at": "2026-09-28T21:59:11.596614+00:00",
+      "revision": 2,
+      "receipt_sha256": "5e3c032a70fa4404b85663b69402bc38125b69bd37662cb40d8237d15032b699",
+      "snapshots": {
+        "state": {
+          "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-dcd78e97a12fa4da8c107008/r2/estado.md",
+          "sha256": "2fdd1a48bdfb36b59e28052d9f49a759b4d7ca7eb1056a77d294264d4ae22e0e"
+        },
+        "index": {
+          "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-dcd78e97a12fa4da8c107008/r2/indice.md",
+          "sha256": "c8cbfc5afc8396964be909ac53e6c9c865884c511c265639d8cb0e87057f99a1"
+        },
+        "notes": [
+          {
+            "id": "ine",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-dcd78e97a12fa4da8c107008/r2/fichas/ine.md",
+            "sha256": "bd912c458a809f3f9c5ca3a3745330eb8182051c80964810cdac3dae2b1a6421"
+          },
+          {
+            "id": "mivau",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-dcd78e97a12fa4da8c107008/r2/fichas/mivau.md",
+            "sha256": "1b833677d3ed843e015385ada6390556e15a32531e0625e4f3867dafb2d16d78"
+          },
+          {
+            "id": "catastro",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-dcd78e97a12fa4da8c107008/r2/fichas/catastro.md",
+            "sha256": "475730c90bd55d56c4450ad50b7af13fff84091b3668d34f59f288d0e7d79553"
+          },
+          {
+            "id": "aeat",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-dcd78e97a12fa4da8c107008/r2/fichas/aeat.md",
+            "sha256": "bf3030b5483ba93580ea2152063f348a4c2162bb1d12d02a234ae99c2ea785ec"
+          },
+          {
+            "id": "igae",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-dcd78e97a12fa4da8c107008/r2/fichas/igae.md",
+            "sha256": "99d22c1bbc4c908d3afb924a76f9a91df357296be4c7120e2e22fb9dabf9b4ba"
+          },
+          {
+            "id": "bde",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-dcd78e97a12fa4da8c107008/r2/fichas/bde.md",
+            "sha256": "8e622bc2b5ce4a5de276a604b10f8a0dc1d9defd135e0daa9da759a9b491e272"
+          },
+          {
+            "id": "boe",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-dcd78e97a12fa4da8c107008/r2/fichas/boe.md",
+            "sha256": "e667a54fa25ee249ec83f2e0865b14eefecaac4b6d049d9d008fcc743a777ced"
+          },
+          {
+            "id": "eurostat",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-dcd78e97a12fa4da8c107008/r2/fichas/eurostat.md",
+            "sha256": "880f718b22c5514bf7d88f09b11f588e06a1da3c59cf283c0917dd402425bb3a"
+          },
+          {
+            "id": "hdb",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-dcd78e97a12fa4da8c107008/r2/fichas/hdb.md",
+            "sha256": "b488af97ff918ddab814f5ff4b2fb13816a6d6f48f1f7aad96641cbf2bae8c48"
+          },
+          {
+            "id": "estudios",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-dcd78e97a12fa4da8c107008/r2/fichas/estudios.md",
+            "sha256": "a630b41b7934ba545e421f8533c8ad3ea9a945d7b1bf50e3383f0ffc42266a5d"
+          },
+          {
+            "id": "html-vivienda-gratuita",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-dcd78e97a12fa4da8c107008/r2/fichas/html-vivienda-gratuita.md",
+            "sha256": "1926217c769182d14aedfb05a435077856d5afc6ab92edb2b93581333d1c6711"
+          },
+          {
+            "id": "auditoria-datos",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-dcd78e97a12fa4da8c107008/r2/fichas/auditoria-datos.md",
+            "sha256": "b0cfc03e7158ecd750028f151527015a572b67b4d797797118f955540b1761d3"
+          },
+          {
+            "id": "mem-vu-viabilidad-vivienda-gratuita",
+            "source_path": "memoria/conocimientos/mem-vu-viabilidad-vivienda-gratuita.md",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-dcd78e97a12fa4da8c107008/r2/memoria/6caf481a281177137b812c858f3b80c9e249a9c20f70fbdfa1409956c6947fcc.md",
+            "sha256": "f1bcda40ba5cde23ff731dd5fd548e799328233f9861ae09581aeff2fac1b9c1"
+          },
+          {
+            "id": "src-vu-r2",
+            "source_path": "memoria/fuentes/src-vu-r2.md",
+            "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/recibos/delivery-dcd78e97a12fa4da8c107008/r2/memoria/ff8abd327a23d551b7134d31924edd1fa9f76dec757643b1450c3682e905be72.md",
+            "sha256": "59ea2b16ed160da38885bbb03bfef48248ccd282968ad7777af8c53f1dc1523d"
+          }
+        ]
+      }
+    }
+  }
+}

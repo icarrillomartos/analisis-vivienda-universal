@@ -1,0 +1,22 @@
+variable,valor,unidad,fecha_ref,fuente
+Limite deficit publico (Reglamento UE 2024/1263 y TFUE),3.0,% PIB,vigente,Reglamento (UE) 2024/1263 - valores de referencia del Tratado
+Limite deuda publica (Reglamento UE 2024/1263 y TFUE),60.0,% PIB,vigente,Reglamento (UE) 2024/1263 - valores de referencia del Tratado
+Crecimiento medio anual gasto neto computable (trayectoria acordada España),3.4,% anual,2025-2028,Plan Fiscal y Estructural de Medio Plazo España 2025-2028 (avalado por Comision Europea nov. 2024)
+Crecimiento medio anual gasto neto computable (periodo extendido 7 anios),3.0,% anual,2025-2031,Plan Fiscal y Estructural de Medio Plazo España 2025-2028
+Deficit publico España,3.5,% PIB,2023 (cierre),Plan Fiscal y Estructural de Medio Plazo España 2025-2028
+Deuda publica España,105.0,% PIB,2023 (cierre, aprox.),Plan Fiscal y Estructural de Medio Plazo España 2025-2028
+Objetivo deficit publico 2031 (fin trayectoria ajuste),0.8,% PIB,2031 (proyeccion),Plan Fiscal y Estructural de Medio Plazo España 2025-2028 / Comision Europea
+Objetivo deuda publica 2031 (fin trayectoria ajuste),90.0,% PIB (aprox.),2031 (proyeccion),Plan Fiscal y Estructural de Medio Plazo España 2025-2028 / Comision Europea
+Deficit AAPP proyectado,2.4,% PIB,2026 (proyeccion BdE junio 2026),Banco de España, Informe Trimestral T2 2026 (Cuadro 2)
+Deficit AAPP proyectado,2.3,% PIB,2027 (proyeccion BdE junio 2026),Banco de España, Informe Trimestral T2 2026 (Cuadro 2)
+Deuda AAPP proyectada,98.9,% PIB,2026 (proyeccion BdE junio 2026),Banco de España, Informe Trimestral T2 2026 (Cuadro 2)
+Deuda AAPP proyectada,97.9,% PIB,2027 (proyeccion BdE junio 2026),Banco de España, Informe Trimestral T2 2026 (Cuadro 2)
+Tipo de interes medio de la deuda del Estado en circulacion,2.089,%,2023 (media anual),Tesoro Publico - Estadisticas de la Deuda del Estado (31/08/2026)
+Tipo de interes medio de la deuda del Estado en circulacion,2.214,%,2024 (media anual),Tesoro Publico - Estadisticas de la Deuda del Estado (31/08/2026)
+Tipo de interes medio de la deuda del Estado en circulacion,2.433,%,agosto 2026 (ultimo dato disponible),Tesoro Publico - Estadisticas de la Deuda del Estado (31/08/2026)
+Gasto en intereses de la deuda (D41PAY),35551,millones de euros,2023,Eurostat gov_10dd_edpt1 (sector S13, España)
+Gasto en intereses de la deuda (D41PAY),38793,millones de euros,2024,Eurostat gov_10dd_edpt1 (sector S13, España)
+Gasto en intereses de la deuda (% PIB),2.4,% PIB,2023-2024,Eurostat gov_10dd_edpt1 (sector S13, España)
+Rentabilidad bono a 10 anios (emision enero 2026),3.323,%,enero 2026,Tesoro Publico / La Moncloa nota de prensa emision de bonos
+Rentabilidad bono a 10 anios (emision mayo 2026),3.448,%,mayo 2026,Tesoro Publico / La Moncloa nota de prensa emision de bonos
+Vida media de la deuda del Estado,7.96,años,agosto 2026,Tesoro Publico - Estadisticas de la Deuda del Estado (31/08/2026)

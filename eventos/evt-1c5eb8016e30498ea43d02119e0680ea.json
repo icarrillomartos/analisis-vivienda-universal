@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "event_id": "evt-1c5eb8016e30498ea43d02119e0680ea",
+  "operation_id": "op-8ccd89e6920740f888e739f21faff7a6",
+  "type": "action_start",
+  "at": "2026-09-28T21:56:33.786013+00:00",
+  "client": "claude",
+  "session_key": "ba34b6bea32860295667668a",
+  "turn_id": "observed-59b537a7a7b745579a5915c5dd972804",
+  "state_revision": 1036,
+  "data": {
+    "action": "start",
+    "result": {
+      "decision": "recording",
+      "process": "P14",
+      "authority": "approved_plan",
+      "spec": {
+        "path": "sistema/procesos/14-mantener-proyectos-y-continuidad.md",
+        "sha256": "dd506223f201d56103046247ea3163f1ddb711a0fb584c088c93a0a9b66b6fd0"
+      },
+      "depth": 1,
+      "tools_are": "medios previstos, no una lista de permisos"
+    }
+  }
+}

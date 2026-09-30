@@ -1,0 +1,47 @@
+{
+  "schema": 2,
+  "process": "P08",
+  "plan_digest": "e39db97f825068401b8a402d0a309e1e4148a9095519b54ff3e498db4f89f2fe",
+  "outcome": "verified",
+  "criterion": "Producir el HTML y la carpeta de auditoría en entregables/<id>/r1 según el plan v3",
+  "decision": "complete",
+  "limits": [],
+  "files": [
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/html-vivienda-gratuita/r1/index.html",
+      "sha256": "19e602794c9229e1b10e8d0c6e01fba634866dd303d8cb3392174015c91299bb",
+      "bytes": 97485
+    },
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/auditoria-datos/r1/MANIFIESTO.sha256",
+      "sha256": "7744000bd212b9ca85a6776cd00e2d51a0f96744e8cd885d09ccb329166dfe6e",
+      "bytes": 11421
+    },
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/auditoria-datos/r1/LEEME.md",
+      "sha256": "5b0cdf75d8dbc6e59701ba7af52ed94b28d1470bbe69d08c52f3980243791640",
+      "bytes": 2411
+    },
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/auditoria-datos/r1/modelo/modelo.py",
+      "sha256": "71a519dce2b26cde61aab0ecbcec3c1bac19201371ed2678acccdc5faf5c8dc4",
+      "bytes": 19238
+    },
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/auditoria-datos/r1/modelo/hipotesis.json",
+      "sha256": "9d4697840ccdb7eac7127f05dfa83d23e54c0d008ade3eba2f3aa1b63eab3168",
+      "bytes": 6721
+    },
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/auditoria-datos/r1/modelo/salida/resultados.json",
+      "sha256": "d18e45ce23fd520721c8191bbd6fdf1eee413376863265a5faf4542c03feff4d",
+      "bytes": 58733
+    }
+  ],
+  "notes": [
+    "HTML de 20 láminas sin cambios de contenido respecto a la versión evaluada; solo se ha reubicado",
+    "La auditoría se reproduce: modelo.py da 5,47 billones y 21,6 M de viviendas en el teórico"
+  ],
+  "quality_decision": null,
+  "exceptions": []
+}

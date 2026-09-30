@@ -1,0 +1,39 @@
+{
+  "schema": 2,
+  "process": "P09",
+  "plan_digest": "e39db97f825068401b8a402d0a309e1e4148a9095519b54ff3e498db4f89f2fe",
+  "outcome": "verified",
+  "criterion": "Evaluar los archivos exactos de la r2 frente a los criterios del plan v3, los cuatro puntos del feedback y la petición de tema oscuro",
+  "decision": "complete",
+  "limits": [
+    "Laboratorio nacional aproximado: 5.445 € por adulto frente a 5.470 € del modelo completo",
+    "Comparación de rentas con Singapur orientativa (mediana bruta con CPF frente a media neta), declarada en la página",
+    "Sin efectos de segunda ronda, declarado"
+  ],
+  "files": [
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/html-vivienda-gratuita/r2/index.html",
+      "sha256": "482c60231c67ab8f43805c2c415c722d6a37c92ea56778a6c8445c8f9f33d771",
+      "bytes": 171852
+    },
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/auditoria-datos/r2/MANIFIESTO.sha256",
+      "sha256": "13bb31d1efa8f50ea4051b6a156292f225ae3f901900714f39255b086854bcf1",
+      "bytes": 11810
+    },
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/auditoria-datos/r2/modelo/salida/resultados.json",
+      "sha256": "e89d52644d1742e297b065bf074d0d9c6640eb8957346c45d4864f36adb359bd",
+      "bytes": 117409
+    }
+  ],
+  "notes": [
+    "Feedback cubierto: lámina «¿Cuánto pagaría cada uno?» (5.470 €/adulto y 456 €/mes en fase 1; 970 € y 80 €/mes en fase 2; 10.460 € por declarante), mapa provincial con teórico/plausible/Toda España (14,06 M personas; 1,59 M hogares; Madrid 743 % y 2,84 M), comparativas COFOG 2023 (153.051, 98.630, 62.532, 14.008 M€) y tabla Singapur-España con «¿Se puede extrapolar Singapur a España?»",
+    "Aritmética comprobada: 551.342 + 472.287 − 436.118 = 587.511; 5.470/12 = 456; 970/12 ≈ 80; densidades 8.210 y 98; PPA ×2,7; 173.548/38.994 = 4,5 años; A/B ≈ 35 veces",
+    "Tema oscuro: fondo rgb(18,23,28) con el sistema emulado en modo claro; mapa, calendario y comparativas legibles; 375 px sin desbordamiento horizontal; consola sin errores; 22 láminas sin marcadores {{ }} y con etiquetas dato/evidencia/debate/opinión/hipótesis/cálculo",
+    "Auditoría reproducible byte a byte desde una copia; manifiesto de 99 archivos verificado con shasum -c",
+    "Corrección durante la revisión: en las notas, las 1,59 M del escenario plausible son hogares, como dice la página"
+  ],
+  "quality_decision": "pass",
+  "exceptions": []
+}

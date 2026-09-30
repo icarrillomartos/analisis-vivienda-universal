@@ -1,0 +1,6 @@
+variable,valor,unidad,anio,fuente
+Gasto sanitario publico total,101739,millones de euros,2024,"Ministerio de Sanidad, EGSP / nota de prensa La Moncloa 13/05/2026"
+Gasto sanitario publico % PIB,6.4,% PIB,2024,"Ministerio de Sanidad, EGSP"
+Gasto sanitario publico por habitante,2084,euros/habitante,2024,"Ministerio de Sanidad, EGSP"
+Variacion interanual gasto sanitario,4.2,%,2024 vs 2023,"Ministerio de Sanidad, EGSP"
+Gasto sanitario publico total (cuenta satelite, agregado sectores),97661.226,millones de euros,2023,"Ministerio de Sanidad, Cuentas Satelite EGSP (tabla 'Clasificacion sectorial') - calculo propio sumando sectores"

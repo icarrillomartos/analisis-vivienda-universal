@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "event_id": "evt-44917ce29b9a41fb8345500d9d0bb193",
+  "operation_id": "op-08420121cec043b999b596acf53e698a",
+  "type": "action_finish",
+  "at": "2026-09-28T21:53:32.972417+00:00",
+  "client": "claude",
+  "session_key": "ba34b6bea32860295667668a",
+  "turn_id": "observed-59b537a7a7b745579a5915c5dd972804",
+  "state_revision": 1013,
+  "data": {
+    "action": "finish",
+    "result": {
+      "decision": "verified",
+      "process": "P08",
+      "evidence": {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/evidencias/P08-r2.json",
+        "sha256": "51b740ea35679ed598bdd2217a4b0ddcc025fad1d08dc9ce952bd79318bf1bb6",
+        "plan_digest": "e39db97f825068401b8a402d0a309e1e4148a9095519b54ff3e498db4f89f2fe",
+        "finished_at": "2026-09-28T21:53:32.972254+00:00",
+        "control_snapshots": [],
+        "spec": {
+          "path": "sistema/procesos/08-producir-y-versionar-resultados.md",
+          "sha256": "d51f97e6e02a5dad1a7f3f801ee605fa929cc8c62a97339aa4ebf4128a8d8d46"
+        }
+      },
+      "certified": true
+    }
+  }
+}

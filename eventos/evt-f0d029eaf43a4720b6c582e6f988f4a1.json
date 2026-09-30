@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-f0d029eaf43a4720b6c582e6f988f4a1",
+  "operation_id": "op-bead11330def4fd8b6ff00fea0603eaf",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:15:37.873234+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-7552a45882a8470db5a4ae24802bcb17",
+  "state_revision": 635,
+  "data": {
+    "id": "obs-f48295a278504cbbb7d08d1675e895a1",
+    "tool": "Write",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/singapur/scripts/computar_medianas_reventa.py",
+        "status": "observed_file",
+        "sha256": "6e77d6e41b4b05aea8b90cc17a92d1bf7271e06d4bc253fb7c7c2208d2ff997b",
+        "bytes": 1806
+      }
+    ],
+    "at": "2026-09-28T20:15:37.873216+00:00",
+    "scope": "process",
+    "turn_id": "observed-7552a45882a8470db5a4ae24802bcb17",
+    "turn_sha256": "c125094842e812d1734e7dd99e56770179df450843e57b29cd6e0ff8fbdb3d38"
+  }
+}

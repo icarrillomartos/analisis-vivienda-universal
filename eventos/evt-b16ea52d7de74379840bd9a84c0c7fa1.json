@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "event_id": "evt-b16ea52d7de74379840bd9a84c0c7fa1",
+  "operation_id": "op-0acf43ef39b84cb1b5bcb16a6b89b820",
+  "type": "action_finish",
+  "at": "2026-09-28T20:49:59.139938+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-a34b6d5bb2d740a69e841109e5e42cd4",
+  "state_revision": 860,
+  "data": {
+    "action": "finish",
+    "result": {
+      "decision": "verified",
+      "process": "P03",
+      "evidence": {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/evidencias/P03.json",
+        "sha256": "cec7e6eb06f4761d07fa1354a855a52f4da37a9e0997a840f5701e41a394783c",
+        "plan_digest": "e39db97f825068401b8a402d0a309e1e4148a9095519b54ff3e498db4f89f2fe",
+        "finished_at": "2026-09-28T20:49:59.139777+00:00",
+        "control_snapshots": [],
+        "spec": {
+          "path": "sistema/procesos/03-incorporar-materiales.md",
+          "sha256": "f947983c2e343ba6670db6edfa89750308780703b1c5d4eda2c32b39404fca47"
+        }
+      },
+      "certified": true
+    }
+  }
+}

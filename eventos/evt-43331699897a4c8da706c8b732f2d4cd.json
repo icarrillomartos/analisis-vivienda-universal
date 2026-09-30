@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-43331699897a4c8da706c8b732f2d4cd",
+  "operation_id": "op-564af7ff182245b58d517a53678044ce",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:21:18.815251+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-97352f7c3d0f4704b1b6314eb811bf8c",
+  "state_revision": 740,
+  "data": {
+    "id": "obs-ce7b61b573804ce286639c143b06d4d6",
+    "tool": "Read",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/demografia/limpio/proyeccion_poblacion_18mas_por_provincia_2030_2035_2039.csv",
+        "status": "observed_file",
+        "sha256": "c7b50132052fc42f57a59ffd2f886fade569003b3685de135d280884377661e6",
+        "bytes": 7250
+      }
+    ],
+    "at": "2026-09-28T20:21:18.815236+00:00",
+    "scope": "orientation",
+    "turn_id": "observed-97352f7c3d0f4704b1b6314eb811bf8c",
+    "turn_sha256": "721ba173ab322e95fe5219f89b1016f80cf8faf8a39dea568e19d12b88a2ecc2"
+  }
+}

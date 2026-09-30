@@ -1,0 +1,4 @@
+Fuente: ECP tabla 56934 (nacional, edad simple, sin nacionalidad)
+Anyo referencia (Anyo INE): 2026
+Poblacion total nacional: 49801559.0
+Poblacion 18+ nacional (exacta, edad simple): 42009991.0

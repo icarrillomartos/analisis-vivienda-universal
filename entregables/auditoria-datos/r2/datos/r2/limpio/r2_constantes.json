@@ -1,0 +1,44 @@
+{
+ "cofog_2023": {
+  "GF02": {
+   "MIO_EUR": 14008.0,
+   "PC_GDP": 0.9
+  },
+  "GF07": {
+   "MIO_EUR": 98630.0,
+   "PC_GDP": 6.6
+  },
+  "GF09": {
+   "MIO_EUR": 62532.0,
+   "PC_GDP": 4.2
+  },
+  "GF10": {
+   "MIO_EUR": 277327.0,
+   "PC_GDP": 18.5
+  },
+  "GF1002": {
+   "MIO_EUR": 153051.0,
+   "PC_GDP": 10.2
+  },
+  "TOTAL": {
+   "MIO_EUR": 680225.0,
+   "PC_GDP": 45.4
+  }
+ },
+ "saldo_exterior_adultos_2024": 472287.2,
+ "defunciones": {
+  "2024": 436118.0,
+  "2023": 436124.0,
+  "2022": 464417.0
+ },
+ "ppp_esp_2025": 59867.6944716701,
+ "ppp_sgp_2025": 163353.990260152,
+ "eur_sgd": 1.4795809523809522,
+ "eur_sgd_mes": "2026-08",
+ "sg_area_km2": 744.3,
+ "es_area_km2": 505983,
+ "sg_renta_hogar_mediana_mes_sgd": 9541.0,
+ "sg_renta_hogar_media_mes_sgd": 12547.0,
+ "sg_renta_anio": "2024",
+ "es_renta_neta_media_hogar": 38994.0
+}

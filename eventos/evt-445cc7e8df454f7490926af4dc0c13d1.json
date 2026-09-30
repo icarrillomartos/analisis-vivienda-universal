@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "event_id": "evt-445cc7e8df454f7490926af4dc0c13d1",
+  "operation_id": "op-4750798d2cc2451e8437d83a59aba2ed",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:12:34.118399+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-3cebe266853449a1bbfb4c54354cecde",
+  "state_revision": 554,
+  "data": {
+    "id": "obs-765c39e0dc6840f6b10f0a607b1a290b",
+    "tool": "SubagentHandback",
+    "paths": [],
+    "at": "2026-09-28T20:12:34.118379+00:00",
+    "scope": "process",
+    "turn_id": "observed-3cebe266853449a1bbfb4c54354cecde",
+    "turn_sha256": "b666d3ef2232b736cea21e8eaaf7634743bf94c23d5b70e3e4638191d0d4e5ad"
+  }
+}

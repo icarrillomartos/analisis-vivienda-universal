@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "event_id": "evt-dfdf3f500b1f488bb62c024840ee34b1",
+  "operation_id": "op-8514477b3262427ab31105e34b483a4d",
+  "type": "action_start",
+  "at": "2026-09-28T21:56:04.664759+00:00",
+  "client": "claude",
+  "session_key": "ba34b6bea32860295667668a",
+  "turn_id": "observed-59b537a7a7b745579a5915c5dd972804",
+  "state_revision": 1031,
+  "data": {
+    "action": "start",
+    "result": {
+      "decision": "recording",
+      "process": "P18",
+      "authority": "approved_plan",
+      "spec": {
+        "path": "sistema/procesos/18-operar-herramientas-y-recursos.md",
+        "sha256": "96182d2e625631a0c9bd6b479d7cc7467496510cc75b4aaf46e0fd69b4371048"
+      },
+      "depth": 1,
+      "tools_are": "medios previstos, no una lista de permisos"
+    }
+  }
+}

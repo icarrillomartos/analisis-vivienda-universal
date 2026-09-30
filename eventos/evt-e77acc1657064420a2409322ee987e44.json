@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-e77acc1657064420a2409322ee987e44",
+  "operation_id": "op-1eccf28e03ff422db4a81f8047e91b63",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:03:50.642728+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-3cebe266853449a1bbfb4c54354cecde",
+  "state_revision": 259,
+  "data": {
+    "id": "obs-a3cbfc7a7e824d8187caf7b0f29661af",
+    "tool": "Read",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/evidencia/raw/oecd_ph4-2_social_rental_housing_stock.pdf",
+        "status": "observed_file",
+        "sha256": "57b30a2dca45ad6265814e2a9fa18c4eae049686e475f2bf1b44e29bc9a26ed4",
+        "bytes": 536304
+      }
+    ],
+    "at": "2026-09-28T20:03:50.642711+00:00",
+    "scope": "process",
+    "turn_id": "observed-3cebe266853449a1bbfb4c54354cecde",
+    "turn_sha256": "b666d3ef2232b736cea21e8eaaf7634743bf94c23d5b70e3e4638191d0d4e5ad"
+  }
+}

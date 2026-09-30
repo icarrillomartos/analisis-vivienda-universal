@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "event_id": "evt-1855d6815b2443c5adf5c5822a3afe84",
+  "operation_id": "op-4b9cd2b6612f43e582e6e36b064f00fe",
+  "type": "encargo_created",
+  "at": "2026-09-28T19:09:56.104984+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": null,
+  "state_revision": 1,
+  "data": {
+    "provisional": false
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "event_id": "evt-bd3be5abb358484d9212c6e8992a1f02",
+  "operation_id": "op-0850e63008214bf0b8634eae1bf052ff",
+  "type": "action_strategy",
+  "at": "2026-09-28T19:57:42.100101+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-3cebe266853449a1bbfb4c54354cecde",
+  "state_revision": 58,
+  "data": {
+    "action": "strategy",
+    "result": {
+      "decision": "strategy_recorded",
+      "strategy": {
+        "revision": 1,
+        "phase": "F04",
+        "plan_digest": "e39db97f825068401b8a402d0a309e1e4148a9095519b54ff3e498db4f89f2fe",
+        "turn_id": "observed-3cebe266853449a1bbfb4c54354cecde",
+        "at": "2026-09-28T19:57:42.099959+00:00",
+        "reason": "Arranque de F04 con el plan v3 aprobado",
+        "approach": "Recogida paralela de datos oficiales en 7 frentes mediante subagentes Sonnet, que dejan cada dato en una ficha con su fuente (demografía y hogares; parque y capacidad; precios y costes de construcción; vivienda digna; fiscalidad; Singapur; evidencia causal y diagnóstico). Opus revisa las fichas, construye el modelo de cálculo en Python con escenarios y produce el HTML didáctico con el panel de hipótesis.",
+        "next_actions": [
+          "Lanzar 7 subagentes de recogida con salida en trabajo/datos/<tema>/",
+          "Revisar fichas y resolver huecos",
+          "Definir el módulo de vivienda digna y las hipótesis",
+          "Programar el modelo de cálculo y los escenarios",
+          "Redactar y maquetar el HTML",
+          "Carpeta de auditoría"
+        ],
+        "tools": [
+          "Agent",
+          "WebSearch",
+          "WebFetch",
+          "curl",
+          "Python"
+        ],
+        "processes": [
+          "P03",
+          "P08",
+          "P18"
+        ]
+      },
+      "authority": "La estrategia no modifica el acuerdo ni concede permisos nuevos"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-1297d7fc076f459088422976f4054ced",
+  "operation_id": "op-8f03f3b95ffb46bba6a5766dfb8c08b4",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:23:04.962059+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-97352f7c3d0f4704b1b6314eb811bf8c",
+  "state_revision": 755,
+  "data": {
+    "id": "obs-ee9132f8c8bc494ca2fd23d512d7d1ae",
+    "tool": "Write",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/fiscal/scripts/extract_irpf_tramos.py",
+        "status": "observed_file",
+        "sha256": "5607f58c1680a8eb2a6f2acb21b3786bc7ebfe4b8103f81ef464054a25944ea9",
+        "bytes": 1882
+      }
+    ],
+    "at": "2026-09-28T20:23:04.962040+00:00",
+    "scope": "process",
+    "turn_id": "observed-97352f7c3d0f4704b1b6314eb811bf8c",
+    "turn_sha256": "721ba173ab322e95fe5219f89b1016f80cf8faf8a39dea568e19d12b88a2ecc2"
+  }
+}

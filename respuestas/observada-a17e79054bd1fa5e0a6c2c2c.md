@@ -1,0 +1,1 @@
+Ha llegado la primera ficha, la de evidencia sobre el problema real de la vivienda. Ya la he revisado y los datos son sólidos. Las cifras que no ha podido comprobar en el documento original quedan marcadas y no las presentaré como hechos. Faltan los otros seis frentes, que siguen trabajando; cuando lleguen montaré el modelo de cálculo.

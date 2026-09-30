@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "event_id": "evt-5ae5788fc3cc418a96a1467a44efd7dc",
+  "operation_id": "op-6e62aca433f640bd8c786878be78961a",
+  "type": "action_finish",
+  "at": "2026-09-28T20:45:34.118982+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-a34b6d5bb2d740a69e841109e5e42cd4",
+  "state_revision": 839,
+  "data": {
+    "action": "finish",
+    "result": {
+      "decision": "verified",
+      "process": "P12",
+      "evidence": {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/evidencias/P12.json",
+        "sha256": "940031c5546fbd73afa46ad1749bd07db5a777b59b5b8c0d441635a620abaf2f",
+        "plan_digest": "e39db97f825068401b8a402d0a309e1e4148a9095519b54ff3e498db4f89f2fe",
+        "finished_at": "2026-09-28T20:45:34.118832+00:00",
+        "control_snapshots": [
+          {
+            "source_path": "memoria/indice.md",
+            "source_sha256": "da1ec116bac844b96baf38d6aac029eaa9c077ab87d859eae4127e28b3490d60",
+            "snapshot_path": "entorno/control/evidencias-proceso/vivienda-universal/viabilidad-vivienda-universal-gratuita/P12/940031c5546fbd73afa46ad1749bd07db5a777b59b5b8c0d441635a620abaf2f/000-indice.md",
+            "snapshot_sha256": "da1ec116bac844b96baf38d6aac029eaa9c077ab87d859eae4127e28b3490d60"
+          }
+        ],
+        "spec": {
+          "path": "sistema/procesos/12-organizar-y-mantener-conocimiento.md",
+          "sha256": "7f52dea62191a169475562e7641fc9a52f452d22e355b37fadfefea13886b809"
+        }
+      },
+      "certified": true
+    }
+  }
+}

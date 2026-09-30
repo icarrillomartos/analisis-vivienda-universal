@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-eddafa32df054e2ba1dedd712fc82ccc",
+  "operation_id": "op-bbd997b734704c9da623671513000a93",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:21:55.527966+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-97352f7c3d0f4704b1b6314eb811bf8c",
+  "state_revision": 747,
+  "data": {
+    "id": "obs-6712ecb745cc4ff2840bf4934e824fd3",
+    "tool": "Write",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/costes/limpio/ajd_tipos_ccaa_obra_nueva_2025_2026.csv",
+        "status": "observed_file",
+        "sha256": "6e6532e596d20783f03b5e2a76a461a75698ee7fb665925b80400a177ef08c21",
+        "bytes": 632
+      }
+    ],
+    "at": "2026-09-28T20:21:55.527948+00:00",
+    "scope": "process",
+    "turn_id": "observed-97352f7c3d0f4704b1b6314eb811bf8c",
+    "turn_sha256": "721ba173ab322e95fe5219f89b1016f80cf8faf8a39dea568e19d12b88a2ecc2"
+  }
+}

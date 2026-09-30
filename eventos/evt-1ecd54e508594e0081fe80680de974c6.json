@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "event_id": "evt-1ecd54e508594e0081fe80680de974c6",
+  "operation_id": "op-78021a21cbe74b73b8baf7c0ae4ad253",
+  "type": "turn_routed",
+  "at": "2026-09-28T20:21:15.870194+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-1a24214398f4420c9e7baf48f1be2808",
+  "state_revision": 737,
+  "data": {
+    "decision": "routed",
+    "event": "continue",
+    "project": "vivienda-universal",
+    "encargo": "viabilidad-vivienda-universal-gratuita",
+    "phase": "F04",
+    "substate": "proceso_activo",
+    "grant": {
+      "kind": "plan_approved",
+      "plan_digest": "e39db97f825068401b8a402d0a309e1e4148a9095519b54ff3e498db4f89f2fe",
+      "plan_id": "vivienda-gratuita",
+      "plan_version": 3,
+      "source": "native_user_event",
+      "client": "claude",
+      "turn_id": "observed-3cebe266853449a1bbfb4c54354cecde",
+      "at": "2026-09-28T19:55:32.974483+00:00"
+    }
+  }
+}

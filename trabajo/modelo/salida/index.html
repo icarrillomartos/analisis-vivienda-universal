@@ -1,0 +1,1102 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#12171C">
+<title>¿Vivienda gratis para todos?</title>
+<meta name="description" content="Cálculo paso a paso, con datos oficiales, de si es viable en España la vivienda universal gratuita y comparación con el modelo de Singapur.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=IBM+Plex+Mono:wght@400;600&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<style>
+:root{
+  --papel:#EDEFEA; --papel-2:#E3E6DF; --rejilla:rgba(31,42,54,.07); --tinta:#1F2A36; --tinta-2:#4A5663; --tinta-3:#6C7783;
+  --cota:#C8392B; --obra:#E9A800; --obra-fondo:#FFF4D1; --linea:#C9CEC6; --tarjeta:#F7F8F5;
+  --dato:#1F5FA8; --evid:#2E7D4F; --debate:#A86A00; --opin:#7A5C99; --hipo:#8A5A2B;
+  --ok:#2E7D4F; --mal:#C8392B;
+  --f-disp:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --f-cuerpo:"Public Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --escala:1;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --papel:#12171C; --papel-2:#192027; --rejilla:rgba(230,233,228,.05); --tinta:#E6E9E4; --tinta-2:#B4BCC4; --tinta-3:#8B959F;
+  --cota:#FF6B57; --obra:#F5C542; --obra-fondo:#2B2512; --linea:#2C353E; --tarjeta:#171E24;
+  --dato:#6FA8F0; --evid:#62C08A; --debate:#E0A640; --opin:#B79BDA; --hipo:#D39A62; --ok:#62C08A; --mal:#FF6B57;
+  color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --papel:#12171C; --papel-2:#192027; --rejilla:rgba(230,233,228,.05); --tinta:#E6E9E4; --tinta-2:#B4BCC4; --tinta-3:#8B959F;
+  --cota:#FF6B57; --obra:#F5C542; --obra-fondo:#2B2512; --linea:#2C353E; --tarjeta:#171E24;
+  --dato:#6FA8F0; --evid:#62C08A; --debate:#E0A640; --opin:#B79BDA; --hipo:#D39A62; --ok:#62C08A; --mal:#FF6B57;
+  color-scheme:dark;}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{margin:0;background:var(--papel);color:var(--tinta);font-family:var(--f-cuerpo);font-size:calc(17px*var(--escala));line-height:1.6;
+  background-image:linear-gradient(var(--rejilla) 1px,transparent 1px),linear-gradient(90deg,var(--rejilla) 1px,transparent 1px);background-size:24px 24px;}
+body.directo{--escala:1.22}
+a{color:var(--dato)}
+:focus-visible{outline:3px solid var(--obra);outline-offset:2px}
+.envoltorio{max-width:1080px;margin:0 auto;padding-inline:16px;padding-block:0 64px}
+.barra{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--papel);border-bottom:1px solid var(--linea);}
+.barra-in{max-width:1080px;margin:0 auto;padding:8px 16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.barra .marca{font-family:var(--f-disp);font-weight:800;letter-spacing:.04em;text-transform:uppercase;font-size:18px}
+.barra .progreso{flex:1;min-width:120px;height:4px;background:var(--linea);border-radius:2px;overflow:hidden}
+.barra .progreso i{display:block;height:100%;width:0;background:var(--cota)}
+.barra button,.btn{font:600 13px/1 var(--f-cuerpo);border:1px solid var(--tinta);background:transparent;color:var(--tinta);padding:8px 12px;border-radius:3px;cursor:pointer}
+.barra button:hover,.btn:hover{background:var(--tinta);color:var(--papel)}
+.barra .lam{font-family:var(--f-mono);font-size:12px;color:var(--tinta-2)}
+
+/* láminas */
+.lamina{position:relative;background:var(--tarjeta);border:1.5px solid var(--tinta);margin-top:40px;padding:36px clamp(16px,4vw,48px) 72px;scroll-margin-top:64px}
+.lamina::before{content:"";position:absolute;inset:6px;border:1px solid var(--linea);pointer-events:none}
+.cajetin{position:absolute;right:-1.5px;bottom:-1.5px;display:grid;grid-template-columns:auto auto;border:1.5px solid var(--tinta);background:var(--tarjeta);font-family:var(--f-mono);font-size:11px;max-width:100%}
+.cajetin span{padding:4px 10px;border-left:1px solid var(--tinta)}
+.cajetin span:first-child{border-left:0;font-weight:600;background:var(--tinta);color:var(--tarjeta)}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--cota);margin:0 0 6px}
+h1,h2,h3{font-family:var(--f-disp);text-wrap:balance;line-height:1.02;margin:0 0 .4em}
+h1{font-size:clamp(46px,9vw,104px);font-weight:900;text-transform:uppercase;letter-spacing:.01em}
+h2{font-size:clamp(34px,5.6vw,60px);font-weight:800;text-transform:uppercase;letter-spacing:.01em}
+h3{font-size:clamp(22px,3vw,28px);font-weight:800;text-transform:uppercase;letter-spacing:.02em;margin-top:1.2em}
+p{max-width:68ch;margin:0 0 1em}
+.lead{font-size:1.18em;color:var(--tinta-2)}
+.mono{font-family:var(--f-mono)}
+.n{text-align:right;font-variant-numeric:tabular-nums;font-family:var(--f-mono);white-space:nowrap}
+.neg{color:var(--cota)}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:24px;align-items:start}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:16px}
+
+/* etiquetas */
+.tag{display:inline-block;font:600 11px/1 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;padding:4px 6px;border-radius:2px;border:1px solid currentColor;vertical-align:.12em;margin-right:6px;white-space:nowrap}
+.t-dato{color:var(--dato)} .t-evidencia{color:var(--evid)} .t-debate{color:var(--debate)} .t-opinion{color:var(--opin)} .t-hipotesis{color:var(--hipo)} .t-derivado{color:var(--tinta-2)}
+
+/* cifra grande */
+.cifra{border-top:3px solid var(--tinta);padding-top:10px}
+.cifra b{display:block;font-family:var(--f-disp);font-weight:900;font-size:clamp(40px,6vw,64px);line-height:1;letter-spacing:.01em}
+.cifra small{display:block;color:var(--tinta-2);font-size:.9em;line-height:1.4;margin-top:6px}
+.cifra.roja b{color:var(--cota)}
+
+/* operación en cuaderno */
+.operacion{font-family:var(--f-mono);font-size:.95em;background:var(--papel);border:1px dashed var(--tinta-3);padding:14px 16px;margin:16px 0;overflow-x:auto}
+.operacion div{white-space:nowrap}
+.operacion .res{border-top:1px solid var(--tinta);margin-top:6px;padding-top:6px;font-weight:600;color:var(--cota)}
+
+/* pausa para pensar */
+.pausa{margin:24px 0;border:2px solid var(--obra);background:var(--obra-fondo);padding:16px 18px}
+.pausa > .q{font-family:var(--f-disp);font-weight:800;text-transform:uppercase;font-size:clamp(20px,2.6vw,26px);line-height:1.1;margin:0 0 8px}
+.pausa > .q::before{content:"Pausa para pensar · ";color:var(--debate)}
+.pausa details summary{cursor:pointer;font-weight:700;color:var(--tinta);list-style:none;display:inline-block;border-bottom:2px solid var(--obra)}
+.pausa details summary::-webkit-details-marker{display:none}
+.pausa details[open] summary{margin-bottom:10px}
+.pausa details > div{max-width:70ch}
+
+/* mito o dato */
+.mito{border:1.5px solid var(--tinta);padding:16px;background:var(--tarjeta);display:flex;flex-direction:column;gap:8px}
+.mito .frase{font-family:var(--f-disp);font-weight:800;font-size:22px;line-height:1.1;text-transform:uppercase}
+.mito .veredicto{font:600 12px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;padding:6px 8px;align-self:flex-start;color:var(--tarjeta)}
+.v-falso{background:var(--mal)} .v-matiz{background:var(--debate)} .v-cierto{background:var(--ok)}
+.mito p{margin:0;font-size:.95em}
+
+/* tablas */
+.tabla{overflow-x:auto;margin:16px 0}
+table{border-collapse:collapse;width:100%;font-size:.92em}
+th,td{padding:8px 10px;border-bottom:1px solid var(--linea);text-align:left;vertical-align:top}
+th{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--tinta-2);border-bottom:1.5px solid var(--tinta)}
+td.si{color:var(--ok);font-weight:700} td.no{color:var(--mal);font-weight:700} td.med{color:var(--debate);font-weight:700}
+
+/* árbol de preguntas */
+.pasos{counter-reset:paso;display:grid;gap:10px;padding:0;margin:20px 0;list-style:none}
+.pasos li{counter-increment:paso;display:grid;grid-template-columns:48px 1fr;gap:12px;align-items:start;border-bottom:1px solid var(--linea);padding-bottom:10px}
+.pasos li::before{content:counter(paso,decimal-leading-zero);font-family:var(--f-disp);font-weight:900;font-size:34px;line-height:1;color:var(--cota)}
+.pasos b{display:block}
+
+/* gráficos */
+.grafico{width:100%;overflow-x:auto;margin:12px 0}
+.grafico svg{display:block;width:100%;height:auto;min-width:520px}
+.grafico text{fill:var(--tinta-2);font-family:var(--f-mono);font-size:11px}
+.leyenda{font-size:.85em;color:var(--tinta-2);display:flex;gap:16px;flex-wrap:wrap;margin-top:4px}
+.leyenda i{display:inline-block;width:12px;height:12px;vertical-align:-1px;margin-right:6px}
+.fuente{font-size:.8em;color:var(--tinta-3);margin-top:6px}
+
+/* plano */
+.plano svg{width:100%;max-width:440px;height:auto;display:block}
+.plano text{font-family:var(--f-mono);font-size:10px;fill:var(--tinta)}
+
+/* portada */
+.pancarta{display:inline-block;background:var(--tarjeta);border:3px solid var(--tinta);padding:18px 22px;transform:rotate(-1.5deg);box-shadow:6px 6px 0 var(--cota);margin:8px 0 28px}
+.pancarta span{font-family:var(--f-disp);font-weight:900;font-size:clamp(34px,7vw,76px);line-height:.95;text-transform:uppercase;display:block;color:var(--cota)}
+.pancarta small{display:block;font-family:var(--f-mono);font-size:12px;color:var(--tinta-2);margin-top:8px}
+
+/* veredicto */
+.sello{display:inline-block;border:3px solid var(--mal);color:var(--mal);font-family:var(--f-disp);font-weight:900;font-size:clamp(26px,4vw,40px);text-transform:uppercase;padding:6px 16px;transform:rotate(-3deg);letter-spacing:.04em}
+.sello.ok{border-color:var(--ok);color:var(--ok)}
+
+/* laboratorio */
+.lab{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:28px}
+.control{margin-bottom:18px}
+.control label{display:flex;justify-content:space-between;gap:8px;font-weight:600;font-size:.95em}
+.control label output{font-family:var(--f-mono);color:var(--cota)}
+.control input[type=range]{width:100%;accent-color:var(--cota)}
+.control .ayuda{font-size:.8em;color:var(--tinta-3);margin:2px 0 0}
+.botones{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+.resultado{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));gap:12px}
+.resultado div{border-top:2px solid var(--tinta);padding-top:6px}
+.resultado b{display:block;font-family:var(--f-disp);font-size:32px;font-weight:900;line-height:1.05}
+.resultado small{color:var(--tinta-2);font-size:.82em;line-height:1.3;display:block}
+
+.nota{font-size:.88em;color:var(--tinta-2)}
+.columnas-cons{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:16px}
+.columnas-cons > div{border:1.5px solid var(--tinta);padding:14px}
+.columnas-cons h4{font-family:var(--f-mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;margin:0 0 8px}
+.columnas-cons ul{margin:0;padding-left:18px}
+.columnas-cons li{margin-bottom:6px}
+.rol{border-left:4px solid var(--tinta);padding-left:14px;margin:18px 0}
+.rol h4{font-family:var(--f-disp);font-weight:800;font-size:22px;text-transform:uppercase;margin:0 0 6px}
+
+.mapa-wrap{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(240px,1fr);gap:20px;align-items:start}
+@media (max-width:760px){.mapa-wrap{grid-template-columns:1fr}}
+.mapa svg{min-width:0!important}
+.mapa path{stroke:var(--tarjeta);stroke-width:.8;cursor:pointer;transition:opacity .15s}
+.mapa path:hover,.mapa path.sel{stroke:var(--tinta);stroke-width:2}
+.mapa-info{border:1.5px solid var(--tinta);padding:14px;background:var(--papel)}
+.mapa-info h4{font-family:var(--f-disp);font-weight:900;font-size:28px;text-transform:uppercase;margin:0 0 8px;line-height:1}
+.mapa-info .big{font-family:var(--f-disp);font-weight:900;font-size:44px;line-height:1}
+.mapa-info .fila{display:flex;justify-content:space-between;gap:8px;border-bottom:1px solid var(--linea);padding:4px 0;font-size:.9em}
+.mapa-info .fila b{font-family:var(--f-mono);font-weight:600}
+.mapa-info .crudo{font-size:.78em;color:var(--tinta-3);margin-top:8px}
+.tabla-sg td,.tabla-sg th{white-space:normal}
+.tabla-sg td:first-child{min-width:150px}
+.btn[aria-pressed="true"]{background:var(--tinta);color:var(--papel)}
+footer{margin-top:40px;font-size:.85em;color:var(--tinta-3)}
+@media (max-width:560px){.cajetin{grid-template-columns:auto;left:-1.5px}.cajetin span{border-left:0;border-top:1px solid var(--tinta)}.lamina{padding-bottom:110px}}
+</style>
+</head>
+<body>
+<div class="barra"><div class="barra-in">
+  <span class="marca">Vivienda gratis · el cálculo</span>
+  <span class="progreso" aria-hidden="true"><i id="progreso"></i></span>
+  <span class="lam" id="lam-actual">Lámina 00</span>
+  <button type="button" id="btn-directo" aria-pressed="false">Modo directo</button>
+  <button type="button" id="btn-lab">Laboratorio</button>
+</div></div>
+
+<main class="envoltorio">
+
+<!-- 00 PORTADA -->
+<section class="lamina" id="l00" data-titulo="Portada">
+  <p class="eyebrow">Acampada de Sol, Madrid · Un domingo de septiembre de 2026</p>
+  <div class="pancarta"><span>Vivienda universal gratuita ya</span><small>Texto de la pancarta</small></div>
+  <h1>¿Es posible?</h1>
+  <p class="lead">Vamos a comprobarlo con datos oficiales, de junior a junior y con las cuentas a la vista. El objetivo no es darle la razón a nadie: es ver qué dicen los números. Si no estás de acuerdo con una hipótesis, puedes cambiarla en el laboratorio y ver cómo se mueve el resultado.</p>
+  <div class="grid3">
+    <div class="cifra"><b>42,0 millones</b><small>de adultos residentes en España (INE, 1-7-2026)</small></div>
+    <div class="cifra"><b>27,1 millones</b><small>de viviendas en España (MIVAU, 2025)</small></div>
+    <div class="cifra roja"><b>?</b><small>¿cuánto costaría darle una vivienda digna gratuita a cada adulto?</small></div>
+  </div>
+  <div class="cajetin"><span>L00</span><span>Portada · 28-09-2026</span></div>
+</section>
+
+<!-- 01 REGLAS -->
+<section class="lamina" id="l01" data-titulo="Reglas del juego">
+  <p class="eyebrow">Antes de empezar</p>
+  <h2>Las reglas del juego</h2>
+  <div class="grid2">
+    <div>
+      <p><b>1. Solo fuentes oficiales.</b> INE, Ministerio de Vivienda, Catastro, Agencia Tributaria, IGAE, Banco de España, BOE, Eurostat y, para Singapur, sus organismos públicos (HDB, SingStat, CPF). Cuando un dato no existe en una fuente oficial, no lo invento: lo marco como <b>hipótesis</b> y doy un rango.</p>
+      <p><b>2. Cada frase lleva etiqueta.</b> Así se distingue lo que se sabe de lo que se opina:</p>
+      <p><span class="tag t-dato">Dato</span> cifra oficial con fuente.<br>
+         <span class="tag t-evidencia">Evidencia</span> resultado de un estudio serio, con su método.<br>
+         <span class="tag t-debate">Debate</span> la evidencia es mixta o depende de valores.<br>
+         <span class="tag t-opinion">Opinión</span> juicio de valor. Es legítimo, pero no se demuestra con datos.<br>
+         <span class="tag t-hipotesis">Hipótesis</span> supuesto necesario para poder calcular.<br>
+         <span class="tag t-derivado">Cálculo propio</span> operación hecha aquí con datos oficiales.</p>
+    </div>
+    <div>
+      <p><b>3. Hipótesis a la vista.</b> Para calcular hay que simplificar. Por ejemplo, suponer que todas las viviendas de una provincia valen lo mismo por metro cuadrado. Cada simplificación está en la tabla del final y la mayoría se puede mover en el laboratorio.</p>
+      <p><b>4. Primero se calcula y después se opina.</b> El planteamiento puede parecer un disparate a primera vista. Eso no prueba nada: la conclusión tiene que salir de los números.</p>
+      <p><b>5. Unidades.</b> En español, <b>un billón</b> son un millón de millones (1.000.000.000.000). Los m² de las viviendas son <b>útiles</b> (lo que pisas) o <b>construidos</b> (con muros y zonas comunes). Los precios oficiales van en euros por m² construido.</p>
+    </div>
+  </div>
+  <div class="cajetin"><span>L01</span><span>Método</span></div>
+</section>
+
+<!-- 02 TESIS -->
+<section class="lamina" id="l02" data-titulo="La tesis">
+  <p class="eyebrow">Qué hay que demostrar</p>
+  <h2>La tesis, escrita con precisión</h2>
+  <p class="lead">«Todo residente en España, al cumplir 18 años, tiene derecho a una vivienda <b>digna</b> para él solo, <b>gratuita de por vida</b> y pagada con impuestos, como la sanidad pública. A quien ya tiene una vivienda en propiedad se le <b>compensa</b>, para que el trato sea igualitario».</p>
+  <p>Una frase de pancarta no se puede comprobar tal cual. Hay que descomponerla en preguntas que tengan respuesta con números. Este es el recorrido:</p>
+  <ol class="pasos">
+    <li><div><b>¿Qué es una vivienda «digna»?</b>Sin definirla no hay nada que contar ni que presupuestar.</div></li>
+    <li><div><b>¿Cuántas personas tienen derecho y dónde viven?</b>Adultos por provincia, hogares y cuánta gente viviría sola si pudiera.</div></li>
+    <li><div><b>¿Cuántas viviendas hay y cuántas faltan?</b>El parque actual, las viviendas vacías y la diferencia.</div></li>
+    <li><div><b>¿Cuánto cuesta una vivienda?</b>De abajo arriba: albañiles, materiales, arquitecto, licencia, suelo e impuestos.</div></li>
+    <li><div><b>¿Cuánto cuesta en total?</b>La factura inicial y la de cada año.</div></li>
+    <li><div><b>¿Se puede construir y dónde?</b>El ritmo máximo de la historia, el suelo disponible y el caso de Madrid.</div></li>
+    <li><div><b>¿Quién lo paga?</b>Impuestos por tramo de renta, IVA o deuda, y las reglas europeas.</div></li>
+  </ol>
+  <p>Después miraremos lo que la hoja de cálculo no ve, lo contrastaremos con el modelo de <b>Singapur</b> y terminaremos con la pregunta de fondo: <b>¿cuál es el problema real de la vivienda en España?</b></p>
+  <div class="cajetin"><span>L02</span><span>Tesis y plan de demostración</span></div>
+</section>
+
+<!-- 03 DIGNA -->
+<section class="lamina" id="l03" data-titulo="¿Qué es digna?">
+  <p class="eyebrow">Pregunta 1 de 7</p>
+  <h2>¿Qué es una vivienda digna?</h2>
+  <p><span class="tag t-dato">Dato</span>La Constitución dice en su artículo 47: «Todos los españoles tienen derecho a disfrutar de una vivienda digna y adecuada». No da ninguna cifra. La Ley 12/2023 la define por su «tamaño, ubicación y condiciones de habitabilidad», y los metros concretos los fija cada comunidad o ayuntamiento.</p>
+  <div class="grid2">
+    <div>
+      <div class="tabla"><table>
+        <thead><tr><th>Norma oficial</th><th class="n">Mínimo útil</th></tr></thead>
+        <tbody>
+          <tr><td>Madrid · Normas del Plan General, art. 7.3.4</td><td class="n">38 m²</td></tr>
+          <tr><td>Cataluña · Decreto 141/2012 (obra nueva)</td><td class="n">36 m²</td></tr>
+          <tr><td>C. Valenciana · Decreto 80/2023</td><td class="n">35 m²</td></tr>
+          <tr><td>País Vasco · Decreto 80/2022</td><td class="n">35 m²</td></tr>
+          <tr><td>Vivienda protegida (VPO) estatal · máximo</td><td class="n">90 m²</td></tr>
+        </tbody></table></div>
+      <p><span class="tag t-derivado">Cálculo propio</span>Tomamos el mínimo más exigente (38 m², Madrid) y le sumamos un 10 % para que el dormitorio, la cocina y el baño sean piezas separadas y haya algo de almacenaje:</p>
+      <div class="operacion"><div>38 m² × 1,10 ≈ <b>42 m² útiles</b></div><div>42 m² útiles ÷ 0,80 (hipótesis útil/construida) = <b>52,5 m² construidos</b></div><div class="res">Módulo digno para 1 persona: 42 m² útiles · 52,5 m² construidos</div></div>
+      <p class="nota">Para hogares más grandes: 2 personas 50 m² útiles, 3 personas 60 y 4 o más 70 <span class="tag t-hipotesis">Hipótesis</span>. Se escalan con la tabla por ocupantes del decreto valenciano y quedan por debajo del máximo VPO.</p>
+    </div>
+    <figure class="plano" style="margin:0">
+      <svg viewBox="0 0 360 330" role="img" aria-label="Plano del módulo de 42 metros cuadrados útiles">
+        <g transform="translate(40,40)" stroke="var(--tinta)" fill="none">
+          <rect x="0" y="0" width="280" height="240" stroke-width="4"/>
+          <line x1="0" y1="120" x2="280" y2="120" stroke-width="2"/>
+          <line x1="186.7" y1="0" x2="186.7" y2="120" stroke-width="2"/>
+          <line x1="140" y1="120" x2="140" y2="240" stroke-width="2"/>
+          <line x1="220" y1="120" x2="220" y2="240" stroke-width="2"/>
+          <line x1="140" y1="200" x2="220" y2="200" stroke-width="2"/>
+          <path d="M150 120 a26 26 0 0 1 26 26" stroke-width="1"/>
+          <path d="M230 240 a24 24 0 0 1 24 -24" stroke-width="1"/>
+        </g>
+        <g transform="translate(40,40)">
+          <text x="93" y="56" text-anchor="middle" font-weight="600">SALÓN-COMEDOR</text><text x="93" y="72" text-anchor="middle">14,0 m²</text>
+          <text x="233" y="56" text-anchor="middle" font-weight="600">COCINA</text><text x="233" y="72" text-anchor="middle">7,0 m²</text>
+          <text x="70" y="176" text-anchor="middle" font-weight="600">DORMITORIO</text><text x="70" y="192" text-anchor="middle">10,5 m²</text>
+          <text x="180" y="158" text-anchor="middle" font-weight="600">BAÑO</text><text x="180" y="172" text-anchor="middle">4,0 m²</text>
+          <text x="180" y="224" text-anchor="middle">ALMACÉN 2,0</text>
+          <text x="250" y="170" text-anchor="middle" font-weight="600">PASO</text><text x="250" y="184" text-anchor="middle">4,5 m²</text>
+        </g>
+        <g stroke="var(--cota)" fill="var(--cota)">
+          <line x1="40" y1="20" x2="320" y2="20"/><line x1="40" y1="14" x2="40" y2="26"/><line x1="320" y1="14" x2="320" y2="26"/>
+          <line x1="340" y1="40" x2="340" y2="280"/><line x1="334" y1="40" x2="346" y2="40"/><line x1="334" y1="280" x2="346" y2="280"/>
+        </g>
+        <text x="180" y="15" text-anchor="middle" style="fill:var(--cota)">7,00 m</text>
+        <text x="352" y="164" text-anchor="middle" style="fill:var(--cota)" transform="rotate(90 352 164)">6,00 m</text>
+        <text x="40" y="310">Total 42,0 m² útiles · esquema orientativo</text>
+      </svg>
+    </figure>
+  </div>
+  <div class="pausa"><p class="q">¿Es digno un estudio de 25 m²?</p>
+    <details><summary>Ver qué dicen los datos</summary><div>
+      <p><span class="tag t-dato">Dato</span>Madrid y el País Vasco lo permiten de forma excepcional: 25 m² con la cocina y la cama en la misma pieza. Cataluña admite 20 m² en viviendas antiguas.</p>
+      <p><span class="tag t-debate">Debate</span>Qué es «digno» es en parte una decisión política. Cuanto más alto se ponga el listón, más cuesta la promesa. En el laboratorio puedes bajar el módulo a 35 m² o subirlo a 60 m² y ver el efecto.</p>
+    </div></details></div>
+  <div class="cajetin"><span>L03</span><span>Fuentes: CE art. 47 · Ley 12/2023 · decretos autonómicos</span></div>
+</section>
+
+<!-- 04 CUÁNTOS -->
+<section class="lamina" id="l04" data-titulo="¿Cuántos somos?">
+  <p class="eyebrow">Pregunta 2 de 7</p>
+  <h2>¿Cuántas personas tienen derecho?</h2>
+  <div class="grid3">
+    <div class="cifra"><b>42,0 millones</b><small><span class="tag t-dato">Dato</span>residentes de 18 años o más (INE, 1-7-2026). Solo con nacionalidad española: 35,7 millones.</small></div>
+    <div class="cifra"><b>19,87 millones</b><small><span class="tag t-dato">Dato</span>hogares. Media de 2,49 personas por hogar; 5,68 millones viven solas.</small></div>
+    <div class="cifra"><b>68,7 %</b><small><span class="tag t-dato">Dato</span>de los jóvenes de 18 a 34 años viven con sus padres. Es el máximo de la serie (Eurostat, 2025).</small></div>
+  </div>
+  <p>El derecho es <b>individual</b>, porque el Estado no puede obligar a nadie a casarse o a compartir piso. Pero no todo el mundo querría vivir solo. Por eso calculamos dos escenarios:</p>
+  <div class="grid2">
+    <div><h3>Teórico puro</h3><p>Cada uno de los 42,0 millones de adultos vive en su propia vivienda. Es el techo de la promesa, lo que costaría si todo el mundo ejerciera su derecho.</p></div>
+    <div><h3>Plausible</h3><p>La gente sigue viviendo como hoy (parejas, familias), pero los 6,7 millones de jóvenes que viven con sus padres se independizan. Salen unos 26,5 millones de hogares, cada uno con una vivienda a su medida.</p></div>
+  </div>
+  <div class="grafico" id="g-prov" aria-label="Adultos frente a viviendas principales por provincia"></div>
+  <div class="leyenda"><span><i style="background:var(--linea)"></i>Adultos (derecho teórico)</span><span><i style="background:var(--tinta)"></i>Viviendas principales que ya existen</span><span><i style="background:var(--cota)"></i>Faltan</span></div>
+  <p class="fuente">INE, Estadística Continua de Población (1-7-2026). MIVAU, Estimación del parque de viviendas 2025. Las 12 provincias con más adultos.</p>
+  <div class="cajetin"><span>L04</span><span>Fuentes: INE ECP · Eurostat ilc_lvps08</span></div>
+</section>
+
+<!-- 05 CUÁNTAS -->
+<section class="lamina" id="l05" data-titulo="¿Cuántas casas hay?">
+  <p class="eyebrow">Pregunta 3 de 7</p>
+  <h2>¿Cuántas viviendas hay y cuántas faltan?</h2>
+  <div class="grid3">
+    <div class="cifra"><b>19,57 millones</b><small><span class="tag t-dato">Dato</span>viviendas principales, donde vive alguien de forma habitual (MIVAU, 2025).</small></div>
+    <div class="cifra"><b>7,53 millones</b><small><span class="tag t-dato">Dato</span>no principales: segundas residencias y vacías.</small></div>
+    <div class="cifra"><b>3,84 millones</b><small><span class="tag t-dato">Dato</span>vacías según el Censo 2021 (INE), medidas por su bajo consumo eléctrico.</small></div>
+  </div>
+  <div class="operacion">
+    <div>Teórico: 42,0 millones de adultos</div><div>  − 19,57 millones de viviendas principales</div><div>  − 20 % de las 7,53 millones no principales</div><div>  + 628.950 en mal estado que se sustituyen</div>
+    <div class="res">Hay que construir o conseguir ≈ 21,6 millones de viviendas</div>
+    <div style="margin-top:10px">Plausible: 26,5 millones de hogares</div><div>  − 19,57 millones − 20 % de no principales + 628.950</div>
+    <div class="res">Hay que construir o conseguir ≈ 6,1 millones de viviendas</div>
+  </div>
+  <p class="nota"><span class="tag t-hipotesis">Hipótesis</span>Solo un 20 % de las no principales sería aprovechable, porque la mayoría son segundas residencias o están donde no vive la gente. <span class="tag t-dato">Dato</span>Las 628.950 viviendas en edificios en estado «malo» (Censo 2021) se sustituyen.</p>
+  <div class="pausa"><p class="q">«Hay 3,8 millones de pisos vacíos. Con eso basta.»</p>
+    <details><summary>Ver qué dicen los datos</summary><div>
+      <p><span class="tag t-dato">Dato</span>La OCDE cruzó el censo del INE con dónde vive la gente. El 33 % de las vacías está en municipios de menos de 1.000 habitantes. Solo el 18 % está en ciudades medianas o grandes, que es donde vive el 53 % de la población (OCDE, <i>Economic Survey Spain</i> 2025, p. 41).</p>
+      <p><span class="tag t-dato">Dato</span>En Ourense, el 43,7 % del parque está vacío; en la ciudad de Madrid, un 10 % (153.101 de 1,53 millones).</p>
+      <p><span class="tag t-evidencia">Evidencia</span>INE, Banco de España y OCDE coinciden: las viviendas vacías ayudan, pero no están donde está la demanda. <b>Aunque se usaran todas, faltarían millones.</b></p>
+    </div></details></div>
+  <div class="cajetin"><span>L05</span><span>Fuentes: MIVAU parque 2025 · INE Censo 2021 · OCDE</span></div>
+</section>
+
+<!-- 06 COSTE -->
+<section class="lamina" id="l06" data-titulo="¿Cuánto cuesta una vivienda?">
+  <p class="eyebrow">Pregunta 4 de 7</p>
+  <h2>¿Cuánto cuesta una vivienda, de abajo arriba?</h2>
+  <p>Todo lo que se construye lo paga alguien: el albañil, el cemento, el arquitecto, la licencia del ayuntamiento… Sumamos partida a partida lo que cuesta <b>un metro cuadrado construido</b> de vivienda protegida de calidad media:</p>
+  <div class="grafico" id="g-cascada" aria-label="Desglose del coste de un metro cuadrado construido"></div>
+  <p class="fuente">Coste de obra de la vivienda protegida (PEM): IVE, Generalitat Valenciana, 2024 (888 €/m²), actualizado un 7 % a 2026 <span class="tag t-hipotesis">Hipótesis</span>. Gastos generales y beneficio: RD 1098/2001. ICIO: TRLRHL art. 102. IVA: Ley 37/1992. Suelo: precio medio del suelo urbano MIVAU 2T 2026 (207,76 €/m²) con edificabilidad 2 <span class="tag t-hipotesis">Hipótesis</span>. Honorarios, seguridad y salud, calidad y seguro decenal: sin tarifa oficial, rango en la tabla de hipótesis.</p>
+  <div class="grid2">
+    <div class="operacion">
+      <div>Coste de obra (PEM) 2026 ........ 950 €/m²</div>
+      <div>+ resto sin suelo ni IVA ........ 1.390 €/m²</div>
+      <div>+ suelo (media nacional) ....... 104 €/m²</div>
+      <div>+ IVA 10 % ...................... = 1.644 €/m²</div>
+      <div class="res">Módulo de 52,5 m² × 1.644 € ≈ 86.000 €</div>
+    </div>
+    <div>
+      <p><span class="tag t-derivado">Cálculo propio</span>La mano de obra es unos 380 €/m². Una hora de oficial de 1.ª cuesta 23,17 € con las cargas incluidas (BCCA, Junta de Andalucía). Eso da unas <b>16,4 horas por m²</b>: el módulo necesita unas <b>860 horas</b> de albañiles, oficiales y peones.</p>
+      <p><span class="tag t-dato">Dato</span>Un oficial de 1.ª en Madrid cobra 25.103 € brutos al año (convenio, BOCM 31-12-2025). A la empresa le cuesta un 37 % más por las cotizaciones a la Seguridad Social (Orden PJC/178/2025).</p>
+    </div>
+  </div>
+  <div class="pausa"><p class="q">Si construir cuesta unos 1.700 €/m² en todas partes, ¿por qué en la ciudad de Madrid se tasa a 5.418 €/m²?</p>
+    <details><summary>Ver qué dicen los datos</summary><div>
+      <p><span class="tag t-dato">Dato</span>Valor tasado de la vivienda libre en el 2.º trimestre de 2026 (MIVAU): 2.355 €/m² de media en España, 4.090 €/m² en la provincia de Madrid y 5.418 €/m² en la capital.</p>
+      <p><span class="tag t-derivado">Cálculo propio</span>En la ciudad de Madrid, unos <b>3.658 €/m²</b> no son ladrillo ni mano de obra: son el valor de la <b>ubicación</b>, es decir, del suelo.</p>
+      <p><span class="tag t-evidencia">Evidencia</span>La literatura económica (Glaeser y Gyourko, 2018; Gyourko y Molloy, 2015) muestra que cuando el precio supera mucho el coste de construir, la diferencia se explica sobre todo por la escasez de suelo edificable y las restricciones urbanísticas.</p>
+      <p><b>Consecuencia para la tesis:</b> el Estado también tendría que pagar ese suelo. La Constitución (art. 33) solo permite expropiar con indemnización. Por eso usamos el <b>precio de mercado</b> de cada provincia, o el coste de construir cuando es mayor: no se puede construir por debajo del coste.</p>
+    </div></details></div>
+  <div class="cajetin"><span>L06</span><span>Fuentes: IVE · BCCA · BOCM · BOE · MIVAU</span></div>
+</section>
+
+<!-- 07 FACTURA -->
+<section class="lamina" id="l07" data-titulo="La factura total">
+  <p class="eyebrow">Pregunta 5 de 7</p>
+  <h2>La factura total</h2>
+  <p>Aquí aparece la idea clave del cálculo. Si cada adulto tiene derecho a un módulo digno, <b>da igual si el Estado se lo construye, se lo compra o le compensa porque ya tiene uno</b>: cada derecho vale lo mismo, un módulo al precio de su provincia.</p>
+  <div class="operacion">
+    <div>Σ por provincia: adultos × 52,5 m² × precio del m² en esa provincia</div>
+    <div>≈ 42,0 millones × 52,5 m² × 2.479 €/m² (media ponderada)</div>
+    <div class="res">= 5,47 billones de € · el 324 % del PIB de un año</div>
+  </div>
+  <div class="grafico" id="g-escala" aria-label="Comparación de tamaños: coste frente a PIB y sanidad"></div>
+  <p class="fuente">PIB 2025: INE (1,69 billones de €). Gasto sanitario público 2024: Ministerio de Sanidad (101.739 millones de €). Área de cada cuadrado proporcional al importe.</p>
+  <div class="tabla"><table>
+    <thead><tr><th>Escenario</th><th class="n">Viviendas a construir</th><th class="n">Coste inicial</th><th class="n">% del PIB</th><th class="n">= años de gasto sanitario</th></tr></thead>
+    <tbody>
+      <tr><td><b>Teórico puro</b> · cada adulto, su vivienda</td><td class="n">21,6 millones</td><td class="n">5,47 billones de €</td><td class="n">324 %</td><td class="n">54</td></tr>
+      <tr><td><b>Plausible</b> · convivencia real más emancipación</td><td class="n">6,1 millones</td><td class="n">4,21 billones de €</td><td class="n">249 %</td><td class="n">41</td></tr>
+      <tr><td><b>Mínimo legal gratis</b> · 35 m² útiles y el resto se paga</td><td class="n">6,1 millones</td><td class="n">2,88 billones de €</td><td class="n">170 %</td><td class="n">28</td></tr>
+      <tr><td><i>Referencia: sin compensar a los propietarios</i></td><td class="n">6,1 millones</td><td class="n">1,77 billones de €</td><td class="n">105 %</td><td class="n">17</td></tr>
+    </tbody></table></div>
+  <p class="lead" style="border-left:4px solid var(--cota);padding-left:12px"><b>Ojo: esto se paga una sola vez.</b> Es lo que cuesta poner el sistema en marcha: construir, comprar o compensar todas las viviendas. «54 años de sanidad» quiere decir que esa factura inicial equivale a lo que España gasta en sanidad pública durante 54 años. Lo que costaría <b>cada año</b>, y cuánto pagaría cada persona, está en la lámina «¿Cuánto pagaría cada uno?».</p>
+  <h3>El coste inicial, medido en años de gasto público</h3>
+  <div class="tabla"><table>
+    <thead><tr><th>Partida (gasto público de un año, Eurostat 2023)</th><th class="n">Gasto anual</th><th class="n">Teórico = años de…</th><th class="n">Plausible = años de…</th></tr></thead>
+    <tbody>
+      <tr><td>Pensiones de jubilación</td><td class="n">153.051 millones de €</td><td class="n">36</td><td class="n">27</td></tr>
+      <tr><td>Sanidad</td><td class="n">98.630 millones de €</td><td class="n">55</td><td class="n">43</td></tr>
+      <tr><td>Educación</td><td class="n">62.532 millones de €</td><td class="n">87</td><td class="n">67</td></tr>
+      <tr><td>Defensa</td><td class="n">14.008 millones de €</td><td class="n">390</td><td class="n">300</td></tr>
+    </tbody></table></div>
+  <p class="fuente">Eurostat, gasto de las AAPP por funciones (COFOG, 2023): vejez GF1002, sanidad GF07, educación GF09, defensa GF02.</p>
+  <p class="nota">Solo con nacionalidad española, el escenario teórico bajaría a 4,60 billones de €. En el escenario de referencia, los propietarios (el 73,3 % de los hogares) no reciben nada: es más barato, pero trata distinto a quien ya pagó su casa.</p>
+  <div class="pausa"><p class="q">Si no compensamos a los propietarios, ¿sería justo?</p>
+    <details><summary>Ver qué dicen los datos y qué es opinión</summary><div>
+      <p><span class="tag t-derivado">Cálculo propio</span>Sin compensar, la factura baja a 1,77 billones de €. Sigue siendo más que el PIB de un año entero.</p>
+      <p><span class="tag t-opinion">Opinión</span>Si es justo que quien pagó su hipoteca durante 30 años no reciba nada mientras otro recibe la casa gratis, es una cuestión de valores. Los datos solo dicen cuánto cuesta cada opción.</p>
+    </div></details></div>
+  <div class="cajetin"><span>L07</span><span>Cálculo propio con INE · MIVAU · Min. Sanidad</span></div>
+</section>
+
+<!-- 08 CONSTRUIR -->
+<section class="lamina" id="l08" data-titulo="¿Se puede construir?">
+  <p class="eyebrow">Pregunta 6 de 7</p>
+  <h2>¿Se puede construir? ¿Y dónde?</h2>
+  <p>Aunque sobrara el dinero, las casas hay que levantarlas. España ha vivido una burbuja inmobiliaria, así que sabemos cuál es el máximo que su sector de la construcción ha conseguido en un año:</p>
+  <div class="grafico" id="g-ritmo" aria-label="Viviendas libres terminadas al año en España, 1991-2025"></div>
+  <p class="fuente">MIVAU, Boletín estadístico: viviendas libres terminadas, 1991-2025, y calificaciones provisionales de vivienda protegida.</p>
+  <div class="grid3">
+    <div class="cifra roja"><b>36 años</b><small><span class="tag t-derivado">Cálculo propio</span>para construir 21,6 millones viviendas al ritmo récord de 2006 (597.632 al año), sin parar ni un año.</small></div>
+    <div class="cifra roja"><b>267 años</b><small>al ritmo de 2025 (80.792 terminadas).</small></div>
+    <div class="cifra"><b>2,16 millones</b><small>viviendas al año harían falta para hacerlo en 10 años: más de 3,5 veces el récord de la burbuja.</small></div>
+  </div>
+  <h3>El suelo: ¿cabe?</h3>
+  <p><span class="tag t-dato">Dato</span>Los planes urbanísticos tienen previstas <b>7,09 millones</b> de viviendas aún sin construir (Sistema de Información Urbana, MIVAU, 2026). <span class="tag t-derivado">Cálculo propio</span>Si comparamos, provincia a provincia, lo que falta en el escenario teórico con ese suelo previsto, <b>14,1 millones de personas</b> no cabrían en su propia provincia. En el escenario plausible serían 1,6 millones.</p>
+  <div class="operacion">
+    <div>Provincia de Madrid: 6,05 millones adultos − 2,70 millones viviendas principales</div>
+    <div>Faltan 3,28 millones · suelo previsto: 441.720 viviendas</div>
+    <div class="res">El suelo planificado cubre el 13 % de lo que falta en Madrid</div>
+  </div>
+  <div class="pausa"><p class="q">¿Qué pasa cuando haya que llevar a una persona a otra zona?</p>
+    <details><summary>Pensarlo con datos</summary><div>
+      <p>Si en Madrid no hay suelo para todos, hay tres salidas: <b>densificar</b> (edificar más alto, lo que exige cambiar el planeamiento y lleva años), <b>asignar por turnos</b> (listas o sorteo) o <b>ofrecer la vivienda en otra provincia</b>.</p>
+      <p><span class="tag t-evidencia">Evidencia</span>La OCDE documenta un efecto de «encierro»: quien tiene una vivienda social se muda menos para aceptar un trabajo en otra ciudad, porque perdería su casa subvencionada. Una vivienda gratuita atada a un lugar tendría ese efecto multiplicado.</p>
+      <p><span class="tag t-opinion">Opinión</span>¿Es aceptable decirle a alguien de Vallecas que su vivienda gratuita está en Teruel? La respuesta depende de valores, pero hay que hacerse la pregunta.</p>
+    </div></details></div>
+  <div class="pausa"><p class="q">¿Es realmente justo un sorteo?</p>
+    <details><summary>Pensarlo con datos</summary><div>
+      <p>Un sorteo trata igual a todos, pero no distingue necesidad: puede tocarle un piso en el centro a quien no trabaja allí y no tocarle a quien sí. Las alternativas también tienen problemas: la <b>lista por antigüedad</b> premia a quien esperó más, no a quien más lo necesita, y la asignación por <b>necesidad</b> exige que un funcionario decida.</p>
+      <p><span class="tag t-evidencia">Evidencia</span>La revisión de Kholodilin (2024) encontró problemas de asignación en los 14 estudios que midieron este efecto en sistemas sin precios. Glaeser y Luttmer (2003) estimaron que el control de rentas de Nueva York dejaba muchos pisos en manos de hogares que no eran los que más los valoraban.</p>
+    </div></details></div>
+  <div class="pausa"><p class="q">¿Cómo resuelve este problema el mercado?</p>
+    <details><summary>Pensarlo con datos</summary><div>
+      <p><span class="tag t-evidencia">Evidencia</span>En un mercado, el <b>precio</b> hace dos cosas: reparte lo escaso (el piso del centro se lo queda quien más paga por él) y avisa de dónde hace falta construir (si los precios suben, compensa construir más). Por eso el mercado no necesita sorteos.</p>
+      <p><span class="tag t-evidencia">Evidencia</span>Pero tiene fallos conocidos: el suelo no se puede fabricar, construir tarda años, quien no puede pagar se queda fuera y, si el planeamiento no deja construir, los precios suben sin que aumente la oferta. Es lo que el Banco de España y la OCDE describen para España.</p>
+      <p><span class="tag t-debate">Debate</span>Ningún sistema elimina la escasez: el mercado la reparte con precios, el Estado con colas o sorteos. La sanidad pública, al ser gratuita, la reparte con listas de espera.</p>
+    </div></details></div>
+  <div class="cajetin"><span>L08</span><span>Fuentes: MIVAU series y SIU · OCDE · literatura revisada</span></div>
+</section>
+
+
+<!-- 08b MAPA -->
+<section class="lamina" id="l08m" data-titulo="Mapa: ¿cabe en cada provincia?">
+  <p class="eyebrow">Pregunta 6 · provincia a provincia</p>
+  <h2>¿Cabe la demanda en el suelo de cada provincia?</h2>
+  <p>Pulsa una provincia. Suponemos que cada persona quiere vivir en la provincia donde vive hoy <span class="tag t-hipotesis">Hipótesis</span>. Comparamos las viviendas que faltarían allí con las que el planeamiento urbanístico ya permite construir <span class="tag t-dato">Dato</span> (Sistema de Información Urbana, MIVAU 2026).</p>
+  <div class="botones" role="group" aria-label="Escenario del mapa"><button type="button" class="btn" id="m-teo" aria-pressed="true">Teórico: cada adulto, su vivienda</button><button type="button" class="btn" id="m-pla" aria-pressed="false">Plausible</button><button type="button" class="btn" id="m-esp">Toda España</button></div>
+  <div class="mapa-wrap">
+    <div class="grafico mapa" id="g-mapa" aria-label="Mapa de España por provincias"></div>
+    <div class="mapa-info" id="mapa-info" aria-live="polite"></div>
+  </div>
+  <div class="leyenda" id="mapa-leyenda"></div>
+  <p class="fuente">Demanda: adultos (teórico) u hogares más jóvenes emancipados (plausible) por provincia, INE ECP 1-7-2026. Viviendas existentes: MIVAU 2025, contando las principales y un 20 % de las no principales. Suelo: viviendas previstas y pendientes en las áreas de desarrollo del SIU, que cubre el 72 % de los municipios. Límites provinciales: Eurostat GISCO, NUTS 2024. Canarias, desplazada.</p>
+  <div class="pausa"><p class="q">Si en tu provincia no cabe, ¿qué se hace?</p>
+    <details><summary>Las tres salidas</summary><div>
+      <p><b>1. Construir hacia arriba.</b> Hay que cambiar el planeamiento para permitir más alturas o más viviendas por hectárea. Es posible, pero lleva años de tramitación y tiene límites de infraestructuras (agua, transporte, colegios).</p>
+      <p><b>2. Urbanizar suelo nuevo.</b> Es suelo no previsto hoy: hay que reclasificarlo, urbanizarlo y dotarlo de servicios.</p>
+      <p><b>3. Mandar a la gente a otra provincia.</b> Es la única salida inmediata. Es la cifra de «personas sin sitio» del mapa: quien no cabe en su provincia con el suelo previsto.</p>
+      <p><span class="tag t-debate">Debate</span>El SIU no cubre todos los municipios y el planeamiento puede cambiar, así que esta cifra es un orden de magnitud, no un recuento exacto.</p>
+    </div></details></div>
+  <div class="cajetin"><span>L09</span><span>Fuentes: INE · MIVAU parque y SIU · Eurostat GISCO</span></div>
+</section>
+
+<!-- 09a CADA UNO -->
+<section class="lamina" id="l09c" data-titulo="¿Cuánto paga cada uno?">
+  <p class="eyebrow">Pregunta 7 de 7 · primera parte</p>
+  <h2>¿Cuánto pagaría cada uno, y durante cuánto tiempo?</h2>
+  <p>El sistema tiene <b>dos fases</b>, como una hipoteca que luego deja gastos de comunidad:</p>
+  <div class="grid2">
+    <div class="rol"><h4>Fase 1 · los primeros 30 años</h4><p>Se paga el coste inicial a plazos (1/30 cada año) <span class="tag t-hipotesis">Hipótesis</span>. Además, cada año hay que mantener el parque público y dar vivienda a los adultos nuevos netos.</p></div>
+    <div class="rol"><h4>Fase 2 · del año 31 en adelante, para siempre</h4><p>El coste inicial ya está pagado. Queda el mantenimiento y la reposición de las viviendas (se hacen viejas) y el crecimiento neto de adultos. Nunca llega a cero, igual que la sanidad.</p></div>
+  </div>
+  <div class="grafico" id="g-calendario" aria-label="Coste anual del sistema año a año, 2027-2076"></div>
+  <div class="botones" role="group" aria-label="Escenario del calendario"><button type="button" class="btn" id="c-teo" aria-pressed="true">Teórico</button><button type="button" class="btn" id="c-pla" aria-pressed="false">Plausible</button></div>
+  <div class="leyenda"><span><i style="background:var(--cota)"></i>Coste inicial a plazos</span><span><i style="background:var(--tinta-3)"></i>Mantenimiento y reposición</span><span><i style="background:var(--obra)"></i>Viviendas para adultos nuevos netos</span></div>
+  <h3>Lo que paga cada uno</h3>
+  <div class="grid2">
+    <div>
+      <p class="eyebrow">Teórico · fase 1 (años 1-30)</p>
+      <div class="grid2">
+        <div class="cifra roja"><b>5.470 €</b><small>por adulto y año, de media (456 € al mes). Son 250.832 millones de € al año, el 14,8 % del PIB.</small></div>
+        <div class="cifra roja"><b>10.460 €</b><small>por declarante de IRPF y año, si se reparte entre los 24,0 millones de declarantes.</small></div>
+      </div>
+    </div>
+    <div>
+      <p class="eyebrow">Teórico · fase 2 (año 31 en adelante)</p>
+      <div class="grid2">
+        <div class="cifra"><b>970 €</b><small>por adulto y año (80 € al mes). Son 45.071 millones de € al año, el 2,7 % del PIB, para siempre.</small></div>
+        <div class="cifra"><b>1.880 €</b><small>por declarante y año.</small></div>
+      </div>
+    </div>
+  </div>
+  <div class="tabla"><table>
+    <thead><tr><th>Escenario</th><th class="n">Fase 1 · € por adulto y año</th><th class="n">Fase 1 · al mes</th><th class="n">Fase 2 · € por adulto y año</th><th class="n">Fase 2 · al mes</th></tr></thead>
+    <tbody>
+      <tr><td><b>Teórico puro</b></td><td class="n">5.470</td><td class="n">456</td><td class="n">970</td><td class="n">80</td></tr>
+      <tr><td><b>Plausible</b></td><td class="n">3.890</td><td class="n">324</td><td class="n">560</td><td class="n">46</td></tr>
+      <tr><td><b>Mínimo legal gratis</b></td><td class="n">2.620</td><td class="n">218</td><td class="n">350</td><td class="n">29</td></tr>
+    </tbody></table></div>
+  <p class="nota">Es una media por adulto: en la práctica, con impuestos, cada persona pagaría según su renta (tabla por tramos en la lámina siguiente). Los adultos de cada año salen de la proyección del INE.</p>
+  <h3>¿Y la gente que muere? Sus casas quedan libres</h3>
+  <div class="operacion">
+    <div>  personas que cumplen 18 años ............. + 551.000  (INE, 2026)</div>
+    <div>+ saldo migratorio de adultos ............ + 472.000  (INE, 2024)</div>
+    <div>− defunciones ............................ − 436.000  (INE, 2024)</div>
+    <div class="res">= adultos nuevos netos al año ≈ +588.000</div>
+  </div>
+  <p><span class="tag t-derivado">Cálculo propio</span>Las viviendas de quienes fallecen <b>no se pierden: se reasignan</b>. Por eso el modelo solo construye para el crecimiento <b>neto</b> de adultos, no para todos los que cumplen 18. El INE proyecta que ese crecimiento se irá frenando: una media de 180.000 al año en los próximos 30 años, y hacia 2056 los adultos empezarían a disminuir. En ese momento dejaría de hacer falta construir más, pero no mantener y reponer lo construido.</p>
+  <div class="pausa"><p class="q">Si los que mueren dejan su casa libre, ¿por qué hay que seguir pagando para siempre?</p>
+    <details><summary>Ver la respuesta</summary><div>
+      <p>Porque las viviendas envejecen: hay que mantenerlas (un 1 % de su coste al año <span class="tag t-hipotesis">Hipótesis</span>) y reponerlas al final de su vida útil (80 años, un 1,25 % al año <span class="tag t-hipotesis">Hipótesis</span>). En la fase 2 del escenario teórico eso supone 45.071 millones de € al año, frente a 0 millones de € de viviendas nuevas de media.</p>
+      <p>Pasa lo mismo con cualquier servicio público: la sanidad no se «termina de pagar» nunca.</p>
+    </div></details></div>
+  <div class="cajetin"><span>L10</span><span>Fuentes: INE proyecciones, MNP y migraciones · cálculo propio</span></div>
+</section>
+<!-- 09 QUIÉN PAGA -->
+<section class="lamina" id="l09" data-titulo="¿Quién paga?">
+  <p class="eyebrow">Pregunta 7 de 7 · segunda parte</p>
+  <h2>¿Quién lo paga?</h2>
+  <p>Media anual de la fase 1 (los primeros 30 años) en el escenario teórico:</p>
+  <div class="operacion">
+    <div>  coste inicial ÷ 30 .................... 182.269 millones de €</div>
+    <div>+ mantenimiento y reposición (2,25 %) .... 45.071 millones de €</div>
+    <div>+ 180.000 adultos netos al año ........ 23.492 millones de €</div>
+    <div class="res">= 250.832 millones de € al año · 14,8 % del PIB</div>
+  </div>
+  <h3>¿Es mucho? Comparado con lo que gastamos cada año</h3>
+  <div class="grafico" id="g-comparativa" aria-label="Coste anual de la vivienda gratuita frente a pensiones, sanidad, educación y defensa"></div>
+  <p class="fuente">Todas las barras son gasto de <b>un año</b>. Pensiones, sanidad, educación y defensa: Eurostat COFOG 2023. Vivienda gratuita: cálculo propio (media de cada fase).</p>
+  <div class="tabla"><table>
+    <thead><tr><th>El coste anual de la vivienda gratuita (teórico) equivale a…</th><th class="n">Fase 1</th><th class="n">Fase 2</th></tr></thead>
+    <tbody>
+      <tr><td>…veces lo que gastamos en pensiones de jubilación</td><td class="n">1,6</td><td class="n">0,29</td></tr>
+      <tr><td>…veces lo que gastamos en sanidad</td><td class="n">2,5</td><td class="n">0,46</td></tr>
+      <tr><td>…veces lo que gastamos en educación</td><td class="n">4,0</td><td class="n">0,72</td></tr>
+      <tr><td>…veces lo que gastamos en defensa</td><td class="n">17,9</td><td class="n">3,22</td></tr>
+    </tbody></table></div>
+  <div class="grid3">
+    <div class="cifra roja"><b>+176 %</b><small>de IRPF si se paga solo con él: cada contribuyente pagaría 2,8 veces lo que paga hoy.</small></div>
+    <div class="cifra roja"><b>+72 puntos</b><small>de IVA si se pagara con IVA. Hoy el tipo general es del 21 % (1 punto ≈ 3.500 millones de €) <span class="tag t-derivado">Cálculo propio</span>.</small></div>
+    <div class="cifra roja"><b>424 %</b><small>de deuda sobre el PIB si se pagara con deuda (hoy el 100,7 %). Solo en intereses: 199.038 millones de € al año.</small></div>
+  </div>
+  <h3>¿Cuánto más pagaría cada tramo de renta?</h3>
+  <p>Si todo se pagara subiendo el IRPF en la misma proporción para todos los tramos, esto es lo que <b>cada declarante</b> pagaría de más al año durante la fase 1:</p>
+  <div class="tabla"><table>
+    <thead><tr><th>Rendimientos declarados</th><th class="n">Declarantes</th><th class="n">Cuota media actual</th><th class="n">Extra · teórico</th><th class="n">Extra · plausible</th></tr></thead>
+    <tbody><tr><td>1.500–6.000 €</td><td class="n">3.127.766</td><td class="n">2</td><td class="n neg">+3</td><td class="n neg">+2</td></tr>
+<tr><td>6.000–12.000 €</td><td class="n">2.688.297</td><td class="n">339</td><td class="n neg">+597</td><td class="n neg">+425</td></tr>
+<tr><td>12.000–21.000 €</td><td class="n">4.302.709</td><td class="n">2.044</td><td class="n neg">+3.599</td><td class="n neg">+2.563</td></tr>
+<tr><td>21.000–30.000 €</td><td class="n">4.277.053</td><td class="n">4.495</td><td class="n neg">+7.915</td><td class="n neg">+5.637</td></tr>
+<tr><td>30.000–60.000 €</td><td class="n">5.282.994</td><td class="n">10.122</td><td class="n neg">+17.822</td><td class="n neg">+12.693</td></tr>
+<tr><td>60.000–150.000 €</td><td class="n">1.170.735</td><td class="n">29.434</td><td class="n neg">+51.822</td><td class="n neg">+36.909</td></tr>
+<tr><td>150.000–601.000 €</td><td class="n">160.927</td><td class="n">98.765</td><td class="n neg">+173.890</td><td class="n neg">+123.849</td></tr>
+<tr><td>Mayor de 601.000 €</td><td class="n">14.738</td><td class="n">657.885</td><td class="n neg">+1.158.301</td><td class="n neg">+824.976</td></tr></tbody></table></div>
+  <p class="fuente">AEAT, Estadística de los declarantes del IRPF 2023 (cuota resultante por tramo), escalada a la recaudación de 2025 (142.466 millones de €). Cálculo propio. El tramo de rentas negativas o nulas no se muestra.</p>
+  <div class="pausa"><p class="q">¿Y si pagan solo los ricos?</p>
+    <details><summary>Ver el cálculo</summary><div>
+      <p><span class="tag t-dato">Dato</span>Los declarantes con más de 150.000 € de rendimientos son unos 176.000 y pagaron unos 21.100 millones de IRPF en 2023. <span class="tag t-derivado">Cálculo propio</span>Aunque se les quitara el 100 % de todo lo que ganan (unos 40.000 millones de base imponible general), apenas cubriría una sexta parte de los 250.832 millones de € anuales de la fase 1.</p>
+      <p><span class="tag t-evidencia">Evidencia</span>Además, los impuestos muy altos cambian el comportamiento: las rentas altas se desplazan o se declaran de otra forma. La recaudación real sería menor que la estática.</p>
+    </div></details></div>
+  <p><span class="tag t-dato">Dato</span>Las reglas fiscales de la UE (Reglamento 2024/1263) fijan un déficit máximo del 3 % y una deuda de referencia del 60 % del PIB. España se ha comprometido a que su gasto neto crezca un 3,4 % al año en 2025-2028. Un gasto extra del 14,8 % del PIB está muy fuera de ese marco.</p>
+  <div class="cajetin"><span>L11</span><span>Fuentes: AEAT · Eurostat · BdE · Tesoro · Reglamento UE 2024/1263</span></div>
+</section>
+
+<!-- 10 LABORATORIO -->
+<section class="lamina" id="l10" data-titulo="Laboratorio de hipótesis">
+  <p class="eyebrow">Tu turno</p>
+  <h2>Laboratorio de hipótesis</h2>
+  <p>¿No te convence alguna hipótesis? Muévela. El cálculo es el mismo de las láminas anteriores, simplificado a escala nacional. Los valores por defecto son los del escenario teórico puro.</p>
+  <div class="lab">
+    <div>
+      <div class="control"><label for="h-m2">Metros útiles por persona <output id="o-m2"></output></label><input type="range" id="h-m2" min="25" max="70" step="1" value="42"><p class="ayuda">35 = mínimo legal · 42 = nuestro módulo · 90 = máximo VPO</p></div>
+      <div class="control"><label for="h-solo">Adultos que viven solos <output id="o-solo"></output></label><input type="range" id="h-solo" min="0" max="100" step="5" value="100"><p class="ayuda">0 % = escenario plausible (convivencia actual más emancipación) · 100 % = teórico</p></div>
+      <div class="control"><label for="h-precio">Precio del m² construido <output id="o-precio"></output></label><input type="range" id="h-precio" min="900" max="5500" step="1" value="2479">
+        <div class="botones"><button type="button" class="btn" data-precio="2479">Mercado (media ponderada)</button><button type="button" class="btn" data-precio="1644">Coste de construir (media)</button><button type="button" class="btn" data-precio="1390">Sin suelo ni IVA</button></div></div>
+      <div class="control"><label for="h-anios">Años para pagarlo <output id="o-anios"></output></label><input type="range" id="h-anios" min="10" max="60" step="1" value="30"></div>
+      <div class="control"><label for="h-ritmo">Viviendas construidas al año <output id="o-ritmo"></output></label><input type="range" id="h-ritmo" min="80000" max="1000000" step="10000" value="600000"><p class="ayuda">2025: 80.792 · récord de 2006: 597.632</p></div>
+      <div class="control"><label for="h-mant">Mantenimiento y reposición anual <output id="o-mant"></output></label><input type="range" id="h-mant" min="0.5" max="4" step="0.25" value="2.25"></div>
+    </div>
+    <div>
+      <div class="resultado">
+        <div><b id="r-viv"></b><small>viviendas a construir o conseguir</small></div>
+        <div><b id="r-anios"></b><small>de obra al ritmo elegido</small></div>
+        <div><b id="r-adulto"></b><small id="r-adulto-s"></small></div>
+        <div><b id="r-f2"></b><small id="r-f2-s"></small></div>
+        <div><b id="r-cap"></b><small id="r-cap-s"></small></div>
+        <div><b id="r-anual"></b><small id="r-anual-s"></small></div>
+        <div><b id="r-irpf"></b><small>de subida del IRPF si se paga solo con él</small></div>
+        <div><b id="r-iva"></b><small>puntos de IVA si se paga solo con él</small></div>
+        <div><b id="r-decl"></b><small>de más al año por declarante de IRPF, de media</small></div>
+        <div><b id="r-deuda"></b><small>de deuda sobre el PIB si se paga con deuda</small></div>
+      </div>
+      <p class="nota" style="margin-top:18px">Aproximación nacional: puede diferir en un 5-10 % del cálculo por provincias de las láminas anteriores. Para pagarlo, la subida del IRPF se aplica en la misma proporción a todos los tramos.</p>
+      <div class="botones"><button type="button" class="btn" id="btn-reset">Volver a los valores del teórico</button><button type="button" class="btn" id="btn-plaus">Cargar el plausible</button><button type="button" class="btn" id="btn-min">Mínimo legal (35 m²)</button></div>
+    </div>
+  </div>
+  <div class="cajetin"><span>L12</span><span>Modelo nacional simplificado</span></div>
+</section>
+
+<!-- 11 LO QUE NO VE -->
+<section class="lamina" id="l11" data-titulo="Lo que la hoja no ve">
+  <p class="eyebrow">Más allá de la calculadora</p>
+  <h2>Lo que la hoja de cálculo no ve</h2>
+  <p>Aunque el dinero apareciera, poner en marcha algo así cambiaría el comportamiento de millones de personas y empresas. Estas son las preguntas que haría un equipo de economía, sociología, psicología e historia:</p>
+  <div class="grid2">
+    <div class="rol"><h4>Precios de la obra</h4><p><span class="tag t-evidencia">Evidencia</span>Si el Estado pidiera construir de golpe varias veces el récord de 2006, la demanda de albañiles, cemento y grúas dispararía sus precios. En 2007 trabajaban en la construcción 2,72 millones de personas (EPA); en 2023, 1,41 millones. <span class="tag t-debate">Debate</span>Cuánto subirían es incierto, pero la dirección es clara: la misma factura saldría más cara.</p></div>
+    <div class="rol"><h4>El resto de la economía</h4><p><span class="tag t-evidencia">Evidencia</span>Cada trabajador que construye viviendas deja de hacer otra cosa, y cada euro de impuestos que se destina a esto sale de otro uso: sanidad, pensiones o el bolsillo de los contribuyentes. Los economistas lo llaman <b>coste de oportunidad</b>.</p></div>
+    <div class="rol"><h4>Incentivos y mantenimiento</h4><p><span class="tag t-debate">Debate</span>Lo que no es de uno y no cuesta nada se tiende a cuidar menos. Por eso el modelo incluye un 2,25 % anual de mantenimiento y reposición <span class="tag t-hipotesis">Hipótesis</span>. Si fuera mayor, el coste anual subiría.</p></div>
+    <div class="rol"><h4>Movilidad</h4><p><span class="tag t-evidencia">Evidencia</span>Una vivienda gratuita atada a un lugar desanima a mudarse por trabajo, como ocurre con la vivienda social (OCDE) y con el control de rentas: en San Francisco, la movilidad de los inquilinos cayó casi un 20 % (Diamond, McQuade y Qian, <i>AER</i> 2019).</p></div>
+    <div class="rol"><h4>El mercado que queda</h4><p><span class="tag t-debate">Debate</span>Si todos los adultos tienen casa gratis, la demanda de alquiler libre caería mucho: bajarían los alquileres, pero también la inversión privada en vivienda. El Estado pasaría a ser el gran casero del país.</p></div>
+    <div class="rol"><h4>Historia</h4><p><span class="tag t-dato">Dato</span>España ya ha visto lo que pasa cuando la construcción se dispara: en 2006 se iniciaron 664.923 viviendas libres y siete años después, 29.232 (MIVAU). Del boom quedan ~450.000 viviendas sin vender, en su mayoría mal ubicadas (Banco de España, DO 24/33).</p></div>
+  </div>
+  <div class="cajetin"><span>L13</span><span>Fuentes: EPA · OCDE · AER 2019 · MIVAU · BdE</span></div>
+</section>
+
+<!-- 12 VEREDICTO A -->
+<section class="lamina" id="l12" data-titulo="Veredicto modelo A">
+  <p class="eyebrow">Veredicto del modelo A</p>
+  <h2>¿Es viable la vivienda gratuita universal?</h2>
+  <p><span class="sello">No, tal como está formulada</span></p>
+  <div class="tabla"><table>
+    <thead><tr><th>Dimensión</th><th>Resultado</th><th>Por qué</th></tr></thead>
+    <tbody>
+      <tr><td>Dinero</td><td class="no">No</td><td>Coste inicial de 5,47 billones de € (324 % del PIB). Durante 30 años, 250.832 millones de € al año (14,8 % del PIB): <b>5.470 € por adulto y año</b> (456 € al mes), o multiplicar el IRPF por 2,8. Después, 970 € por adulto y año para siempre.</td></tr>
+      <tr><td>Construcción</td><td class="no">No</td><td>36 años al ritmo récord de la historia de España, sin un solo año de parón.</td></tr>
+      <tr><td>Suelo</td><td class="no">No en las ciudades</td><td>14,1 millones de personas no cabrían en su provincia con el suelo previsto. En Madrid, el suelo planificado cubre el 13 % de lo que falta.</td></tr>
+      <tr><td>Ley</td><td class="med">Posible, pero caro</td><td>La Constitución permite expropiar, pero siempre con indemnización (art. 33). Por eso compensar a los propietarios no es opcional.</td></tr>
+      <tr><td>Reparto</td><td class="med">Problemático</td><td>Sorteos o colas, traslados y pérdida de movilidad.</td></tr>
+    </tbody></table></div>
+  <p>Ni la versión más barata (el mínimo legal gratis, 7,1 % del PIB cada año, casi duplicar el IRPF) ni la que no compensa a nadie (5,8 %) caben en las cuentas públicas de España sin recortar varias partidas del tamaño de la sanidad.</p>
+  <p><span class="tag t-opinion">Opinión</span>La conclusión no depende de si uno es de izquierdas o de derechas: sale de la aritmética. Lo que sí depende de valores es qué hacer con el problema, que es real. Para eso, el contraste.</p>
+  <div class="cajetin"><span>L14</span><span>Síntesis del modelo A</span></div>
+</section>
+
+<!-- 13 SINGAPUR -->
+<section class="lamina" id="l13" data-titulo="Modelo B: Singapur">
+  <p class="eyebrow">Modelo B · el contraste</p>
+  <h2>Vivienda a precio fijo: cómo lo hace Singapur</h2>
+  <div class="grid3">
+    <div class="cifra"><b>77 %</b><small><span class="tag t-dato">Dato</span>de los hogares vive en pisos públicos de la HDB: 1,15 millones de pisos (HDB, 2025).</small></div>
+    <div class="cifra"><b>0,83 %</b><small><span class="tag t-dato">Dato</span>del PIB: la pérdida anual de la HDB (6.339 millones de dólares de Singapur en el ejercicio 2024/25), que cubre el Estado. <span class="tag t-derivado">Cálculo propio</span> sobre el PIB de SingStat.</small></div>
+    <div class="cifra"><b>37 %</b><small><span class="tag t-dato">Dato</span>del salario va a un ahorro obligatorio, el CPF (20 % lo pone el trabajador y 17 % la empresa), que se puede usar para comprar la casa.</small></div>
+  </div>
+  <h3>Cómo funciona, en cuatro piezas</h3>
+  <ol class="pasos">
+    <li><div><b>El Estado controla el suelo.</b>Desde la Land Acquisition Act de 1966 puede expropiar para «desarrollo nacional». El famoso «90 % del suelo es público» circula mucho, pero no lo hemos podido confirmar en fuente oficial.</div></li>
+    <li><div><b>Construye y vende el uso por 99 años.</b>No se vende la propiedad del suelo sino un arrendamiento de 99 años, a un precio fijado por la HDB muy por debajo del de mercado.</div></li>
+    <li><div><b>Ahorro obligatorio más ayudas.</b>El CPF paga la entrada y la cuota. Las ayudas llegan a 120.000 dólares de Singapur por familia (60.000 para solteros).</div></li>
+    <li><div><b>Reglas contra la especulación.</b>Hay que vivir en el piso entre 5 y 10 años antes de revenderlo, y existen cuotas étnicas por bloque desde 1989.</div></li>
+  </ol>
+  <h3>Singapur frente a España: ¿se puede comparar?</h3>
+  <div class="tabla tabla-sg"><table>
+    <thead><tr><th></th><th class="n">Singapur</th><th class="n">España</th><th class="n">Diferencia</th></tr></thead>
+    <tbody>
+      <tr><td>Población</td><td class="n">6,11 millones (4,20 millones residentes)</td><td class="n">49,8 millones</td><td class="n">España ×8</td></tr>
+      <tr><td>Superficie</td><td class="n">744 km²</td><td class="n">505.983 km²</td><td class="n">España ×680</td></tr>
+      <tr><td>Densidad</td><td class="n">8.210 hab./km²</td><td class="n">98 hab./km²</td><td class="n">Singapur ×83</td></tr>
+      <tr><td>PIB por habitante (paridad de poder adquisitivo, 2025)</td><td class="n">163.400 $</td><td class="n">59.900 $</td><td class="n">Singapur ×2,7</td></tr>
+      <tr><td>Ingresos del hogar</td><td class="n">9.541 SGD/mes, mediana del empleo (≈ 77.400 €/año)</td><td class="n">38.994 €/año, media neta</td><td class="n">No comparables del todo*</td></tr>
+      <tr><td>Precio de un piso frente a la renta del hogar</td><td class="n">4-room nuevo (BTO) ≈ 428.000 SGD = 3,7 años de renta</td><td class="n">70 m² a precio de mercado = 4,5 años de renta</td><td class="n"></td></tr>
+      <tr><td>Viviendas públicas nuevas por cada 1.000 habitantes y año</td><td class="n">3,2 (19.600 BTO en 2024)</td><td class="n">2,0 (modelo B: 100.000)</td><td class="n">Al ritmo de Singapur, España lanzaría 160.000 al año</td></tr>
+    </tbody></table></div>
+  <p class="fuente">SingStat (población 2025, superficie 2025 y renta del hogar 2024 incluida la aportación del empleador al CPF), Eurostat (superficie de España), INE (población 1-7-2026 y ECV 2025), Banco Mundial (PIB per cápita en PPA, dólares internacionales), BCE (tipo de cambio SGD/EUR, agosto de 2026: 1,48), HDB Key Statistics 2024/25. *La renta de Singapur es bruta, mediana y solo del trabajo; la de España es neta y media. El orden de magnitud sí es comparable.</p>
+  <div class="pausa"><p class="q">¿Se puede extrapolar Singapur a España?</p>
+    <details><summary>Lo que sí y lo que no</summary><div>
+      <p><b>El tamaño no invalida la comparación</b> si se mide en proporción: por eso comparamos en % del PIB y en viviendas por cada 1.000 habitantes, no en euros totales.</p>
+      <p><b>La riqueza sí importa.</b> Un singapurense produce unas 2,7 veces más que un español, a igualdad de poder adquisitivo. Pagar un piso le cuesta pocos años de renta, y el Estado puede subvencionar con un 0,83 % de un PIB mucho mayor por habitante. En España, el mismo esfuerzo en % del PIB compra menos.</p>
+      <p><b>La geografía, también.</b> Es una ciudad-estado con una densidad 83 veces mayor que la española: allí la vivienda en altura es la norma y todo el país es «Madrid». España tiene suelo barato donde no vive nadie y suelo caro donde vive casi todo el mundo.</p>
+      <p><span class="tag t-debate">Debate</span>Lo que sí se puede trasladar son las piezas: suelo público para vivienda, venta a precio regulado con reglas contra la especulación y ahorro para la entrada. No se puede copiar el paquete completo.</p>
+    </div></details></div>
+  <div class="pausa"><p class="q">¿Tiene letra pequeña?</p>
+    <details><summary>Ver</summary><div>
+      <p><span class="tag t-dato">Dato</span>La espera estándar es de 4-5 años desde la solicitud hasta las llaves. En junio de 2024 hubo 3,8 solicitudes por cada piso ofrecido (HDB).</p>
+      <p><span class="tag t-debate">Debate</span>Singapur es una ciudad-estado que expropió el suelo cuando era barato, con un ahorro forzoso muy alto y 60 años de continuidad política. Copiarlo tal cual en España no es realista; tomar sus piezas sí se puede discutir.</p>
+    </div></details></div>
+  <div class="cajetin"><span>L15</span><span>Fuentes: HDB Key Statistics y estados financieros 2025 · CPF · SingStat</span></div>
+</section>
+
+<!-- 14 B EN ESPAÑA -->
+<section class="lamina" id="l14" data-titulo="Modelo B en España">
+  <p class="eyebrow">Modelo B adaptado</p>
+  <h2>¿Y si España hiciera algo parecido?</h2>
+  <p>Un programa de contraste: el Estado construye <b>100.000 viviendas al año</b> de unos 70 m² construidos <span class="tag t-hipotesis">Hipótesis</span> y las vende a precio de coste, sin cobrar el valor del suelo y con IVA del 4 %.</p>
+  <div class="operacion">
+    <div>Precio de venta: 1.446 €/m² × 70 m² ....... ≈ 101.000 €</div>
+    <div>Precio de mercado equivalente .......... ≈ 174.000 €</div>
+    <div>Subvención implícita por vivienda ....... ≈ 72.000 €</div>
+    <div class="res">100.000 viviendas × 72.000 € = 7.233 millones de € al año · 0,43 % del PIB</div>
+  </div>
+  <div class="grid2">
+    <div>
+      <p><span class="tag t-derivado">Cálculo propio</span>Cuesta en proporción la mitad que el sistema de Singapur (0,83 % de su PIB). Con 100.000 viviendas al año, en unos <b>7 años</b> se cubriría el déficit que estima el Banco de España (600.000-755.000 viviendas).</p>
+      <p>Físicamente es posible: sumado a lo que ya construye el mercado, serían unas 180.792 viviendas al año, menos de un tercio del récord de 2006. Y hay 7,09 millones de viviendas previstas en el planeamiento.</p>
+    </div>
+    <div>
+      <p><span class="tag t-debate">Debate</span>El gran coste es el <b>suelo</b>. Si ya es público, el gasto de caja casi desaparece (584 millones de €, lo que se deja de cobrar de IVA), pero el Estado renuncia a venderlo a precio de mercado. En Singapur se contabiliza así: la HDB «paga» el suelo al Estado a valor de mercado y esa es la mayor parte de su pérdida.</p>
+      <p><span class="tag t-debate">Debate</span>Quedan problemas: quién puede comprar (límites de renta), cómo evitar que el comprador lo revenda con beneficio (plazos mínimos de 5-10 años) y, otra vez, sorteos o listas.</p>
+    </div>
+  </div>
+  <div class="cajetin"><span>L16</span><span>Cálculo propio con MIVAU · IVE · HDB</span></div>
+</section>
+
+<!-- 15 CONTRASTE -->
+<section class="lamina" id="l15" data-titulo="A frente a B">
+  <p class="eyebrow">El contraste</p>
+  <h2>Gratis para todos frente a precio fijo</h2>
+  <div class="grafico" id="g-ab" aria-label="Coste anual en porcentaje del PIB"></div>
+  <p class="fuente">Coste anual en % del PIB. Modelos A y B: cálculo propio. Singapur: estados financieros de la HDB 2024/25 y PIB de SingStat.</p>
+  <div class="tabla"><table>
+    <thead><tr><th></th><th>A · Gratis para todos (teórico)</th><th>B · Precio fijo tipo Singapur</th></tr></thead>
+    <tbody>
+      <tr><td>Coste anual</td><td class="no">250.832 millones de € (14,8 % del PIB)</td><td class="si">7.233 millones de € (0,43 % del PIB)</td></tr>
+      <tr><td>Veces más caro</td><td colspan="2">A cuesta cada año unas <b>35 veces</b> lo que B (25 veces en el escenario plausible).</td></tr>
+      <tr><td>Viviendas nuevas</td><td class="no">21,6 millones</td><td class="si">100.000 al año, a demanda</td></tr>
+      <tr><td>Plazo</td><td class="no">36 años al ritmo récord</td><td class="si">~7 años para cubrir el déficit</td></tr>
+      <tr><td>Quién paga</td><td>Todos los contribuyentes: IRPF × 2,8</td><td>El comprador paga la construcción; el Estado pone el suelo</td></tr>
+      <tr><td>Riesgos principales</td><td>Quiebra fiscal, sorteos y traslados, pérdida de movilidad</td><td>Escasez de suelo público, colas, reventa especulativa si no se regula</td></tr>
+    </tbody></table></div>
+  <div class="cajetin"><span>L17</span><span>Síntesis A frente a B</span></div>
+</section>
+
+<!-- 16 MITOS -->
+<section class="lamina" id="l16" data-titulo="Mito o dato">
+  <p class="eyebrow">Para el chat</p>
+  <h2>¿Mito o dato?</h2>
+  <p>Frases que se oyen en cualquier discusión sobre vivienda, de uno y otro lado, comparadas con la evidencia.</p>
+  <div class="grid2">
+    <div class="mito"><span class="frase">«Con los pisos vacíos se acaba el problema»</span><span class="veredicto v-falso">Mayormente falso</span><p>3,84 millones de vacías, pero solo el 18 % está en ciudades medianas o grandes, donde vive el 53 % de la población (INE, OCDE).</p></div>
+    <div class="mito"><span class="frase">«Construir más no baja los precios»</span><span class="veredicto v-falso">Contradice la evidencia</span><p>Consenso académico e institucional: donde el suelo y el planeamiento limitan la oferta, los precios suben por encima del coste. Cuánto baja el alquiler del barrio por cada edificio nuevo sigue en debate.</p></div>
+    <div class="mito"><span class="frase">«Topar los alquileres los abarata»</span><span class="veredicto v-matiz">Cierto a corto plazo, con coste</span><p>En Cataluña (2020) los alquileres bajaron un ~5 % y la oferta en alquiler cayó un 10-14 % (Jofre-Monseny et al., 2023). La mayoría de los estudios encuentra menos oferta, menos movilidad y peor mantenimiento.</p></div>
+    <div class="mito"><span class="frase">«España gasta en vivienda como Europa»</span><span class="veredicto v-falso">Falso</span><p>Gasto público en vivienda: ~0,2 % del PIB en España frente a ~1,1 % de media en la UE (Eurostat, COFOG 2023). El parque social ronda el 2-3 %, frente al 8 % de media europea (OCDE).</p></div>
+    <div class="mito"><span class="frase">«Comprar una casa está más caro que nunca»</span><span class="veredicto v-matiz">Matiz</span><p>Precio frente a renta del hogar: 7,6 años en 2024, frente a 9,3 en 2007 (BdE/MIVAU). Donde sí se bate el récord es en emancipación: el 68,7 % de los jóvenes de 18 a 34 años vive con sus padres.</p></div>
+    <div class="mito"><span class="frase">«Los pisos turísticos tienen toda la culpa»</span><span class="veredicto v-matiz">Contribuyen, no lo explican todo</span><p>En Barcelona, Airbnb subió el alquiler del barrio medio un 1,9 % y hasta un 7 % en los barrios con más actividad (García-López et al., <i>JUE</i> 2020). Es un efecto real y concentrado en ciertas zonas.</p></div>
+    <div class="mito"><span class="frase">«La demanda ha crecido por la inmigración»</span><span class="veredicto v-cierto">Dato</span><p>Saldo migratorio de unos 1,5 millones de personas en 2022-2023. Es el principal motor de la formación de hogares reciente (BdE). Que sea «bueno» o «malo» ya es opinión.</p></div>
+    <div class="mito"><span class="frase">«La vivienda preocupa más que nunca»</span><span class="veredicto v-cierto">Dato</span><p>Es el primer problema del país en el barómetro del CIS sin interrupción desde diciembre de 2024, con un máximo del 48,8 % en mayo de 2026.</p></div>
+  </div>
+  <div class="cajetin"><span>L18</span><span>Fuentes: INE · OCDE · Eurostat · BdE · CIS · literatura revisada</span></div>
+</section>
+
+<!-- 17 PROBLEMA REAL -->
+<section class="lamina" id="l17" data-titulo="El problema real">
+  <p class="eyebrow">La pregunta de fondo</p>
+  <h2>¿Cuál es el problema real de la vivienda en España?</h2>
+  <div class="grid2">
+    <div class="rol"><h4>La economista</h4><p><span class="tag t-dato">Dato</span>Faltan viviendas: el Banco de España estima un déficit de unas 600.000 en 2022-2025, y otras de sus estimaciones más recientes llegan a unas 750.000. Entre 2022 y 2024 se concedieron 345.000 licencias, frente a 604.000 hogares nuevos (OCDE). <span class="tag t-evidencia">Evidencia</span>Las causas: suelo lento de urbanizar, productividad baja, falta de mano de obra y poca rentabilidad de la vivienda asequible.</p></div>
+    <div class="rol"><h4>El estadístico</h4><p><span class="tag t-dato">Dato</span>La media engaña: el 7,8 % de los españoles dedica más del 40 % de su renta a la vivienda, menos que en la UE (8,2 %). Pero esa media mezcla a propietarios sin hipoteca con inquilinos a precio de mercado, que son quienes soportan la tensión. Y las vacías están donde no hay demanda.</p></div>
+    <div class="rol"><h4>La socióloga</h4><p><span class="tag t-dato">Dato</span>Edad media de emancipación: 30,2 años en España frente a 26,3 en la UE (Eurostat, 2025). Los hogares de una persona pasarán de 5,6 a 6,6 millones en 2039 (INE). La demanda se concentra en Madrid, Barcelona, Valencia, Alicante, Baleares y Canarias.</p></div>
+    <div class="rol"><h4>El psicólogo</h4><p><span class="tag t-dato">Dato</span>El 73,3 % de los hogares vive en una vivienda propia (INE, ECV 2025) y la vivienda es la primera preocupación del CIS. <span class="tag t-evidencia">Evidencia</span>La aversión a la pérdida hace que los propietarios valoren más su casa de lo que pagarían por ella, lo que frena ventas y mudanzas. Es un marco general; no hay un estudio específico para España.</p></div>
+    <div class="rol"><h4>La historiadora</h4><p><span class="tag t-dato">Dato</span>Pasamos de 664.923 viviendas libres iniciadas en 2006 a 29.232 en 2013, y en 2025 íbamos por 121.827. La vivienda protegida cayó de 97.617 calificaciones en 2006 a 15.503 en 2025. Tras la crisis de 2008, el país dejó de construir justo cuando empezó a crecer la población.</p></div>
+    <div class="rol"><h4>El contable público</h4><p><span class="tag t-dato">Dato</span>España dedica a vivienda unos 3.588 millones de € de gasto público al año (COFOG 2023), el 0,2 % del PIB. Llegar a la media europea supondría unos 15.000 millones más al año. Es mucho, pero es unas 20 veces menos que la vivienda gratuita universal.</p></div>
+  </div>
+  <h3>Qué sabemos y qué no</h3>
+  <div class="columnas-cons">
+    <div><h4 class="t-evidencia">Consenso por la evidencia</h4><ul>
+      <li>Faltan viviendas donde está la demanda.</li>
+      <li>Las vacías no lo resuelven por sí solas.</li>
+      <li>Las restricciones de suelo y planeamiento encarecen la vivienda.</li>
+      <li>Topar alquileres baja la renta de los pisos regulados y reduce la oferta.</li>
+      <li>España tiene muy poca vivienda social comparada con Europa.</li></ul></div>
+    <div><h4 class="t-debate">Debate legítimo</h4><ul>
+      <li>Cuánto baja el alquiler del barrio cada edificio nuevo.</li>
+      <li>Qué mezcla de mercado, vivienda pública y ayudas es mejor.</li>
+      <li>Cómo repartir la vivienda pública: renta, lista o sorteo.</li>
+      <li>Cuánto pesa la vivienda turística fuera de los barrios más afectados.</li></ul></div>
+    <div><h4 class="t-opinion">Opinión, es decir, valores</h4><ul>
+      <li>Si la vivienda debe ser un derecho gratuito o un bien que se paga.</li>
+      <li>Cuánta desigualdad entre propietarios e inquilinos es aceptable.</li>
+      <li>Cuántos impuestos estamos dispuestos a pagar y para qué.</li></ul></div>
+  </div>
+  <div class="pausa"><p class="q">Entonces, ¿hay que intervenir o dejar que el mercado construya?</p>
+    <details><summary>Lo que dice la evidencia</summary><div>
+      <p><span class="tag t-evidencia">Evidencia</span>La evidencia no dice «nada de Estado» ni «todo Estado». Dice que el problema de fondo es de <b>oferta donde hay demanda</b>. Las medidas que la aumentan (más suelo urbanizable, licencias más rápidas, construcción industrializada, vivienda pública o asequible a escala) atacan la causa. Las que reparten lo que ya hay sin aumentarlo (topes de alquiler, ayudas a la demanda cuando la oferta no responde) alivian a unos a costa de otros o suben los precios.</p>
+      <p><span class="tag t-opinion">Opinión</span>Quién debe construir (mercado, Estado o ambos) y con qué reglas es una decisión política. Los datos solo dicen que, sin construir más, ninguna fórmula funciona.</p>
+    </div></details></div>
+  <div class="cajetin"><span>L19</span><span>Fuentes: BdE · OCDE · Eurostat · INE · MIVAU · CIS</span></div>
+</section>
+
+<!-- 18 PREGUNTAS -->
+<section class="lamina" id="l18" data-titulo="Preguntas para el directo">
+  <p class="eyebrow">Para el chat</p>
+  <h2>Preguntas para seguir pensando</h2>
+  <ol class="pasos">
+    <li><div><b>¿Dónde pondrías el listón de lo «digno»?</b>¿35, 42 o 60 m²? Cada 10 m² por persona son más de un billón de euros en el escenario teórico.</div></li>
+    <li><div><b>¿Compensarías a quien ya es propietario?</b>Sin compensar es más barato, pero ¿es igualitario?</div></li>
+    <li><div><b>¿Aceptarías una vivienda gratuita en otra provincia?</b>¿Y si tu trabajo está en Madrid?</div></li>
+    <li><div><b>¿Sorteo, lista o necesidad?</b>¿Qué sistema elegirías y a quién dejaría fuera?</div></li>
+    <li><div><b>¿Pagarías el doble de IRPF por esto?</b>¿Qué partida recortarías en su lugar?</div></li>
+    <li><div><b>¿Te parece mejor el modelo de Singapur?</b>¿Aceptarías comprar el uso por 99 años en lugar de la propiedad?</div></li>
+  </ol>
+  <div class="cajetin"><span>L20</span><span>Cierre</span></div>
+</section>
+
+<!-- 19 FUENTES -->
+<section class="lamina" id="l19" data-titulo="Hipótesis y fuentes">
+  <p class="eyebrow">Para auditar</p>
+  <h2>Hipótesis, fuentes y método</h2>
+  <p>Todos los datasets originales, los scripts de limpieza y el modelo de cálculo están en la carpeta de auditoría que acompaña a este documento (<span class="mono">auditoria/</span>). Cualquiera puede repetir las cuentas.</p>
+  <h3>Hipótesis del modelo</h3>
+  <div class="tabla"><table>
+    <thead><tr><th>Tipo</th><th>Parámetro</th><th class="n">Valor</th><th class="n">Rango</th><th>Fuente o razón</th></tr></thead>
+    <tbody><tr><td><span class="tag t-derivado">Cálculo propio</span></td><td>modulo 1p util m2</td><td class="n">42</td><td class="n">35,00 – 50,00</td><td>Máximo de los mínimos de habitabilidad: PGOUM Madrid 38 m² útiles, art. 7.3.4, más un 10 % para compartimentar y almacenar (ficha digna §6)</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>ratio util construida</td><td class="n">80,0 %</td><td class="n">75,0 % – 85,0 %</td><td>Práctica habitual de tasación; ninguna norma estatal fija el coeficiente</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>modulo util por tamano hogar</td><td class="n">1: 42 · 2: 50 · 3: 60 · 4+: 70</td><td class="n"></td><td>1 y 2 personas según ficha digna §6; 3 y 4 o más, escalando con los incrementos por ocupante de la tabla 7 del Decreto 80/2023 (C. Valenciana) y por debajo del máximo VPO de 90 m² útiles</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>modulo minimo legal util m2</td><td class="n">35</td><td class="n"></td><td>Mínimo absoluto: Decreto 80/2023 C. Valenciana y Decreto 80/2022 País Vasco (35 m² útiles)</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>pem eur m2c 2024</td><td class="n">888</td><td class="n"></td><td>IVE (Generalitat Valenciana), informe de costes de construcción y VPO, jun-2024, p. 5</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>actualizacion pem 2024 2026</td><td class="n">7,0 %</td><td class="n">3,0 % – 12,0 %</td><td>Convenio de la construcción: +3,5 % en 2025 y +3,0 % en 2026 (BOE-A-2025-25234), aplicado al conjunto del PEM por falta de un índice oficial de materiales descargado</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>peso mano obra pem</td><td class="n">40,0 %</td><td class="n">35,0 % – 45,0 %</td><td>IVE cita una participación de la mano de obra del 35-42 % en la revisión de precios (RD 1359/2011)</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>coste hora oficial eur</td><td class="n">23,17</td><td class="n"></td><td>BCCA Junta de Andalucía, jul-2023, código TO00100 (coste por hora con cargas incluidas)</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>gastos generales pct pem</td><td class="n">13,0 %</td><td class="n"></td><td>RD 1098/2001, art. 131</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>beneficio industrial pct pem</td><td class="n">6,0 %</td><td class="n"></td><td>RD 1098/2001, art. 131</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>honorarios tecnicos pct pem</td><td class="n">9,0 %</td><td class="n">6,0 % – 12,0 %</td><td>No hay baremo oficial (STC 116/1997). Referencia: licitación Casa47 en Sevilla, 737.660 € solo por el proyecto de 146 viviendas, ≈7 % del PEM estimado; se añade la dirección de obra</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>seguridad salud pct pem</td><td class="n">1,5 %</td><td class="n">1,0 % – 2,0 %</td><td>RD 1627/1997 obliga a presupuestarlo, pero no fija la cuantía</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>control calidad pct pem</td><td class="n">1,0 %</td><td class="n">0,5 % – 1,5 %</td><td>Sin porcentaje legal</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>seguro decenal pct pem</td><td class="n">1,0 %</td><td class="n">0,5 % – 1,5 %</td><td>LOE art. 19: obligatorio, prima de mercado</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>icio pct pem</td><td class="n">4,0 %</td><td class="n"></td><td>TRLRHL art. 102.3, tipo máximo (Madrid capital 3,75 %)</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>tasas licencia pct pem</td><td class="n">0,5 %</td><td class="n">0,2 % – 1,0 %</td><td>Ordenanzas municipales, variables</td></tr>
+<tr><td><span class="tag t-derivado">Cálculo propio</span></td><td>financiacion obra pct</td><td class="n">3,6 %</td><td class="n"></td><td>2 años de obra con la mitad del coste dispuesto al 3,64 % (bono a 10 años, BdE, ago-2026)</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>gestion promocion pct</td><td class="n">3,0 %</td><td class="n">2,0 % – 5,0 %</td><td>Gestión de un promotor público sin beneficio</td></tr>
+<tr><td><span class="tag t-derivado">Cálculo propio</span></td><td>notaria registro ajd pct</td><td class="n">1,0 %</td><td class="n"></td><td>AJD del 0,75-1,5 % según CCAA más aranceles (RD 1426 y 1427/1989)</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>iva vivienda pct</td><td class="n">10,0 %</td><td class="n"></td><td>Ley 37/1992, art. 91 (4 % en VPO de régimen especial)</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>edificabilidad m2t m2s</td><td class="n">2,00</td><td class="n">1,20 – 3,00</td><td>Para pasar el precio del suelo urbano (€/m² de suelo, MIVAU) a repercusión por m² construido</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>reuso no principales pct</td><td class="n">20,0 %</td><td class="n">0,00 – 50,0 %</td><td>Solo el 18 % de las vacías está en ciudades medianas o grandes (OCDE 2025, p. 41); el resto de no principales son segundas residencias</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>sustituir viviendas estado malo</td><td class="n">628.950</td><td class="n"></td><td>Censo 2021, tpx=56894: viviendas principales en edificios en estado «Malo»</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>mantenimiento pct anual</td><td class="n">1,0 %</td><td class="n">0,5 % – 1,5 %</td><td>Conservación anual sobre el coste de construcción</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>vida util anios</td><td class="n">80</td><td class="n">60,00 – 100</td><td>Reposición del parque público</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>tipo interes deuda</td><td class="n">3,6 %</td><td class="n"></td><td>BdE, Boletín Estadístico 22.7, bono a 10 años, ago-2026</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>ritmo max viviendas anio</td><td class="n">597.632</td><td class="n"></td><td>MIVAU, viviendas libres terminadas en 2006 (máximo histórico)</td></tr>
+<tr><td><span class="tag t-dato">Dato</span></td><td>ritmo actual viviendas anio</td><td class="n">80.792</td><td class="n"></td><td>MIVAU, viviendas libres terminadas en 2025</td></tr>
+<tr><td><span class="tag t-derivado">Cálculo propio</span></td><td>iva recaudacion por punto eur</td><td class="n">3.500.000.000</td><td class="n">3.000.000.000 – 4.200.000.000</td><td>Estimación propia: IVA 2025 (AEAT) menos lo recaudado a tipos reducidos (bases de la Memoria de Beneficios Fiscales 2023 actualizadas un 12 %), dividido entre 21</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>hdb es viviendas anio</td><td class="n">100.000</td><td class="n">50.000 – 200.000</td><td>Programa de contraste: cierra el déficit del BdE (~600.000-755.000) en unos 7 años más la formación de hogares</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>hdb es m2c</td><td class="n">70</td><td class="n"></td><td>Vivienda media de 2 dormitorios (≈56 m² útiles)</td></tr>
+<tr><td><span class="tag t-hipotesis">Hipótesis</span></td><td>horizonte financiacion anios</td><td class="n">30</td><td class="n">10,00 – 50,00</td><td>Plazo en el que se reparte el coste inicial entre los contribuyentes, parecido al de una hipoteca; no es el plazo físico de construcción</td></tr></tbody></table></div>
+  <h3>Fuentes principales</h3>
+  <div class="grid2">
+    <ul>
+      <li>INE: Estadística Continua de Población (1-7-2026), ECP-Hogares, Proyecciones de Población y de Hogares, ECV 2025, Censo 2021, EPA, CNTR.</li>
+      <li>MIVAU: valor tasado de la vivienda (2T 2026), parque de viviendas 2025, viviendas iniciadas y terminadas 1991-2025, precio del suelo urbano, Sistema de Información Urbana 2026.</li>
+      <li>BOE y boletines autonómicos: Constitución, Ley 12/2023, RD 1098/2001, TRLRHL, Ley 37/1992, Orden PJC/178/2025, convenio de la construcción, decretos de habitabilidad.</li>
+      <li>IVE (Generalitat Valenciana): costes de construcción y VPO 2024. BCCA (Junta de Andalucía) 2023.</li>
+    </ul>
+    <ul>
+      <li>AEAT: Informe anual de recaudación 2025 y Estadística de declarantes del IRPF 2023.</li>
+      <li>Eurostat: gov_10a_main, gov_10dd_edpt1, gov_10a_exp (COFOG), ilc_lvps08, yth_demo_030. Ministerio de Sanidad: gasto sanitario 2024.</li>
+      <li>Banco de España: Documento Ocasional 24/33, Informe Anual 2024, Boletín Estadístico. OCDE: <i>Economic Survey Spain</i> 2025 y Affordable Housing Database. CIS.</li>
+      <li>Singapur: HDB Key Statistics 2024/25 y estados financieros FY2024-2025, SingStat (población, superficie 2025 y renta del hogar 2024), CPF Board.</li>
+      <li>Añadidas en la revisión 2:
+        <ul>
+          <li>INE: defunciones 2024 (MNP), saldos migratorios 2024, proyección de población a largo plazo y renta por hogar (ECV 2025).</li>
+          <li>Eurostat: COFOG 2023 (educación, defensa, vejez), superficie y límites provinciales GISCO NUTS 2024.</li>
+          <li>Banco Mundial: PIB per cápita en paridad de poder adquisitivo.</li>
+          <li>BCE: tipo de cambio de referencia SGD/EUR.</li>
+        </ul></li>
+      <li>Literatura revisada: Glaeser y Gyourko (2018), Gyourko y Molloy (2015), Hilber y Vermeulen (2016), Jofre-Monseny et al. (2023), Diamond et al. (2019), Kholodilin (2024), García-López et al. (2020), Glaeser y Luttmer (2003).</li>
+    </ul>
+  </div>
+  <h3>Límites conocidos</h3>
+  <p class="nota">Estas limitaciones están documentadas en las fichas de datos de la carpeta de auditoría:</p>
+  <ul class="nota">
+    <li>No hay dato oficial de honorarios técnicos, urbanización ni de la ratio útil/construida.</li>
+    <li>El coste de obra procede del IVE valenciano y se aplica a toda España.</li>
+    <li>El INE no publica viviendas por tramos finos de superficie, así que no se descuentan las que miden menos de 42 m².</li>
+    <li>Los adultos de las grandes ciudades son una estimación.</li>
+    <li>La norma de Madrid se consultó en una copia de 2009.</li>
+    <li>El valor de un punto de IVA es una estimación propia.</li>
+    <li>Los efectos de segunda ronda (subida de costes, cambios de comportamiento) no se simulan.</li>
+    <li>El calendario reparte el coste inicial en 30 años sin intereses. El mantenimiento se cuenta completo desde el primer año, aunque en la realidad crecería a medida que se construye.</li>
+    <li>El mapa supone que cada persona quiere vivir en su provincia actual. El suelo disponible es el que prevé el SIU, que cubre el 72 % de los municipios.</li>
+  </ul>
+  <footer>Revisión 2. Elaborado el 28 de septiembre de 2026 con datos oficiales descargados ese día. Cálculo reproducible: <span class="mono">modelo.py</span> y <span class="mono">hipotesis.json</span>.</footer>
+  <div class="cajetin"><span>L21</span><span>Anexo de método</span></div>
+</section>
+
+</main>
+
+<script>
+window.R = {"A": 42009991, "H": 26532836.686000004, "PR": 19571428.0, "NP": 7528128.0, "SUST": 628950, "PIB": 1690012000000.0, "SAN": 101739000000.0, "IRPF": 142466000000.0, "DEUDA": 1698224600000.0, "DECL": 23987211, "IVAP": 3500000000.0, "PRECIO": 2479.25999628285, "CONSTR": 1643.7367513600002, "SINSUELO": 1390.4261376000002, "M2PLAUS": 63.9304908702064, "OWN": 14568272.379999999, "CRECA": 542862.9221500009, "CRECH": 221932.0, "RATIO": 0.8, "INT": 0.0364, "series": {"terminadas": {"1991": 227970.0, "1992": 178501.0, "1993": 170403.0, "1994": 174793.0, "1995": 155902.0, "1996": 194871.0, "1997": 224332.0, "1998": 226631.0, "1999": 296250.0, "2000": 362940.0, "2001": 452252.0, "2002": 480729.0, "2003": 462730.0, "2004": 509293.0, "2005": 528754.0, "2006": 597632.0, "2007": 579665.0, "2008": 563631.0, "2009": 356555.0, "2010": 218572.0, "2011": 121043.0, "2012": 80083.0, "2013": 43230.0, "2014": 35382.0, "2015": 41541.0, "2016": 37512.0, "2017": 49336.0, "2018": 58853.0, "2019": 71562.0, "2020": 77531.0, "2021": 84091.0, "2022": 79935.0, "2023": 80473.0, "2024": 86609.0, "2025": 80792.0}, "iniciadas": {"1991": 161066.0, "1992": 160958.0, "1993": 143158.0, "1994": 179572.0, "1995": 234583.0, "1996": 224252.0, "1997": 258337.0, "1998": 351377.0, "1999": 453114.0, "2000": 487810.0, "2001": 475059.0, "2002": 499046.0, "2003": 550465.0, "2004": 621257.0, "2005": 635608.0, "2006": 664923.0, "2007": 532117.0, "2008": 237959.0, "2009": 80230.0, "2010": 63090.0, "2011": 51956.0, "2012": 34580.0, "2013": 29232.0, "2014": 32120.0, "2015": 44679.0, "2016": 59168.0, "2017": 74201.0, "2018": 91477.0, "2019": 96245.0, "2020": 75930.0, "2021": 100504.0, "2022": 96996.0, "2023": 98040.0, "2024": 112220.0, "2025": 121827.0}, "vpo": {"1991": 57640.0, "1992": 90640.0, "1993": 83438.0, "1994": 81794.0, "1995": 122403.0, "1996": 71319.0, "1997": 85667.0, "1998": 56417.0, "1999": 66325.0, "2000": 47180.0, "2001": 59750.0, "2002": 47277.0, "2003": 72168.0, "2004": 72450.0, "2005": 81855.0, "2006": 97617.0, "2007": 85233.0, "2008": 90531.0, "2009": 79056.0, "2010": 60526.0, "2011": 34282.0, "2012": 17155.0, "2013": 6489.0, "2014": 5898.0, "2015": 5306.0, "2016": 6787.0, "2017": 7271.0, "2018": 11903.0, "2019": 12323.0, "2020": 11977.0, "2021": 13789.0, "2022": 13022.0, "2023": 12304.0, "2024": 23967.0, "2025": 15503.0}, "valor_tasado": {"1995": 683.0, "1996": 692.3, "1997": 711.7, "1998": 753.0, "1999": 810.7, "2000": 880.2, "2001": 967.0, "2002": 1119.1, "2003": 1316.3, "2004": 1546.0, "2005": 1761.0, "2006": 1944.3, "2007": 2056.3, "2008": 2071.1, "2009": 1917.0, "2010": 1843.0, "2011": 1740.2, "2012": 1588.1, "2013": 1495.3, "2014": 1459.4, "2015": 1475.2, "2016": 1502.6, "2017": 1538.6, "2018": 1590.7, "2019": 1641.2, "2020": 1623.1, "2021": 1657.6, "2022": 1741.0, "2023": 1809.1, "2024": 1913.6, "2025": 2127.6, "2026": 1171.2}, "emancipacion": {"2000": 28.6, "2001": 28.5, "2002": 28.5, "2003": 28.3, "2004": 28.1, "2005": 27.7, "2006": 27.8, "2007": 27.7, "2008": 27.5, "2009": 27.4, "2010": 27.5, "2011": 27.4, "2012": 27.7, "2013": 27.9, "2014": 28.2, "2015": 28.0, "2016": 28.3, "2017": 28.3, "2018": 28.6, "2019": 28.7, "2020": 28.8, "2021": 29.3, "2022": 29.8, "2023": 29.4, "2024": 29.4, "2025": 29.6}, "jovenes_con_padres": {"2004": 51.4, "2005": 55.8, "2006": 55.1, "2007": 55.2, "2008": 53.0, "2009": 51.6, "2010": 51.5, "2011": 53.3, "2012": 54.1, "2013": 55.1, "2014": 57.1, "2015": 58.0, "2016": 58.9, "2017": 61.2, "2018": 62.8, "2019": 64.5, "2020": 65.5, "2021": 64.5, "2022": 65.9, "2023": 65.6, "2024": 67.2, "2025": 68.7}}, "partidas": [{"nombre": "Mano de obra (oficiales y peones)", "eur_m2": 380.0640000000001}, {"nombre": "Materiales, maquinaria y medios", "eur_m2": 570.096}, {"nombre": "Gastos generales (13 %)", "eur_m2": 123.52080000000001}, {"nombre": "Beneficio industrial (6 %)", "eur_m2": 57.009600000000006}, {"nombre": "Arquitecto y aparejador", "eur_m2": 85.51440000000001}, {"nombre": "Seguridad, calidad, seguro decenal", "eur_m2": 33.25560000000001}, {"nombre": "Licencia e ICIO", "eur_m2": 42.757200000000005}, {"nombre": "Financiación y gestión", "eur_m2": 85.28636160000002}, {"nombre": "Notaría, registro y AJD", "eur_m2": 12.922176000000002}], "sueloNac": 103.88, "iva": 0.1, "prov": [{"n": "Madrid", "a": 6051137.0, "pr": 2699021.0, "nec": 3280967.8, "siu": 441720, "pm": 4089.6}, {"n": "Barcelona", "a": 5079276.0, "pr": 2290722.0, "nec": 2717202.8, "siu": 197959, "pm": 3204.2}, {"n": "Valencia/València", "a": 2380046.0, "pr": 1126835.0, "nec": 1176860.2, "siu": 310145, "pm": 1980.1}, {"n": "Alicante/Alacant", "a": 1761259.0, "pr": 820330.0, "nec": 830204.4, "siu": 327345, "pm": 2020.7}, {"n": "Sevilla", "a": 1662951.0, "pr": 753149.0, "nec": 873069.4, "siu": 212963, "pm": 1889.8}, {"n": "Málaga", "a": 1520933.0, "pr": 695314.0, "nec": 759546.6, "siu": 259553, "pm": 3083.5}, {"n": "Murcia", "a": 1317182.0, "pr": 586254.0, "nec": 676909.2, "siu": 667303, "pm": 1640.43675136}, {"n": "Balears, Illes", "a": 1065100.0, "pr": 451020.0, "nec": 570796.2, "siu": 78593, "pm": 3980.8}, {"n": "Cádiz", "a": 1062483.0, "pr": 508862.0, "nec": 523538.8, "siu": 144451, "pm": 2043.0}, {"n": "Palmas, Las", "a": 1019790.0, "pr": 447514.0, "nec": 550024.2, "siu": 144779, "pm": 2263.0}, {"n": "Bizkaia", "a": 1009405.0, "pr": 516342.0, "nec": 482767.8, "siu": 44188, "pm": 3024.7}, {"n": "Coruña, A", "a": 993579.0, "pr": 476820.0, "nec": 473403.4, "siu": 143263, "pm": 1749.5}, {"n": "Santa Cruz de Tenerife", "a": 947165.0, "pr": 394683.0, "nec": 522733.6, "siu": 124173, "pm": 2296.6}, {"n": "Asturias", "a": 901846.0, "pr": 453709.0, "nec": 401700.4, "siu": 115282, "pm": 1798.5}, {"n": "Zaragoza", "a": 859554.0, "pr": 414543.0, "nec": 417348.0, "siu": 118262, "pm": 1944.3}, {"n": "Pontevedra", "a": 823064.0, "pr": 381181.0, "nec": 411259.6, "siu": 62842, "pm": 1825.8}, {"n": "Granada", "a": 803562.0, "pr": 386193.0, "nec": 378318.0, "siu": 190871, "pm": 1673.3}, {"n": "Tarragona", "a": 746966.0, "pr": 359150.0, "nec": 347581.4, "siu": 134655, "pm": 1817.9}, {"n": "Girona", "a": 696689.0, "pr": 306805.0, "nec": 348151.6, "siu": 81553, "pm": 2162.8}, {"n": "Córdoba", "a": 650470.0, "pr": 308697.0, "nec": 319519.2, "siu": 111259, "pm": 1627.80325136}, {"n": "Almería", "a": 641682.0, "pr": 291074.0, "nec": 320942.2, "siu": 276232, "pm": 1647.76825136}, {"n": "Toledo", "a": 639152.0, "pr": 300562.0, "nec": 309561.4, "siu": 420922, "pm": 1599.16475136}, {"n": "Gipuzkoa", "a": 624937.0, "pr": 318323.0, "nec": 298638.4, "siu": 32280, "pm": 3514.6}, {"n": "Navarra", "a": 575731.0, "pr": 270339.0, "nec": 290937.6, "siu": 85480, "pm": 1936.4}, {"n": "Badajoz", "a": 562786.0, "pr": 275448.0, "nec": 262028.4, "siu": 165190, "pm": 1591.22275136}, {"n": "Castellón/Castelló", "a": 541871.0, "pr": 263766.0, "nec": 240827.0, "siu": 201712, "pm": 1633.24275136}, {"n": "Jaén", "a": 524390.0, "pr": 250706.0, "nec": 248425.0, "siu": 90251, "pm": 1611.91375136}, {"n": "Cantabria", "a": 515723.0, "pr": 247275.0, "nec": 239929.6, "siu": 79390, "pm": 2122.0}, {"n": "Valladolid", "a": 459204.0, "pr": 229122.0, "nec": 215246.2, "siu": 121974, "pm": 1658.4}, {"n": "Huelva", "a": 454025.0, "pr": 221349.0, "nec": 212131.4, "siu": 76863, "pm": 1594.28625136}, {"n": "Ciudad Real", "a": 422177.0, "pr": 205879.0, "nec": 194159.6, "siu": 149317, "pm": 1588.36275136}, {"n": "León", "a": 396898.0, "pr": 201301.0, "nec": 164570.2, "siu": 150527, "pm": 1565.02625136}, {"n": "Lleida", "a": 390449.0, "pr": 178081.0, "nec": 196299.2, "siu": 118571, "pm": 1622.50125136}, {"n": "Cáceres", "a": 335131.0, "pr": 174957.0, "nec": 134150.8, "siu": 133453, "pm": 1602.76725136}, {"n": "Albacete", "a": 332982.0, "pr": 158766.0, "nec": 157057.0, "siu": 65368, "pm": 1602.70675136}, {"n": "Burgos", "a": 315025.0, "pr": 159271.0, "nec": 131662.8, "siu": 118779, "pm": 1560.46125136}, {"n": "Araba/Álava", "a": 291219.0, "pr": 151136.0, "nec": 135906.8, "siu": 29012, "pm": 2531.3}, {"n": "Salamanca", "a": 289145.0, "pr": 154264.0, "nec": 116107.8, "siu": 124300, "pm": 1584.53475136}, {"n": "Lugo", "a": 288621.0, "pr": 133819.0, "nec": 127514.8, "siu": 39907, "pm": 1582.69775136}, {"n": "Rioja, La", "a": 278399.0, "pr": 141007.0, "nec": 122515.6, "siu": 77105, "pm": 1620.00975136}, {"n": "Ourense", "a": 271742.0, "pr": 137142.0, "nec": 107192.2, "siu": 44894, "pm": 1584.32025136}, {"n": "Guadalajara", "a": 242936.0, "pr": 111471.0, "nec": 115123.6, "siu": 153009, "pm": 1755.3}, {"n": "Huesca", "a": 198314.0, "pr": 95357.0, "nec": 87205.4, "siu": 48135, "pm": 1594.23125136}, {"n": "Cuenca", "a": 171884.0, "pr": 85587.0, "nec": 70113.2, "siu": 56318, "pm": 1582.81875136}, {"n": "Zamora", "a": 147324.0, "pr": 74745.0, "nec": 56288.4, "siu": 65234, "pm": 1559.64725136}, {"n": "Ávila", "a": 139990.0, "pr": 74545.0, "nec": 45713.2, "siu": 63645, "pm": 1572.43475136}, {"n": "Palencia", "a": 139585.0, "pr": 73230.0, "nec": 57501.0, "siu": 44770, "pm": 1564.97675136}, {"n": "Segovia", "a": 137686.0, "pr": 67730.0, "nec": 57575.6, "siu": 82580, "pm": 1578.08875136}, {"n": "Teruel", "a": 116691.0, "pr": 57147.0, "nec": 45595.6, "siu": 15352, "pm": 1583.79225136}, {"n": "Soria", "a": 77683.0, "pr": 41229.0, "nec": 27417.6, "siu": 40389, "pm": 1563.95925136}, {"n": "Ceuta", "a": 67479.0, "pr": 24977.1693601288, "nec": 41597.0269455543, "siu": 6320, "pm": 2214.9}, {"n": "Melilla", "a": 66673.0, "pr": 24678.8306398712, "nec": 41100.1730544457, "siu": 2068, "pm": 2164.5}], "esc": {"teorico": {"cap": 5468068731851.384, "anual": 250832005462.5762, "pib": 0.14842025113583585}, "plausible": {"cap": 4206461667902.442, "anual": 178649781158.8167, "pib": 0.10570917908205191}, "minimo": {"cap": 2876748836861.7974, "anual": 120129532904.50562, "pib": 0.07108205912413972}, "brecha": {"cap": 1771198071922.1619, "anual": 97474327959.47406, "pib": 0.0576767075970313}}, "B": {"coste_pib": 0.004279565880154666, "sg": 0.008280904901714245}, "cal": {"teorico": [{"a": 2027, "am": 182268957728.37946, "m": 45071400342.83427, "n": 76454028524.7124, "t": 303794386595.92615, "pa": 7179.44685667044}, {"a": 2028, "am": 182268957728.37946, "m": 45071400342.83427, "n": 73181260764.81859, "t": 300521618836.0323, "pa": 7008.9740502352815}, {"a": 2029, "am": 182268957728.37946, "m": 45071400342.83427, "n": 69729192150.725, "t": 297069550221.9387, "pa": 6842.964444392371}, {"a": 2030, "am": 182268957728.37946, "m": 45071400342.83427, "n": 64768877723.909424, "t": 292109235795.12317, "pa": 6652.451858450321}, {"a": 2031, "am": 182268957728.37946, "m": 45071400342.83427, "n": 59107034443.83082, "t": 286447392515.04456, "pa": 6456.735909071703}, {"a": 2032, "am": 182268957728.37946, "m": 45071400342.83427, "n": 51371018033.76056, "t": 278711376104.97424, "pa": 6226.9640130337375}, {"a": 2033, "am": 182268957728.37946, "m": 45071400342.83427, "n": 47579324028.95546, "t": 274919682100.1692, "pa": 6092.493128476281}, {"a": 2034, "am": 182268957728.37946, "m": 45071400342.83427, "n": 42578295915.83377, "t": 269918653987.0475, "pa": 5938.614577063601}, {"a": 2035, "am": 182268957728.37946, "m": 45071400342.83427, "n": 37591792212.20908, "t": 264932150283.4228, "pa": 5792.099613653203}, {"a": 2036, "am": 182268957728.37946, "m": 45071400342.83427, "n": 31804301215.474255, "t": 259144659286.68796, "pa": 5635.465352897308}, {"a": 2037, "am": 182268957728.37946, "m": 45071400342.83427, "n": 26130565741.248432, "t": 253470923812.46216, "pa": 5488.122434369394}, {"a": 2038, "am": 182268957728.37946, "m": 45071400342.83427, "n": 21785731014.622234, "t": 249126089085.83594, "pa": 5374.571221170133}, {"a": 2039, "am": 182268957728.37946, "m": 45071400342.83427, "n": 17596668350.437263, "t": 244937026421.65097, "pa": 5268.830685985048}, {"a": 2040, "am": 182268957728.37946, "m": 45071400342.83427, "n": 15347747529.524624, "t": 242688105600.73834, "pa": 5207.246417348464}, {"a": 2041, "am": 182268957728.37946, "m": 45071400342.83427, "n": 13034717592.099981, "t": 240375075663.3137, "pa": 5146.558289655865}, {"a": 2042, "am": 182268957728.37946, "m": 45071400342.83427, "n": 9995964836.4618, "t": 237336322907.6755, "pa": 5073.1553835409495}, {"a": 2043, "am": 182268957728.37946, "m": 45071400342.83427, "n": 8665980859.399221, "t": 236006338930.61295, "pa": 5037.557269919878}, {"a": 2044, "am": 182268957728.37946, "m": 45071400342.83427, "n": 7868084054.705674, "t": 235208442125.9194, "pa": 5014.056619339108}, {"a": 2045, "am": 182268957728.37946, "m": 45071400342.83427, "n": 6719762041.04156, "t": 234060120112.25528, "pa": 4984.092030905142}, {"a": 2046, "am": 182268957728.37946, "m": 45071400342.83427, "n": 5820255180.238302, "t": 233160613251.45203, "pa": 4960.214851150907}, {"a": 2047, "am": 182268957728.37946, "m": 45071400342.83427, "n": 4946152991.337781, "t": 232286511062.55148, "pa": 4937.627740543428}, {"a": 2048, "am": 182268957728.37946, "m": 45071400342.83427, "n": 4085052118.3575053, "t": 231425410189.57123, "pa": 4916.043999162382}, {"a": 2049, "am": 182268957728.37946, "m": 45071400342.83427, "n": 3228942665.018692, "t": 230569300736.23242, "pa": 4895.278480376751}, {"a": 2050, "am": 182268957728.37946, "m": 45071400342.83427, "n": 2432022082.876605, "t": 229772380154.09033, "pa": 4876.424369480349}, {"a": 2051, "am": 182268957728.37946, "m": 45071400342.83427, "n": 1681640792.4417922, "t": 229021998863.65552, "pa": 4859.166794223895}, {"a": 2052, "am": 182268957728.37946, "m": 45071400342.83427, "n": 963449778.8371338, "t": 228303807850.05084, "pa": 4843.168303675634}, {"a": 2053, "am": 182268957728.37946, "m": 45071400342.83427, "n": 281559097.996538, "t": 227621917169.21027, "pa": 4828.481307753124}, {"a": 2054, "am": 182268957728.37946, "m": 45071400342.83427, "n": 0.0, "t": 227340358071.2137, "pa": 4822.772464214928}, {"a": 2055, "am": 182268957728.37946, "m": 45071400342.83427, "n": 0.0, "t": 227340358071.2137, "pa": 4823.475577755608}, {"a": 2056, "am": 182268957728.37946, "m": 45071400342.83427, "n": 0.0, "t": 227340358071.2137, "pa": 4824.594716071318}, {"a": 2057, "am": 0.0, "m": 45071400342.83427, "n": 0.0, "t": 45071400342.83427, "pa": 956.8006524484124}, {"a": 2058, "am": 0.0, "m": 45071400342.83427, "n": 0.0, "t": 45071400342.83427, "pa": 957.1786990842036}, {"a": 2059, "am": 0.0, "m": 45071400342.83427, "n": 0.0, "t": 45071400342.83427, "pa": 957.6334041166349}, {"a": 2060, "am": 0.0, "m": 45071400342.83427, "n": 0.0, "t": 45071400342.83427, "pa": 958.1762836592429}, {"a": 2061, "am": 0.0, "m": 45071400342.83427, "n": 0.0, "t": 45071400342.83427, "pa": 958.8115108974974}, {"a": 2062, "am": 0.0, "m": 45071400342.83427, "n": 0.0, "t": 45071400342.83427, "pa": 959.5421349469277}, {"a": 2063, "am": 0.0, "m": 45071400342.83427, "n": 0.0, "t": 45071400342.83427, "pa": 960.3723155745713}, {"a": 2064, "am": 0.0, "m": 45071400342.83427, "n": 0.0, "t": 45071400342.83427, "pa": 961.3044189739683}, {"a": 2065, "am": 0.0, "m": 45071400342.83427, "n": 0.0, "t": 45071400342.83427, "pa": 962.3384056642567}, {"a": 2066, "am": 0.0, "m": 45071400342.83427, "n": 0.0, "t": 45071400342.83427, "pa": 963.4648709046601}, {"a": 2067, "am": 0.0, "m": 45071400342.83427, "n": 0.0, "t": 45071400342.83427, "pa": 964.6778974840969}, {"a": 2068, "am": 0.0, "m": 45071400342.83427, "n": 0.0, "t": 45071400342.83427, "pa": 965.9670861202236}, {"a": 2069, "am": 0.0, "m": 45071400342.83427, "n": 0.0, "t": 45071400342.83427, "pa": 967.3176506997276}, {"a": 2070, "am": 0.0, "m": 45071400342.83427, "n": 0.0, "t": 45071400342.83427, "pa": 968.7170734529626}, {"a": 2071, "am": 0.0, "m": 45071400342.83427, "n": 0.0, "t": 45071400342.83427, "pa": 970.153439693844}, {"a": 2072, "am": 0.0, "m": 45071400342.83427, "n": 0.0, "t": 45071400342.83427, "pa": 971.6172929064105}, {"a": 2073, "am": 0.0, "m": 45071400342.83427, "n": 0.0, "t": 45071400342.83427, "pa": 973.1000957323995}, {"a": 2074, "am": 0.0, "m": 45071400342.83427, "n": 0.0, "t": 45071400342.83427, "pa": 974.5906642094556}, {"a": 2075, "am": 0.0, "m": 45071400342.83427, "n": 0.0, "t": 45071400342.83427, "pa": 976.0712519651211}, {"a": 2076, "am": 0.0, "m": 45071400342.83427, "n": 0.0, "t": 45071400342.83427, "pa": 977.500300057467}], "plausible": [{"a": 2027, "am": 140215388930.0814, "m": 25967511083.003662, "n": 40573709917.016045, "t": 206756609930.1011, "pa": 4886.193289782156}, {"a": 2028, "am": 140215388930.0814, "m": 25967511083.003662, "n": 38836871031.24337, "t": 205019771044.32843, "pa": 4781.613584408738}, {"a": 2029, "am": 140215388930.0814, "m": 25967511083.003662, "n": 37004878221.124855, "t": 203187778234.2099, "pa": 4680.408143322049}, {"a": 2030, "am": 140215388930.0814, "m": 25967511083.003662, "n": 34372468097.88652, "t": 200555368110.97156, "pa": 4567.417828061346}, {"a": 2031, "am": 140215388930.0814, "m": 25967511083.003662, "n": 31367760677.305508, "t": 197550660690.39056, "pa": 4452.937879940701}, {"a": 2032, "am": 140215388930.0814, "m": 25967511083.003662, "n": 27262301595.65606, "t": 193445201608.74112, "pa": 4321.948840932829}, {"a": 2033, "am": 140215388930.0814, "m": 25967511083.003662, "n": 25250071558.682613, "t": 191432971571.76767, "pa": 4242.344727576971}, {"a": 2034, "am": 140215388930.0814, "m": 25967511083.003662, "n": 22596054918.04144, "t": 188778954931.1265, "pa": 4153.419695293152}, {"a": 2035, "am": 140215388930.0814, "m": 25967511083.003662, "n": 19949746297.357086, "t": 186132646310.44214, "pa": 4069.3393671912477}, {"a": 2036, "am": 140215388930.0814, "m": 25967511083.003662, "n": 16878358361.625751, "t": 183061258374.71082, "pa": 3980.9247154392706}, {"a": 2037, "am": 140215388930.0814, "m": 25967511083.003662, "n": 13867339822.521399, "t": 180050239835.60645, "pa": 3898.426477060083}, {"a": 2038, "am": 140215388930.0814, "m": 25967511083.003662, "n": 11561561209.710592, "t": 177744461222.79565, "pa": 3834.6054783579134}, {"a": 2039, "am": 140215388930.0814, "m": 25967511083.003662, "n": 9338449927.799463, "t": 175521349940.88452, "pa": 3775.6328151957437}, {"a": 2040, "am": 140215388930.0814, "m": 25967511083.003662, "n": 8144960679.753457, "t": 174327860692.8385, "pa": 3740.472264966428}, {"a": 2041, "am": 140215388930.0814, "m": 25967511083.003662, "n": 6917449095.061665, "t": 173100349108.14673, "pa": 3706.1705927143366}, {"a": 2042, "am": 140215388930.0814, "m": 25967511083.003662, "n": 5304800616.0224695, "t": 171487700629.1075, "pa": 3665.6157009563244}, {"a": 2043, "am": 140215388930.0814, "m": 25967511083.003662, "n": 4598985826.129822, "t": 170781885839.21487, "pa": 3645.340775498844}, {"a": 2044, "am": 140215388930.0814, "m": 25967511083.003662, "n": 4175546615.3773656, "t": 170358446628.46243, "pa": 3631.6166599176704}, {"a": 2045, "am": 140215388930.0814, "m": 25967511083.003662, "n": 3566138776.8005977, "t": 169749038789.88565, "pa": 3614.6475148381264}, {"a": 2046, "am": 140215388930.0814, "m": 25967511083.003662, "n": 3088775698.0610604, "t": 169271675711.14612, "pa": 3601.0536601056842}, {"a": 2047, "am": 140215388930.0814, "m": 25967511083.003662, "n": 2624894731.4902163, "t": 168807794744.57526, "pa": 3588.2843404812406}, {"a": 2048, "am": 140215388930.0814, "m": 25967511083.003662, "n": 2167913487.9407296, "t": 168350813501.0258, "pa": 3576.184679927245}, {"a": 2049, "am": 140215388930.0814, "m": 25967511083.003662, "n": 1713581161.8716521, "t": 167896481174.9567, "pa": 3564.655088957338}, {"a": 2050, "am": 140215388930.0814, "m": 25967511083.003662, "n": 1290660026.77043, "t": 167473560039.85547, "pa": 3554.2659604009127}, {"a": 2051, "am": 140215388930.0814, "m": 25967511083.003662, "n": 892437024.1013527, "t": 167075337037.1864, "pa": 3544.8425648759685}, {"a": 2052, "am": 140215388930.0814, "m": 25967511083.003662, "n": 511297214.8160347, "t": 166694197227.9011, "pa": 3536.2005567207866}, {"a": 2053, "am": 140215388930.0814, "m": 25967511083.003662, "n": 149421781.78244266, "t": 166332321794.8675, "pa": 3528.3619286303624}, {"a": 2054, "am": 140215388930.0814, "m": 25967511083.003662, "n": 0.0, "t": 166182900013.08505, "pa": 3525.385114223465}, {"a": 2055, "am": 140215388930.0814, "m": 25967511083.003662, "n": 0.0, "t": 166182900013.08505, "pa": 3525.8990812472703}, {"a": 2056, "am": 140215388930.0814, "m": 25967511083.003662, "n": 0.0, "t": 166182900013.08505, "pa": 3526.7171570715464}, {"a": 2057, "am": 0.0, "m": 25967511083.003662, "n": 0.0, "t": 25967511083.003662, "pa": 551.2527092056374}, {"a": 2058, "am": 0.0, "m": 25967511083.003662, "n": 0.0, "t": 25967511083.003662, "pa": 551.4705176191796}, {"a": 2059, "am": 0.0, "m": 25967511083.003662, "n": 0.0, "t": 25967511083.003662, "pa": 551.7324921280555}, {"a": 2060, "am": 0.0, "m": 25967511083.003662, "n": 0.0, "t": 25967511083.003662, "pa": 552.0452676449504}, {"a": 2061, "am": 0.0, "m": 25967511083.003662, "n": 0.0, "t": 25967511083.003662, "pa": 552.4112485158381}, {"a": 2062, "am": 0.0, "m": 25967511083.003662, "n": 0.0, "t": 25967511083.003662, "pa": 552.8321914631789}, {"a": 2063, "am": 0.0, "m": 25967511083.003662, "n": 0.0, "t": 25967511083.003662, "pa": 553.3104931020287}, {"a": 2064, "am": 0.0, "m": 25967511083.003662, "n": 0.0, "t": 25967511083.003662, "pa": 553.8475166950441}, {"a": 2065, "am": 0.0, "m": 25967511083.003662, "n": 0.0, "t": 25967511083.003662, "pa": 554.4432394956561}, {"a": 2066, "am": 0.0, "m": 25967511083.003662, "n": 0.0, "t": 25967511083.003662, "pa": 555.0922430409707}, {"a": 2067, "am": 0.0, "m": 25967511083.003662, "n": 0.0, "t": 25967511083.003662, "pa": 555.791118179216}, {"a": 2068, "am": 0.0, "m": 25967511083.003662, "n": 0.0, "t": 25967511083.003662, "pa": 556.5338734506755}, {"a": 2069, "am": 0.0, "m": 25967511083.003662, "n": 0.0, "t": 25967511083.003662, "pa": 557.3119899595883}, {"a": 2070, "am": 0.0, "m": 25967511083.003662, "n": 0.0, "t": 25967511083.003662, "pa": 558.1182556974626}, {"a": 2071, "am": 0.0, "m": 25967511083.003662, "n": 0.0, "t": 25967511083.003662, "pa": 558.9458061173659}, {"a": 2072, "am": 0.0, "m": 25967511083.003662, "n": 0.0, "t": 25967511083.003662, "pa": 559.7891929265635}, {"a": 2073, "am": 0.0, "m": 25967511083.003662, "n": 0.0, "t": 25967511083.003662, "pa": 560.6434973973563}, {"a": 2074, "am": 0.0, "m": 25967511083.003662, "n": 0.0, "t": 25967511083.003662, "pa": 561.5022759831893}, {"a": 2075, "am": 0.0, "m": 25967511083.003662, "n": 0.0, "t": 25967511083.003662, "pa": 562.3553042597051}, {"a": 2076, "am": 0.0, "m": 25967511083.003662, "n": 0.0, "t": 25967511083.003662, "pa": 563.1786383894164}]}, "cmp": {"pensiones": 153051000000.0, "sanidad": 98630000000.0, "educacion": 62532000000.0, "defensa": 14008000000.0, "total": 680225000000.0, "anio": 2023}, "CRECA30": 180481.25286679988, "CRECH30": 72482.43087020075, "N2A": 0.0, "AVGA1": 46064284.198395364, "AVGA2": 46695374.017822556, "F2": {"teorico": 45071400342.83426, "plausible": 25967511083.003662}, "F1": {"teorico": 250832005462.5762, "plausible": 178649781158.8167}, "mapa": {"w": 800, "h": 549, "prov": {"coruna": {"d": "M234.2,1.3 L234.0,6.5 L230.9,16.8 L225.7,22.7 L223.1,28.8 L222.3,35.6 L224.1,48.6 L220.0,55.8 L205.3,56.8 L199.9,61.7 L192.9,62.2 L176.9,69.9 L171.2,74.7 L170.2,69.6 L174.5,60.3 L168.0,60.8 L165.6,52.4 L159.9,50.5 L160.2,44.5 L164.3,39.4 L164.3,36.1 L173.8,32.3 L175.1,28.9 L179.7,26.6 L186.8,28.3 L194.0,27.0 L199.8,23.4 L202.6,24.6 L205.4,22.5 L208.9,24.4 L209.5,21.5 L205.4,17.7 L206.8,12.9 L223.6,0.2 L227.5,1.9 L233.3,0.0 L234.2,1.3Z", "n": "A Coruña"}, "lugo": {"d": "M265.7,13.0 L264.4,17.3 L259.0,21.8 L269.1,37.3 L273.3,35.6 L274.8,36.9 L274.8,39.0 L270.0,41.9 L267.9,45.4 L274.7,49.0 L275.5,51.8 L272.9,59.5 L265.7,65.2 L263.5,76.8 L257.6,86.4 L252.1,82.1 L237.6,83.5 L226.0,76.7 L223.3,72.5 L225.7,64.2 L222.3,61.2 L220.0,55.8 L224.1,48.6 L222.3,35.6 L223.1,28.8 L225.7,22.7 L230.9,16.8 L234.0,6.5 L234.2,1.3 L236.9,1.2 L238.9,3.6 L244.5,2.3 L255.4,11.0 L265.7,13.0Z", "n": "Lugo"}, "ourense": {"d": "M263.5,76.8 L274.0,78.7 L276.1,83.9 L279.0,87.0 L277.3,92.5 L270.7,97.3 L267.2,102.1 L267.8,109.8 L264.6,111.2 L259.4,109.4 L257.7,115.5 L247.5,119.3 L245.1,116.5 L238.9,118.3 L238.2,115.9 L233.8,114.1 L225.7,116.7 L224.8,113.0 L217.6,119.1 L212.2,119.3 L210.6,112.9 L215.2,105.2 L211.8,103.1 L210.6,98.6 L211.7,93.9 L207.9,92.4 L207.4,88.9 L205.1,86.5 L204.0,78.9 L211.6,73.5 L218.6,74.4 L223.3,72.5 L226.0,76.7 L237.6,83.5 L252.1,82.1 L257.6,86.4 L263.5,76.8Z", "n": "Ourense"}, "pontevedra": {"d": "M185.7,65.7 L192.9,62.2 L199.9,61.7 L205.3,56.8 L220.0,55.8 L222.3,61.2 L225.7,64.2 L223.3,72.5 L218.6,74.4 L211.6,73.5 L204.0,78.9 L205.1,86.5 L207.4,88.9 L207.9,92.4 L211.7,93.9 L210.6,98.6 L204.0,102.5 L190.5,105.3 L179.3,116.0 L178.6,102.9 L185.0,92.9 L181.0,90.3 L184.6,83.9 L180.3,82.7 L178.6,80.0 L185.7,65.7Z", "n": "Pontevedra"}, "asturias": {"d": "M384.5,22.3 L383.7,28.7 L375.2,30.3 L373.7,34.5 L369.0,35.4 L365.5,32.3 L358.2,35.9 L356.1,39.8 L344.0,41.4 L337.0,45.2 L328.6,43.4 L323.7,48.4 L317.5,45.9 L315.0,42.8 L311.0,42.3 L308.7,44.7 L305.1,43.7 L303.2,45.4 L297.2,43.4 L292.5,48.0 L293.7,49.0 L289.1,51.5 L281.6,51.6 L278.5,53.2 L275.5,51.8 L274.7,49.0 L267.9,45.4 L270.0,41.9 L274.8,39.0 L274.8,36.9 L273.3,35.6 L269.1,37.3 L259.0,21.8 L264.4,17.3 L265.7,13.0 L269.7,11.4 L296.8,12.5 L303.0,10.4 L309.1,12.1 L316.6,10.5 L321.7,6.7 L328.9,12.3 L342.4,12.7 L352.6,17.2 L384.5,22.3Z", "n": "Asturias"}, "cantabria": {"d": "M434.8,18.2 L436.2,20.8 L443.9,21.9 L448.6,24.8 L447.1,28.5 L440.6,28.3 L435.3,32.0 L436.1,38.3 L426.1,36.4 L423.5,37.4 L410.3,48.6 L410.9,51.4 L415.3,50.8 L414.7,53.2 L416.5,57.1 L412.3,60.5 L408.6,60.7 L408.1,58.2 L406.5,60.9 L404.8,61.2 L400.7,58.4 L401.9,55.0 L398.3,55.0 L396.8,49.0 L392.7,48.1 L387.4,43.2 L373.8,45.2 L373.0,42.7 L369.1,39.5 L369.0,35.4 L373.7,34.5 L375.2,30.3 L383.7,28.7 L384.5,22.3 L400.3,21.6 L416.5,16.8 L418.0,17.4 L418.4,19.9 L429.0,15.3 L434.8,18.2Z M443.9,30.5 L442.7,34.3 L441.9,33.8 L441.3,30.4 L443.9,30.5Z", "n": "Cantabria"}, "alava": {"d": "M491.1,52.9 L491.1,57.2 L488.2,64.2 L488.1,67.5 L483.0,68.2 L480.9,70.7 L483.7,72.5 L483.1,78.0 L472.2,77.7 L470.5,75.6 L470.0,71.1 L467.3,70.1 L464.2,73.3 L462.5,68.8 L459.1,65.3 L450.4,60.8 L448.7,55.0 L444.1,54.2 L446.0,51.0 L454.1,51.4 L454.0,47.6 L456.2,46.3 L454.3,44.1 L451.6,46.4 L448.6,45.0 L449.1,40.9 L447.8,38.9 L449.1,36.6 L452.2,37.2 L456.4,34.8 L458.5,41.2 L465.0,44.2 L471.6,44.8 L473.4,41.8 L477.2,41.1 L476.0,48.1 L491.1,52.9Z", "n": "Araba/Álava"}, "gipuzkoa": {"d": "M513.0,24.9 L515.7,28.3 L507.6,33.9 L506.9,38.4 L498.2,49.0 L493.0,50.2 L491.1,52.9 L476.0,48.1 L477.2,41.1 L478.9,39.9 L479.9,33.4 L482.5,30.8 L483.5,26.8 L495.8,28.4 L511.4,23.2 L513.0,24.9Z", "n": "Gipuzkoa"}, "bizkaia": {"d": "M467.1,19.0 L483.5,26.8 L482.5,30.8 L479.9,33.4 L478.9,39.9 L473.4,41.8 L471.6,44.8 L465.0,44.2 L458.5,41.2 L456.4,34.8 L452.2,37.2 L443.1,34.6 L436.1,38.3 L435.3,32.0 L440.6,28.3 L447.1,28.5 L448.6,24.8 L454.5,26.1 L454.6,23.5 L458.9,20.0 L467.1,19.0Z M456.2,46.3 L454.0,47.6 L451.6,46.4 L453.2,44.2 L456.2,46.3Z", "n": "Bizkaia"}, "navarra": {"d": "M530.4,43.7 L532.8,44.0 L535.7,40.8 L538.3,43.5 L550.4,48.4 L561.4,48.9 L563.1,51.4 L559.3,52.4 L554.8,62.4 L549.5,65.2 L547.4,67.9 L543.2,69.1 L536.6,76.6 L531.1,93.5 L531.8,99.9 L535.0,105.0 L531.3,111.9 L523.9,113.0 L510.2,107.6 L507.9,105.7 L508.2,103.1 L511.4,99.5 L516.7,98.8 L516.5,96.3 L503.5,86.4 L483.1,78.0 L483.7,72.5 L480.9,70.7 L483.0,68.2 L488.1,67.5 L488.2,64.2 L491.1,57.2 L491.1,52.9 L493.0,50.2 L498.2,49.0 L506.9,38.4 L507.6,33.9 L515.7,28.3 L530.9,30.7 L531.4,35.3 L528.8,41.4 L530.4,43.7Z M543.6,81.3 L542.7,83.6 L539.9,83.3 L541.7,81.0 L543.6,81.3Z M547.6,80.9 L543.6,80.7 L545.6,78.2 L547.6,80.9Z", "n": "Navarra"}, "rioja": {"d": "M510.2,107.6 L509.7,110.1 L504.7,112.5 L499.6,110.9 L495.8,102.7 L486.3,99.6 L479.8,101.5 L474.6,107.7 L468.5,106.8 L467.8,101.2 L464.2,105.5 L459.9,106.7 L458.2,103.1 L454.2,101.9 L450.6,96.5 L450.9,88.5 L452.3,85.4 L450.3,82.2 L452.7,80.3 L450.9,74.6 L453.4,69.3 L462.5,68.8 L464.2,73.3 L467.3,70.1 L470.0,71.1 L470.5,75.6 L472.2,77.7 L483.1,78.0 L503.5,86.4 L516.5,96.3 L516.7,98.8 L511.4,99.5 L508.2,103.1 L507.9,105.7 L510.2,107.6Z", "n": "La Rioja"}, "huesca": {"d": "M565.7,54.1 L570.7,59.2 L578.6,58.4 L582.5,55.8 L595.1,65.2 L605.7,63.0 L611.2,66.0 L614.0,64.2 L628.4,65.5 L632.8,71.4 L630.5,78.6 L632.0,91.0 L629.5,103.1 L624.4,111.7 L624.7,116.4 L613.0,127.8 L614.2,132.3 L617.2,133.0 L618.0,135.7 L614.0,140.0 L613.1,144.6 L608.7,143.9 L601.7,147.5 L594.9,146.3 L589.4,134.0 L584.7,133.1 L575.1,125.3 L572.2,117.8 L566.7,112.0 L557.9,108.2 L558.1,104.5 L561.0,101.4 L562.1,90.1 L561.1,87.7 L558.4,89.6 L556.6,88.5 L556.7,83.9 L554.2,74.1 L554.8,62.4 L559.3,52.4 L563.1,51.4 L565.7,54.1Z M556.1,91.1 L555.3,93.5 L552.7,93.0 L554.4,90.5 L556.1,91.1Z", "n": "Huesca"}, "teruel": {"d": "M543.4,232.9 L542.3,230.6 L545.6,228.9 L545.8,226.7 L538.5,223.6 L536.2,219.2 L533.8,222.8 L528.9,222.2 L529.0,219.6 L524.0,218.7 L516.3,212.5 L515.7,209.9 L512.1,206.7 L517.0,201.1 L517.7,196.1 L522.2,196.1 L523.9,194.5 L524.4,182.0 L521.2,177.0 L521.0,173.1 L528.0,172.1 L531.5,165.5 L536.9,166.0 L538.6,162.0 L545.4,159.9 L552.3,164.6 L555.5,162.3 L559.2,163.1 L561.5,159.9 L564.8,162.0 L567.7,158.0 L568.3,151.0 L572.0,148.4 L595.6,161.6 L598.8,166.0 L607.7,165.2 L610.7,171.3 L608.9,176.6 L609.9,180.6 L605.3,186.1 L599.5,188.1 L588.8,183.0 L585.3,189.0 L579.9,190.4 L580.1,193.1 L583.3,194.6 L583.9,201.7 L581.4,204.1 L583.6,208.4 L577.8,215.7 L571.7,216.5 L567.2,226.8 L561.7,228.8 L558.0,232.9 L557.8,235.7 L559.6,238.5 L555.4,239.7 L554.1,234.8 L550.7,232.6 L543.4,232.9Z", "n": "Teruel"}, "zaragoza": {"d": "M554.2,74.1 L556.7,83.9 L556.6,88.5 L558.4,89.6 L561.1,87.7 L562.1,90.1 L561.0,101.4 L558.1,104.5 L557.9,108.2 L566.7,112.0 L572.2,117.8 L575.1,125.3 L584.7,133.1 L589.4,134.0 L594.9,146.3 L601.7,147.5 L608.7,143.9 L613.1,144.6 L615.4,152.5 L611.3,159.3 L608.1,161.6 L607.7,165.2 L598.8,166.0 L595.6,161.6 L572.0,148.4 L568.3,151.0 L567.7,158.0 L564.8,162.0 L561.5,159.9 L559.2,163.1 L555.5,162.3 L552.3,164.6 L545.4,159.9 L538.6,162.0 L536.9,166.0 L531.5,165.5 L528.0,172.1 L521.0,173.1 L512.3,164.4 L505.0,159.6 L500.5,160.6 L496.3,157.2 L495.5,148.8 L498.3,143.3 L502.1,145.2 L504.4,144.0 L504.0,133.6 L512.4,126.0 L510.7,121.2 L510.2,107.6 L523.9,113.0 L531.3,111.9 L535.0,105.0 L531.8,99.9 L531.1,93.5 L536.6,76.6 L543.2,69.1 L547.4,67.9 L549.5,65.2 L554.8,62.4 L554.2,74.1Z M573.3,155.0 L571.9,155.2 L570.2,152.1 L572.2,151.2 L573.3,155.0Z", "n": "Zaragoza"}, "madrid": {"d": "M449.3,206.3 L447.0,215.6 L450.7,214.4 L452.6,221.5 L452.5,225.8 L448.2,227.2 L447.1,226.1 L442.7,228.1 L439.2,226.5 L437.1,228.7 L432.0,228.7 L417.0,237.9 L414.9,235.8 L420.9,233.4 L422.3,230.7 L426.0,228.0 L426.6,224.4 L409.1,218.0 L405.9,215.2 L402.3,215.9 L399.8,213.4 L393.8,217.2 L392.3,216.2 L391.1,212.0 L387.4,216.7 L383.5,218.6 L381.3,217.8 L383.2,210.8 L386.8,211.2 L388.6,206.7 L392.9,205.1 L393.7,197.6 L396.0,194.3 L400.4,192.9 L401.1,188.7 L405.1,182.9 L409.6,182.3 L413.4,172.2 L418.8,169.4 L426.9,160.7 L430.3,159.5 L435.2,165.2 L436.7,169.5 L433.2,180.6 L434.3,188.6 L438.1,190.1 L442.7,197.5 L446.0,199.6 L446.7,203.4 L449.3,206.3Z M395.9,190.9 L393.6,191.3 L393.8,190.1 L395.7,189.5 L395.9,190.9Z", "n": "Madrid"}, "avila": {"d": "M361.3,159.9 L368.6,163.3 L374.6,160.4 L375.5,165.7 L381.6,172.6 L383.2,179.8 L385.2,180.6 L387.9,185.7 L389.0,191.6 L395.9,190.9 L395.7,189.5 L401.1,188.7 L400.4,192.9 L396.0,194.3 L393.7,197.6 L392.9,205.1 L388.6,206.7 L386.8,211.2 L383.2,210.8 L381.3,217.8 L377.5,218.4 L375.3,214.3 L371.3,214.7 L362.7,223.6 L359.7,221.8 L353.4,225.8 L345.6,224.1 L344.3,215.8 L336.3,219.0 L326.7,213.1 L329.3,209.6 L329.7,204.6 L334.1,202.2 L337.0,204.4 L339.5,201.6 L340.8,195.2 L344.0,189.8 L353.3,181.6 L356.8,170.2 L354.7,165.9 L355.6,161.5 L361.3,159.9Z M340.1,196.0 L338.4,197.4 L336.4,197.1 L337.4,194.6 L340.1,196.0Z", "n": "Ávila"}, "burgos": {"d": "M449.1,36.6 L447.8,38.9 L449.1,40.9 L448.6,45.0 L454.0,47.6 L454.1,51.4 L446.0,51.0 L444.1,54.2 L448.7,55.0 L450.4,60.8 L459.1,65.3 L462.5,68.8 L453.4,69.3 L450.9,74.6 L452.7,80.3 L450.3,82.2 L452.3,85.4 L450.9,88.5 L450.6,96.5 L454.2,101.9 L458.2,103.1 L459.9,106.7 L455.3,113.7 L448.9,119.4 L443.0,117.8 L441.7,122.9 L435.6,130.9 L430.3,134.1 L424.3,135.2 L419.9,140.8 L418.8,137.7 L417.0,139.6 L407.4,130.9 L405.9,124.6 L406.7,122.3 L406.0,116.8 L410.0,110.8 L404.5,101.6 L405.0,98.2 L402.9,97.9 L402.5,100.3 L399.3,98.0 L393.8,82.5 L396.1,78.7 L395.2,72.8 L396.5,66.9 L404.8,61.2 L412.3,60.5 L416.5,57.1 L414.7,53.2 L415.3,50.8 L410.9,51.4 L410.3,48.6 L423.5,37.4 L426.1,36.4 L436.1,38.3 L443.1,34.6 L449.1,36.6Z M476.3,66.5 L467.6,67.3 L461.3,62.2 L464.8,58.9 L473.7,60.4 L476.2,62.5 L476.3,66.5Z", "n": "Burgos"}, "leon": {"d": "M373.8,45.2 L366.4,56.1 L365.3,61.6 L367.0,65.2 L365.4,83.9 L361.4,90.3 L355.2,89.8 L347.9,94.4 L346.6,93.8 L347.3,91.5 L345.6,91.4 L343.8,95.8 L343.7,105.5 L341.6,106.2 L338.2,103.2 L334.2,103.5 L329.7,100.3 L305.0,98.6 L298.7,95.7 L290.6,96.3 L277.3,92.5 L279.0,87.0 L276.1,83.9 L274.0,78.7 L263.5,76.8 L265.7,65.2 L272.9,59.5 L275.5,51.8 L278.5,53.2 L281.6,51.6 L289.1,51.5 L293.7,49.0 L292.5,48.0 L297.2,43.4 L303.2,45.4 L305.1,43.7 L308.7,44.7 L311.0,42.3 L315.0,42.8 L317.5,45.9 L323.7,48.4 L328.6,43.4 L337.0,45.2 L344.0,41.4 L356.1,39.8 L358.2,35.9 L365.5,32.3 L369.0,35.4 L369.1,39.5 L373.0,42.7 L373.8,45.2Z", "n": "León"}, "palencia": {"d": "M399.3,98.0 L402.5,100.3 L402.9,97.9 L405.0,98.2 L404.5,101.6 L410.0,110.8 L406.0,116.8 L406.7,122.3 L397.5,120.0 L393.6,122.3 L386.8,122.6 L385.4,121.7 L385.4,118.5 L381.5,119.0 L377.6,114.7 L371.8,118.9 L367.6,112.8 L362.2,112.9 L361.7,110.5 L365.4,103.1 L364.3,99.7 L360.9,97.7 L361.4,90.3 L365.4,83.9 L366.4,78.5 L367.0,65.2 L365.3,61.6 L366.4,56.1 L373.8,45.2 L387.4,43.2 L392.7,48.1 L396.8,49.0 L398.3,55.0 L401.9,55.0 L400.7,58.4 L404.8,61.2 L396.5,66.9 L395.2,72.8 L396.1,78.7 L393.8,82.5 L399.3,98.0Z M408.6,60.7 L406.5,60.9 L408.1,58.2 L408.6,60.7Z M407.0,58.1 L405.5,59.7 L403.0,58.1 L405.3,56.8 L407.0,58.1Z", "n": "Palencia"}, "salamanca": {"d": "M270.5,167.8 L276.2,166.6 L281.8,157.0 L291.7,151.5 L298.6,152.7 L307.4,157.4 L313.0,157.2 L313.7,159.4 L316.5,160.4 L319.5,155.3 L330.4,155.1 L341.8,158.5 L346.2,162.0 L347.9,158.4 L349.8,157.9 L355.6,161.5 L354.7,165.9 L356.8,170.2 L353.3,181.6 L344.0,189.8 L340.8,195.2 L339.5,201.6 L337.0,204.4 L334.1,202.2 L329.7,204.6 L329.3,209.6 L326.7,213.1 L324.5,213.2 L323.2,209.9 L317.9,213.4 L315.3,212.8 L310.8,209.3 L306.6,203.0 L303.6,201.5 L289.1,210.2 L286.4,214.4 L277.9,216.3 L273.5,214.5 L277.1,209.3 L274.6,204.0 L276.5,199.3 L274.8,195.5 L276.6,190.5 L275.4,184.7 L276.2,178.3 L270.5,167.8Z", "n": "Salamanca"}, "segovia": {"d": "M430.3,134.1 L439.1,141.6 L440.0,145.7 L446.0,150.9 L443.5,153.5 L437.7,153.9 L430.3,159.5 L426.9,160.7 L418.8,169.4 L413.4,172.2 L409.6,182.3 L405.1,182.9 L401.1,188.7 L395.0,189.3 L393.6,191.3 L389.0,191.6 L387.9,185.7 L385.2,180.6 L383.2,179.8 L381.6,172.6 L375.5,165.7 L374.6,160.4 L378.5,158.6 L381.0,150.5 L386.1,151.0 L385.4,144.8 L389.8,142.4 L403.1,140.0 L408.4,137.4 L409.5,133.7 L417.0,139.6 L418.8,137.7 L419.9,140.8 L424.3,135.2 L430.3,134.1Z", "n": "Segovia"}, "soria": {"d": "M459.9,106.7 L464.2,105.5 L467.8,101.2 L468.5,106.8 L474.6,107.7 L479.8,101.5 L486.3,99.6 L495.8,102.7 L499.6,110.9 L504.7,112.5 L509.7,110.1 L511.3,117.2 L510.7,121.2 L512.4,126.0 L504.0,133.6 L504.4,144.0 L502.1,145.2 L498.3,143.3 L495.5,148.8 L496.3,157.2 L500.5,160.6 L499.7,164.4 L496.7,162.9 L489.1,165.8 L482.9,165.7 L478.8,161.1 L475.3,160.3 L474.7,156.3 L468.6,152.9 L463.3,153.1 L460.7,149.8 L452.9,152.5 L446.0,150.9 L440.0,145.7 L439.1,141.6 L430.3,134.1 L435.6,130.9 L441.7,122.9 L443.0,117.8 L448.9,119.4 L455.3,113.7 L459.9,106.7Z", "n": "Soria"}, "valladolid": {"d": "M361.4,90.3 L360.9,97.7 L364.3,99.7 L365.4,103.1 L361.7,110.5 L362.2,112.9 L367.6,112.8 L371.8,118.9 L377.6,114.7 L381.5,119.0 L385.4,118.5 L385.4,121.7 L386.8,122.6 L393.6,122.3 L397.5,120.0 L406.7,122.3 L405.9,124.6 L407.4,130.9 L409.5,133.7 L408.4,137.4 L403.1,140.0 L389.8,142.4 L385.4,144.8 L386.1,151.0 L381.0,150.5 L378.5,158.6 L368.6,163.3 L361.3,159.9 L355.6,161.5 L349.8,157.9 L347.9,158.4 L346.3,157.4 L347.3,152.8 L346.0,142.1 L349.6,136.7 L344.0,124.2 L347.2,119.5 L347.3,108.8 L343.7,105.5 L343.8,95.8 L345.6,91.4 L347.3,91.5 L346.6,93.8 L347.9,94.4 L355.2,89.8 L361.4,90.3Z M340.8,108.8 L339.6,109.1 L337.3,103.1 L338.2,103.2 L341.6,106.2 L340.8,108.8Z", "n": "Valladolid"}, "zamora": {"d": "M343.7,105.5 L347.3,108.8 L347.2,119.5 L344.0,124.2 L349.6,136.7 L346.0,142.1 L347.3,152.8 L346.3,157.4 L347.9,158.4 L346.2,162.0 L341.8,158.5 L330.4,155.1 L319.5,155.3 L316.5,160.4 L313.7,159.4 L313.0,157.2 L307.4,157.4 L298.6,152.7 L291.7,151.5 L298.8,145.5 L304.7,133.6 L299.1,128.5 L288.9,127.6 L288.2,123.6 L289.6,116.4 L287.9,115.0 L287.1,110.9 L280.5,111.9 L276.8,108.9 L275.0,111.2 L272.0,111.7 L267.8,109.8 L267.2,102.1 L270.7,97.3 L277.3,92.5 L290.6,96.3 L298.7,95.7 L305.0,98.6 L329.7,100.3 L334.2,103.5 L337.3,103.1 L339.6,109.1 L340.8,108.8 L341.6,106.2 L343.7,105.5Z", "n": "Zamora"}, "albacete": {"d": "M477.0,349.1 L481.8,342.2 L480.0,330.7 L476.4,328.7 L475.1,323.4 L467.0,321.5 L467.4,317.3 L471.5,313.5 L472.5,309.3 L468.1,305.4 L466.3,299.6 L461.7,296.1 L464.7,290.1 L463.8,284.0 L468.4,276.5 L467.9,273.2 L479.0,272.2 L484.7,277.6 L487.3,276.1 L489.9,278.3 L495.0,275.7 L500.0,276.0 L499.2,270.9 L501.3,271.2 L503.7,274.4 L513.0,275.3 L526.3,267.0 L529.5,270.0 L542.0,274.2 L537.9,289.6 L543.5,296.9 L552.2,296.8 L553.5,311.9 L548.8,314.0 L541.7,308.1 L534.7,312.0 L531.5,311.7 L526.9,320.8 L527.5,329.7 L526.5,331.9 L520.2,335.2 L514.3,331.4 L506.7,336.0 L500.4,336.1 L493.0,342.0 L486.9,352.7 L477.0,349.1Z", "n": "Albacete"}, "ciudad real": {"d": "M406.5,260.8 L403.1,266.1 L402.6,269.9 L408.5,271.2 L411.5,274.6 L416.0,276.2 L430.5,273.6 L443.9,263.6 L449.2,262.9 L456.4,265.1 L459.0,263.7 L461.5,270.4 L465.6,268.9 L467.9,273.2 L468.4,276.5 L463.8,284.0 L464.7,290.1 L461.7,296.1 L466.3,299.6 L468.1,305.4 L472.5,309.3 L471.5,313.5 L467.4,317.3 L467.0,321.5 L462.1,325.3 L455.5,327.4 L452.6,325.8 L448.4,326.9 L440.3,325.2 L434.0,329.2 L429.0,327.0 L427.0,329.6 L419.1,328.2 L413.9,331.4 L396.8,329.9 L396.0,332.9 L387.8,329.6 L376.1,319.8 L368.7,316.5 L366.9,312.4 L362.3,311.8 L359.3,309.4 L362.4,307.7 L365.0,300.5 L369.0,298.1 L364.7,293.8 L363.7,289.7 L368.9,289.6 L367.8,285.4 L370.5,281.0 L376.7,281.7 L373.2,273.9 L376.4,268.1 L376.2,265.1 L379.2,264.1 L383.1,259.8 L386.4,262.0 L396.8,262.9 L401.7,258.0 L405.2,257.8 L406.5,260.8Z M373.0,267.2 L367.8,269.7 L364.3,268.4 L368.2,259.0 L372.6,261.5 L373.0,267.2Z", "n": "Ciudad Real"}, "cuenca": {"d": "M526.3,267.0 L513.0,275.3 L503.7,274.4 L501.3,271.2 L499.2,270.9 L500.0,276.0 L495.0,275.7 L489.9,278.3 L487.3,276.1 L484.7,277.6 L479.0,272.2 L467.9,273.2 L465.6,268.9 L461.5,270.4 L459.0,263.7 L459.7,253.2 L450.3,238.6 L451.1,232.9 L448.9,231.1 L448.2,227.2 L452.5,225.8 L452.6,221.5 L456.4,219.2 L460.1,221.1 L463.8,218.3 L466.0,204.6 L468.5,206.2 L473.1,203.7 L478.3,204.6 L477.8,198.5 L484.0,198.3 L484.2,194.1 L488.1,195.9 L490.2,192.1 L493.2,192.8 L496.8,191.0 L502.5,194.6 L506.0,194.8 L509.7,204.4 L515.7,209.9 L516.3,212.5 L524.0,218.7 L529.0,219.6 L528.9,222.2 L532.7,230.0 L542.3,230.6 L543.4,232.9 L540.8,234.8 L540.2,241.6 L537.1,250.0 L531.8,251.2 L526.5,258.5 L526.3,267.0Z", "n": "Cuenca"}, "guadalajara": {"d": "M521.0,173.1 L521.2,177.0 L524.4,182.0 L523.9,194.5 L522.2,196.1 L517.7,196.1 L517.0,201.1 L512.1,206.7 L509.7,204.4 L506.0,194.8 L502.5,194.6 L496.8,191.0 L493.2,192.8 L490.2,192.1 L488.1,195.9 L484.2,194.1 L484.0,198.3 L477.8,198.5 L478.3,204.6 L473.1,203.7 L468.5,206.2 L466.0,204.6 L463.8,218.3 L460.1,221.1 L456.4,219.2 L452.6,221.5 L450.7,214.4 L447.0,215.6 L449.3,206.3 L446.7,203.4 L446.0,199.6 L442.7,197.5 L438.1,190.1 L434.3,188.6 L433.2,180.6 L436.7,169.5 L435.2,165.2 L430.3,159.5 L437.7,153.9 L443.5,153.5 L446.0,150.9 L452.9,152.5 L460.7,149.8 L463.3,153.1 L468.6,152.9 L474.7,156.3 L475.3,160.3 L478.8,161.1 L482.9,165.7 L489.1,165.8 L496.7,162.9 L499.7,164.4 L500.5,160.6 L505.0,159.6 L512.3,164.4 L521.0,173.1Z", "n": "Guadalajara"}, "toledo": {"d": "M345.6,224.1 L353.4,225.8 L359.7,221.8 L362.7,223.6 L371.3,214.7 L375.3,214.3 L377.5,218.4 L383.5,218.6 L387.4,216.7 L391.1,212.0 L392.3,216.2 L393.8,217.2 L399.8,213.4 L402.3,215.9 L405.9,215.2 L409.1,218.0 L426.6,224.4 L426.0,228.0 L422.3,230.7 L420.9,233.4 L414.9,235.8 L417.0,237.9 L432.0,228.7 L437.1,228.7 L439.2,226.5 L442.7,228.1 L447.1,226.1 L448.9,231.1 L451.1,232.9 L450.3,238.6 L456.4,248.0 L459.7,253.2 L459.0,263.7 L456.4,265.1 L449.2,262.9 L443.9,263.6 L430.5,273.6 L416.0,276.2 L411.5,274.6 L408.5,271.2 L402.6,269.9 L403.1,266.1 L406.5,260.8 L405.2,257.8 L401.7,258.0 L396.8,262.9 L386.4,262.0 L383.1,259.8 L379.2,264.1 L373.0,267.2 L372.6,261.5 L368.2,259.0 L363.7,268.4 L352.4,256.4 L354.7,249.5 L353.5,244.1 L347.7,245.9 L347.3,239.1 L342.7,238.1 L344.1,226.1 L345.6,224.1Z", "n": "Toledo"}, "badajoz": {"d": "M256.3,275.6 L258.1,275.4 L259.6,270.9 L261.7,269.4 L263.5,269.8 L263.5,272.7 L264.6,273.1 L266.4,269.0 L264.6,267.7 L264.6,266.4 L276.2,269.3 L278.7,273.3 L277.0,278.3 L278.4,280.8 L288.2,282.9 L298.5,281.8 L300.8,286.5 L307.5,290.2 L313.1,285.4 L314.2,288.8 L323.8,284.2 L328.8,287.1 L332.5,286.4 L333.7,283.7 L333.2,281.3 L335.3,280.0 L342.0,282.8 L344.3,279.5 L345.7,272.8 L351.2,273.8 L354.9,272.4 L356.7,269.1 L360.1,270.2 L364.3,268.4 L367.8,269.7 L376.2,265.1 L376.4,268.1 L373.2,273.9 L376.7,281.7 L370.5,281.0 L367.8,285.4 L368.9,289.6 L363.7,289.7 L364.7,293.8 L369.0,298.1 L365.0,300.5 L362.4,307.7 L353.9,310.8 L334.8,328.0 L334.6,333.5 L336.8,341.3 L333.9,346.2 L327.7,348.9 L326.8,347.3 L328.0,342.8 L322.0,343.8 L318.4,347.3 L316.5,354.1 L309.8,355.2 L305.8,357.9 L299.6,355.2 L295.8,351.1 L290.9,353.3 L287.5,352.7 L284.9,348.7 L278.7,348.2 L276.3,346.6 L276.2,343.5 L270.4,341.5 L264.6,343.3 L262.1,342.7 L252.6,326.7 L252.7,321.9 L255.1,316.4 L254.9,310.8 L264.6,301.4 L269.0,291.1 L267.8,287.4 L264.6,285.5 L260.9,286.0 L260.2,282.3 L256.0,279.6 L256.3,275.6Z", "n": "Badajoz"}, "caceres": {"d": "M273.5,214.5 L277.9,216.3 L286.4,214.4 L289.1,210.2 L303.6,201.5 L306.6,203.0 L310.8,209.3 L315.3,212.8 L317.9,213.4 L323.2,209.9 L324.5,213.2 L326.7,213.1 L336.3,219.0 L344.3,215.8 L345.6,224.1 L344.1,226.1 L342.7,238.1 L347.3,239.1 L347.7,245.9 L353.5,244.1 L354.7,249.5 L352.4,256.4 L363.7,268.4 L360.1,270.2 L356.7,269.1 L354.9,272.4 L351.2,273.8 L345.7,272.8 L344.3,279.5 L342.0,282.8 L335.3,280.0 L333.2,281.3 L333.7,283.7 L332.5,286.4 L328.8,287.1 L323.8,284.2 L314.2,288.8 L313.1,285.4 L307.5,290.2 L300.8,286.5 L298.5,281.8 L288.2,282.9 L278.4,280.8 L277.0,278.3 L278.7,273.3 L276.2,269.3 L264.6,266.4 L264.6,267.7 L266.4,269.0 L264.6,273.1 L263.5,272.7 L263.5,269.8 L261.7,269.4 L259.6,270.9 L258.1,275.4 L256.3,275.6 L252.4,271.0 L252.6,264.5 L243.9,256.4 L241.6,252.0 L250.8,253.1 L264.6,252.1 L266.6,250.5 L268.3,242.8 L271.3,239.1 L273.1,230.9 L270.0,224.9 L266.3,221.6 L266.5,218.0 L269.5,215.3 L273.5,214.5Z", "n": "Cáceres"}, "barcelona": {"d": "M674.8,157.6 L671.8,154.3 L673.5,152.9 L671.1,147.3 L667.7,145.0 L666.4,139.9 L663.6,138.0 L665.2,134.8 L662.9,134.2 L664.3,122.0 L671.4,121.4 L673.6,117.2 L673.2,114.1 L677.7,108.8 L676.7,104.1 L679.0,97.3 L677.1,95.1 L677.2,91.4 L684.1,89.2 L692.4,90.8 L696.0,99.1 L706.5,100.8 L712.8,103.9 L714.2,107.1 L713.4,110.9 L708.6,116.9 L717.6,124.1 L725.4,125.4 L728.3,129.7 L703.5,142.4 L696.6,151.8 L674.8,157.6Z", "n": "Barcelona"}, "girona": {"d": "M686.6,80.1 L692.9,85.4 L704.0,81.9 L717.7,87.0 L721.4,86.6 L725.7,82.6 L735.2,79.4 L746.9,81.3 L746.5,85.3 L752.7,88.5 L751.5,92.2 L746.0,92.4 L744.2,95.7 L744.6,99.5 L748.3,104.1 L749.3,110.5 L748.5,113.9 L741.0,121.2 L728.3,129.7 L725.4,125.4 L717.6,124.1 L708.6,116.9 L713.4,110.9 L714.2,107.1 L712.8,103.9 L706.5,100.8 L696.0,99.1 L692.4,90.8 L684.1,89.2 L684.1,85.9 L679.3,80.7 L678.9,77.8 L686.6,80.1Z M691.8,80.3 L690.7,81.2 L688.7,80.1 L690.6,77.5 L691.8,80.3Z", "n": "Girona"}, "lleida": {"d": "M628.4,65.5 L629.2,56.2 L637.7,57.2 L647.6,60.2 L652.7,64.0 L660.8,64.2 L665.3,70.9 L665.2,79.1 L666.3,81.0 L669.8,81.2 L678.6,77.0 L679.3,80.7 L684.1,85.9 L684.1,89.2 L677.2,91.4 L677.1,95.1 L679.0,97.3 L676.7,104.1 L677.7,108.8 L673.2,114.1 L673.6,117.2 L671.4,121.4 L664.3,122.0 L662.9,134.2 L655.4,134.7 L652.9,136.5 L651.9,139.9 L647.0,139.8 L646.9,142.7 L641.3,148.1 L627.0,151.4 L623.7,150.1 L621.2,151.5 L618.7,149.6 L617.2,152.3 L615.4,152.5 L613.1,144.6 L614.0,140.0 L618.0,135.7 L617.2,133.0 L614.2,132.3 L613.0,127.8 L624.7,116.4 L624.4,111.7 L629.5,103.1 L632.0,91.0 L630.5,78.6 L632.8,71.4 L628.4,65.5Z", "n": "Lleida"}, "tarragona": {"d": "M663.6,138.0 L666.4,139.9 L667.7,145.0 L671.1,147.3 L673.5,152.9 L671.8,154.3 L674.8,157.6 L642.9,168.0 L630.8,181.8 L638.3,186.7 L638.2,188.2 L632.6,192.0 L625.7,193.2 L621.6,199.0 L610.9,192.2 L610.3,188.8 L605.3,186.1 L609.9,180.6 L608.9,176.6 L610.7,171.3 L607.7,165.2 L608.1,161.6 L611.3,159.3 L615.4,152.5 L617.2,152.3 L618.7,149.6 L621.2,151.5 L623.7,150.1 L627.0,151.4 L641.3,148.1 L646.9,142.7 L647.0,139.8 L651.9,139.9 L652.9,136.5 L655.4,134.7 L665.2,134.8 L663.6,138.0Z M629.9,195.0 L628.0,197.4 L625.9,196.1 L628.2,194.4 L629.9,195.0Z", "n": "Tarragona"}, "alicante": {"d": "M561.3,363.7 L554.6,358.6 L548.9,348.7 L548.7,345.6 L551.3,337.6 L550.3,334.7 L546.2,331.2 L549.7,319.6 L548.8,314.0 L553.5,311.9 L552.4,307.2 L553.5,306.1 L568.7,311.0 L571.9,308.9 L570.4,306.4 L571.2,305.0 L582.4,300.7 L595.5,299.7 L605.3,304.1 L607.6,308.8 L595.9,316.5 L593.1,321.4 L580.8,326.2 L577.9,332.0 L573.9,333.7 L572.9,341.3 L567.7,345.3 L566.4,354.0 L561.3,363.7Z", "n": "Alicante/Alacant"}, "castellon": {"d": "M588.4,248.3 L581.6,244.1 L576.1,247.7 L572.0,244.7 L568.1,246.1 L565.7,241.3 L562.9,242.1 L557.8,235.7 L558.0,232.9 L561.7,228.8 L567.2,226.8 L571.7,216.5 L577.8,215.7 L583.6,208.4 L581.4,204.1 L583.9,201.7 L583.3,194.6 L580.1,193.1 L579.9,190.4 L585.3,189.0 L588.8,183.0 L599.5,188.1 L605.3,186.1 L610.3,188.8 L610.9,192.2 L621.6,199.0 L615.7,210.2 L606.2,221.2 L603.1,226.8 L599.6,229.4 L596.5,236.7 L588.4,248.3Z", "n": "Castellón/Castelló"}, "valencia": {"d": "M554.1,234.8 L555.4,239.7 L559.6,238.5 L562.9,242.1 L565.7,241.3 L568.1,246.1 L572.0,244.7 L576.1,247.7 L581.6,244.1 L588.4,248.3 L582.4,261.2 L581.7,266.6 L586.5,280.4 L587.7,288.7 L595.5,299.7 L582.4,300.7 L571.2,305.0 L570.4,306.4 L571.9,308.9 L568.7,311.0 L553.5,306.1 L552.2,296.8 L543.5,296.9 L537.9,289.6 L542.0,274.2 L529.5,270.0 L526.3,267.0 L526.5,258.5 L531.8,251.2 L537.1,250.0 L540.2,241.6 L540.8,234.8 L543.4,232.9 L550.7,232.6 L554.1,234.8Z M536.2,219.2 L538.5,223.6 L545.8,226.7 L545.6,228.9 L542.3,230.6 L532.7,230.0 L528.9,222.2 L533.8,222.8 L536.2,219.2Z", "n": "Valencia/València"}, "balears": {"d": "M664.2,299.3 L663.2,302.5 L655.7,300.8 L654.3,295.2 L657.6,294.1 L658.7,290.6 L661.5,288.3 L669.0,285.8 L672.3,287.8 L672.2,292.4 L664.2,299.3Z M673.0,312.8 L671.5,314.4 L669.0,312.9 L671.2,311.5 L673.0,312.8Z M667.3,311.5 L662.9,314.5 L662.1,309.9 L665.1,308.3 L667.3,311.5Z M746.8,245.5 L750.7,247.2 L755.8,245.2 L759.8,248.6 L759.5,252.4 L750.2,269.1 L741.9,275.5 L736.5,271.1 L728.4,269.2 L726.3,261.6 L723.7,259.1 L714.8,263.0 L708.7,258.4 L709.2,255.8 L727.2,241.5 L736.9,236.6 L743.2,235.9 L743.8,238.9 L746.0,240.0 L745.1,242.6 L746.8,245.5Z M737.5,284.2 L736.5,285.7 L734.3,284.6 L735.7,282.2 L737.5,284.2Z M748.0,234.0 L745.8,236.4 L744.0,235.5 L746.4,233.2 L748.0,234.0Z M776.0,230.2 L779.0,227.9 L793.2,227.5 L798.5,232.6 L800.0,241.1 L797.8,242.6 L786.4,236.0 L778.4,235.8 L776.0,230.2Z", "n": "Eivissa y Formentera"}, "almeria": {"d": "M449.7,431.2 L450.3,428.6 L453.4,425.5 L453.4,421.6 L456.0,417.1 L455.5,410.4 L458.4,408.5 L463.2,399.8 L471.2,401.7 L473.9,391.5 L485.1,383.4 L485.8,378.8 L488.3,374.5 L489.5,363.1 L493.1,359.5 L503.6,362.6 L503.2,375.8 L510.1,387.4 L516.2,389.4 L520.4,392.8 L512.3,402.5 L507.2,419.2 L496.8,432.1 L493.7,432.4 L486.3,425.9 L476.9,427.2 L473.0,433.5 L469.4,435.3 L462.7,434.1 L459.2,431.5 L449.7,431.2Z", "n": "Almería"}, "cadiz": {"d": "M298.0,428.3 L298.7,422.1 L318.9,425.2 L321.5,421.7 L327.5,420.6 L330.1,418.0 L335.4,420.4 L338.6,417.5 L338.0,413.9 L339.7,413.1 L341.2,413.8 L340.2,417.8 L341.3,419.4 L346.9,414.3 L350.4,418.9 L354.8,415.6 L356.6,420.9 L355.3,424.7 L352.9,426.0 L347.3,424.6 L345.2,436.0 L335.2,444.7 L336.5,446.0 L341.3,445.5 L346.3,455.5 L349.6,458.3 L345.5,468.0 L341.5,467.0 L340.5,473.1 L333.4,476.6 L323.7,472.0 L318.6,466.5 L312.7,465.8 L302.9,450.3 L305.5,445.6 L303.1,445.5 L303.1,442.1 L296.2,438.4 L294.1,434.3 L294.0,431.9 L298.0,428.3Z", "n": "Cádiz"}, "cordoba": {"d": "M377.8,400.1 L375.6,394.6 L370.4,394.2 L369.0,389.4 L367.1,388.5 L364.6,383.8 L364.4,378.2 L360.6,372.2 L343.8,378.6 L342.2,375.0 L346.6,372.3 L346.7,368.8 L333.9,346.2 L336.8,341.3 L334.6,333.5 L334.8,328.0 L353.9,310.8 L359.3,309.4 L362.3,311.8 L366.9,312.4 L368.7,316.5 L376.1,319.8 L387.8,329.6 L396.0,332.9 L398.2,335.2 L400.7,344.6 L395.7,354.0 L395.4,366.0 L398.2,367.9 L397.9,371.3 L400.3,373.3 L398.6,377.4 L408.6,391.1 L404.4,391.4 L398.3,394.8 L396.1,401.8 L393.2,404.5 L389.7,399.1 L383.4,402.6 L377.8,400.1Z", "n": "Córdoba"}, "granada": {"d": "M419.1,432.0 L419.3,428.7 L417.0,425.3 L407.2,422.0 L396.2,414.6 L393.2,404.5 L396.1,401.8 L398.3,394.8 L404.4,391.4 L415.3,392.0 L419.0,386.6 L432.0,378.4 L437.5,380.9 L444.6,376.5 L451.7,378.8 L456.4,378.3 L459.8,374.5 L461.1,369.1 L466.2,359.8 L473.3,354.8 L477.0,349.1 L486.9,352.7 L493.1,359.5 L489.5,363.1 L488.3,374.5 L485.8,378.8 L485.1,383.4 L473.9,391.5 L471.2,401.7 L463.2,399.8 L458.4,408.5 L455.5,410.4 L456.0,417.1 L453.4,421.6 L453.4,425.5 L450.3,428.6 L449.7,431.2 L442.2,431.4 L435.2,434.6 L426.6,431.7 L419.1,432.0Z", "n": "Granada"}, "huelva": {"d": "M243.0,383.5 L243.4,379.3 L247.5,370.1 L253.4,362.8 L255.4,355.6 L262.1,352.1 L264.6,353.2 L266.9,352.2 L270.4,341.5 L276.2,343.5 L276.3,346.6 L278.7,348.2 L284.9,348.7 L287.5,352.7 L290.9,353.3 L295.8,351.1 L299.6,355.2 L305.8,357.9 L307.8,360.5 L307.9,366.7 L305.1,366.6 L303.6,369.5 L299.1,369.0 L292.3,371.7 L289.2,376.4 L295.2,378.4 L299.9,389.4 L297.9,390.8 L296.7,395.1 L298.2,398.1 L296.4,411.7 L296.8,419.4 L298.7,422.1 L298.0,428.3 L295.7,427.2 L291.7,419.8 L286.5,414.8 L274.8,407.4 L264.6,403.1 L248.2,405.1 L245.6,389.4 L243.0,383.5Z", "n": "Huelva"}, "jaen": {"d": "M408.6,391.1 L398.6,377.4 L400.3,373.3 L397.9,371.3 L398.2,367.9 L395.4,366.0 L395.7,354.0 L400.7,344.6 L398.2,335.2 L396.0,332.9 L396.8,329.9 L413.9,331.4 L419.1,328.2 L427.0,329.6 L429.0,327.0 L434.0,329.2 L440.3,325.2 L448.4,326.9 L452.6,325.8 L455.5,327.4 L462.1,325.3 L467.0,321.5 L475.1,323.4 L476.4,328.7 L480.0,330.7 L481.8,342.2 L473.3,354.8 L466.2,359.8 L461.1,369.1 L459.8,374.5 L456.4,378.3 L451.7,378.8 L444.6,376.5 L437.5,380.9 L432.0,378.4 L419.0,386.6 L415.3,392.0 L411.1,392.4 L408.6,391.1Z", "n": "Jaén"}, "malaga": {"d": "M349.6,458.3 L346.3,455.5 L341.3,445.5 L336.5,446.0 L335.2,444.7 L345.2,436.0 L347.3,424.6 L352.9,426.0 L355.3,424.7 L356.6,420.9 L354.8,415.6 L365.0,409.3 L365.1,405.5 L369.0,404.2 L371.9,405.7 L374.6,403.8 L374.9,400.8 L377.8,400.1 L383.4,402.6 L389.7,399.1 L393.2,404.5 L396.2,414.6 L407.2,422.0 L417.0,425.3 L419.3,428.7 L419.1,432.0 L389.9,433.3 L377.8,446.4 L365.7,446.6 L356.9,450.1 L352.4,452.9 L349.6,458.3Z", "n": "Málaga"}, "sevilla": {"d": "M305.8,357.9 L309.8,355.2 L316.5,354.1 L318.4,347.3 L322.0,343.8 L328.0,342.8 L326.8,347.3 L327.7,348.9 L333.9,346.2 L346.7,368.8 L346.6,372.3 L342.2,375.0 L343.8,378.6 L360.6,372.2 L364.4,378.2 L364.6,383.8 L367.1,388.5 L369.0,389.4 L370.4,394.2 L375.6,394.6 L377.8,400.1 L374.9,400.8 L374.6,403.8 L371.9,405.7 L369.0,404.2 L365.1,405.5 L365.0,409.3 L350.4,418.9 L346.9,414.3 L341.3,419.4 L340.2,417.8 L341.2,413.8 L339.7,413.1 L338.0,413.9 L338.6,417.5 L335.4,420.4 L330.1,418.0 L327.5,420.6 L321.5,421.7 L318.9,425.2 L298.7,422.1 L296.8,419.4 L296.4,411.7 L298.2,398.1 L296.7,395.1 L297.9,390.8 L299.9,389.4 L295.2,378.4 L289.2,376.4 L292.3,371.7 L299.1,369.0 L303.6,369.5 L305.1,366.6 L307.9,366.7 L307.8,360.5 L305.8,357.9Z", "n": "Sevilla"}, "murcia": {"d": "M520.4,392.8 L516.2,389.4 L510.1,387.4 L503.2,375.8 L503.6,362.6 L493.1,359.5 L486.9,352.7 L493.0,342.0 L500.4,336.1 L506.7,336.0 L514.3,331.4 L520.2,335.2 L526.5,331.9 L527.5,329.7 L526.9,320.8 L531.5,311.7 L534.7,312.0 L541.7,308.1 L548.8,314.0 L549.7,319.6 L546.2,331.2 L550.3,334.7 L551.3,337.6 L548.7,345.6 L548.9,348.7 L554.6,358.6 L561.3,363.7 L557.6,371.8 L563.0,377.0 L562.7,378.3 L554.1,381.2 L535.3,381.5 L529.8,385.2 L527.4,389.0 L520.4,392.8Z", "n": "Murcia"}, "ceuta": {"d": "M343.5,482.8 L345.6,484.1 L345.2,485.4 L343.5,482.8Z", "n": "Ceuta"}, "melilla": {"d": "M458.0,519.3 L459.1,522.3 L458.2,522.4 L458.0,519.3Z", "n": "Melilla"}, "santa cruz de tenerife": {"d": "M0.0,543.6 L1.4,541.4 L5.9,541.1 L10.3,536.4 L13.0,538.2 L8.7,548.6 L0.0,543.6Z M38.1,520.6 L39.2,515.0 L41.8,513.1 L47.6,515.6 L50.4,520.2 L47.6,524.1 L43.9,525.6 L38.1,520.6Z M7.3,478.7 L9.3,475.6 L12.4,474.1 L18.1,475.2 L20.3,479.7 L19.3,490.8 L15.4,498.4 L7.3,478.7Z M59.3,505.7 L62.5,503.1 L66.6,503.6 L77.4,500.7 L83.7,493.5 L94.7,490.9 L96.1,492.9 L85.1,504.0 L81.3,518.1 L76.4,524.6 L71.7,526.2 L68.8,525.3 L59.3,505.7Z", "n": "El Hierro"}, "palmas": {"d": "M176.7,521.4 L185.3,510.3 L196.3,484.8 L204.0,481.3 L204.6,496.2 L200.1,509.4 L182.6,522.2 L176.7,521.4Z M128.6,538.5 L120.8,542.7 L116.9,541.5 L112.4,537.1 L110.1,532.4 L109.8,528.4 L115.0,522.1 L116.6,517.6 L118.7,516.4 L129.0,519.0 L131.8,528.6 L130.8,535.1 L128.6,538.5Z M130.8,515.8 L129.8,518.3 L127.5,516.7 L129.5,514.9 L130.8,515.8Z M209.4,471.0 L206.4,474.8 L202.6,474.2 L201.6,472.4 L206.3,461.7 L218.5,456.4 L220.1,451.8 L218.5,450.2 L220.8,447.7 L223.7,453.4 L220.8,465.3 L209.4,471.0Z M221.1,439.8 L220.0,441.8 L217.6,441.6 L219.1,439.0 L221.1,439.8Z", "n": "Fuerteventura"}}, "canarias": [-8, 431, 240, 126]}, "pm": {"madrid": {"n": "Madrid", "a": 6051137.0, "hp": 3817041.153, "pr": 2699021.0, "np": 355741.0, "nt": 3280967.8, "npl": 1046871.953, "siu": 441720}, "barcelona": {"n": "Barcelona", "a": 5079276.0, "hp": 3217312.301, "pr": 2290722.0, "np": 356756.0, "nt": 2717202.8, "npl": 855239.101, "siu": 197959}, "valencia": {"n": "Valencia/València", "a": 2380046.0, "hp": 1515836.4510000001, "pr": 1126835.0, "np": 381754.0, "nt": 1176860.2, "npl": 312650.6510000001, "siu": 310145}, "alicante": {"n": "Alicante/Alacant", "a": 1761259.0, "hp": 1118530.457, "pr": 820330.0, "np": 553623.0, "nt": 830204.4, "npl": 187475.8569999999, "siu": 327345}, "sevilla": {"n": "Sevilla", "a": 1662951.0, "hp": 1043945.325, "pr": 753149.0, "np": 183663.0, "nt": 873069.4, "npl": 254063.7249999999, "siu": 212963}, "malaga": {"n": "Málaga", "a": 1520933.0, "hp": 960695.0800000001, "pr": 695314.0, "np": 330362.0, "nt": 759546.6, "npl": 199308.6800000001, "siu": 259553}, "murcia": {"n": "Murcia", "a": 1317182.0, "hp": 825327.38, "pr": 586254.0, "np": 270094.0, "nt": 676909.2, "npl": 185054.58, "siu": 667303}, "balears": {"n": "Balears, Illes", "a": 1065100.0, "hp": 660282.6, "pr": 451020.0, "np": 216419.0, "nt": 570796.2, "npl": 165978.8, "siu": 78593}, "cadiz": {"n": "Cádiz", "a": 1062483.0, "hp": 663651.512, "pr": 508862.0, "np": 150411.0, "nt": 523538.8, "npl": 124707.312, "siu": 144451}, "palmas": {"n": "Palmas, Las", "a": 1019790.0, "hp": 618658.371, "pr": 447514.0, "np": 111259.0, "nt": 550024.2, "npl": 148892.5710000001, "siu": 144779}, "bizkaia": {"n": "Bizkaia", "a": 1009405.0, "hp": 647394.389, "pr": 516342.0, "np": 51476.0, "nt": 482767.8, "npl": 120757.189, "siu": 44188}, "coruna": {"n": "Coruña, A", "a": 993579.0, "hp": 602067.288, "pr": 476820.0, "np": 216778.0, "nt": 473403.4, "npl": 81891.6879999999, "siu": 143263}, "santa cruz de tenerife": {"n": "Santa Cruz de Tenerife", "a": 947165.0, "hp": 570158.478, "pr": 394683.0, "np": 148742.0, "nt": 522733.6, "npl": 145727.078, "siu": 124173}, "asturias": {"n": "Asturias", "a": 901846.0, "hp": 568881.712, "pr": 453709.0, "np": 232183.0, "nt": 401700.4, "npl": 68736.1120000001, "siu": 115282}, "zaragoza": {"n": "Zaragoza", "a": 859554.0, "hp": 558530.3300000001, "pr": 414543.0, "np": 138315.0, "nt": 417348.0, "npl": 116324.3300000001, "siu": 118262}, "pontevedra": {"n": "Pontevedra", "a": 823064.0, "hp": 489191.726, "pr": 381181.0, "np": 153117.0, "nt": 411259.6, "npl": 77387.326, "siu": 62842}, "granada": {"n": "Granada", "a": 803562.0, "hp": 528240.875, "pr": 386193.0, "np": 195255.0, "nt": 378318.0, "npl": 102996.875, "siu": 190871}, "tarragona": {"n": "Tarragona", "a": 746966.0, "hp": 480199.385, "pr": 359150.0, "np": 201173.0, "nt": 347581.4, "npl": 80814.785, "siu": 134655}, "girona": {"n": "Girona", "a": 696689.0, "hp": 441136.555, "pr": 306805.0, "np": 208662.0, "nt": 348151.6, "npl": 92599.155, "siu": 81553}, "cordoba": {"n": "Córdoba", "a": 650470.0, "hp": 410658.037, "pr": 308697.0, "np": 111269.0, "nt": 319519.2, "npl": 79707.237, "siu": 111259}, "almeria": {"n": "Almería", "a": 641682.0, "hp": 415801.919, "pr": 291074.0, "np": 148329.0, "nt": 320942.2, "npl": 95062.119, "siu": 276232}, "toledo": {"n": "Toledo", "a": 639152.0, "hp": 399822.94, "pr": 300562.0, "np": 145143.0, "nt": 309561.4, "npl": 70232.34, "siu": 420922}, "gipuzkoa": {"n": "Gipuzkoa", "a": 624937.0, "hp": 403920.859, "pr": 318323.0, "np": 39878.0, "nt": 298638.4, "npl": 77622.259, "siu": 32280}, "navarra": {"n": "Navarra", "a": 575731.0, "hp": 366780.597, "pr": 270339.0, "np": 72272.0, "nt": 290937.6, "npl": 81987.197, "siu": 85480}, "badajoz": {"n": "Badajoz", "a": 562786.0, "hp": 361202.653, "pr": 275448.0, "np": 126548.0, "nt": 262028.4, "npl": 60445.053, "siu": 165190}, "castellon": {"n": "Castellón/Castelló", "a": 541871.0, "hp": 349781.248, "pr": 263766.0, "np": 186390.0, "nt": 240827.0, "npl": 48737.248, "siu": 201712}, "jaen": {"n": "Jaén", "a": 524390.0, "hp": 337202.587, "pr": 250706.0, "np": 126295.0, "nt": 248425.0, "npl": 61237.587, "siu": 90251}, "cantabria": {"n": "Cantabria", "a": 515723.0, "hp": 319233.482, "pr": 247275.0, "np": 142592.0, "nt": 239929.6, "npl": 43440.082, "siu": 79390}, "valladolid": {"n": "Valladolid", "a": 459204.0, "hp": 292052.461, "pr": 229122.0, "np": 74179.0, "nt": 215246.2, "npl": 48094.661, "siu": 121974}, "huelva": {"n": "Huelva", "a": 454025.0, "hp": 285358.107, "pr": 221349.0, "np": 102723.0, "nt": 212131.4, "npl": 43464.507, "siu": 76863}, "ciudad real": {"n": "Ciudad Real", "a": 422177.0, "hp": 268435.871, "pr": 205879.0, "np": 110692.0, "nt": 194159.6, "npl": 40418.471, "siu": 149317}, "leon": {"n": "León", "a": 396898.0, "hp": 252122.846, "pr": 201301.0, "np": 155134.0, "nt": 164570.2, "npl": 19795.046, "siu": 150527}, "lleida": {"n": "Lleida", "a": 390449.0, "hp": 245572.644, "pr": 178081.0, "np": 80344.0, "nt": 196299.2, "npl": 51422.844, "siu": 118571}, "caceres": {"n": "Cáceres", "a": 335131.0, "hp": 217584.367, "pr": 174957.0, "np": 130116.0, "nt": 134150.8, "npl": 16604.167, "siu": 133453}, "albacete": {"n": "Albacete", "a": 332982.0, "hp": 211778.831, "pr": 158766.0, "np": 85795.0, "nt": 157057.0, "npl": 35853.831, "siu": 65368}, "burgos": {"n": "Burgos", "a": 315025.0, "hp": 205077.205, "pr": 159271.0, "np": 120456.0, "nt": 131662.8, "npl": 21715.005, "siu": 118779}, "alava": {"n": "Araba/Álava", "a": 291219.0, "hp": 190429.808, "pr": 151136.0, "np": 20881.0, "nt": 135906.8, "npl": 35117.608, "siu": 29012}, "salamanca": {"n": "Salamanca", "a": 289145.0, "hp": 188674.879, "pr": 154264.0, "np": 93866.0, "nt": 116107.8, "npl": 15637.679, "siu": 124300}, "lugo": {"n": "Lugo", "a": 288621.0, "hp": 176093.141, "pr": 133819.0, "np": 136436.0, "nt": 127514.8, "npl": 14986.941, "siu": 39907}, "rioja": {"n": "Rioja, La", "a": 278399.0, "hp": 181501.206, "pr": 141007.0, "np": 74382.0, "nt": 122515.6, "npl": 25617.806, "siu": 77105}, "ourense": {"n": "Ourense", "a": 271742.0, "hp": 169005.934, "pr": 137142.0, "np": 137039.0, "nt": 107192.2, "npl": 4456.134, "siu": 44894}, "guadalajara": {"n": "Guadalajara", "a": 242936.0, "hp": 155257.791, "pr": 111471.0, "np": 81707.0, "nt": 115123.6, "npl": 27445.391, "siu": 153009}, "huesca": {"n": "Huesca", "a": 198314.0, "hp": 125364.056, "pr": 95357.0, "np": 78758.0, "nt": 87205.4, "npl": 14255.456, "siu": 48135}, "cuenca": {"n": "Cuenca", "a": 171884.0, "hp": 110283.84, "pr": 85587.0, "np": 80919.0, "nt": 70113.2, "npl": 8513.04, "siu": 56318}, "zamora": {"n": "Zamora", "a": 147324.0, "hp": 93811.749, "pr": 74745.0, "np": 81453.0, "nt": 56288.4, "npl": 2776.149, "siu": 65234}, "avila": {"n": "Ávila", "a": 139990.0, "hp": 90674.915, "pr": 74545.0, "np": 98659.0, "nt": 45713.2, "npl": 0.0, "siu": 63645}, "palencia": {"n": "Palencia", "a": 139585.0, "hp": 87944.896, "pr": 73230.0, "np": 44270.0, "nt": 57501.0, "npl": 5860.896, "siu": 44770}, "segovia": {"n": "Segovia", "a": 137686.0, "hp": 87948.419, "pr": 67730.0, "np": 61902.0, "nt": 57575.6, "npl": 7838.019, "siu": 82580}, "teruel": {"n": "Teruel", "a": 116691.0, "hp": 73979.229, "pr": 57147.0, "np": 69742.0, "nt": 45595.6, "npl": 2883.829, "siu": 15352}, "soria": {"n": "Soria", "a": 77683.0, "hp": 50386.428, "pr": 41229.0, "np": 45182.0, "nt": 27417.6, "npl": 121.028, "siu": 40389}, "ceuta": {"n": "Ceuta", "a": 67479.0, "hp": 40614.417, "pr": 24977.1693601288, "np": 4524.0184715845, "nt": 41597.0269455543, "npl": 14732.4439455543, "siu": 6320}, "melilla": {"n": "Melilla", "a": 66673.0, "hp": 41397.956, "pr": 24678.8306398712, "np": 4469.9815284155, "nt": 41100.1730544457, "npl": 15825.1290544457, "siu": 2068}}};
+(function(){
+const R = window.R;
+const fmt = (x,d=0)=>x.toLocaleString('es-ES',{minimumFractionDigits:d,maximumFractionDigits:d});
+const css = v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const NS='http://www.w3.org/2000/svg';
+function el(tag,attrs,parent,text){const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);if(text!==undefined)e.textContent=text;if(parent)parent.appendChild(e);return e;}
+
+/* --- navegación por láminas --- */
+const laminas=[...document.querySelectorAll('.lamina')];
+const lam=document.getElementById('lam-actual'), prog=document.getElementById('progreso');
+function actual(){let i=0;laminas.forEach((l,j)=>{if(l.getBoundingClientRect().top<window.innerHeight*0.35)i=j;});return i;}
+function pinta(){const i=actual();lam.textContent='Lámina '+String(i).padStart(2,'0')+' · '+laminas[i].dataset.titulo;prog.style.width=(100*i/(laminas.length-1))+'%';}
+addEventListener('scroll',pinta,{passive:true});pinta();
+addEventListener('keydown',e=>{if(/INPUT|TEXTAREA|SELECT/.test(e.target.tagName))return;
+  if(e.key==='ArrowRight'||e.key==='PageDown'){e.preventDefault();const i=Math.min(laminas.length-1,actual()+1);laminas[i].scrollIntoView();}
+  if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();const i=Math.max(0,actual()-1);laminas[i].scrollIntoView();}});
+const bd=document.getElementById('btn-directo');
+bd.addEventListener('click',()=>{const on=document.body.classList.toggle('directo');bd.setAttribute('aria-pressed',on);try{localStorage.setItem('directo',on?'1':'0')}catch(e){};dibuja();});
+try{if(localStorage.getItem('directo')==='1'){document.body.classList.add('directo');bd.setAttribute('aria-pressed','true');}}catch(e){}
+document.getElementById('btn-lab').addEventListener('click',()=>document.getElementById('l10').scrollIntoView());
+
+/* --- gráficos --- */
+function gProv(){
+  const box=document.getElementById('g-prov');box.innerHTML='';
+  const d=R.prov.slice(0,12), W=760, rh=26, H=d.length*rh+30, L=150, max=Math.max(...d.map(p=>p.a));
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img'},box);
+  const x=v=>L+(W-L-70)*v/max;
+  [0,2e6,4e6,6e6].forEach(t=>{el('line',{x1:x(t),x2:x(t),y1:0,y2:H-22,stroke:css('--linea')},s);el('text',{x:x(t),y:H-6,'text-anchor':'middle'},s,fmt(t/1e6)+' M');});
+  d.forEach((p,i)=>{const y=i*rh+4;
+    el('text',{x:L-8,y:y+15,'text-anchor':'end'},s,p.n.replace('Balears, Illes','Baleares').replace('Valencia/València','Valencia').replace('Alicante/Alacant','Alicante'));
+    el('rect',{x:L,y,width:x(p.a)-L,height:rh-8,fill:css('--linea')},s);
+    el('rect',{x:L,y,width:x(p.pr)-L,height:rh-8,fill:css('--tinta')},s);
+    el('rect',{x:x(p.pr),y:y+(rh-8)/2-2,width:Math.max(0,x(p.a)-x(p.pr)),height:4,fill:css('--cota')},s);
+    el('text',{x:x(p.a)+6,y:y+14},s,'faltan '+fmt(p.nec/1e6,2)+' M');});
+}
+function gCascada(){
+  const box=document.getElementById('g-cascada');box.innerHTML='';
+  const items=R.partidas.map(p=>({n:p.nombre,v:p.eur_m2}));
+  items.push({n:'Suelo (media nacional)',v:R.sueloNac});
+  const base=items.reduce((a,b)=>a+b.v,0); items.push({n:'IVA 10 %',v:base*R.iva});
+  const total=base*(1+R.iva);
+  const W=760,rh=30,H=(items.length+3)*rh+30,L=330,max=5600;
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img'},box);
+  const x=v=>L+(W-L-20)*v/max;
+  [0,1000,2000,3000,4000,5000].forEach(t=>{el('line',{x1:x(t),x2:x(t),y1:0,y2:H-22,stroke:css('--linea')},s);el('text',{x:x(t),y:H-6,'text-anchor':'middle'},s,fmt(t)+' €');});
+  let acc=0;items.forEach((it,i)=>{const y=i*rh+4;
+    el('text',{x:L-8,y:y+16,'text-anchor':'end'},s,it.n.length>44?it.n.slice(0,43)+'…':it.n);
+    el('rect',{x:x(acc),y,width:Math.max(1,x(acc+it.v)-x(acc)),height:rh-10,fill:i<2?css('--tinta'):css('--tinta-3')},s);
+    el('text',{x:x(acc+it.v)+5,y:y+15},s,fmt(it.v));acc+=it.v;});
+  let y=items.length*rh+4;
+  el('text',{x:L-8,y:y+16,'text-anchor':'end','font-weight':'600'},s,'TOTAL: coste de construir 1 m²');
+  el('rect',{x:L,y,width:x(total)-L,height:rh-10,fill:css('--cota')},s);el('text',{x:x(total)+5,y:y+15,'font-weight':'600'},s,fmt(total)+' €/m²');
+  y+=rh;el('text',{x:L-8,y:y+16,'text-anchor':'end'},s,'Valor tasado medio de España (MIVAU)');
+  el('rect',{x:L,y,width:x(2355)-L,height:rh-10,fill:'none',stroke:css('--tinta'),'stroke-dasharray':'4 3'},s);el('text',{x:x(2355)+5,y:y+15},s,'2.355 €/m²');
+  y+=rh;el('text',{x:L-8,y:y+16,'text-anchor':'end'},s,'Valor tasado ciudad de Madrid (MIVAU)');
+  el('rect',{x:L,y,width:x(5418)-L,height:rh-10,fill:'none',stroke:css('--cota'),'stroke-dasharray':'4 3'},s);el('text',{x:x(5418)-5,y:y+15,'text-anchor':'end'},s,'5.418 €/m²');
+}
+function gEscala(){
+  const box=document.getElementById('g-escala');box.innerHTML='';
+  const it=[{n:'Sanidad pública, 1 año',v:R.SAN,c:css('--dato')},{n:'PIB de España, 1 año',v:R.PIB,c:css('--tinta-3')},{n:'Vivienda gratis · plausible',v:R.esc.plausible.cap,c:css('--debate')},{n:'Vivienda gratis · teórico',v:R.esc.teorico.cap,c:css('--cota')}];
+  const W=760,H=300,maxv=Math.max(...it.map(i=>i.v)),maxs=220;
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img'},box);
+  let xx=10;it.forEach(i=>{const side=maxs*Math.sqrt(i.v/maxv);
+    el('rect',{x:xx,y:250-side,width:side,height:side,fill:i.c,'fill-opacity':.85},s);
+    el('text',{x:xx,y:268},s,i.n);el('text',{x:xx,y:284,'font-weight':'600'},s,fmt(i.v/1e12,2)+' billones €');
+    xx+=Math.max(side,150)+26;});
+}
+function gRitmo(){
+  const box=document.getElementById('g-ritmo');box.innerHTML='';
+  const t=R.series.terminadas, v=R.series.vpo, años=Object.keys(t).map(Number).filter(a=>t[a]!=null);
+  const W=760,H=320,L=60,B=30,T=44,max=700000;
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img'},box);
+  const bw=(W-L-10)/años.length, y=val=>H-B-(H-B-T)*val/max;
+  [0,200000,400000,600000].forEach(k=>{el('line',{x1:L,x2:W-10,y1:y(k),y2:y(k),stroke:css('--linea')},s);el('text',{x:L-6,y:y(k)+4,'text-anchor':'end'},s,fmt(k/1000)+' mil');});
+  años.forEach((a,i)=>{el('rect',{x:L+i*bw+1,y:y(t[a]),width:bw-2,height:H-B-y(t[a]),fill:a===2006?css('--cota'):css('--tinta')},s);
+    if(a%5===0||a===2025)el('text',{x:L+i*bw+bw/2,y:H-10,'text-anchor':'middle'},s,a);});
+  const pts=años.filter(a=>v[a]!=null).map((a,i)=>`${L+años.indexOf(a)*bw+bw/2},${y(v[a])}`).join(' ');
+  el('polyline',{points:pts,fill:'none',stroke:css('--obra'),'stroke-width':2.5},s);
+  const i06=años.indexOf(2006);el('text',{x:L+i06*bw+bw+6,y:y(t[2006])+14,'font-weight':'600'},s,'2006: 597.632 (récord)');
+  el('line',{x1:L,x2:W-10,y1:y(597632),y2:y(597632),stroke:css('--cota'),'stroke-dasharray':'5 4'},s);
+  el('text',{x:W-12,y:14,'text-anchor':'end'},s,'Para hacerlo en 10 años harían falta 2,16 millones al año (fuera de escala)');
+  const leg=el('g',{},s);el('rect',{x:L+10,y:T+18,width:12,height:12,fill:css('--tinta')},leg);el('text',{x:L+28,y:T+28},leg,'Viviendas libres terminadas');
+  el('line',{x1:L+10,x2:L+22,y1:T+44,y2:T+44,stroke:css('--obra'),'stroke-width':2.5},leg);el('text',{x:L+28,y:T+48},leg,'Vivienda protegida (calificaciones)');
+}
+function gAB(){
+  const box=document.getElementById('g-ab');box.innerHTML='';
+  const it=[{n:'A · Teórico puro',v:R.esc.teorico.pib,c:css('--cota')},{n:'A · Plausible',v:R.esc.plausible.pib,c:css('--cota')},{n:'A · Mínimo legal gratis',v:R.esc.minimo.pib,c:css('--debate')},{n:'A · Sin compensar',v:R.esc.brecha.pib,c:css('--debate')},{n:'Singapur (HDB real)',v:R.B.sg,c:css('--dato')},{n:'B · Precio fijo en España',v:R.B.coste_pib,c:css('--ok')}];
+  const W=760,rh=36,H=it.length*rh+30,L=200,max=0.2;
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img'},box);
+  const x=v=>L+(W-L-80)*v/max;
+  [0,0.05,0.1,0.15,0.2].forEach(t=>{el('line',{x1:x(t),x2:x(t),y1:0,y2:H-22,stroke:css('--linea')},s);el('text',{x:x(t),y:H-6,'text-anchor':'middle'},s,fmt(t*100)+' %');});
+  it.forEach((i,k)=>{const y=k*rh+6;el('text',{x:L-8,y:y+17,'text-anchor':'end'},s,i.n);
+    el('rect',{x:L,y,width:Math.max(2,x(i.v)-L),height:rh-14,fill:i.c},s);el('text',{x:x(i.v)+6,y:y+16,'font-weight':'600'},s,fmt(i.v*100,2)+' % del PIB');});
+}
+
+function gMapa(){
+  const box=document.getElementById('g-mapa'); if(!box)return; box.innerHTML='';
+  const M=R.mapa, s=el('svg',{viewBox:`-10 -10 ${M.w+20} ${M.h+20}`,role:'img'},box);
+  const c=M.canarias; el('rect',{x:c[0],y:c[1],width:c[2],height:c[3],fill:'none',stroke:css('--tinta-3'),'stroke-dasharray':'4 3'},s);
+  const esc=mapaEsc;
+  for(const k in M.prov){const d=R.pm[k]; if(!d)continue;
+    const falta=esc==='teo'?d.nt:d.npl, r=d.siu>0?falta/d.siu:(falta>0?Infinity:0);
+    let fill=css('--linea'),op=1;
+    if(falta<=0){fill=css('--linea');}
+    else if(r<=1){fill=css('--ok');op=.75;}
+    else{fill=css('--cota');op=r<=2?.3:r<=5?.55:r<=10?.8:1;}
+    const pth=el('path',{d:M.prov[k].d,fill,'fill-opacity':op,'data-k':k,tabindex:0,role:'button','aria-label':d.n},s);
+    el('title',{},pth,d.n);
+    const go=()=>{mapaSel=k;infoProv(k);s.querySelectorAll('path').forEach(q=>q.classList.toggle('sel',q.dataset.k===k));};
+    pth.addEventListener('click',go);pth.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}});
+    if(mapaSel===k)pth.classList.add('sel');}
+  const lg=document.getElementById('mapa-leyenda');
+  lg.innerHTML=`<span><i style="background:${css('--ok')};opacity:.75"></i>Cabe con el suelo previsto</span><span><i style="background:${css('--cota')};opacity:.3"></i>Hasta 2 veces el suelo previsto</span><span><i style="background:${css('--cota')};opacity:.55"></i>2-5 veces</span><span><i style="background:${css('--cota')};opacity:.8"></i>5-10 veces</span><span><i style="background:${css('--cota')}"></i>Más de 10 veces</span><span><i style="background:${css('--linea')}"></i>No falta nada</span>`;
+  mapaSel?infoProv(mapaSel):infoProv(null);
+}
+let mapaEsc='teo', mapaSel=null;
+function infoProv(k){
+  const box=document.getElementById('mapa-info'); if(!box)return;
+  const teo=mapaEsc==='teo', uni=teo?'personas':'hogares';
+  let n,dem,ex,falta,siu,sin;
+  if(k){const d=R.pm[k];n=d.n;dem=teo?d.a:d.hp;ex=d.pr+0.2*d.np;falta=teo?d.nt:d.npl;siu=d.siu;sin=Math.max(0,falta-siu);}
+  else{n='Toda España';const v=Object.values(R.pm);dem=v.reduce((a,d)=>a+(teo?d.a:d.hp),0);ex=v.reduce((a,d)=>a+d.pr+0.2*d.np,0);
+    falta=v.reduce((a,d)=>a+(teo?d.nt:d.npl),0);siu=v.reduce((a,d)=>a+d.siu,0);sin=v.reduce((a,d)=>a+Math.max(0,(teo?d.nt:d.npl)-d.siu),0);}
+  const pctd=siu>0?100*falta/siu:null, M=x=>fmt(x/1e6,2)+' M', N=x=>fmt(Math.round(x));
+  const veredicto=falta<=0?'No falta vivienda: hay más viviendas que demanda.':(sin<=0?'<b style="color:var(--ok)">Cabe</b> con el suelo que ya está previsto.':`<b style="color:var(--cota)">No cabe.</b> ${k?'':'Sumando provincia a provincia, '}${M(sin)} ${uni} no tendrían sitio en su provincia: habría que construir hacia arriba, urbanizar suelo nuevo o mandarlas a otra provincia.`);
+  box.innerHTML=`<h4>${n}</h4>
+   <div class="eyebrow">${teo?'Teórico: cada adulto, su vivienda':'Plausible: convivencia actual más emancipación'}</div>
+   <div class="big">${pctd===null?'—':fmt(pctd,0)+' %'}</div><div class="nota">del suelo previsto haría falta para lo que falta</div>
+   <p style="margin:10px 0">${veredicto}</p>
+   <div class="fila"><span>Demanda (${teo?'adultos':'hogares'})</span><b>${M(dem)}</b></div>
+   <div class="fila"><span>Viviendas existentes aprovechables</span><b>${M(ex)}</b></div>
+   <div class="fila"><span>Faltan</span><b>${M(falta)}</b></div>
+   <div class="fila"><span>Viviendas que permite el suelo previsto</span><b>${M(siu)}</b></div>
+   <div class="fila"><span>${uni[0].toUpperCase()+uni.slice(1)} sin sitio en su provincia</span><b>${M(sin)}</b></div>
+   <div class="crudo">Datos brutos: demanda ${N(dem)} · existentes ${N(ex)} · faltan ${N(falta)} · suelo previsto ${N(siu)} viviendas · sin sitio ${N(sin)}.</div>`;
+}
+let calEsc='teorico';
+function gCalendario(){
+  const box=document.getElementById('g-calendario'); if(!box)return; box.innerHTML='';
+  const d=R.cal[calEsc], W=760,H=300,L=64,B=30,T=24, max=Math.ceil(Math.max(...d.map(x=>x.t))/5e10)*5e10;
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img'},box);
+  const bw=(W-L-10)/d.length, y=v=>H-B-(H-B-T)*v/max;
+  for(let k=0;k<=max;k+=max/5){el('line',{x1:L,x2:W-10,y1:y(k),y2:y(k),stroke:css('--linea')},s);el('text',{x:L-6,y:y(k)+4,'text-anchor':'end'},s,fmt(k/1e9)+' mil M€');}
+  d.forEach((f,i)=>{const x=L+i*bw+1;let base=0;
+    [[f.am,'--cota'],[f.m,'--tinta-3'],[f.n,'--obra']].forEach(([v,c])=>{if(v>0){el('rect',{x,y:y(base+v),width:bw-2,height:y(base)-y(base+v),fill:css(c)},s);base+=v;}});
+    if(f.a%10===7||f.a===2076)el('text',{x:x+bw/2,y:H-10,'text-anchor':'middle'},s,f.a);});
+  const i30=d.findIndex(f=>f.am===0);
+  if(i30>0){const x=L+i30*bw;el('line',{x1:x,x2:x,y1:T-10,y2:H-B,stroke:css('--tinta'),'stroke-dasharray':'4 3'},s);
+    el('text',{x:x-6,y:T-2,'text-anchor':'end','font-weight':'600'},s,'Fase 1: se paga el coste inicial');
+    el('text',{x:x+6,y:T-2,'font-weight':'600'},s,'Fase 2: mantener y reponer');}
+}
+function gComparativa(){
+  const box=document.getElementById('g-comparativa'); if(!box)return; box.innerHTML='';
+  const it=[{n:'Vivienda gratis · teórico · fase 1',v:R.F1.teorico,c:css('--cota')},{n:'Vivienda gratis · plausible · fase 1',v:R.F1.plausible,c:css('--cota')},
+    {n:'Pensiones de jubilación',v:R.cmp.pensiones,c:css('--dato')},{n:'Sanidad',v:R.cmp.sanidad,c:css('--dato')},{n:'Educación',v:R.cmp.educacion,c:css('--dato')},
+    {n:'Vivienda gratis · teórico · fase 2',v:R.F2.teorico,c:css('--debate')},{n:'Defensa',v:R.cmp.defensa,c:css('--dato')}];
+  const W=760,rh=34,H=it.length*rh+30,L=250,max=Math.max(...it.map(i=>i.v))*1.08;
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img'},box), x=v=>L+(W-L-110)*v/max;
+  [0,5e10,1e11,1.5e11,2e11,2.5e11].filter(t=>t<=max).forEach(t=>{el('line',{x1:x(t),x2:x(t),y1:0,y2:H-22,stroke:css('--linea')},s);el('text',{x:x(t),y:H-6,'text-anchor':'middle'},s,fmt(t/1e9)+' mil M€');});
+  it.forEach((i,k)=>{const yy=k*rh+6;el('text',{x:L-8,y:yy+16,'text-anchor':'end'},s,i.n);
+    el('rect',{x:L,y:yy,width:x(i.v)-L,height:rh-12,fill:i.c},s);el('text',{x:x(i.v)+6,y:yy+16,'font-weight':'600'},s,fmt(i.v/1e9,0)+' mil M€ al año');});
+}
+
+function dibuja(){gProv();gCascada();gEscala();gRitmo();gAB();gMapa();gCalendario();gComparativa();}
+function pulsar(on,off){on.setAttribute('aria-pressed','true');off.setAttribute('aria-pressed','false');}
+document.getElementById('m-teo').addEventListener('click',e=>{mapaEsc='teo';pulsar(e.target,document.getElementById('m-pla'));gMapa();});
+document.getElementById('m-pla').addEventListener('click',e=>{mapaEsc='pla';pulsar(e.target,document.getElementById('m-teo'));gMapa();});
+document.getElementById('m-esp').addEventListener('click',()=>{mapaSel=null;gMapa();});
+document.getElementById('c-teo').addEventListener('click',e=>{calEsc='teorico';pulsar(e.target,document.getElementById('c-pla'));gCalendario();});
+document.getElementById('c-pla').addEventListener('click',e=>{calEsc='plausible';pulsar(e.target,document.getElementById('c-teo'));gCalendario();});
+dibuja();
+matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change',dibuja);
+
+/* --- laboratorio --- */
+const $=id=>document.getElementById(id);
+const inp={m2:$('h-m2'),solo:$('h-solo'),precio:$('h-precio'),anios:$('h-anios'),ritmo:$('h-ritmo'),mant:$('h-mant')};
+function calc(){
+  const m2u=+inp.m2.value, s=+inp.solo.value/100, precio=+inp.precio.value, anios=+inp.anios.value, ritmo=+inp.ritmo.value, mant=+inp.mant.value/100;
+  $('o-m2').textContent=m2u+' m²';$('o-solo').textContent=Math.round(s*100)+' %';$('o-precio').textContent=fmt(precio)+' €';
+  $('o-anios').textContent=anios+' años';$('o-ritmo').textContent=fmt(ritmo);$('o-mant').textContent=fmt(mant*100,2)+' %';
+  const m2c=m2u/R.RATIO, m2plaus=R.M2PLAUS*(m2u/42);
+  const uds=R.H+s*(R.A-R.H), m2ud=s*m2c+(1-s)*m2plaus;
+  const cap=uds*m2ud*precio;
+  const constr=Math.max(0,uds-R.PR-0.2*R.NP)+R.SUST;
+  const publico=Math.max(0,uds-R.OWN);
+  const mantA=publico*m2ud*R.SINSUELO*mant;
+  const anual=cap/anios+mantA+(s*R.CRECA30+(1-s)*R.CRECH30)*m2ud*precio;
+  const f2=mantA+(s*R.N2A+(1-s)*R.N2A/2.49)*m2ud*precio;
+  $('r-viv').textContent=fmt(constr/1e6,1)+' M';
+  $('r-anios').textContent=fmt(constr/ritmo,0)+' años';
+  $('r-cap').textContent=fmt(cap/1e12,2)+' bill. €';$('r-cap-s').textContent='coste inicial, una sola vez · '+fmt(100*cap/R.PIB,0)+' % del PIB · = '+fmt(cap/R.SAN,0)+' años de gasto sanitario';
+  $('r-anual').textContent=fmt(anual/1e9,0)+' mil M€';$('r-anual-s').textContent='cada año durante el pago · '+fmt(100*anual/R.PIB,1)+' % del PIB · '+fmt(anual/R.SAN,1)+' veces el gasto sanitario anual';
+  $('r-irpf').textContent='+'+fmt(100*anual/R.IRPF,0)+' %';
+  $('r-iva').textContent='+'+fmt(anual/R.IVAP,0);
+  $('r-decl').textContent=fmt(anual/R.DECL,0)+' €';
+  $('r-adulto').textContent=fmt(anual/R.AVGA1,0)+' €';$('r-adulto-s').textContent='por adulto y año durante los '+anios+' años de pago ('+fmt(anual/R.AVGA1/12,0)+' € al mes)';
+  $('r-f2').textContent=fmt(f2/R.AVGA2,0)+' €';$('r-f2-s').textContent='por adulto y año después, para siempre ('+fmt(100*f2/R.PIB,1)+' % del PIB)';
+  $('r-deuda').textContent=fmt(100*(R.DEUDA+cap)/R.PIB,0)+' %';
+}
+Object.values(inp).forEach(i=>i.addEventListener('input',calc));
+document.querySelectorAll('[data-precio]').forEach(b=>b.addEventListener('click',()=>{inp.precio.value=b.dataset.precio;calc();}));
+function set(v){for(const k in v)inp[k].value=v[k];calc();}
+$('btn-reset').addEventListener('click',()=>set({m2:42,solo:100,precio:2479,anios:30,ritmo:600000,mant:2.25}));
+$('btn-plaus').addEventListener('click',()=>set({m2:42,solo:0,precio:2479,anios:30,ritmo:600000,mant:2.25}));
+$('btn-min').addEventListener('click',()=>set({m2:35,solo:0,precio:2479,anios:30,ritmo:600000,mant:2.25}));
+calc();
+})();
+</script>
+</body>
+</html>

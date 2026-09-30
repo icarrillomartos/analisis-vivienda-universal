@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "event_id": "evt-4564ba59467e4079a3439cca3d8d1bbb",
+  "operation_id": "op-5882d600113c4214bfe1325f8c6af84a",
+  "type": "action_start",
+  "at": "2026-09-28T21:53:41.140434+00:00",
+  "client": "claude",
+  "session_key": "ba34b6bea32860295667668a",
+  "turn_id": "observed-59b537a7a7b745579a5915c5dd972804",
+  "state_revision": 1015,
+  "data": {
+    "action": "start",
+    "result": {
+      "decision": "recording",
+      "process": "P10",
+      "authority": "approved_plan",
+      "spec": {
+        "path": "sistema/procesos/10-seleccionar-y-consolidar-memoria.md",
+        "sha256": "99c5382dfe6f2957c610717c0dee7b1572f7d67f470d1126de822537f3d4bb92"
+      },
+      "depth": 1,
+      "tools_are": "medios previstos, no una lista de permisos"
+    }
+  }
+}

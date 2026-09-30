@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "event_id": "evt-f7822706d14f4f9c99d219fbadd7c9b0",
+  "operation_id": "op-73aa6f09f9c5403a954409eceef9556b",
+  "type": "action_feedback",
+  "at": "2026-09-28T21:26:29.657934+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-ef2013634bd64ad09e7936de01bc1021",
+  "state_revision": 900,
+  "data": {
+    "action": "feedback",
+    "result": {
+      "decision": "recorded",
+      "feedback": {
+        "decision": "revise",
+        "reason": "Mejoras de claridad y contenido dentro del plan v3: calendario de pago y coste por persona con fases (pago y mantenimiento), flujo demográfico con defunciones, mapa provincial interactivo de demanda frente a suelo, comparaciones anuales frente a totales con educación y pensiones, y contexto de tamaño y renta de Singapur.",
+        "within_scope": true,
+        "turn_id": "observed-ef2013634bd64ad09e7936de01bc1021",
+        "at": "2026-09-28T21:26:29.657903+00:00"
+      },
+      "phase": "F04",
+      "grant_preserved": true
+    }
+  }
+}

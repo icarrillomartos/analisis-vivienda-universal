@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "event_id": "evt-f778b597202e409bb7d1c6ff92bdcb5a",
+  "operation_id": "op-58d83a62df9a47178bc4b2248910767b",
+  "type": "action_start",
+  "at": "2026-09-28T20:45:31.208516+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-a34b6d5bb2d740a69e841109e5e42cd4",
+  "state_revision": 832,
+  "data": {
+    "action": "start",
+    "result": {
+      "decision": "recording",
+      "process": "P08",
+      "authority": "approved_plan",
+      "spec": {
+        "path": "sistema/procesos/08-producir-y-versionar-resultados.md",
+        "sha256": "d51f97e6e02a5dad1a7f3f801ee605fa929cc8c62a97339aa4ebf4128a8d8d46"
+      },
+      "depth": 1,
+      "tools_are": "medios previstos, no una lista de permisos"
+    }
+  }
+}

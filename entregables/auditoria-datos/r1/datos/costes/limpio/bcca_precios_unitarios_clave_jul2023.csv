@@ -1,0 +1,8 @@
+codigo,concepto,unidad,precio_eur,fuente
+TO00100,Oficial 1a albanileria (mano de obra, coste hora),h,23.17,BCCA Andalucia jul-2023 Listado Precios Basicos
+TA00100,Ayudante (mano de obra, coste hora),h,22.36,BCCA Andalucia jul-2023 Listado Precios Basicos
+TP00100,Peon especial (mano de obra, coste hora),h,22.01,BCCA Andalucia jul-2023 Listado Precios Basicos
+CA00220,Acero B 400 S,kg,0.80,BCCA Andalucia jul-2023 Listado Precios Basicos
+CA00320,Acero B 500 S,kg,0.95,BCCA Andalucia jul-2023 Listado Precios Basicos
+CH02910,Hormigon HA-25/B/20/XC2 suministrado,m3,97.10,BCCA Andalucia jul-2023 Listado Precios Basicos
+FL00200,Ladrillo ceramico GAFA 25x11.5x7 cm,mu (millar),87.04,BCCA Andalucia jul-2023 Listado Precios Basicos

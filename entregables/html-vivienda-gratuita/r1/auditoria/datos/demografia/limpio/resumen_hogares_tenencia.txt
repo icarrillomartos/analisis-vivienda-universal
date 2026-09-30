@@ -1,0 +1,4 @@
+Hogares totales nacional (ECP): 19874860.0
+Porcentaje en propiedad (ECV, ultimo anio disponible): 73.3%
+Hogares propietarios estimados (ECP total x ECV%): 14,568,272
+NOTA: cruce de dos operaciones distintas (ECP y ECV) con fechas de referencia distintas; ver ficha para detalle de vintage.

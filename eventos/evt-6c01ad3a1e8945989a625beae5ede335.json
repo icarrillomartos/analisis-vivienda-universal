@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "event_id": "evt-6c01ad3a1e8945989a625beae5ede335",
+  "operation_id": "op-075aeff10ac24bfa9de2cc86033e4b6e",
+  "type": "action_plan",
+  "at": "2026-09-28T19:43:20.680955+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-10bb40a77266496ab02a634a7d143a79",
+  "state_revision": 34,
+  "data": {
+    "action": "plan",
+    "result": {
+      "decision": "needs_approval",
+      "plan": {
+        "plan_id": "vivienda-gratuita",
+        "plan_version": 2,
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/planes/vivienda-gratuita-v2.json",
+        "plan_path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/planes/vivienda-gratuita-v2.md",
+        "digest": "ecfa7f7db6628a2e54310aae56c4c5d618faf20b50953142ed7a501c3cbce736",
+        "label": "vivienda-gratuita v2 ecfa7f7db662",
+        "presented": false,
+        "presented_at": null
+      },
+      "marker": "PLAN vivienda-gratuita v2 ecfa7f7db662"
+    }
+  }
+}

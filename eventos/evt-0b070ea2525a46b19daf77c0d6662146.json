@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-0b070ea2525a46b19daf77c0d6662146",
+  "operation_id": "op-03560f41688d45e3a9766813f6d67b81",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:21:46.980019+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-97352f7c3d0f4704b1b6314eb811bf8c",
+  "state_revision": 744,
+  "data": {
+    "id": "obs-fb5a33968eaa43aca6194485191f609e",
+    "tool": "Write",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/costes/limpio/aranceles_notarios_registradores_1989.csv",
+        "status": "observed_file",
+        "sha256": "a61db17b0b752f7074b38222c5d752d2172b839aad0192de76e80660d3fb936e",
+        "bytes": 781
+      }
+    ],
+    "at": "2026-09-28T20:21:46.980001+00:00",
+    "scope": "process",
+    "turn_id": "observed-97352f7c3d0f4704b1b6314eb811bf8c",
+    "turn_sha256": "721ba173ab322e95fe5219f89b1016f80cf8faf8a39dea568e19d12b88a2ecc2"
+  }
+}

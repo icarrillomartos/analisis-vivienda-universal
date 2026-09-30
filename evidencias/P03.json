@@ -1,0 +1,119 @@
+{
+  "schema": 2,
+  "process": "P03",
+  "plan_digest": "e39db97f825068401b8a402d0a309e1e4148a9095519b54ff3e498db4f89f2fe",
+  "outcome": "verified",
+  "criterion": "Conservar las fuentes comprometidas en ubicación canónica con fichas source",
+  "decision": "complete",
+  "limits": [
+    "Las páginas oficiales no descargables (403, 404, JavaScript) quedan como URL en las fichas"
+  ],
+  "files": [
+    {
+      "path": "adjuntos/vivienda-universal/originales/ine/r1/MANIFIESTO.sha256",
+      "sha256": "af882c1292f89fe54b38efd7470f526673feeecd5e0050b48eadb9ccae2bde6c",
+      "bytes": 5987
+    },
+    {
+      "path": "adjuntos/vivienda-universal/originales/mivau/r1/MANIFIESTO.sha256",
+      "sha256": "3ca2d937340a502eafbd61ff6934bd1f307e206d00ce46b9ed6aec716da1d475",
+      "bytes": 4900
+    },
+    {
+      "path": "adjuntos/vivienda-universal/originales/catastro/r1/MANIFIESTO.sha256",
+      "sha256": "8f149ef7d1b00bf403aa6512326026065be8b98308b2b6176559b207ace6fb54",
+      "bytes": 224
+    },
+    {
+      "path": "adjuntos/vivienda-universal/originales/aeat/r1/MANIFIESTO.sha256",
+      "sha256": "4744845858f0cfe91ee5fa5e5a7eed40b8a8297c6019efbff08af577d2cd85e1",
+      "bytes": 890
+    },
+    {
+      "path": "adjuntos/vivienda-universal/originales/igae/r1/MANIFIESTO.sha256",
+      "sha256": "c7292b8f16c81b4258ecdd3cf6fc14f2a34db7c54fabef9e2693c11b8db88e78",
+      "bytes": 1227
+    },
+    {
+      "path": "adjuntos/vivienda-universal/originales/bde/r1/MANIFIESTO.sha256",
+      "sha256": "388523c46258d2d79fdafade21982edbb026eb6222374a8d7362529ed339005a",
+      "bytes": 1022
+    },
+    {
+      "path": "adjuntos/vivienda-universal/originales/boe/r1/MANIFIESTO.sha256",
+      "sha256": "3067dc6c68af8044257aaff5383d41a11ee660fa19c18f77d96953adde43cc14",
+      "bytes": 2942
+    },
+    {
+      "path": "adjuntos/vivienda-universal/originales/eurostat/r1/MANIFIESTO.sha256",
+      "sha256": "326d49a260fcc8df40d02dfafedb0fbc03459d26d7aebd2967b92174e796a8ed",
+      "bytes": 1367
+    },
+    {
+      "path": "adjuntos/vivienda-universal/originales/hdb/r1/MANIFIESTO.sha256",
+      "sha256": "b913b5ad654e92d8958b8d38c96d26e3fd53cd31876c5ed4272c7514f6319901",
+      "bytes": 1494
+    },
+    {
+      "path": "adjuntos/vivienda-universal/originales/estudios/r1/MANIFIESTO.sha256",
+      "sha256": "a11d4d8cdf735599f69507dd7b87e82ffbe02f9657e567bc05566ec2f2666cda",
+      "bytes": 1360
+    },
+    {
+      "path": "memoria/fuentes/ine.md",
+      "sha256": "8b54dbfcdf29412678d8af39b2da93f0a4250d4c8a99f232adf7e501382c4af2",
+      "bytes": 1751
+    },
+    {
+      "path": "memoria/fuentes/mivau.md",
+      "sha256": "1b833677d3ed843e015385ada6390556e15a32531e0625e4f3867dafb2d16d78",
+      "bytes": 1825
+    },
+    {
+      "path": "memoria/fuentes/catastro.md",
+      "sha256": "475730c90bd55d56c4450ad50b7af13fff84091b3668d34f59f288d0e7d79553",
+      "bytes": 1514
+    },
+    {
+      "path": "memoria/fuentes/aeat.md",
+      "sha256": "bf3030b5483ba93580ea2152063f348a4c2162bb1d12d02a234ae99c2ea785ec",
+      "bytes": 1552
+    },
+    {
+      "path": "memoria/fuentes/igae.md",
+      "sha256": "99d22c1bbc4c908d3afb924a76f9a91df357296be4c7120e2e22fb9dabf9b4ba",
+      "bytes": 1856
+    },
+    {
+      "path": "memoria/fuentes/bde.md",
+      "sha256": "01d48b5a94b86217b7c4b1f1611d02cfa38f8b1835c6fcd3d5f65536c7a6d8ca",
+      "bytes": 1715
+    },
+    {
+      "path": "memoria/fuentes/boe.md",
+      "sha256": "e667a54fa25ee249ec83f2e0865b14eefecaac4b6d049d9d008fcc743a777ced",
+      "bytes": 1873
+    },
+    {
+      "path": "memoria/fuentes/eurostat.md",
+      "sha256": "e1398d4c81466a9b12b7c63999c307ee9043717ec9175c7755129fa08a6e27c8",
+      "bytes": 1700
+    },
+    {
+      "path": "memoria/fuentes/hdb.md",
+      "sha256": "39e26378643142bc240cf429313f1e073a2c3e0f35da0f6c84e3d70ca9fe6be6",
+      "bytes": 1686
+    },
+    {
+      "path": "memoria/fuentes/estudios.md",
+      "sha256": "62b1df0ef0999ba50a9781a94fd4fced2ddb17701853bd99a1788d64936b0001",
+      "bytes": 1841
+    }
+  ],
+  "notes": [
+    "190 originales oficiales clonados (APFS) desde trabajo/datos/<tema>/raw a adjuntos/vivienda-universal/originales/<id>/r1/<tema>/, con manifiesto SHA-256 por fuente del plan",
+    "Los dossiers temáticos src-vu-* conservan la extracción detallada de cada dato"
+  ],
+  "quality_decision": null,
+  "exceptions": []
+}

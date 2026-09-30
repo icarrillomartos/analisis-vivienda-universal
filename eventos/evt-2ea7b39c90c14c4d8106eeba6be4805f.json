@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-2ea7b39c90c14c4d8106eeba6be4805f",
+  "operation_id": "op-6e7d1ac8d4974ce687d48a59f097c987",
+  "type": "tool_observed",
+  "at": "2026-09-28T19:55:15.542167+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-3cebe266853449a1bbfb4c54354cecde",
+  "state_revision": 49,
+  "data": {
+    "id": "obs-1936414ecedf4c3392a4a51583d8730e",
+    "tool": "Read",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/estado.md",
+        "status": "observed_file",
+        "sha256": "6df5728007b706a38899403ec50a5cbf0301d8d5c9d2e9ef1601fbdb30f17d3f",
+        "bytes": 35241
+      }
+    ],
+    "at": "2026-09-28T19:55:15.542150+00:00",
+    "scope": "orientation",
+    "turn_id": "observed-3cebe266853449a1bbfb4c54354cecde",
+    "turn_sha256": "b666d3ef2232b736cea21e8eaaf7634743bf94c23d5b70e3e4638191d0d4e5ad"
+  }
+}

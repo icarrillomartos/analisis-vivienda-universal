@@ -1,0 +1,178 @@
+{
+  "schema": 3,
+  "plan_digest": "e39db97f825068401b8a402d0a309e1e4148a9095519b54ff3e498db4f89f2fe",
+  "outcome": "complete",
+  "sources": [
+    {
+      "id": "ine",
+      "mode": "copy",
+      "revision": 2,
+      "path": "adjuntos/vivienda-universal/originales/ine/r2/MANIFIESTO.sha256",
+      "sha256": "44e54366260e61ce68eb4379f8f8535ab9a4ff5d4f16b77993a7aa5f08986ef3",
+      "bytes": 6741,
+      "note_path": "memoria/fuentes/ine.md",
+      "note_sha256": "bd912c458a809f3f9c5ca3a3745330eb8182051c80964810cdac3dae2b1a6421"
+    },
+    {
+      "id": "mivau",
+      "mode": "copy",
+      "revision": 1,
+      "path": "adjuntos/vivienda-universal/originales/mivau/r1/MANIFIESTO.sha256",
+      "sha256": "3ca2d937340a502eafbd61ff6934bd1f307e206d00ce46b9ed6aec716da1d475",
+      "bytes": 4900,
+      "note_path": "memoria/fuentes/mivau.md",
+      "note_sha256": "1b833677d3ed843e015385ada6390556e15a32531e0625e4f3867dafb2d16d78"
+    },
+    {
+      "id": "catastro",
+      "mode": "copy",
+      "revision": 1,
+      "path": "adjuntos/vivienda-universal/originales/catastro/r1/MANIFIESTO.sha256",
+      "sha256": "8f149ef7d1b00bf403aa6512326026065be8b98308b2b6176559b207ace6fb54",
+      "bytes": 224,
+      "note_path": "memoria/fuentes/catastro.md",
+      "note_sha256": "475730c90bd55d56c4450ad50b7af13fff84091b3668d34f59f288d0e7d79553"
+    },
+    {
+      "id": "aeat",
+      "mode": "copy",
+      "revision": 1,
+      "path": "adjuntos/vivienda-universal/originales/aeat/r1/MANIFIESTO.sha256",
+      "sha256": "4744845858f0cfe91ee5fa5e5a7eed40b8a8297c6019efbff08af577d2cd85e1",
+      "bytes": 890,
+      "note_path": "memoria/fuentes/aeat.md",
+      "note_sha256": "bf3030b5483ba93580ea2152063f348a4c2162bb1d12d02a234ae99c2ea785ec"
+    },
+    {
+      "id": "igae",
+      "mode": "copy",
+      "revision": 1,
+      "path": "adjuntos/vivienda-universal/originales/igae/r1/MANIFIESTO.sha256",
+      "sha256": "c7292b8f16c81b4258ecdd3cf6fc14f2a34db7c54fabef9e2693c11b8db88e78",
+      "bytes": 1227,
+      "note_path": "memoria/fuentes/igae.md",
+      "note_sha256": "99d22c1bbc4c908d3afb924a76f9a91df357296be4c7120e2e22fb9dabf9b4ba"
+    },
+    {
+      "id": "bde",
+      "mode": "copy",
+      "revision": 2,
+      "path": "adjuntos/vivienda-universal/originales/bde/r2/MANIFIESTO.sha256",
+      "sha256": "a1a7aa562198c18d72c32dd45c215a4cfe8e52eb9a5a19395ddf5403e5fa6bc6",
+      "bytes": 1107,
+      "note_path": "memoria/fuentes/bde.md",
+      "note_sha256": "8e622bc2b5ce4a5de276a604b10f8a0dc1d9defd135e0daa9da759a9b491e272"
+    },
+    {
+      "id": "boe",
+      "mode": "copy",
+      "revision": 1,
+      "path": "adjuntos/vivienda-universal/originales/boe/r1/MANIFIESTO.sha256",
+      "sha256": "3067dc6c68af8044257aaff5383d41a11ee660fa19c18f77d96953adde43cc14",
+      "bytes": 2942,
+      "note_path": "memoria/fuentes/boe.md",
+      "note_sha256": "e667a54fa25ee249ec83f2e0865b14eefecaac4b6d049d9d008fcc743a777ced"
+    },
+    {
+      "id": "eurostat",
+      "mode": "copy",
+      "revision": 2,
+      "path": "adjuntos/vivienda-universal/originales/eurostat/r2/MANIFIESTO.sha256",
+      "sha256": "6c15f2b325c0491d97d882368302c1e000eaf421ec76b9b59a31399f1f1c32f8",
+      "bytes": 1658,
+      "note_path": "memoria/fuentes/eurostat.md",
+      "note_sha256": "880f718b22c5514bf7d88f09b11f588e06a1da3c59cf283c0917dd402425bb3a"
+    },
+    {
+      "id": "hdb",
+      "mode": "copy",
+      "revision": 2,
+      "path": "adjuntos/vivienda-universal/originales/hdb/r2/MANIFIESTO.sha256",
+      "sha256": "b92321049dbde10da2271990bf23269f67a7262783e65e902869db0718760f6c",
+      "bytes": 1718,
+      "note_path": "memoria/fuentes/hdb.md",
+      "note_sha256": "b488af97ff918ddab814f5ff4b2fb13816a6d6f48f1f7aad96641cbf2bae8c48"
+    },
+    {
+      "id": "estudios",
+      "mode": "copy",
+      "revision": 2,
+      "path": "adjuntos/vivienda-universal/originales/estudios/r2/MANIFIESTO.sha256",
+      "sha256": "6c69798c21f956f38bc681ff1f604cb0881e1fd2ce7c7f3d9453e59551824132",
+      "bytes": 1448,
+      "note_path": "memoria/fuentes/estudios.md",
+      "note_sha256": "a630b41b7934ba545e421f8533c8ad3ea9a945d7b1bf50e3383f0ffc42266a5d"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "html-vivienda-gratuita",
+      "mode": "copy",
+      "revision": 2,
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/html-vivienda-gratuita/r2/index.html",
+      "sha256": "482c60231c67ab8f43805c2c415c722d6a37c92ea56778a6c8445c8f9f33d771",
+      "bytes": 171852,
+      "note_path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/artefactos/html-vivienda-gratuita.md",
+      "note_sha256": "1926217c769182d14aedfb05a435077856d5afc6ab92edb2b93581333d1c6711",
+      "source_ids": [
+        "ine",
+        "mivau",
+        "catastro",
+        "aeat",
+        "igae",
+        "bde",
+        "boe",
+        "eurostat",
+        "hdb",
+        "estudios"
+      ]
+    },
+    {
+      "id": "auditoria-datos",
+      "mode": "copy",
+      "revision": 2,
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/auditoria-datos/r2/MANIFIESTO.sha256",
+      "sha256": "13bb31d1efa8f50ea4051b6a156292f225ae3f901900714f39255b086854bcf1",
+      "bytes": 11810,
+      "note_path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/artefactos/auditoria-datos.md",
+      "note_sha256": "b0cfc03e7158ecd750028f151527015a572b67b4d797797118f955540b1761d3",
+      "source_ids": [
+        "ine",
+        "mivau",
+        "catastro",
+        "aeat",
+        "igae",
+        "bde",
+        "boe",
+        "eurostat",
+        "hdb",
+        "estudios"
+      ]
+    }
+  ],
+  "index": {
+    "path": "memoria/indice.md",
+    "sha256": "c8cbfc5afc8396964be909ac53e6c9c865884c511c265639d8cb0e87057f99a1"
+  },
+  "pending_storage_decision": null,
+  "next_action": "Esperar feedback del usuario sobre el HTML r2 (tema oscuro); opcional: verificar PGOUM vigente, honorarios por licitaciones, revalidar cifras vivas antes del directo o publicar enlace si lo pide",
+  "volume_decision": {
+    "status": "not_needed",
+    "reason": "Originales nuevos de la r2 ≈ 3,4 MB (clones APFS de trabajo/datos/r2/raw) y entregables r2 ≈ 7,9 MB, muy por debajo del umbral acordado de 500 MB"
+  },
+  "memory": {
+    "summary": "Se recuperaron la síntesis de resultados de la r1, los dossiers de datos y el perfil de preferencias. La r2 actualiza la síntesis de resultados con el calendario de pago en dos fases, la corrección del coste anual (de 298.000 a 251.000 M€), el mapa por provincias, las comparativas COFOG y Singapur frente a España, y añade el dossier src-vu-r2 con los datos nuevos enlazado a sus cinco fuentes. El diagnóstico y el perfil no cambian: la r2 no aporta evidencia ni preferencias generales nuevas.",
+    "notes": [
+      {
+        "id": "mem-vu-viabilidad-vivienda-gratuita",
+        "path": "memoria/conocimientos/mem-vu-viabilidad-vivienda-gratuita.md",
+        "sha256": "f1bcda40ba5cde23ff731dd5fd548e799328233f9861ae09581aeff2fac1b9c1"
+      },
+      {
+        "id": "src-vu-r2",
+        "path": "memoria/fuentes/src-vu-r2.md",
+        "sha256": "59ea2b16ed160da38885bbb03bfef48248ccd282968ad7777af8c53f1dc1523d"
+      }
+    ]
+  }
+}

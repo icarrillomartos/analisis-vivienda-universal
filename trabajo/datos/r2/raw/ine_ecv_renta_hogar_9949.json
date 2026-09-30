@@ -1,0 +1,121 @@
+[{"COD":"ECV4275", "Nombre":"Total Nacional. Renta neta media por hogar. Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":38994.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4274", "Nombre":"Total Nacional. Renta media por hogar (con alquiler imputado). Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":44722.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4273", "Nombre":"Andalucía. Renta neta media por hogar. Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":33078.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4272", "Nombre":"Andalucía. Renta media por hogar (con alquiler imputado). Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":38774.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4271", "Nombre":"Aragón. Renta neta media por hogar. Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":39943.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4270", "Nombre":"Aragón. Renta media por hogar (con alquiler imputado). Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":45647.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4269", "Nombre":"Asturias, Principado de. Renta neta media por hogar. Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":36869.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4268", "Nombre":"Asturias, Principado de. Renta media por hogar (con alquiler imputado). Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":42784.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4267", "Nombre":"Balears, Illes. Renta neta media por hogar. Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":44457.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4266", "Nombre":"Balears, Illes. Renta media por hogar (con alquiler imputado). Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":50487.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4265", "Nombre":"Canarias. Renta neta media por hogar. Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":37023.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4264", "Nombre":"Canarias. Renta media por hogar (con alquiler imputado). Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":42789.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4263", "Nombre":"Cantabria. Renta neta media por hogar. Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":38022.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4262", "Nombre":"Cantabria. Renta media por hogar (con alquiler imputado). Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":43902.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4261", "Nombre":"Castilla y León. Renta neta media por hogar. Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":35011.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4260", "Nombre":"Castilla y León. Renta media por hogar (con alquiler imputado). Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":40552.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4259", "Nombre":"Castilla - La Mancha. Renta neta media por hogar. Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":33499.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4258", "Nombre":"Castilla - La Mancha. Renta media por hogar (con alquiler imputado). Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":38527.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4257", "Nombre":"Cataluña. Renta neta media por hogar. Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":43889.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4256", "Nombre":"Cataluña. Renta media por hogar (con alquiler imputado). Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":49412.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4255", "Nombre":"Comunitat Valenciana. Renta neta media por hogar. Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":34682.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4254", "Nombre":"Comunitat Valenciana. Renta media por hogar (con alquiler imputado). Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":40351.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4253", "Nombre":"Extremadura. Renta neta media por hogar. Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":30519.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4252", "Nombre":"Extremadura. Renta media por hogar (con alquiler imputado). Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":35423.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4251", "Nombre":"Galicia. Renta neta media por hogar. Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":36925.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4250", "Nombre":"Galicia. Renta media por hogar (con alquiler imputado). Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":42478.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4249", "Nombre":"Madrid, Comunidad de. Renta neta media por hogar. Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":47375.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4248", "Nombre":"Madrid, Comunidad de. Renta media por hogar (con alquiler imputado). Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":53625.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4247", "Nombre":"Murcia, Región de. Renta neta media por hogar. Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":34155.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4246", "Nombre":"Murcia, Región de. Renta media por hogar (con alquiler imputado). Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":39441.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4245", "Nombre":"Navarra, Comunidad Foral de. Renta neta media por hogar. Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":46136.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4244", "Nombre":"Navarra, Comunidad Foral de. Renta media por hogar (con alquiler imputado). Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":52165.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4243", "Nombre":"País Vasco. Renta neta media por hogar. Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":46537.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4242", "Nombre":"País Vasco. Renta media por hogar (con alquiler imputado). Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":53017.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4241", "Nombre":"Rioja, La. Renta neta media por hogar. Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":36828.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4240", "Nombre":"Rioja, La. Renta media por hogar (con alquiler imputado). Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":42513.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4239", "Nombre":"Ceuta. Renta neta media por hogar. Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":42555.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4238", "Nombre":"Ceuta. Renta media por hogar (con alquiler imputado). Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":48480.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4237", "Nombre":"Melilla. Renta neta media por hogar. Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":40711.0, "Secreto":false}
+]
+}
+,{"COD":"ECV4236", "Nombre":"Melilla. Renta media por hogar (con alquiler imputado). Base 2013. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":28, "Anyo":2025, "Valor":46441.0, "Secreto":false}
+]
+}
+]

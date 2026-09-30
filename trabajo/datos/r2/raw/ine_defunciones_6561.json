@@ -1,0 +1,271 @@
+[{"COD":"MNP89585", "Nombre":"Total Nacional. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":39402.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":34422.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":34618.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89583", "Nombre":"Albacete. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":326.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":286.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":305.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89582", "Nombre":"Alicante/Alacant. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":1522.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":1332.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":1344.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89581", "Nombre":"Almería. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":503.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":435.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":475.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89580", "Nombre":"Araba/Álava. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":256.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":247.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":236.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89579", "Nombre":"Asturias. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":1116.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":981.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":1090.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89578", "Nombre":"Ávila. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":177.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":155.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":152.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89577", "Nombre":"Badajoz. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":629.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":558.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":511.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89576", "Nombre":"Balears, Illes. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":830.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":701.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":749.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89575", "Nombre":"Barcelona. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":4387.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":3947.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":3762.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89574", "Nombre":"Bizkaia. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":1039.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":925.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":966.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89573", "Nombre":"Burgos. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":345.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":304.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":363.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89572", "Nombre":"Cáceres. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":416.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":360.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":336.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89571", "Nombre":"Cádiz. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":1008.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":814.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":816.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89570", "Nombre":"Cantabria. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":564.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":470.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":488.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89569", "Nombre":"Castellón/Castelló. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":528.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":455.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":407.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89568", "Nombre":"Ciudad Real. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":469.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":421.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":376.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89567", "Nombre":"Córdoba. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":759.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":658.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":538.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89566", "Nombre":"Coruña, A. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":1143.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":1033.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":1075.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89565", "Nombre":"Cuenca. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":198.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":168.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":192.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89564", "Nombre":"Gipuzkoa. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":679.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":554.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":619.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89563", "Nombre":"Girona. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":616.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":553.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":471.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89562", "Nombre":"Granada. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":713.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":656.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":636.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89561", "Nombre":"Guadalajara. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":175.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":174.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":165.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89560", "Nombre":"Huelva. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":430.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":405.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":317.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89559", "Nombre":"Huesca. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":229.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":193.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":201.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89558", "Nombre":"Jaén. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":575.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":493.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":482.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89557", "Nombre":"León. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":483.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":513.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":522.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89556", "Nombre":"Lleida. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":368.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":336.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":345.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89555", "Nombre":"Lugo. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":441.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":405.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":382.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89554", "Nombre":"Madrid. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":4613.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":3998.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":3897.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89553", "Nombre":"Málaga. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":1272.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":1052.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":1054.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89552", "Nombre":"Murcia. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":1050.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":881.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":884.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89551", "Nombre":"Navarra. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":536.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":448.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":497.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89550", "Nombre":"Ourense. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":421.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":345.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":375.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89549", "Nombre":"Palencia. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":156.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":161.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":181.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89548", "Nombre":"Palmas, Las. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":810.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":682.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":716.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89547", "Nombre":"Pontevedra. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":879.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":769.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":780.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89546", "Nombre":"Rioja, La. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":283.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":284.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":268.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89545", "Nombre":"Salamanca. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":317.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":328.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":318.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89544", "Nombre":"Santa Cruz de Tenerife. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":816.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":640.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":750.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89543", "Nombre":"Segovia. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":134.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":127.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":145.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89542", "Nombre":"Sevilla. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":1575.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":1283.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":1364.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89541", "Nombre":"Soria. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":94.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":104.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":102.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89540", "Nombre":"Tarragona. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":742.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":615.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":596.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89539", "Nombre":"Teruel. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":171.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":142.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":135.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89538", "Nombre":"Toledo. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":518.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":485.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":497.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89537", "Nombre":"Valencia/València. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":2210.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":1879.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":2051.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89536", "Nombre":"Valladolid. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":442.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":405.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":408.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89535", "Nombre":"Zamora. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":207.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":204.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":216.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89534", "Nombre":"Zaragoza. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":897.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":774.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":743.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89533", "Nombre":"Ceuta. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":50.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":37.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":43.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89532", "Nombre":"Melilla. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":36.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":39.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":48.0, "Secreto":false}
+]
+}
+,{"COD":"MNP89584", "Nombre":"Extranjero. Defunción. Lugar de residencia. Dato base. ", "FK_Unidad":122, "FK_Escala":1, "Data":[{"Fecha":1733007600000, "FK_TipoDato":1, "FK_Periodo":12, "Anyo":2024, "Valor":249.0, "Secreto":false}
+,{"Fecha":1730415600000, "FK_TipoDato":1, "FK_Periodo":11, "Anyo":2024, "Valor":208.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":10, "Anyo":2024, "Valor":229.0, "Secreto":false}
+]
+}
+]

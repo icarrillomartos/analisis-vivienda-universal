@@ -1,0 +1,1 @@
+Plan v3 aprobado y encargo en F04. Se han lanzado 7 subagentes (Sonnet) de recogida de datos oficiales: demografía y hogares, parque y capacidad, precios y costes de construcción, normativa de vivienda digna, fiscalidad, Singapur y evidencia causal. Siguiente paso: revisar las fichas, construir el modelo de cálculo y el HTML.

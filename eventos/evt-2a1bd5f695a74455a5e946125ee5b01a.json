@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-2a1bd5f695a74455a5e946125ee5b01a",
+  "operation_id": "op-c5084d4ffb70497ead484f381d1eecab",
+  "type": "tool_observed",
+  "at": "2026-09-28T19:30:32.080738+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-75c190e93cb347e888be569c98725ecb",
+  "state_revision": 22,
+  "data": {
+    "id": "obs-6865cb5b17cc44fd841f1d7b498e8e73",
+    "tool": "Write",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/fuentes/orientacion-f02.md",
+        "status": "observed_file",
+        "sha256": "111cb6732d1556f4ba7b2451400ef8ff2f478c5549408b29bc851771759f76d9",
+        "bytes": 2600
+      }
+    ],
+    "at": "2026-09-28T19:30:32.080722+00:00",
+    "scope": "process",
+    "turn_id": "observed-75c190e93cb347e888be569c98725ecb",
+    "turn_sha256": "a05cbcf25cfd171d37610df9c575e702028679d7a6147c77b777921f3c25c531"
+  }
+}

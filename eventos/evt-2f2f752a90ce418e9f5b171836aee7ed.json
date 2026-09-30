@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "event_id": "evt-2f2f752a90ce418e9f5b171836aee7ed",
+  "operation_id": "op-a73bef13dab24a8a955aa316ceb2fffb",
+  "type": "action_checkpoint",
+  "at": "2026-09-28T19:10:41.427108+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-2d457d79128a4003a38ed74b8dffdddc",
+  "state_revision": 4,
+  "data": {
+    "action": "checkpoint",
+    "result": {
+      "decision": "checkpointed",
+      "fields": [
+        "context_summary",
+        "decisions",
+        "next_action",
+        "questions"
+      ],
+      "next_action": "Esperar respuesta del usuario sobre uso, formato y alcance; después cerrar F01, orientar brevemente y presentar plan"
+    }
+  }
+}

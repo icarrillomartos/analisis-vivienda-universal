@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-a50e6ed89d8540a390f6f6526d309ac5",
+  "operation_id": "op-ed7c4ee2cd534cbabd3b7140f72a371f",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:21:17.092712+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-1a24214398f4420c9e7baf48f1be2808",
+  "state_revision": 738,
+  "data": {
+    "id": "obs-6a14395e08a04e3d9cd12d92a8d2a02a",
+    "tool": "Read",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/parque/ficha.md",
+        "status": "observed_file",
+        "sha256": "543f1a86456d5c946a13b98dfc473a1d1859cb90553e9251cdd0f002ada3bc00",
+        "bytes": 25588
+      }
+    ],
+    "at": "2026-09-28T20:21:17.092695+00:00",
+    "scope": "process",
+    "turn_id": "observed-1a24214398f4420c9e7baf48f1be2808",
+    "turn_sha256": "82bafd86e9f31011d095845e71ff2f52ffbaba291bfe68f5c70d31ff6e9d6da0"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema": 2,
+  "process": "P08",
+  "plan_digest": "e39db97f825068401b8a402d0a309e1e4148a9095519b54ff3e498db4f89f2fe",
+  "outcome": "verified",
+  "criterion": "Producir la r2 del HTML (tema oscuro) y de la carpeta de auditoría en entregables/<id>/r2 según el plan v3 y el feedback de la r1",
+  "decision": "complete",
+  "limits": [],
+  "files": [
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/html-vivienda-gratuita/r2/index.html",
+      "sha256": "482c60231c67ab8f43805c2c415c722d6a37c92ea56778a6c8445c8f9f33d771",
+      "bytes": 171852
+    },
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/auditoria-datos/r2/MANIFIESTO.sha256",
+      "sha256": "13bb31d1efa8f50ea4051b6a156292f225ae3f901900714f39255b086854bcf1",
+      "bytes": 11810
+    },
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/auditoria-datos/r2/LEEME.md",
+      "sha256": "505800e301d095ade12208f0a445cbfe7bdeac1a2f78595977ff3bb543e4ce41",
+      "bytes": 4074
+    },
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/auditoria-datos/r2/modelo/modelo.py",
+      "sha256": "e69875d6eed228decdb8abb8b297cf8ee0ff1287391a714465fd461ebf5c7f0e",
+      "bytes": 23579
+    },
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/auditoria-datos/r2/modelo/build.py",
+      "sha256": "2446f606a4b946a0a147713e50bad8d9b56af8a869709252eeb959c899f21e13",
+      "bytes": 12513
+    },
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/auditoria-datos/r2/modelo/plantilla.html",
+      "sha256": "2a4aa74b2eddd83b56d4f0f9e627cb833a11f45a43fbe852710777a192a16cc5",
+      "bytes": 103449
+    },
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/auditoria-datos/r2/modelo/hipotesis.json",
+      "sha256": "9d4697840ccdb7eac7127f05dfa83d23e54c0d008ade3eba2f3aa1b63eab3168",
+      "bytes": 6721
+    },
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/auditoria-datos/r2/modelo/salida/resultados.json",
+      "sha256": "e89d52644d1742e297b065bf074d0d9c6640eb8957346c45d4864f36adb359bd",
+      "bytes": 117409
+    },
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/auditoria-datos/r2/datos/r2/limpio/r2_constantes.json",
+      "sha256": "252af535299dc12f32fbfd2469119937d62c76850c13856ce5e0d98523da326e",
+      "bytes": 822
+    },
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/auditoria-datos/r2/datos/r2/limpio/mapa_provincias.json",
+      "sha256": "113c2bae6ea60e4dd5ddac5b8dc4f2153c5ae3de7f9374087b15545bff168d12",
+      "bytes": 30878
+    },
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/auditoria-datos/r2/datos/r2/scripts/procesar_r2.py",
+      "sha256": "6a3d5af7a9f1550fcfc16e4db1ad174dc4dc7c4c59bbc470626286e344db3557",
+      "bytes": 6247
+    },
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/entregables/auditoria-datos/r2/fichas/r2.md",
+      "sha256": "29eeedfa59388676c9a35916e6e5784a374eafff6a3188d8170762b114eacee0",
+      "bytes": 6575
+    }
+  ],
+  "notes": [
+    "HTML r2 de 22 láminas, 170.278 bytes, con data-theme=dark fijo en <html> y meta color-scheme dark: se ve oscuro aunque el sistema esté en modo claro",
+    "La r1 queda intacta en entregables/<id>/r1",
+    "Reproducción desde una copia de la auditoría r2: modelo.py y build.py dan resultados.json, escenarios.csv, provincias.csv, irpf_tramos.csv e index.html idénticos byte a byte",
+    "html-vivienda-gratuita/r2/auditoria es un clon de auditoria-datos/r2 salvo el manifiesto, como en la r1"
+  ],
+  "quality_decision": null,
+  "exceptions": []
+}

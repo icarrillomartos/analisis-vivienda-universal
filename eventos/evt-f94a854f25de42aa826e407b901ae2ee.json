@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-f94a854f25de42aa826e407b901ae2ee",
+  "operation_id": "op-ef337e499aa14437911d412457c28ef8",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:22:04.251153+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-97352f7c3d0f4704b1b6314eb811bf8c",
+  "state_revision": 748,
+  "data": {
+    "id": "obs-e48e539474284aa3ab61487fd80ce37d",
+    "tool": "Write",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/costes/limpio/financiacion_tipos_interes.csv",
+        "status": "observed_file",
+        "sha256": "92892d8b23254b786915794f2c445d5e90e520228e29204983e6e794fc443d41",
+        "bytes": 534
+      }
+    ],
+    "at": "2026-09-28T20:22:04.251134+00:00",
+    "scope": "process",
+    "turn_id": "observed-97352f7c3d0f4704b1b6314eb811bf8c",
+    "turn_sha256": "721ba173ab322e95fe5219f89b1016f80cf8faf8a39dea568e19d12b88a2ecc2"
+  }
+}

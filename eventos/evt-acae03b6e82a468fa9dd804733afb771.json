@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "event_id": "evt-acae03b6e82a468fa9dd804733afb771",
+  "operation_id": "op-2803b7a0f2ef4c59b6d3e75719fcfaa8",
+  "type": "tool_observed",
+  "at": "2026-09-28T20:24:06.150061+00:00",
+  "client": "claude",
+  "session_key": "cd2d8d6da7c40fbd84f7191b",
+  "turn_id": "observed-d9ab4c3c87fa45f7b3a870abc3824958",
+  "state_revision": 771,
+  "data": {
+    "id": "obs-a74bdcf3034840dca3d8b0f0cf2f7701",
+    "tool": "Read",
+    "paths": [
+      {
+        "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/trabajo/datos/demografia/ficha.md",
+        "status": "observed_file",
+        "sha256": "c73b2ca75efa2a290c6f8da56802daf2546b2b00eb269afeab26b11f2672a01d",
+        "bytes": 22682
+      }
+    ],
+    "at": "2026-09-28T20:24:06.150043+00:00",
+    "scope": "process",
+    "turn_id": "observed-d9ab4c3c87fa45f7b3a870abc3824958",
+    "turn_sha256": "48da842f6182c45e33e35c7c514404f9b2a11f06bfc4d2ebc60c6a0a71e5a9f8"
+  }
+}

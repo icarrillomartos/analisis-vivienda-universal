@@ -1,0 +1,24 @@
+{
+  "schema": 2,
+  "process": "P18",
+  "plan_digest": "e39db97f825068401b8a402d0a309e1e4148a9095519b54ff3e498db4f89f2fe",
+  "outcome": "verified",
+  "criterion": "Selección de modelo y medios antes del bloque de cierre de la r2",
+  "decision": "complete",
+  "limits": [
+    "El agente no puede cambiar el modelo de la sesión; la selección corresponde a la persona en el cliente"
+  ],
+  "files": [
+    {
+      "path": "proyectos/vivienda-universal/encargos/viabilidad-vivienda-universal-gratuita/evidencias/p18-seleccion-modelo-r2.md",
+      "sha256": "19dbd2907f5d3e3eb08332393052097732515c104cd9688e98b4ab2dfb75ae07",
+      "bytes": 1246
+    }
+  ],
+  "notes": [
+    "Opus 5.5 (claude-opus-5-5) observado en el entorno de la sesión; sin subagentes",
+    "Volumen nuevo ≈ 3,4 MB de originales r2 y 7,9 MB de entregables, bajo el umbral de 500 MB"
+  ],
+  "quality_decision": null,
+  "exceptions": []
+}
